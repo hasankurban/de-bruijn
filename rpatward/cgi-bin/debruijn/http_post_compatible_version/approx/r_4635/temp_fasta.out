@@ -1,0 +1,137 @@
+# /usr/local/bin/fasta34 -m 10 -A -H -q -p -E 200 /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_4635/temp_consensus.fasta /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_4635/file1.txt
+FASTA searches a protein or DNA sequence data bank
+ version 3.4t25 Sept 2, 2005
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query library /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_4635/temp_consensus.fasta vs /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_4635/file1.txt library
+searching /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_4635/file1.txt library
+
+  1>>>Consensus_4  - 42 aa
+ vs  /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_vers library
+
+   1709 residues in     3 sequences
+ Altschul/Gish params: n0: 42 Lambda: 0.158 K: 0.019 H: 0.100
+
+FASTA (3.47 Mar 2004) function [optimized, BL50 matrix (15:-5)] ktup: 1
+ join: 42, opt: 30, open/ext: -10/-2, width:  16
+ Scan time:  0.000
+The best scores are:                                      opt bits E(3)
+sp|O15350.1|p73                                    ( 636)  211  59.4 1.1e-13
+sp|Q9H3D4.1|P63                                    ( 680)  209  58.9 1.6e-13
+sp|P04637.2|p53                                    ( 393)  141  43.5   4e-09
+
+>>>Consensus_4, 42 aa vs /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_4635/file1.txt library
+; pg_name: /usr/local/bin/fasta34
+; pg_ver: 34t25
+; pg_argv: /usr/local/bin/fasta34 -m 10 -A -H -q -p -E 200 /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_4635/temp_consensus.fasta /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_4635/file1.txt
+; pg_name: FASTA
+; pg_ver: 3.47 Mar 2004
+; pg_matrix: BL50 (15:-5)
+; pg_open-ext: -10 -2
+; pg_ktup: 1
+; pg_optcut: 30
+; pg_cgap: 42
+; mp_extrap: 60000 0
+; mp_stats: Altschul/Gish params: n0: 42 Lambda: 0.158 K: 0.019 H: 0.100
+; mp_KS: -0.0000 (N=33) at  86
+>>sp|O15350.1|p73
+; fa_frame: f
+; fa_initn: 211
+; fa_init1: 211
+; fa_opt: 211
+; fa_z-score: 286.8
+; fa_bits: 59.4
+; fa_expect: 1.1e-13
+; sw_score: 211
+; sw_ident: 0.938
+; sw_sim: 0.938
+; sw_overlap: 32
+>Consensus_4 ..
+; sq_len: 42
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 32
+; al_display_start: 1
+------------------------------ATWTYSTELKKLYCQIAKTC
+PIQIKVSTPPPPYPTDCSIVSF
+>sp|O15350.1|p73 ..
+; sq_len: 636
+; sq_type: p
+; al_start: 140
+; al_stop: 171
+; al_display_start: 110
+SPAPVIPSNTDYPGPHHFEVTFQQSSTAKSATWTYSPLLKKLYCQIAKTC
+PIQIKVSTPPPPGTAIRAMPVYKKAEHVTDVVKRCPNHELGRDFNEGQSA
+PASHLIRVEGNNLSQYVDDP
+>>sp|Q9H3D4.1|P63
+; fa_frame: f
+; fa_initn: 209
+; fa_init1: 209
+; fa_opt: 209
+; fa_z-score: 283.8
+; fa_bits: 58.9
+; fa_expect: 1.6e-13
+; sw_score: 209
+; sw_ident: 0.968
+; sw_sim: 0.968
+; sw_overlap: 31
+>Consensus_4 ..
+; sq_len: 42
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 31
+; al_display_start: 1
+------------------------------ATWTYSTELKKLYCQIAKTC
+PIQIKVSTPPPPYPTDCSIVSF
+>sp|Q9H3D4.1|P63 ..
+; sq_len: 680
+; sq_type: p
+; al_start: 190
+; al_stop: 220
+; al_display_start: 160
+SPSPAIPSNTDYPGPHSFDVSFQQSSTAKSATWTYSTELKKLYCQIAKTC
+PIQIKVMTPPPQGAVIRAMPVYKKAEHVTEVVKRCPNHELSREFNEGQIA
+PPSHLIRVEGNSHAQYVEDP
+>>sp|P04637.2|p53
+; fa_frame: f
+; fa_initn: 176
+; fa_init1: 141
+; fa_opt: 141
+; fa_z-score: 204.8
+; fa_bits: 43.5
+; fa_expect:  4e-09
+; sw_score: 141
+; sw_ident: 0.586
+; sw_sim: 0.862
+; sw_overlap: 29
+>Consensus_4 ..
+; sq_len: 42
+; sq_offset: 1
+; sq_type: p
+; al_start: 4
+; al_stop: 32
+; al_display_start: 1
+---------------------------ATWTYSTELKKLYCQIAKTCPIQ
+IKVSTPPPPYPTDCSIVSF
+>sp|P04637.2|p53 ..
+; sq_len: 393
+; sq_type: p
+; al_start: 125
+; al_stop: 153
+; al_display_start: 95
+SSVPSQKTYQGSYGFRLGFLHSGTAKSVTCTYSPALNKMFCQLAKTCPVQ
+LWVDSTPPPGTRVRAMAIYKQSQHMTEVVRRCPHHERCSDSDGLAPPQHL
+IRVEGNLRVEYLDDRNTFRH
+>>><<<
+
+
+42 residues in 1 query   sequences
+1709 residues in 3 library sequences
+ Scomplib [34t25]
+ start: Fri Dec 14 15:14:37 2007 done: Fri Dec 14 15:14:37 2007
+ Total Scan time:  0.000 Total Display time:  0.000
+
+Function used was FASTA [version 3.4t25 Sept 2, 2005]

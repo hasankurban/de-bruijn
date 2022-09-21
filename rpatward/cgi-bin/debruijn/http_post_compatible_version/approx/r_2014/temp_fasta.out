@@ -1,0 +1,385 @@
+# /usr/local/bin/fasta34 -m 10 -A -H -q -p -E 200 /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_2014/temp_consensus.fasta /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_2014/file1.txt
+FASTA searches a protein or DNA sequence data bank
+ version 3.4t25 Sept 2, 2005
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query library /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_2014/temp_consensus.fasta vs /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_2014/file1.txt library
+searching /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_2014/file1.txt library
+
+  1>>>Consensus_7  - 43 aa
+ vs  /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_vers library
+
+   5371 residues in    11 sequences
+ MLE_cen statistics: Lambda= 0.0209;  K=0.007507 (cen=0)
+
+FASTA (3.47 Mar 2004) function [optimized, BL50 matrix (15:-5)] ktup: 1
+ join: 42, opt: 30, open/ext: -10/-2, width:  16
+ Scan time:  0.000
+The best scores are:                                      opt bits E(11)
+bta_540707_LOC540707__similar_                     ( 450)  300  16.1     2.6
+mcc_678689_CYP2A24__cytochrome                     ( 494)  299  16.1     2.9
+ptr_738823_LOC738823__similar_                     ( 477)  296  16.0       3
+mmu_13087_Cyp2a5__cytochrome_P                     ( 494)  292  15.9     3.3
+ssc_403149_CYP2A19__cytochrome                     ( 494)  291  15.9     3.3
+hsa_1548_CYP2A6__CYP2A3__cytoc                     ( 494)  290  15.8     3.4
+rno_24299_Cyp2a3a__cytochrome_                     ( 494)  284  15.6     3.7
+cfa_484494_CYP2A13__cytochrome                     ( 494)  283  15.6     3.8
+xla_432347_MGC82264__hypotheti                     ( 495)  204  13.2     9.8
+xtr_496407_CYP2A13__CYP2A13_pr                     ( 494)  202  13.2     9.9
+gga_414841_CYP2C18__cytochrome                     ( 491)  180  12.5      11
+
+>>>Consensus_7, 43 aa vs /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_2014/file1.txt library
+; pg_name: /usr/local/bin/fasta34
+; pg_ver: 34t25
+; pg_argv: /usr/local/bin/fasta34 -m 10 -A -H -q -p -E 200 /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_2014/temp_consensus.fasta /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_2014/file1.txt
+; pg_name: FASTA
+; pg_ver: 3.47 Mar 2004
+; pg_matrix: BL50 (15:-5)
+; pg_open-ext: -10 -2
+; pg_ktup: 1
+; pg_optcut: 30
+; pg_cgap: 42
+; mp_extrap: 60000 11
+; mp_stats: MLE_cen statistics: Lambda= 0.0209;  K=0.007507 (cen=0)
+; mp_KS: -0.0000 (N=33) at  86
+>>bta_540707_LOC540707__similar_
+; fa_frame: f
+; fa_initn: 300
+; fa_init1: 300
+; fa_opt: 300
+; fa_z-score: 55.7
+; fa_bits: 16.1
+; fa_expect:    2.6
+; sw_score: 300
+; sw_ident: 0.977
+; sw_sim: 1.000
+; sw_overlap: 43
+>Consensus_7 ..
+; sq_len: 43
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 43
+; al_display_start: 1
+------------------------------KDTKFRDFLLPKGTEVFPML
+GSVLRDPKFFSNPQDFNPQHFLD
+>bta_540707_LOC540707__similar_ ..
+; sq_len: 450
+; sq_type: p
+; al_start: 376
+; al_stop: 418
+; al_display_start: 346
+RAKMPYTEAVIHEIQRFGDMIPMGLARRVTKDTKFRDFLLPKGTEVFPML
+GSVLRDPKFFSNPRDFNPQHFLDEKGQFKKSDAFVPFSIGKRHCQLNTHR
+GLLYL
+>>mcc_678689_CYP2A24__cytochrome
+; fa_frame: f
+; fa_initn: 299
+; fa_init1: 299
+; fa_opt: 299
+; fa_z-score: 54.8
+; fa_bits: 16.1
+; fa_expect:    2.9
+; sw_score: 299
+; sw_ident: 0.953
+; sw_sim: 1.000
+; sw_overlap: 43
+>Consensus_7 ..
+; sq_len: 43
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 43
+; al_display_start: 1
+------------------------------KDTKFRDFLLPKGTEVFPML
+GSVLRDPKFFSNPQDFNPQHFLD
+>mcc_678689_CYP2A24__cytochrome ..
+; sq_len: 494
+; sq_type: p
+; al_start: 376
+; al_stop: 418
+; al_display_start: 346
+RVKMPYMEAVIHEIQRFGDVIPMSLARRVNKDTKFRDFFLPKGTEVFPML
+GSVLRDPRFFSNPQDFNPQHFLDEKGQFKKSDAFVPFSIGKRNCFGEGLA
+RMELFLFFTTIMQNFRFKSP
+>>ptr_738823_LOC738823__similar_
+; fa_frame: f
+; fa_initn: 296
+; fa_init1: 296
+; fa_opt: 296
+; fa_z-score: 54.6
+; fa_bits: 16.0
+; fa_expect:      3
+; sw_score: 296
+; sw_ident: 0.930
+; sw_sim: 1.000
+; sw_overlap: 43
+>Consensus_7 ..
+; sq_len: 43
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 43
+; al_display_start: 1
+------------------------------KDTKFRDFLLPKGTEVFPML
+GSVLRDPKFFSNPQDFNPQHFLD
+>ptr_738823_LOC738823__similar_ ..
+; sq_len: 477
+; sq_type: p
+; al_start: 381
+; al_stop: 423
+; al_display_start: 351
+RAKMPYTEAVIHEIQRFGDMLPMGLAHRVNRDTKFRDFFLPKGTEVFPML
+GSVLRDPRFFSNPQDFNPQHFLDKKGQFKKSDAFVPFSIGKRPLFAARPR
+LTPAGASLTHLPSLRCSLVF
+>>mmu_13087_Cyp2a5__cytochrome_P
+; fa_frame: f
+; fa_initn: 292
+; fa_init1: 292
+; fa_opt: 292
+; fa_z-score: 53.6
+; fa_bits: 15.9
+; fa_expect:    3.3
+; sw_score: 292
+; sw_ident: 0.930
+; sw_sim: 1.000
+; sw_overlap: 43
+>Consensus_7 ..
+; sq_len: 43
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 43
+; al_display_start: 1
+------------------------------KDTKFRDFLLPKGTEVFPML
+GSVLRDPKFFSNPQDFNPQHFLD
+>mmu_13087_Cyp2a5__cytochrome_P ..
+; sq_len: 494
+; sq_type: p
+; al_start: 376
+; al_stop: 418
+; al_display_start: 346
+RMKMPYTEAVIHEIQRFADMIPMGLARRVTKDTKFRDFLLPKGTEVFPML
+GSVLKDPKFFSNPKDFNPKHFLDDKGQFKKNDAFVPFSIGKRYCFGEGLA
+RMELFLFLTNIMQNFHFKST
+>>ssc_403149_CYP2A19__cytochrome
+; fa_frame: f
+; fa_initn: 291
+; fa_init1: 291
+; fa_opt: 291
+; fa_z-score: 53.5
+; fa_bits: 15.9
+; fa_expect:    3.3
+; sw_score: 291
+; sw_ident: 0.953
+; sw_sim: 0.977
+; sw_overlap: 43
+>Consensus_7 ..
+; sq_len: 43
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 43
+; al_display_start: 1
+------------------------------KDTKFRDFLLPKGTEVFPML
+GSVLRDPKFFSNPQDFNPQHFLD
+>ssc_403149_CYP2A19__cytochrome ..
+; sq_len: 494
+; sq_type: p
+; al_start: 376
+; al_stop: 418
+; al_display_start: 346
+RAKMPYTEAVIHEIQRFGDMIPMGLARRVTKDTKFRDFLLPKGTEVFPML
+GSVLRDPKFFSNPRGFNPQHFLDENGQFKKNDAFVPFSIGKRYCFGEGLA
+RMELFLFLTNILQNFHLKSP
+>>hsa_1548_CYP2A6__CYP2A3__cytoc
+; fa_frame: f
+; fa_initn: 320
+; fa_init1: 290
+; fa_opt: 290
+; fa_z-score: 53.3
+; fa_bits: 15.8
+; fa_expect:    3.4
+; sw_score: 290
+; sw_ident: 0.930
+; sw_sim: 1.000
+; sw_overlap: 43
+>Consensus_7 ..
+; sq_len: 43
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 43
+; al_display_start: 1
+------------------------------KDTKFRDFLLPKGTEVFPML
+GSVLRDPKFFSNPQDFNPQHFLD
+>hsa_1548_CYP2A6__CYP2A3__cytoc ..
+; sq_len: 494
+; sq_type: p
+; al_start: 376
+; al_stop: 418
+; al_display_start: 346
+RAKMPYMEAVIHEIQRFGDVIPMSLARRVKKDTKFRDFFLPKGTEVFPML
+GSVLRDPSFFSNPQDFNPQHFLNEKGQFKKSDAFVPFSIGKRNCFGEGLA
+RMELFLFFTTVMQNFRLKSS
+>>rno_24299_Cyp2a3a__cytochrome_
+; fa_frame: f
+; fa_initn: 284
+; fa_init1: 284
+; fa_opt: 284
+; fa_z-score: 52.3
+; fa_bits: 15.6
+; fa_expect:    3.7
+; sw_score: 284
+; sw_ident: 0.907
+; sw_sim: 1.000
+; sw_overlap: 43
+>Consensus_7 ..
+; sq_len: 43
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 43
+; al_display_start: 1
+------------------------------KDTKFRDFLLPKGTEVFPML
+GSVLRDPKFFSNPQDFNPQHFLD
+>rno_24299_Cyp2a3a__cytochrome_ ..
+; sq_len: 494
+; sq_type: p
+; al_start: 376
+; al_stop: 418
+; al_display_start: 346
+RMKMPYTEAVIHEIQRFADMIPMGLARRVTKDTKFREFLLPKGTEVFPML
+GSVLKDPKFFSNPNDFNPKHFLDDKGQFKKSDAFVPFSIGKRYCFGEGLA
+RMELFLFLTNIMQNFCFKSP
+>>cfa_484494_CYP2A13__cytochrome
+; fa_frame: f
+; fa_initn: 283
+; fa_init1: 283
+; fa_opt: 283
+; fa_z-score: 52.2
+; fa_bits: 15.6
+; fa_expect:    3.8
+; sw_score: 283
+; sw_ident: 0.930
+; sw_sim: 0.977
+; sw_overlap: 43
+>Consensus_7 ..
+; sq_len: 43
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 43
+; al_display_start: 1
+------------------------------KDTKFRDFLLPKGTEVFPML
+GSVLRDPKFFSNPQDFNPQHFLD
+>cfa_484494_CYP2A13__cytochrome ..
+; sq_len: 494
+; sq_type: p
+; al_start: 376
+; al_stop: 418
+; al_display_start: 346
+RAKMPYTEAVIHEIQRFGDMIPMGVARRVIKDTKFREFLLPKGTEVFPML
+GSVLRDAKFFSNPQDFHPQHFLDEKGQFKKSDAFVPFSIGKRYCFGEGLA
+RMELFLFLTTILQNFHFKSP
+>>xla_432347_MGC82264__hypotheti
+; fa_frame: f
+; fa_initn: 204
+; fa_init1: 204
+; fa_opt: 204
+; fa_z-score: 39.3
+; fa_bits: 13.2
+; fa_expect:    9.8
+; sw_score: 204
+; sw_ident: 0.605
+; sw_sim: 0.884
+; sw_overlap: 43
+>Consensus_7 ..
+; sq_len: 43
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 43
+; al_display_start: 1
+------------------------------KDTKFRDFLLPKGTEVFPML
+GSVLRDPKFFSNPQDFNPQHFLD
+>xla_432347_MGC82264__hypotheti ..
+; sq_len: 495
+; sq_type: p
+; al_start: 376
+; al_stop: 418
+; al_display_start: 346
+KSKMPYTDAVIHEIQRVSDVIPMSLPHSVMKDTQLRGYTIPKGTDVYPMI
+CTALRDPKQFATPNKFNPQHFLDDKGNFKTSNAFMPFSTGKRICLGEGLA
+RMELFLFLTNILQNFKLHSE
+>>xtr_496407_CYP2A13__CYP2A13_pr
+; fa_frame: f
+; fa_initn: 202
+; fa_init1: 202
+; fa_opt: 202
+; fa_z-score: 38.9
+; fa_bits: 13.2
+; fa_expect:    9.9
+; sw_score: 202
+; sw_ident: 0.605
+; sw_sim: 0.884
+; sw_overlap: 43
+>Consensus_7 ..
+; sq_len: 43
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 43
+; al_display_start: 1
+------------------------------KDTKFRDFLLPKGTEVFPML
+GSVLRDPKFFSNPQDFNPQHFLD
+>xtr_496407_CYP2A13__CYP2A13_pr ..
+; sq_len: 494
+; sq_type: p
+; al_start: 376
+; al_stop: 418
+; al_display_start: 346
+RNKMPYTDAVIHEIQRLSDVIPMNVPHLVTKDTKFRGYTIPKGTNIYPLL
+CAVLRDPEQFDTPSKFNPNHFLDDKGCFKSNDGFMPFSTGKRICLGEGLA
+RMELFLFLTNILQNFKLHSE
+>>gga_414841_CYP2C18__cytochrome
+; fa_frame: f
+; fa_initn: 208
+; fa_init1: 180
+; fa_opt: 180
+; fa_z-score: 35.4
+; fa_bits: 12.5
+; fa_expect:     11
+; sw_score: 180
+; sw_ident: 0.535
+; sw_sim: 0.814
+; sw_overlap: 43
+>Consensus_7 ..
+; sq_len: 43
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 43
+; al_display_start: 1
+------------------------------KDTKFRDFLLPKGTEVFPML
+GSVLRDPKFFSNPQDFNPQHFLD
+>gga_414841_CYP2C18__cytochrome ..
+; sq_len: 491
+; sq_type: p
+; al_start: 373
+; al_stop: 415
+; al_display_start: 343
+RSQLPYTDAVIHEIQRFIDFLPVNLPRAVIKDTKLRDYFIPKDTMIFPLL
+SPILQDCKEFPNPEKFDPGHFLNANGTFRKSNYFMPFSAGKRICAGEGLA
+RMELFLFLTSILQNFSLKPV
+>>><<<
+
+
+43 residues in 1 query   sequences
+5371 residues in 11 library sequences
+ Scomplib [34t25]
+ start: Thu Dec 13 07:53:32 2007 done: Thu Dec 13 07:53:32 2007
+ Total Scan time:  0.000 Total Display time:  0.020
+
+Function used was FASTA [version 3.4t25 Sept 2, 2005]

@@ -1,0 +1,2875 @@
+# /usr/local/bin/fasta34 -m 10 -A -H -q -p -E 200 /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_4255/temp_consensus.fasta /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_4255/file1.txt
+FASTA searches a protein or DNA sequence data bank
+ version 3.4t25 Sept 2, 2005
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query library /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_4255/temp_consensus.fasta vs /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_4255/file1.txt library
+searching /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_4255/file1.txt library
+
+  1>>>Consensus_2  - 9 aa
+ vs  /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_vers library
+
+  56820 residues in    95 sequences
+  Expectation_n fit: rho(ln(x))= 3.6817+/-0.0331; mu= 1.4344+/- 2.101
+ mean_var=19.0130+/- 4.923, 0's: 0 Z-trim: 1  B-trim: 0 in 0/21
+ Lambda= 0.294136
+
+FASTA (3.47 Mar 2004) function [optimized, BL50 matrix (15:-5)] ktup: 1
+ join: 49, opt: 37, open/ext: -10/-2, width:  16
+ Scan time:  0.010
+The best scores are:                                      opt bits E(95)
+RPO21                                              (1733)   63  29.2  0.0023
+PTH2|S39831|hypothetical                           ( 214)   33  16.8     1.6
+ERG5|6323657|ref|NP_013728.1|cytochromeP450involve ( 538)   36  17.9     1.8
+LSB1|6321575|ref|NP_011652.1|LAs17Bindingprotein   ( 241)   32  16.3     2.5
+UBR2|6323052|ref|NP_013124.1|ubiquitin-proteinliga (1872)   39  19.0     2.9
+PDR5|6324727|ref|NP_014796.1|multi-drugresistancet (1511)   38  18.6     3.1
+ECM21|6319367|ref|NP_009449.1|Extra-CellularMutant (1117)   36  17.8       4
+YGR268C|6321708|ref|NP_011784.1|                   ( 198)   28  14.6     6.4
+YOR322C|S58333|probable                            ( 818)   33  16.6     6.8
+CSR2|6325287|ref|NP_015355.1|chs5spa2rescue;overex (1121)   34  17.0     7.1
+HXT4|S46724|hexose                                 ( 560)   31  15.8     8.1
+HXT7|6320549|ref|NP_010629.1|Hexosetransporter     ( 570)   31  15.8     8.2
+HXT6|6320550|ref|NP_010630.1|RepressionofHXT6expre ( 570)   31  15.8     8.2
+COT1|S58327|cobalt                                 ( 439)   30  15.4     8.3
+PHO84|6323512|ref|NP_013583.1|inorganicphosphatetr ( 587)   31  15.8     8.5
+HXT5|6321888|ref|NP_011964.1|Memberofsuperfamilyof ( 592)   31  15.8     8.6
+gi|2132337                                         ( 672)   31  15.8     9.7
+RPS3|6324151|ref|NP_014221.1|HomologytomammalianS3 ( 240)   27  14.2      10
+SNC2|6324903|ref|NP_014972.1|mediatethetargetingan ( 115)   24  13.0      11
+YLR414C|S59380|probable                            ( 263)   27  14.2      11
+PIN3|6325412|ref|NP_015480.1|[PSI+]induction       ( 215)   26  13.8      12
+COS4|14318457|ref|NP_116593.1|Proteinwithstrongsim ( 379)   28  14.6      12
+YDL203|6319998|ref|NP_010078.1|HypotheticalORF     ( 623)   29  14.9      16
+CHD1|6321012|ref|NP_011091.1|SoleS.cerevesiaemembe (1468)   32  16.1      16
+ITR1|6320705|ref|NP_010785.1|memberofsugartranspor ( 584)   28  14.5      19
+SYS1|S55184|SYS1                                   ( 203)   24  12.9      20
+GLN1|6325292|ref|NP_015360.1|glutaminesynthetase   ( 370)   26  13.7      21
+COS2|S46187|probable                               ( 379)   26  13.7      21
+ACS2|6323182|ref|NP_013254.1|oneof2acetyl-coAsynth ( 683)   28  14.5      22
+NCP1|S46735|NADPH-ferrihemoprotein                 ( 691)   28  14.5      22
+YFR006W|S56261|probable                            ( 535)   27  14.1      23
+RVS167|6320596|ref|NP_010676.1|theBARadaptorprotei ( 482)   26  13.7      27
+PDR12|6325199|ref|NP_015267.1|similartoPdr5p       (1511)   30  15.2      28
+PMA1|PXBY1P|H+-exporting                           ( 918)   28  14.5      29
+TNA1|6321698|ref|NP_011776.1|TransporterofNicotini ( 534)   26  13.7      29
+CUE5|6324615|ref|NP_014685.1|ContainsoneCUEdomainw ( 411)   25  13.3      29
+YGR089W|6321526|ref|NP_011603.1|putativepartnerofR ( 936)   28  14.5      30
+BSD2|6319767|ref|NP_009849.1|metalhomeostasisprote ( 321)   24  12.9      30
+DDI1|6320991|ref|NP_011070.1|DNADamageInducible;bi ( 428)   25  13.3      31
+YMR295C|6323953|ref|NP_014024.1|HypotheticalORF    ( 197)   22  12.1      32
+RPS4B|6321997|ref|NP_012073.1|HomologytoratS4andhu ( 261)   23  12.5      32
+SNC1|6319289|ref|NP_009372.1|Involvedinmediatingta ( 117)   20  11.3      32
+ENA5|S67852|Ca2+-transporting                      (1091)   28  14.4      34
+SSA2|6323004|ref|NP_013076.1|memberof70kDaheatshoc ( 639)   26  13.7      34
+SSA1|6319314|ref|NP_009396.1|Stress-seventysubfami ( 642)   26  13.7      34
+AKL1|6319533|ref|NP_009615.1|Ark-familykinase-like (1108)   28  14.4      34
+YKR041W|6322893|ref|NP_012967.1|HypotheticalORF    ( 250)   22  12.1      39
+JEN1|6322632|ref|NP_012705.1|Repressedbyglucose,in ( 616)   25  13.2      42
+gi|6321792|ref|NP_011868.1|                        ( 472)   24  12.8      42
+YHR097C|6321889|ref|NP_011965.1|HypotheticalORF    ( 366)   23  12.4      42
+GLY1|6320789|ref|NP_010868.1|L-threoninealdolaseth ( 387)   23  12.4      44
+YLR413W|6323445|ref|NP_013517.1|HypotheticalORF    ( 675)   25  13.2      45
+SNA3|6322310|ref|NP_012384.1|HomologytoPMP3/SNA1(S ( 133)   19  10.9      45
+UIP3|6319331|ref|NP_009414.1|Ulp1InteractingProtei ( 235)   21  11.7      46
+EXO84|6319578|ref|NP_009660.1|exocystcomplexcompon ( 753)   25  13.2      49
+YHL010C|6321777|ref|NP_011853.1|HypotheticalORF    ( 585)   24  12.8      49
+YET1|S37887|hypothetical                           ( 206)   20  11.2      51
+YPL207W|6325049|ref|NP_015117.1|HypotheticalORF    ( 810)   25  13.2      51
+TAT1|S45932|tyrosine                               ( 619)   24  12.8      51
+FKS1|S50235|1,3-beta-glucan                        (1876)   28  14.4      52
+ERG1|6321614|ref|NP_011691.1|squaleneepoxidase;ane ( 496)   23  12.4      53
+SAM2|6320710|ref|NP_010790.1|methioninebiosynthesi ( 384)   22  12.0      54
+CHS3|6319497|ref|NP_009579.1|requiredforchitinsynt (1165)   26  13.6      55
+YAR028W|S53480|probable                            ( 234)   20  11.2      56
+PHO87|10383798|ref|NP_009966.2|MaycollaboratewithP ( 923)   25  13.2      56
+STE6|6322640|ref|NP_012713.1|ABCtransporter,glycop (1290)   26  13.6      58
+YKL187C|6322661|ref|NP_012734.1|HypotheticalORF    ( 750)   24  12.8      58
+GAP1|6322892|ref|NP_012965.1|generalaminoacidperme ( 602)   23  12.4      60
+CIT2|6319850|ref|NP_009931.1|non-mitochondriacitra ( 460)   22  12.0      61
+ERG3|6323085|ref|NP_013157.1|C-5steroldesaturase   ( 365)   21  11.6      62
+ARO10|6320588|ref|NP_010668.1|                     ( 635)   23  12.4      62
+HSP104|S61476|endopeptidase                        ( 908)   24  12.8      66
+ELP3|6325171|ref|NP_015239.1|elongatorprotein;hist ( 557)   22  12.0      68
+URA7|6319432|ref|NP_009514.1|CatalyzestheATP-depen ( 579)   22  12.0      69
+PRE9|SNBYY3|proteasome                             ( 258)   19  10.8      69
+YRO2|6319528|ref|NP_009610.1|HomologtoHSP30heatsho ( 344)   20  11.2      70
+GDH1|6324951|ref|NP_015020.1|NADP-specificglutamat ( 454)   21  11.6      70
+URA3|6320814|ref|NP_010893.1|orotidine-5'-phosphat ( 267)   19  10.8      71
+YER067W|6320910|ref|NP_010990.1|HypotheticalORF    ( 161)   17  10.0      72
+ADE13|6323391|ref|NP_013463.1|AdenylosuccinateLyas ( 482)   21  11.6      72
+sp|P32804|ZRT1_YEAST                               ( 376)   20  11.2      73
+PDX3|6319509|ref|NP_009591.1|pyridoxine(pyridoxiam ( 228)   18  10.4      75
+CCT8|6322452|ref|NP_012526.1|requiredforassemblyof ( 568)   21  11.5      78
+YIL041W|6322148|ref|NP_012223.1|Golgi-VesicleProte ( 256)   18  10.4      78
+RPS20|6321772|ref|NP_011848.1|HomologytoratS20,hum ( 121)   15   9.2      80
+HTB2|HSBYB2|histone                                ( 131)   15   9.2      83
+ERG25|S64354|ERG25                                 ( 309)   18  10.3      84
+sp|P15873|PCNA_YEAST                               ( 258)   17   9.9      86
+GSC2|6321469|ref|NP_011546.1|highlysimilartoFKS1(G (1895)   24  12.7      88
+DLD3|6320764|ref|NP_010843.1|D-lactatedehydrogenas ( 496)   19  10.7      88
+ALD6|6325196|ref|NP_015264.1|UtilizesNADP+asthepre ( 500)   19  10.7      88
+CTR9|6324427|ref|NP_014496.1|CTR9isrequiredfornorm (1077)   21  11.5      92
+CDC48|6320077|ref|NP_010157.1|MicrosomalproteinofC ( 835)   20  11.1      92
+GNP1|6320717|ref|NP_010796.1|high-affinityglutamin ( 663)   19  10.7      93
+YOL109W|6324463|ref|NP_014532.1|overexpressioncaus ( 113)   12   7.9      94
+
+>>>Consensus_2, 9 aa vs /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_4255/file1.txt library
+; pg_name: /usr/local/bin/fasta34
+; pg_ver: 34t25
+; pg_argv: /usr/local/bin/fasta34 -m 10 -A -H -q -p -E 200 /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_4255/temp_consensus.fasta /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_4255/file1.txt
+; pg_name: FASTA
+; pg_ver: 3.47 Mar 2004
+; pg_matrix: BL50 (15:-5)
+; pg_open-ext: -10 -2
+; pg_ktup: 1
+; pg_optcut: 37
+; pg_cgap: 49
+; mp_extrap: 60000 94
+; mp_stats:  Expectation_n fit: rho(ln(x))= 3.6817+/-0.0331; mu= 1.4344+/- 2.101  mean_var=19.0130+/- 4.923, 0's: 0 Z-trim: 1  B-trim: 0 in 0/21  Lambda= 0.294136
+; mp_KS: -0.0000 (N=33) at  86
+>>RPO21
+; fa_frame: f
+; fa_initn:  63
+; fa_init1:  63
+; fa_opt:  63
+; fa_z-score: 128.2
+; fa_bits: 29.2
+; fa_expect: 0.0023
+; sw_score: 63
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 9
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 9
+; al_display_start: 1
+------------------------------SPTSPSYSP
+>RPO21 ..
+; sq_len: 1733
+; sq_type: p
+; al_start: 1557
+; al_stop: 1565
+; al_display_start: 1527
+GEAPTSPGFGVSSPGFSPTSPTYSPTSPAYSPTSPSYSPTSPSYSPTSPS
+YSPTSPSYSPTSPSYSPTSPSYSPTSPSYSPTSPSYSPTSPSYSPTSPSY
+SPTSPSYSPTSPSYSPTSPS
+>>PTH2|S39831|hypothetical
+; fa_frame: f
+; fa_initn:  33
+; fa_init1:  33
+; fa_opt:  33
+; fa_z-score: 77.1
+; fa_bits: 16.8
+; fa_expect:    1.6
+; sw_score: 33
+; sw_ident: 0.444
+; sw_sim: 0.778
+; sw_overlap: 9
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 9
+; al_display_start: 1
+------------------------------SPTSPSYSP
+>PTH2|S39831|hypothetical ..
+; sq_len: 214
+; sq_type: p
+; al_start: 129
+; al_stop: 137
+; al_display_start: 99
+VIRQDLGMTKGKIAAQCCHAALSCFRHIATNPARASYNPIMTQRWLNAGQ
+AKITLKCPDKFTMDELYAKAISLGVNAAVIHDAGRTQIAAGSATVLGLGP
+APKAVLDQITGDLKLY
+>>ERG5|6323657|ref|NP_013728.1|cytochromeP450involvedinC-22denaturationoftheergosterolside-chain
+; fa_frame: f
+; fa_initn:  36
+; fa_init1:  36
+; fa_opt:  36
+; fa_z-score: 76.2
+; fa_bits: 17.9
+; fa_expect:    1.8
+; sw_score: 36
+; sw_ident: 0.571
+; sw_sim: 1.000
+; sw_overlap: 7
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 8
+; al_display_start: 1
+-----------------------------SPTSPSYSP
+>ERG5|6323657|ref|NP_013728.1|cytochromeP450involvedinC-22denaturationoftheergosterolside-chain ..
+; sq_len: 538
+; sq_type: p
+; al_start: 415
+; al_stop: 421
+; al_display_start: 385
+KMKYTNMVIKETLRYRPPVLMVPYVVKKNFPVSPNYTAPKGAMLIPTLYP
+ALHDPEVYENPDEFIPERWVEGSKASEAKKNWLVFGCGPHVCLGQTYVMI
+TFAALLGKFALYTDFHHTVT
+>>LSB1|6321575|ref|NP_011652.1|LAs17Bindingprotein
+; fa_frame: f
+; fa_initn:  32
+; fa_init1:  32
+; fa_opt:  32
+; fa_z-score: 73.8
+; fa_bits: 16.3
+; fa_expect:    2.5
+; sw_score: 32
+; sw_ident: 0.800
+; sw_sim: 0.800
+; sw_overlap: 5
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 5
+; al_stop: 9
+; al_display_start: 1
+--------------------------SPTSPSYSP
+>LSB1|6321575|ref|NP_011652.1|LAs17Bindingprotein ..
+; sq_len: 241
+; sq_type: p
+; al_start: 136
+; al_stop: 140
+; al_display_start: 106
+YVKPAFTRSASPKSAEAASSSTVSRPSVPPPSYEPAASQYPSQQVSAPYA
+PPAGYMQAPPPQQQQAPLPYPPPFTNYYQQPQQQYAPPSQQAPVEAQPQQ
+SSGASSAFKSFGSKLGNAAI
+>>UBR2|6323052|ref|NP_013124.1|ubiquitin-proteinligase(E3)
+; fa_frame: f
+; fa_initn:  39
+; fa_init1:  39
+; fa_opt:  39
+; fa_z-score: 72.5
+; fa_bits: 19.0
+; fa_expect:    2.9
+; sw_score: 39
+; sw_ident: 0.857
+; sw_sim: 0.857
+; sw_overlap: 7
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 3
+; al_stop: 9
+; al_display_start: 1
+----------------------------SPTSPSYSP
+>UBR2|6323052|ref|NP_013124.1|ubiquitin-proteinligase(E3) ..
+; sq_len: 1872
+; sq_type: p
+; al_start: 1217
+; al_stop: 1223
+; al_display_start: 1187
+KKLMKKLAQQQMKFMENNSVDTSDISTPRTTSPSLSPTRINAENSSNTIN
+SCCDDDCVFCKMPKDDDVFVYFSYQERNICDHGIDFTNPTDVNRINSLFS
+GKQTKDSAIQENPQDDDGTR
+>>PDR5|6324727|ref|NP_014796.1|multi-drugresistancetransporter
+; fa_frame: f
+; fa_initn:  38
+; fa_init1:  38
+; fa_opt:  38
+; fa_z-score: 72.0
+; fa_bits: 18.6
+; fa_expect:    3.1
+; sw_score: 38
+; sw_ident: 0.500
+; sw_sim: 0.875
+; sw_overlap: 8
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 9
+; al_display_start: 1
+-----------------------------SPTSPSYSP
+>PDR5|6324727|ref|NP_014796.1|multi-drugresistancetransporter ..
+; sq_len: 1511
+; sq_type: p
+; al_start: 86
+; al_stop: 93
+; al_display_start: 56
+QNSTQSAPNKSDAQSIFSSGVEGVNPIFSDPEAPGYDPKLDPNSENFSSA
+AWVKNMAHLSAADPDFYKPYSLGCAWKNLSASGASADVAYQSTVVNIPYK
+ILKSGLRKFQRSKETNTFQI
+>>ECM21|6319367|ref|NP_009449.1|Extra-CellularMutant
+; fa_frame: f
+; fa_initn:  36
+; fa_init1:  36
+; fa_opt:  36
+; fa_z-score: 70.0
+; fa_bits: 17.8
+; fa_expect:      4
+; sw_score: 36
+; sw_ident: 0.625
+; sw_sim: 0.750
+; sw_overlap: 8
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 9
+; al_display_start: 1
+-----------------------------SPTSPSYSP
+>ECM21|6319367|ref|NP_009449.1|Extra-CellularMutant ..
+; sq_len: 1117
+; sq_type: p
+; al_start: 926
+; al_stop: 933
+; al_display_start: 896
+KGNQVPLSMNSDFFGNTCPPPPTFEEAISVPASPIVSPMGSPNIMASYDP
+DLLSIQQLNLSRTTSVSGPSGYSDDAGVPNVNRNSISNANAMNGSISNSA
+FVSGNSGQGVARARATSVND
+>>YGR268C|6321708|ref|NP_011784.1|
+; fa_frame: f
+; fa_initn:  28
+; fa_init1:  28
+; fa_opt:  28
+; fa_z-score: 66.3
+; fa_bits: 14.6
+; fa_expect:    6.4
+; sw_score: 28
+; sw_ident: 0.667
+; sw_sim: 0.833
+; sw_overlap: 6
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 4
+; al_stop: 9
+; al_display_start: 1
+---------------------------SPTSPSYSP
+>YGR268C|6321708|ref|NP_011784.1| ..
+; sq_len: 198
+; sq_type: p
+; al_start: 64
+; al_stop: 69
+; al_display_start: 34
+AANLAQGHQSRPHQRPSTMPATSSSQTYAHSHSYTPTSSQPRPPPRPQQN
+PSLPWTYPPRFYCSKCGNTGYKLKNGRSCKSCWRRFAPQNNVVSAPTYYT
+NYTMPVYTNAWQGNRPLYVQ
+>>YOR322C|S58333|probable
+; fa_frame: f
+; fa_initn:  33
+; fa_init1:  33
+; fa_opt:  33
+; fa_z-score: 65.8
+; fa_bits: 16.6
+; fa_expect:    6.8
+; sw_score: 33
+; sw_ident: 0.667
+; sw_sim: 0.778
+; sw_overlap: 9
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 9
+; al_display_start: 1
+------------------------------SPTSPSYSP
+>YOR322C|S58333|probable ..
+; sq_len: 818
+; sq_type: p
+; al_start: 117
+; al_stop: 125
+; al_display_start: 87
+SLKRKSTFGSALSSRLSSLSASTSNISPSTSSTSISHSPTPANLRIMAGY
+TKITITSVTLSLVQKIHFHKPFVPNISSMQTCMNCKTKITNMKSWEIQSN
+TQDLSVGSHSYPFSYLIPGS
+>>CSR2|6325287|ref|NP_015355.1|chs5spa2rescue;overexpressionrescuesthelethalityofchs5spa2at37degrees
+; fa_frame: f
+; fa_initn:  34
+; fa_init1:  34
+; fa_opt:  34
+; fa_z-score: 65.4
+; fa_bits: 17.0
+; fa_expect:    7.1
+; sw_score: 34
+; sw_ident: 0.667
+; sw_sim: 0.833
+; sw_overlap: 6
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 4
+; al_stop: 9
+; al_display_start: 1
+---------------------------SPTSPSYSP
+>CSR2|6325287|ref|NP_015355.1|chs5spa2rescue;overexpressionrescuesthelethalityofchs5spa2at37degrees ..
+; sq_len: 1121
+; sq_type: p
+; al_start: 1075
+; al_stop: 1080
+; al_display_start: 1045
+LLSQDIFEQETAATLFKRDIVTMNFNNNIFTPRYSPRTFTNTDYNYNDND
+NNDNDTEGPGPIIHPGPEPPRYDEISS
+>>HXT4|S46724|hexose
+; fa_frame: f
+; fa_initn:  31
+; fa_init1:  31
+; fa_opt:  31
+; fa_z-score: 64.4
+; fa_bits: 15.8
+; fa_expect:    8.1
+; sw_score: 31
+; sw_ident: 0.667
+; sw_sim: 0.667
+; sw_overlap: 6
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 7
+; al_display_start: 1
+-----------------------------SPTSPSYSP
+>HXT4|S46724|hexose ..
+; sq_len: 560
+; sq_type: p
+; al_start: 263
+; al_stop: 268
+; al_display_start: 233
+KTYTNSVQWRVPLGLGFAWALFMIGGMTFVPESPRYLVEVGKIEEAKRSI
+ALSNKVSADDPAVMAEVEVVQATVEAEKLAGNASWGEIFSTKTKVFQRLI
+MGAMIQSLQQLTGDNYFFYY
+>>HXT7|6320549|ref|NP_010629.1|Hexosetransporter
+; fa_frame: f
+; fa_initn:  31
+; fa_init1:  31
+; fa_opt:  31
+; fa_z-score: 64.2
+; fa_bits: 15.8
+; fa_expect:    8.2
+; sw_score: 31
+; sw_ident: 0.667
+; sw_sim: 0.667
+; sw_overlap: 6
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 7
+; al_display_start: 1
+-----------------------------SPTSPSYSP
+>HXT7|6320549|ref|NP_010629.1|Hexosetransporter ..
+; sq_len: 570
+; sq_type: p
+; al_start: 257
+; al_stop: 262
+; al_display_start: 227
+KNYSNSVQWRVPLGLCFAWALFMIGGMTFVPESPRYLAEVGKIEEAKRSI
+AVSNKVAVDDPSVLAEVEAVLAGVEAEKLAGNASWGELFSSKTKVLQRLI
+MGAMIQSLQQLTGDNYFFYY
+>>HXT6|6320550|ref|NP_010630.1|RepressionofHXT6expressionbyglucoserequiresSNF3
+; fa_frame: f
+; fa_initn:  31
+; fa_init1:  31
+; fa_opt:  31
+; fa_z-score: 64.2
+; fa_bits: 15.8
+; fa_expect:    8.2
+; sw_score: 31
+; sw_ident: 0.667
+; sw_sim: 0.667
+; sw_overlap: 6
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 7
+; al_display_start: 1
+-----------------------------SPTSPSYSP
+>HXT6|6320550|ref|NP_010630.1|RepressionofHXT6expressionbyglucoserequiresSNF3 ..
+; sq_len: 570
+; sq_type: p
+; al_start: 257
+; al_stop: 262
+; al_display_start: 227
+KNYSNSVQWRVPLGLCFAWALFMIGGMTFVPESPRYLAEVGKIEEAKRSI
+AVSNKVAVDDPSVLAEVEAVLAGVEAEKLAGNASWGELFSSKTKVLQRLI
+MGAMIQSLQQLTGDNYFFYY
+>>COT1|S58327|cobalt
+; fa_frame: f
+; fa_initn:  30
+; fa_init1:  30
+; fa_opt:  30
+; fa_z-score: 64.1
+; fa_bits: 15.4
+; fa_expect:    8.3
+; sw_score: 30
+; sw_ident: 0.800
+; sw_sim: 1.000
+; sw_overlap: 5
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 4
+; al_stop: 8
+; al_display_start: 1
+---------------------------SPTSPSYSP
+>COT1|S58327|cobalt ..
+; sq_len: 439
+; sq_type: p
+; al_start: 213
+; al_stop: 217
+; al_display_start: 183
+DNISEIMPNAIVDSFMNENTRLLTPENASKTPSYSTSSHTIASGGNYTEH
+NKRKRSLNMHGVFLHVLGDALGNIGVMLSAFFIWKTDYSWKYYTDPLVSL
+IITGIIFSSALPLSCKASKI
+>>PHO84|6323512|ref|NP_013583.1|inorganicphosphatetransporter,transmembraneprotein
+; fa_frame: f
+; fa_initn:  31
+; fa_init1:  31
+; fa_opt:  31
+; fa_z-score: 64.0
+; fa_bits: 15.8
+; fa_expect:    8.5
+; sw_score: 31
+; sw_ident: 0.667
+; sw_sim: 0.667
+; sw_overlap: 6
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 7
+; al_display_start: 1
+-----------------------------SPTSPSYSP
+>PHO84|6323512|ref|NP_013583.1|inorganicphosphatetransporter,transmembraneprotein ..
+; sq_len: 587
+; sq_type: p
+; al_start: 271
+; al_stop: 276
+; al_display_start: 241
+CQKACDQMWRILIGLGTVLGLACLYFRLTIPESPRYQLDVNAKLELAAAA
+QEQDGEKKIHDTSDEDMAINGLERASTAVESLDNHPPKASFKDFCRHFGQ
+WKYGKILLGTAGSWFTLDVA
+>>HXT5|6321888|ref|NP_011964.1|Memberofsuperfamilyofmonosaccharidetransporters
+; fa_frame: f
+; fa_initn:  31
+; fa_init1:  31
+; fa_opt:  31
+; fa_z-score: 63.9
+; fa_bits: 15.8
+; fa_expect:    8.6
+; sw_score: 31
+; sw_ident: 0.667
+; sw_sim: 0.667
+; sw_overlap: 6
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 7
+; al_display_start: 1
+-----------------------------SPTSPSYSP
+>HXT5|6321888|ref|NP_011964.1|Memberofsuperfamilyofmonosaccharidetransporters ..
+; sq_len: 592
+; sq_type: p
+; al_start: 278
+; al_stop: 283
+; al_display_start: 248
+KNYSNSVQWRVPLGLCFAWSIFMIVGMTFVPESPRYLVEVGKIEEAKRSL
+ARANKTTEDSPLVTLEMENYQSSIEAERLAGSASWGELVTGKPQMFRRTL
+MGMMIQSLQQLTGDNYFFYY
+>>gi|2132337
+; fa_frame: f
+; fa_initn:  31
+; fa_init1:  31
+; fa_opt:  31
+; fa_z-score: 62.8
+; fa_bits: 15.8
+; fa_expect:    9.7
+; sw_score: 31
+; sw_ident: 0.625
+; sw_sim: 0.750
+; sw_overlap: 8
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 9
+; al_display_start: 1
+-----------------------------SPTSPSYSP
+>gi|2132337 ..
+; sq_len: 672
+; sq_type: p
+; al_start: 443
+; al_stop: 450
+; al_display_start: 413
+TNDSQEAPILKNINELLSVLIPPSPAETRGPTTLSTSPSFNEHGVVAEAS
+FLSSILELGIKHPKSNNIHNQRQPSRNDHKISRESDGNNGNDNVHHNNAV
+IKSSTTRGDEIAKIRSEPTL
+>>RPS3|6324151|ref|NP_014221.1|HomologytomammalianS3.TheAPendonucleaseactivityofRps3pisaffectedbypH,KCl,andbeta-mercaptoethanol,butnotTritonX-100orEDTA
+; fa_frame: f
+; fa_initn:  27
+; fa_init1:  27
+; fa_opt:  27
+; fa_z-score: 62.4
+; fa_bits: 14.2
+; fa_expect:     10
+; sw_score: 27
+; sw_ident: 0.333
+; sw_sim: 0.667
+; sw_overlap: 9
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 9
+; al_display_start: 1
+------------------------------SPTSPSYSP
+>RPS3|6324151|ref|NP_014221.1|HomologytomammalianS3.TheAPendonucleaseactivityofRps3pisaffectedbypH,KCl,andbeta-mercaptoethanol,butnotTritonX-100orEDTA ..
+; sq_len: 240
+; sq_type: p
+; al_start: 219
+; al_stop: 227
+; al_display_start: 189
+MRDPAKSRTGPKALPDAVTIIEPKEEEPILAPSVKDYRPAEETEAQAEPV
+EA
+>>SNC2|6324903|ref|NP_014972.1|mediatethetargetingandtransportofsecretoryproteins
+; fa_frame: f
+; fa_initn:  24
+; fa_init1:  24
+; fa_opt:  24
+; fa_z-score: 61.7
+; fa_bits: 13.0
+; fa_expect:     11
+; sw_score: 24
+; sw_ident: 0.375
+; sw_sim: 0.500
+; sw_overlap: 8
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 9
+; al_display_start: 1
+----SPTSPSYSP
+>SNC2|6324903|ref|NP_014972.1|mediatethetargetingandtransportofsecretoryproteins ..
+; sq_len: 115
+; sq_type: p
+; al_start: 6
+; al_stop: 13
+; al_display_start: 1
+MSSSVPYDPYVPPEESNSGANPNSQNKTAALRQEIDDTVGIMRDNINKVA
+ERGERLTSIE
+>>YLR414C|S59380|probable
+; fa_frame: f
+; fa_initn:  27
+; fa_init1:  27
+; fa_opt:  27
+; fa_z-score: 61.6
+; fa_bits: 14.2
+; fa_expect:     11
+; sw_score: 27
+; sw_ident: 0.429
+; sw_sim: 0.857
+; sw_overlap: 7
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 3
+; al_stop: 9
+; al_display_start: 1
+-------------------------SPTSPSYSP
+>YLR414C|S59380|probable ..
+; sq_len: 263
+; sq_type: p
+; al_start: 28
+; al_stop: 34
+; al_display_start: 1
+MRNFFTLFFAAIFSLGALILAIVACAGSTKNYSPINKIYCAELDLSQMKV
+STVLPSLSSATLSSLGLPSYINIGLWSYCTVDSSHNIQSCSSPHGIQNFN
+LSSLVYDNINNNEALELMDS
+>>PIN3|6325412|ref|NP_015480.1|[PSI+]induction
+; fa_frame: f
+; fa_initn:  26
+; fa_init1:  26
+; fa_opt:  26
+; fa_z-score: 61.0
+; fa_bits: 13.8
+; fa_expect:     12
+; sw_score: 26
+; sw_ident: 0.500
+; sw_sim: 0.667
+; sw_overlap: 6
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 7
+; al_display_start: 1
+-----------------------------SPTSPSYSP
+>PIN3|6325412|ref|NP_015480.1|[PSI+]induction ..
+; sq_len: 215
+; sq_type: p
+; al_start: 122
+; al_stop: 127
+; al_display_start: 92
+YKGSCNGRTGIFPANYVKPAFSGSNGPSNLPPPPQYKAQELQQIPTQNSA
+ASSYQQQPFPPPSTNYYQQPQQQPQQAPPPQQQQQQQQHQSSHSHLKSFG
+SKLGNAAIFGAGASIGSDIV
+>>COS4|14318457|ref|NP_116593.1|Proteinwithstrongsimilaritytosubtelomerically-encodedproteinssuchasCos5p,Ybr302p,Cos3p,Cos1p,Cos4p,Cos8p,Cos6p,Cos9p
+; fa_frame: f
+; fa_initn:  28
+; fa_init1:  28
+; fa_opt:  28
+; fa_z-score: 60.8
+; fa_bits: 14.6
+; fa_expect:     12
+; sw_score: 28
+; sw_ident: 0.333
+; sw_sim: 0.778
+; sw_overlap: 9
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 9
+; al_display_start: 1
+------------------------------SPTSPSYSP
+>COS4|14318457|ref|NP_116593.1|Proteinwithstrongsimilaritytosubtelomerically-encodedproteinssuchasCos5p,Ybr302p,Cos3p,Cos1p,Cos4p,Cos8p,Cos6p,Cos9p ..
+; sq_len: 379
+; sq_type: p
+; al_start: 111
+; al_stop: 119
+; al_display_start: 81
+FWGPVFVLVIFRLSRKRSLSKQLTQFCKEITKSTPSSDPHDWEVVAANLN
+SYLYENKAWNIRYFFFNAMGCQEAFRTTLLEPFSLKKDEAAKVKSFKDSV
+PYIEEALGVYFREVEKQWKL
+>>YDL203|6319998|ref|NP_010078.1|HypotheticalORF
+; fa_frame: f
+; fa_initn:  29
+; fa_init1:  29
+; fa_opt:  29
+; fa_z-score: 58.9
+; fa_bits: 14.9
+; fa_expect:     16
+; sw_score: 29
+; sw_ident: 0.444
+; sw_sim: 0.667
+; sw_overlap: 9
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 9
+; al_display_start: 1
+------------------------------SPTSPSYSP
+>YDL203|6319998|ref|NP_010078.1|HypotheticalORF ..
+; sq_len: 623
+; sq_type: p
+; al_start: 61
+; al_stop: 69
+; al_display_start: 31
+LGNANSDRHGLPAQNIVPAPYPVDDSIVELTPAIPFTSPSSSSSLSLPLS
+ALNFTDGNADGGQLGTPVTINSNNGMDIFNSKPTGEIGYANNGTNSTGSR
+YELPFNFSSTKESLGSPAVQ
+>>CHD1|6321012|ref|NP_011091.1|SoleS.cerevesiaememberofCHDgenefamilycontainingChromodomain,Helicasedomain,andDNA-bindingdomain
+; fa_frame: f
+; fa_initn:  32
+; fa_init1:  32
+; fa_opt:  32
+; fa_z-score: 58.5
+; fa_bits: 16.1
+; fa_expect:     16
+; sw_score: 32
+; sw_ident: 0.667
+; sw_sim: 1.000
+; sw_overlap: 6
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 6
+; al_display_start: 1
+------------------------------SPTSPSYSP
+>CHD1|6321012|ref|NP_011091.1|SoleS.cerevesiaememberofCHDgenefamilycontainingChromodomain,Helicasedomain,andDNA-bindingdomain ..
+; sq_len: 1468
+; sq_type: p
+; al_start: 1336
+; al_stop: 1341
+; al_display_start: 1306
+TSSEPANGPPSKRMKALPKGPAALINNTRLSPNSPTPPLKSKVSRDNGTR
+QSSNPSSGSAHEKEYDSMDEEDCRHTMSAIRTSLKRLRRGGKSLDRKEWA
+KILKTELTTIGNHIESQKGS
+>>ITR1|6320705|ref|NP_010785.1|memberofsugartransportersuperfamily
+; fa_frame: f
+; fa_initn:  28
+; fa_init1:  28
+; fa_opt:  28
+; fa_z-score: 57.1
+; fa_bits: 14.5
+; fa_expect:     19
+; sw_score: 28
+; sw_ident: 0.500
+; sw_sim: 0.667
+; sw_overlap: 6
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 7
+; al_display_start: 1
+-----------------------------SPTSPSYSP
+>ITR1|6320705|ref|NP_010785.1|memberofsugartransportersuperfamily ..
+; sq_len: 584
+; sq_type: p
+; al_start: 267
+; al_stop: 272
+; al_display_start: 237
+GLNYVNNGWRILVGLSLIPTAVQFTCLCFLPDTPRYYVMKGDLARATEVL
+KRSYTDTSEEIIERKVEELVTLNQSIPGKNVPEKVWNTIKELHTVPSNLR
+ALIIGCGLQAIQQFTGWNSL
+>>SYS1|S55184|SYS1
+; fa_frame: f
+; fa_initn:  24
+; fa_init1:  24
+; fa_opt:  24
+; fa_z-score: 56.9
+; fa_bits: 12.9
+; fa_expect:     20
+; sw_score: 24
+; sw_ident: 0.750
+; sw_sim: 1.000
+; sw_overlap: 4
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 5
+; al_stop: 8
+; al_display_start: 1
+--------------------------SPTSPSYSP
+>SYS1|S55184|SYS1 ..
+; sq_len: 203
+; sq_type: p
+; al_start: 130
+; al_stop: 133
+; al_display_start: 100
+IVGRSKLAWDFAITIHAINFIVVFLYTRKFPSFSWFFLQILSSLILIFLG
+TWTTRWRELRDTFFEGLVDPNEGEVGLVTPSQQHSNHSELEQSPIQLKDL
+ESQI
+>>GLN1|6325292|ref|NP_015360.1|glutaminesynthetase
+; fa_frame: f
+; fa_initn:  26
+; fa_init1:  26
+; fa_opt:  26
+; fa_z-score: 56.4
+; fa_bits: 13.7
+; fa_expect:     21
+; sw_score: 26
+; sw_ident: 0.429
+; sw_sim: 0.714
+; sw_overlap: 7
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 7
+; al_display_start: 1
+------------------------------SPTSPSYSP
+>GLN1|6325292|ref|NP_015360.1|glutaminesynthetase ..
+; sq_len: 370
+; sq_type: p
+; al_start: 153
+; al_stop: 159
+; al_display_start: 123
+DEEIWFGLEQEYTLFDMYDDVYGWPKGGYPAPQGPYYCGVGAGKVYARDM
+IEAHYRACLYAGLEISGINAEVMPSQWEFQVGPCTGIDMGDQLWMARYFL
+HRVAEEFGIKISFHPKPLKG
+>>COS2|S46187|probable
+; fa_frame: f
+; fa_initn:  26
+; fa_init1:  26
+; fa_opt:  26
+; fa_z-score: 56.2
+; fa_bits: 13.7
+; fa_expect:     21
+; sw_score: 26
+; sw_ident: 0.333
+; sw_sim: 0.778
+; sw_overlap: 9
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 9
+; al_display_start: 1
+------------------------------SPTSPSYSP
+>COS2|S46187|probable ..
+; sq_len: 379
+; sq_type: p
+; al_start: 111
+; al_stop: 119
+; al_display_start: 81
+FLGPIFVLVICGLSRKRSLSKQLIQFCKEITENTPSSDPHDWEVVAANLN
+SYLYENNVWNTKYFFFNAMVCQEAFRTTLLEPFSLKKDKAAKVKSFKDSV
+PYIEEALGVYFTEVEKQWKL
+>>ACS2|6323182|ref|NP_013254.1|oneof2acetyl-coAsynthetasesinyeast
+; fa_frame: f
+; fa_initn:  28
+; fa_init1:  28
+; fa_opt:  28
+; fa_z-score: 55.8
+; fa_bits: 14.5
+; fa_expect:     22
+; sw_score: 28
+; sw_ident: 0.429
+; sw_sim: 0.857
+; sw_overlap: 7
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 7
+; al_display_start: 1
+------------------------------SPTSPSYSP
+>ACS2|6323182|ref|NP_013254.1|oneof2acetyl-coAsynthetasesinyeast ..
+; sq_len: 683
+; sq_type: p
+; al_start: 347
+; al_stop: 353
+; al_display_start: 317
+TAGDVGWITGHTYALYGPLTLGTASIIFESTPAYPDYGRYWRIIQRHKAT
+HFYVAPTALRLIKRVGEAEIAKYDTSSLRVLGSVGEPISPDLWEWYHEKV
+GNKNCVICDTMWQTESGSHL
+>>NCP1|S46735|NADPH-ferrihemoprotein
+; fa_frame: f
+; fa_initn:  28
+; fa_init1:  28
+; fa_opt:  28
+; fa_z-score: 55.7
+; fa_bits: 14.5
+; fa_expect:     22
+; sw_score: 28
+; sw_ident: 0.600
+; sw_sim: 1.000
+; sw_overlap: 5
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 6
+; al_display_start: 1
+-----------------------------SPTSPSYSP
+>NCP1|S46735|NADPH-ferrihemoprotein ..
+; sq_len: 691
+; sq_type: p
+; al_start: 529
+; al_stop: 533
+; al_display_start: 499
+LPVHYDLNGPRKLFANYKLPVHVRRSNFRLPSNPSTPVIMIGPGTGVAPF
+RGFIRERVAFLESQKKGGNNVSLGKHILFYGSRNTDDFLYQDEWPEYAKK
+LDGSFEMVVAHSRLPNTKKV
+>>YFR006W|S56261|probable
+; fa_frame: f
+; fa_initn:  27
+; fa_init1:  27
+; fa_opt:  27
+; fa_z-score: 55.6
+; fa_bits: 14.1
+; fa_expect:     23
+; sw_score: 27
+; sw_ident: 0.333
+; sw_sim: 1.000
+; sw_overlap: 6
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 7
+; al_display_start: 1
+-----------------------------SPTSPSYSP
+>YFR006W|S56261|probable ..
+; sq_len: 535
+; sq_type: p
+; al_start: 216
+; al_stop: 221
+; al_display_start: 186
+GKKFKELQDFAIFTTDLDNVHDENIARSLIPSDPNFFYAMDETRAIKDWY
+EIESIRKACQISDKSHLAVMSALPIELNELQIQAEFEYHATRQGGRSLGY
+DPICCSGPACGTLHYVKNSE
+>>RVS167|6320596|ref|NP_010676.1|theBARadaptorproteinsencodedbyRVS167andRVS161formacomplexthatregulatesactin,endocytosis,andviabilityfollowingstarvationorosmoticstress
+; fa_frame: f
+; fa_initn:  26
+; fa_init1:  26
+; fa_opt:  26
+; fa_z-score: 54.2
+; fa_bits: 13.7
+; fa_expect:     27
+; sw_score: 26
+; sw_ident: 0.571
+; sw_sim: 0.714
+; sw_overlap: 7
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 7
+; al_display_start: 1
+------------------------------SPTSPSYSP
+>RVS167|6320596|ref|NP_010676.1|theBARadaptorproteinsencodedbyRVS167andRVS161formacomplexthatregulatesactin,endocytosis,andviabilityfollowingstarvationorosmoticstress ..
+; sq_len: 482
+; sq_type: p
+; al_start: 321
+; al_stop: 327
+; al_display_start: 291
+YGVATAEGSPVSGASSGVGYGAGYDPATATSPTPTGYGYGAAAPSYAAQP
+AAQYGTAAAVGTAAAVGTAAGAAAGAVPGTYPQYAAAQSPPLTGLGFQQS
+PQQQQGPPPAYSNPLTSPVA
+>>PDR12|6325199|ref|NP_015267.1|similartoPdr5p
+; fa_frame: f
+; fa_initn:  30
+; fa_init1:  30
+; fa_opt:  30
+; fa_z-score: 53.7
+; fa_bits: 15.2
+; fa_expect:     28
+; sw_score: 30
+; sw_ident: 0.500
+; sw_sim: 1.000
+; sw_overlap: 6
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 7
+; al_display_start: 1
+-----------------------------SPTSPSYSP
+>PDR12|6325199|ref|NP_015267.1|similartoPdr5p ..
+; sq_len: 1511
+; sq_type: p
+; al_start: 717
+; al_stop: 722
+; al_display_start: 687
+LHFINPLTYAFESLVSTEFHHREMLCSALVPSGPGYEGISIANQVCDAAG
+AVKGNLYVSGDSYILHQYHFAYKHAWRNWGVNIVWTFGYIVFNVILSEYL
+KPVEGGGDLLLYKRGHMPEL
+>>PMA1|PXBY1P|H+-exporting
+; fa_frame: f
+; fa_initn:  28
+; fa_init1:  28
+; fa_opt:  28
+; fa_z-score: 53.3
+; fa_bits: 14.5
+; fa_expect:     29
+; sw_score: 28
+; sw_ident: 0.800
+; sw_sim: 1.000
+; sw_overlap: 5
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 3
+; al_stop: 7
+; al_display_start: 1
+----------------------------SPTSPSYSP
+>PMA1|PXBY1P|H+-exporting ..
+; sq_len: 918
+; sq_type: p
+; al_start: 82
+; al_stop: 86
+; al_display_start: 52
+SNHGVDDEDSDNDGPVAAGEARPVPEEYLQTDPSYGLTSDEVLKRRKKYG
+LNQMADEKESLVVKFVMFFVGPIQFVMEAAAILAAGLSDWVDFGVICGLL
+MLNAGVGFVQEFQAGSIVDE
+>>TNA1|6321698|ref|NP_011776.1|TransporterofNicotinicAcid
+; fa_frame: f
+; fa_initn:  26
+; fa_init1:  26
+; fa_opt:  26
+; fa_z-score: 53.3
+; fa_bits: 13.7
+; fa_expect:     29
+; sw_score: 26
+; sw_ident: 0.600
+; sw_sim: 0.800
+; sw_overlap: 5
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 5
+; al_display_start: 1
+------------------------------SPTSPSYSP
+>TNA1|6321698|ref|NP_011776.1|TransporterofNicotinicAcid ..
+; sq_len: 534
+; sq_type: p
+; al_start: 75
+; al_stop: 79
+; al_display_start: 45
+SLHNRSHDKKSELATEREIMATTTDDDGIPSPSHPMEKRVLRKMDIYLIP
+LMGMLYFLSNLDKSNIGNAEVAGLSKDIHLVGTQYNTCVTVFFATYVLFD
+PIGTNLLKIMGPPLMMSICL
+>>CUE5|6324615|ref|NP_014685.1|ContainsoneCUEdomainwhichistheubiquitin-bindingdomain
+; fa_frame: f
+; fa_initn:  25
+; fa_init1:  25
+; fa_opt:  25
+; fa_z-score: 53.2
+; fa_bits: 13.3
+; fa_expect:     29
+; sw_score: 25
+; sw_ident: 0.750
+; sw_sim: 1.000
+; sw_overlap: 4
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 5
+; al_display_start: 1
+-----------------------------SPTSPSYSP
+>CUE5|6324615|ref|NP_014685.1|ContainsoneCUEdomainwhichistheubiquitin-bindingdomain ..
+; sq_len: 411
+; sq_type: p
+; al_start: 150
+; al_stop: 153
+; al_display_start: 120
+VIIASQGVLSPAFNALLFLSDPESGKDIELPTQPVRKNPEAPARRRQTQL
+EQDELLARQLDEQFNSSHSRRRNRDRATRSMHEQRRRRHNPNEREQHHED
+SEEEDSWSQFVEKDLPELTD
+>>YGR089W|6321526|ref|NP_011603.1|putativepartnerofRpb8p
+; fa_frame: f
+; fa_initn:  28
+; fa_init1:  28
+; fa_opt:  28
+; fa_z-score: 53.2
+; fa_bits: 14.5
+; fa_expect:     30
+; sw_score: 28
+; sw_ident: 0.500
+; sw_sim: 0.875
+; sw_overlap: 8
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 8
+; al_display_start: 1
+------------------------------SPTSPSYSP
+>YGR089W|6321526|ref|NP_011603.1|putativepartnerofRpb8p ..
+; sq_len: 936
+; sq_type: p
+; al_start: 402
+; al_stop: 409
+; al_display_start: 372
+VKEYKSYQPSVISAEGSNSQAVTTTTSTTTSPTTFNFSGDNTSLSNEISL
+SDSSNGNSKKDSDFFSPSNDKYTNQLFELNVDFGNMFSSSKLSSDISVTS
+NLENFIRLLFRRKNQHLIAP
+>>BSD2|6319767|ref|NP_009849.1|metalhomeostasisprotein;putativemembraneprotein
+; fa_frame: f
+; fa_initn:  24
+; fa_init1:  24
+; fa_opt:  24
+; fa_z-score: 53.0
+; fa_bits: 12.9
+; fa_expect:     30
+; sw_score: 24
+; sw_ident: 0.750
+; sw_sim: 1.000
+; sw_overlap: 4
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 4
+; al_stop: 7
+; al_display_start: 1
+---------------------------SPTSPSYSP
+>BSD2|6319767|ref|NP_009849.1|metalhomeostasisprotein;putativemembraneprotein ..
+; sq_len: 321
+; sq_type: p
+; al_start: 148
+; al_stop: 151
+; al_display_start: 118
+NLSAKPDTTETEGNNEQDIPPTYDEAAADMAPSYYGMDLNNSDIYYDEIC
+IEGLPVGNIANLLWNIIVSTSFQFIGFLITYILHTSHAAKQGSRFGLGLT
+FIGYGYSMIPNDVTSKVGKN
+>>DDI1|6320991|ref|NP_011070.1|DNADamageInducible;bindstoT-andV-snarecomplexes
+; fa_frame: f
+; fa_initn:  25
+; fa_init1:  25
+; fa_opt:  25
+; fa_z-score: 52.9
+; fa_bits: 13.3
+; fa_expect:     31
+; sw_score: 25
+; sw_ident: 0.375
+; sw_sim: 0.625
+; sw_overlap: 8
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 9
+; al_display_start: 1
+-----------------------------SPTSPSYSP
+>DDI1|6320991|ref|NP_011070.1|DNADamageInducible;bindstoT-andV-snarecomplexes ..
+; sq_len: 428
+; sq_type: p
+; al_start: 355
+; al_stop: 362
+; al_display_start: 325
+KSFQEGLPAPTSVTTSSDKPLTPTKTSSTLPPQPGAVPALAPRTGMGPTP
+TGRSTAGATTATGRTFPEQTIKQLMDLGFPRDAVVKALKQTNGNAEFAAS
+LLFQ
+>>YMR295C|6323953|ref|NP_014024.1|HypotheticalORF
+; fa_frame: f
+; fa_initn:  22
+; fa_init1:  22
+; fa_opt:  22
+; fa_z-score: 52.6
+; fa_bits: 12.1
+; fa_expect:     32
+; sw_score: 22
+; sw_ident: 0.500
+; sw_sim: 1.000
+; sw_overlap: 4
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 4
+; al_stop: 7
+; al_display_start: 1
+---------------------------SPTSPSYSP
+>YMR295C|6323953|ref|NP_014024.1|HypotheticalORF ..
+; sq_len: 197
+; sq_type: p
+; al_start: 128
+; al_stop: 131
+; al_display_start: 98
+TRARDERPLDTIRSFEYAVSGDPVWAQQLETPTYGFRVRPDFPVFGAAVT
+YDANGMPQQVGGASSQMYGEQAVYQPQQHVQTEEKQKKKKKGLFGRMKKK
+>>RPS4B|6321997|ref|NP_012073.1|HomologytoratS4andhumanS4
+; fa_frame: f
+; fa_initn:  23
+; fa_init1:  23
+; fa_opt:  23
+; fa_z-score: 52.5
+; fa_bits: 12.5
+; fa_expect:     32
+; sw_score: 23
+; sw_ident: 0.600
+; sw_sim: 0.800
+; sw_overlap: 5
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 5
+; al_stop: 9
+; al_display_start: 1
+--------------------------SPTSPSYSP
+>RPS4B|6321997|ref|NP_012073.1|HomologytoratS4andhumanS4 ..
+; sq_len: 261
+; sq_type: p
+; al_start: 31
+; al_stop: 35
+; al_display_start: 1
+MARGPKKHLKRLAAPHHWLLDKLSGCYAPRPSAGPHKLRESLPLIVFLRN
+RLKYALNGREVKAILMQRHVKVDGKVRTDTTYPAGFMDVITLDATNENFR
+LVYDVKGRFAVHRITDEEAS
+>>SNC1|6319289|ref|NP_009372.1|Involvedinmediatingtargetingandtransportofsecretoryproteins;formsacomplexwithSnc2pandSec9p
+; fa_frame: f
+; fa_initn:  20
+; fa_init1:  20
+; fa_opt:  20
+; fa_z-score: 52.4
+; fa_bits: 11.3
+; fa_expect:     32
+; sw_score: 20
+; sw_ident: 0.400
+; sw_sim: 0.800
+; sw_overlap: 5
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 5
+; al_display_start: 1
+----SPTSPSYSP
+>SNC1|6319289|ref|NP_009372.1|Involvedinmediatingtargetingandtransportofsecretoryproteins;formsacomplexwithSnc2pandSec9p ..
+; sq_len: 117
+; sq_type: p
+; al_start: 5
+; al_stop: 9
+; al_display_start: 1
+MSSSTPFDPYALSEHDEERPQNVQSKSRTAELQAEIDDTVGIMRDNINKV
+AERGERLTSI
+>>ENA5|S67852|Ca2+-transporting
+; fa_frame: f
+; fa_initn:  28
+; fa_init1:  28
+; fa_opt:  28
+; fa_z-score: 51.9
+; fa_bits: 14.4
+; fa_expect:     34
+; sw_score: 28
+; sw_ident: 0.600
+; sw_sim: 0.800
+; sw_overlap: 5
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 5
+; al_stop: 9
+; al_display_start: 1
+--------------------------SPTSPSYSP
+>ENA5|S67852|Ca2+-transporting ..
+; sq_len: 1091
+; sq_type: p
+; al_start: 412
+; al_stop: 416
+; al_display_start: 382
+RQIWIPRFGTITISNSDDPFNPNEGNVSLIPRFSPYEYSHNEDGDVGILQ
+NFKDRLYEKDLPEDIDMDLFQKWLETATLANIATVFKDDATDCWKAHGDP
+TEIAIQVFATKMDLPHNALT
+>>SSA2|6323004|ref|NP_013076.1|memberof70kDaheatshockproteinfamily
+; fa_frame: f
+; fa_initn:  26
+; fa_init1:  26
+; fa_opt:  26
+; fa_z-score: 51.8
+; fa_bits: 13.7
+; fa_expect:     34
+; sw_score: 26
+; sw_ident: 0.600
+; sw_sim: 1.000
+; sw_overlap: 5
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 3
+; al_stop: 7
+; al_display_start: 1
+----------------------------SPTSPSYSP
+>SSA2|6323004|ref|NP_013076.1|memberof70kDaheatshockproteinfamily ..
+; sq_len: 639
+; sq_type: p
+; al_start: 35
+; al_stop: 39
+; al_display_start: 5
+VGIDLGTTYSCVAHFSNDRVDIIANDQGNRTTPSFVGFTDTERLIGDAAK
+NQAAMNPANTVFDAKRLIGRNFNDPEVQGDMKHFPFKLIDVDGKPQIQVE
+FKGETKNFTPEQISSMVLGK
+>>SSA1|6319314|ref|NP_009396.1|Stress-seventysubfamilyA
+; fa_frame: f
+; fa_initn:  26
+; fa_init1:  26
+; fa_opt:  26
+; fa_z-score: 51.8
+; fa_bits: 13.7
+; fa_expect:     34
+; sw_score: 26
+; sw_ident: 0.600
+; sw_sim: 1.000
+; sw_overlap: 5
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 3
+; al_stop: 7
+; al_display_start: 1
+----------------------------SPTSPSYSP
+>SSA1|6319314|ref|NP_009396.1|Stress-seventysubfamilyA ..
+; sq_len: 642
+; sq_type: p
+; al_start: 35
+; al_stop: 39
+; al_display_start: 5
+VGIDLGTTYSCVAHFANDRVDIIANDQGNRTTPSFVAFTDTERLIGDAAK
+NQAAMNPSNTVFDAKRLIGRNFNDPEVQADMKHFPFKLIDVDGKPQIQVE
+FKGETKNFTPEQISSMVLGK
+>>AKL1|6319533|ref|NP_009615.1|Ark-familykinase-likeprotein
+; fa_frame: f
+; fa_initn:  28
+; fa_init1:  28
+; fa_opt:  28
+; fa_z-score: 51.7
+; fa_bits: 14.4
+; fa_expect:     34
+; sw_score: 28
+; sw_ident: 0.625
+; sw_sim: 0.875
+; sw_overlap: 8
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 3
+; al_stop: 9
+; al_display_start: 1
+----------------------------SPTSPSY-SP
+>AKL1|6319533|ref|NP_009615.1|Ark-familykinase-likeprotein ..
+; sq_len: 1108
+; sq_type: p
+; al_start: 227
+; al_stop: 234
+; al_display_start: 197
+LADFGSTSTCFPIVTTHQDIALLTQNIYVHTTPQYRSPEMIDLYRCLPIN
+EKSDIWALGVFLYKLLFFTTPFEMTGQFAILHSKYEFPVNKYSSKLINLI
+IIMLAENPNLRPNIYQVLYH
+>>YKR041W|6322893|ref|NP_012967.1|HypotheticalORF
+; fa_frame: f
+; fa_initn:  22
+; fa_init1:  22
+; fa_opt:  22
+; fa_z-score: 50.5
+; fa_bits: 12.1
+; fa_expect:     39
+; sw_score: 22
+; sw_ident: 0.400
+; sw_sim: 0.800
+; sw_overlap: 5
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 6
+; al_display_start: 1
+-----------------------------SPTSPSYSP
+>YKR041W|6322893|ref|NP_012967.1|HypotheticalORF ..
+; sq_len: 250
+; sq_type: p
+; al_start: 175
+; al_stop: 179
+; al_display_start: 145
+SSKVEAEERYARAVRQYWRMTKDEPATLPLPGTPTLAAVSLDMIDDKSVE
+QFYTMSSALMDANRLDLIRRDRIRWHPDKHRYHKSKVTKLFQAINGLWEQ
+EKTEKR
+>>JEN1|6322632|ref|NP_012705.1|Repressedbyglucose,inducedbylacticacid
+; fa_frame: f
+; fa_initn:  25
+; fa_init1:  25
+; fa_opt:  25
+; fa_z-score: 49.8
+; fa_bits: 13.2
+; fa_expect:     42
+; sw_score: 25
+; sw_ident: 0.375
+; sw_sim: 0.750
+; sw_overlap: 8
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 8
+; al_display_start: 1
+------------------------------SPTSPSYSP
+>JEN1|6322632|ref|NP_012705.1|Repressedbyglucose,inducedbylacticacid ..
+; sq_len: 616
+; sq_type: p
+; al_start: 59
+; al_stop: 66
+; al_display_start: 29
+FAEPPLVDGEGNPINYEPEVYNPDHEKLYHNPSLPAQSIQDTRDDELLER
+VYSQDQGVEYEEDEEDKPNLSAASIKSYALTRFTSLLHIHEFSWENVNPI
+PELRKMTWQNWNYFFMGYFA
+>>gi|6321792|ref|NP_011868.1|
+; fa_frame: f
+; fa_initn:  24
+; fa_init1:  24
+; fa_opt:  24
+; fa_z-score: 49.8
+; fa_bits: 12.8
+; fa_expect:     42
+; sw_score: 24
+; sw_ident: 0.750
+; sw_sim: 1.000
+; sw_overlap: 4
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 4
+; al_stop: 7
+; al_display_start: 1
+---------------------------SPTSPSYSP
+>gi|6321792|ref|NP_011868.1| ..
+; sq_len: 472
+; sq_type: p
+; al_start: 283
+; al_stop: 286
+; al_display_start: 253
+KGIKQCFARSNEFQLEGSAAYYFDNIEKFASPNYVCTDEDILKGRIKTTG
+ITETEFNIGSSKFKVLDAGGQRSERKKWIHCFEGITAVLFVLAMSEYDQM
+LFEDERVNRMHESIMLFDTL
+>>YHR097C|6321889|ref|NP_011965.1|HypotheticalORF
+; fa_frame: f
+; fa_initn:  23
+; fa_init1:  23
+; fa_opt:  23
+; fa_z-score: 49.6
+; fa_bits: 12.4
+; fa_expect:     42
+; sw_score: 23
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 3
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 5
+; al_stop: 7
+; al_display_start: 1
+--------------------------SPTSPSYSP
+>YHR097C|6321889|ref|NP_011965.1|HypotheticalORF ..
+; sq_len: 366
+; sq_type: p
+; al_start: 68
+; al_stop: 70
+; al_display_start: 38
+PRNYNNPFLNEDDTRRAHNSSVSNSRQERLPSYEEAAGTPKQQAPYPKEK
+KRSSGSNSHQHNHHHHRRTSHGHRDKDKQKSKSRTKVKPPKNVDTIDKMD
+VTGLFGGSFHHDGPFDACTP
+>>GLY1|6320789|ref|NP_010868.1|L-threoninealdolasethatcatalyzescleavageofL-allo-threonineandL-threoninetoglycine
+; fa_frame: f
+; fa_initn:  23
+; fa_init1:  23
+; fa_opt:  23
+; fa_z-score: 49.1
+; fa_bits: 12.4
+; fa_expect:     44
+; sw_score: 23
+; sw_ident: 0.600
+; sw_sim: 0.800
+; sw_overlap: 5
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 6
+; al_display_start: 1
+-----------------------------SPTSPSYSP
+>GLY1|6320789|ref|NP_010868.1|L-threoninealdolasethatcatalyzescleavageofL-allo-threonineandL-threoninetoglycine ..
+; sq_len: 387
+; sq_type: p
+; al_start: 116
+; al_stop: 120
+; al_display_start: 86
+PPYSILCDYRAHVYTHEAAGLAILSQAMVVPVVPSNGDYLTLEDIKSHYV
+PDDGDIHGAPTRLISLENTLHGIVYPLEELVRIKAWCMENGLKLHCDGAR
+IWNAAAQSGVPLKQYGEIFD
+>>YLR413W|6323445|ref|NP_013517.1|HypotheticalORF
+; fa_frame: f
+; fa_initn:  25
+; fa_init1:  25
+; fa_opt:  25
+; fa_z-score: 49.0
+; fa_bits: 13.2
+; fa_expect:     45
+; sw_score: 25
+; sw_ident: 0.571
+; sw_sim: 0.714
+; sw_overlap: 7
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 7
+; al_display_start: 1
+------------------------------SPTSPSYSP
+>YLR413W|6323445|ref|NP_013517.1|HypotheticalORF ..
+; sq_len: 675
+; sq_type: p
+; al_start: 606
+; al_stop: 612
+; al_display_start: 576
+IFSGLGSTIFSVILNMMKSGSKKDNYDVIISGSSPFYGLMWSGFVFAVLV
+FLCIAYCWWSSRKGAAIVEAEKAVQESDSTTSRIIEEHESPIDAEKNFAR
+>>SNA3|6322310|ref|NP_012384.1|HomologytoPMP3/SNA1(SensitivitytoNa+)
+; fa_frame: f
+; fa_initn:  19
+; fa_init1:  19
+; fa_opt:  19
+; fa_z-score: 49.0
+; fa_bits: 10.9
+; fa_expect:     45
+; sw_score: 19
+; sw_ident: 0.667
+; sw_sim: 1.000
+; sw_overlap: 3
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 5
+; al_stop: 7
+; al_display_start: 1
+--------------------------SPTSPSYSP
+>SNA3|6322310|ref|NP_012384.1|HomologytoPMP3/SNA1(SensitivitytoNa+) ..
+; sq_len: 133
+; sq_type: p
+; al_start: 107
+; al_stop: 109
+; al_display_start: 77
+SYDLSRRHATAPAVDRDLEAHPAEESQAQPPAYDEDDEAGADVPLMDNKQ
+QLSSGRT
+>>UIP3|6319331|ref|NP_009414.1|Ulp1InteractingProtein3
+; fa_frame: f
+; fa_initn:  21
+; fa_init1:  21
+; fa_opt:  21
+; fa_z-score: 48.8
+; fa_bits: 11.7
+; fa_expect:     46
+; sw_score: 21
+; sw_ident: 0.750
+; sw_sim: 1.000
+; sw_overlap: 4
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 4
+; al_display_start: 1
+------------------------------SPTSPSYSP
+>UIP3|6319331|ref|NP_009414.1|Ulp1InteractingProtein3 ..
+; sq_len: 235
+; sq_type: p
+; al_start: 173
+; al_stop: 176
+; al_display_start: 143
+HTPYYFFCEHRCHKFFKSLIKQTRSNAHLSSPTNGAENTQSNTPAKEVSN
+EMVKPYIFSSDPVLEAYLIKAAEIHKEAEFEYWRKQYPEVDLP
+>>EXO84|6319578|ref|NP_009660.1|exocystcomplexcomponent;homologinratbraincalledrExo84.pre-mRNAsplicingfactor
+; fa_frame: f
+; fa_initn:  25
+; fa_init1:  25
+; fa_opt:  25
+; fa_z-score: 48.1
+; fa_bits: 13.2
+; fa_expect:     49
+; sw_score: 27
+; sw_ident: 0.500
+; sw_sim: 0.833
+; sw_overlap: 6
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 6
+; al_display_start: 1
+---------------------------SPTSPSYSP
+>EXO84|6319578|ref|NP_009660.1|exocystcomplexcomponent;homologinratbraincalledrExo84.pre-mRNAsplicingfactor ..
+; sq_len: 753
+; sq_type: p
+; al_start: 28
+; al_stop: 33
+; al_display_start: 1
+MVEFSLKKARNNWKHVKKSASSPAKQKTPPSPAKPKQKTKKNPYSDLKDP
+ATSYTLPTINARERSRVATSMQRRLSIHNTNYAPPTLDYSMPLPDMPNMI
+VPNDNVDSSHNNSSFTTENE
+>>YHL010C|6321777|ref|NP_011853.1|HypotheticalORF
+; fa_frame: f
+; fa_initn:  24
+; fa_init1:  24
+; fa_opt:  24
+; fa_z-score: 48.0
+; fa_bits: 12.8
+; fa_expect:     49
+; sw_score: 24
+; sw_ident: 0.750
+; sw_sim: 0.750
+; sw_overlap: 4
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 5
+; al_display_start: 1
+-----------------------------SPTSPSYSP
+>YHL010C|6321777|ref|NP_011853.1|HypotheticalORF ..
+; sq_len: 585
+; sq_type: p
+; al_start: 238
+; al_stop: 241
+; al_display_start: 208
+QRPAANEDFPYLLTDPFTVKKKKELVKVELPTCPVCLERMDSETTGLVTI
+PCQHTFHCQCLNKWKNSRCPVCRHSSLRLSRESLLKQAGDSAHCATCGST
+DNLWICLICGNVGCGRYNSK
+>>YET1|S37887|hypothetical
+; fa_frame: f
+; fa_initn:  20
+; fa_init1:  20
+; fa_opt:  20
+; fa_z-score: 47.6
+; fa_bits: 11.2
+; fa_expect:     51
+; sw_score: 20
+; sw_ident: 0.600
+; sw_sim: 0.800
+; sw_overlap: 5
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 6
+; al_display_start: 1
+-----------------------------SPTSPSYSP
+>YET1|S37887|hypothetical ..
+; sq_len: 206
+; sq_type: p
+; al_start: 146
+; al_stop: 150
+; al_display_start: 116
+ICIPTVMSIVKRLVKYQGLINEQEKQKLNKPSSNSKKDSNEADSTKLQEE
+LRKKQISLEGLQKQVKNLEKYFDEKNQPGNVAAAEASKKGN
+>>YPL207W|6325049|ref|NP_015117.1|HypotheticalORF
+; fa_frame: f
+; fa_initn:  25
+; fa_init1:  25
+; fa_opt:  25
+; fa_z-score: 47.5
+; fa_bits: 13.2
+; fa_expect:     51
+; sw_score: 25
+; sw_ident: 0.750
+; sw_sim: 1.000
+; sw_overlap: 4
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 4
+; al_stop: 7
+; al_display_start: 1
+---------------------------SPTSPSYSP
+>YPL207W|6325049|ref|NP_015117.1|HypotheticalORF ..
+; sq_len: 810
+; sq_type: p
+; al_start: 421
+; al_stop: 424
+; al_display_start: 391
+ELGDVEDIGGKGSNGKFSGADEIKQMVAKDSPTYKNLTKQGYKVIGSHSG
+VKICRWTKNELRGKGSCYKKSLFNIASSRCMELTPSLACSSKCVFCWRHG
+TNPVSKNWRWEVDEPEYILE
+>>TAT1|S45932|tyrosine
+; fa_frame: f
+; fa_initn:  24
+; fa_init1:  24
+; fa_opt:  24
+; fa_z-score: 47.5
+; fa_bits: 12.8
+; fa_expect:     51
+; sw_score: 24
+; sw_ident: 0.500
+; sw_sim: 0.875
+; sw_overlap: 8
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 8
+; al_display_start: 1
+------------SPTSPSYSP
+>TAT1|S45932|tyrosine ..
+; sq_len: 619
+; sq_type: p
+; al_start: 13
+; al_stop: 20
+; al_display_start: 1
+MDDSVSFIAKEASPAQYSHSLHERTHSEKQKRDFTITEKQDEVSGQTAEP
+RRTDSKSILQ
+>>FKS1|S50235|1,3-beta-glucan
+; fa_frame: f
+; fa_initn:  28
+; fa_init1:  28
+; fa_opt:  28
+; fa_z-score: 47.3
+; fa_bits: 14.4
+; fa_expect:     52
+; sw_score: 28
+; sw_ident: 0.500
+; sw_sim: 0.833
+; sw_overlap: 6
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 7
+; al_display_start: 1
+-----------------------------SPTSPSYSP
+>FKS1|S50235|1,3-beta-glucan ..
+; sq_len: 1876
+; sq_type: p
+; al_start: 99
+; al_stop: 104
+; al_display_start: 69
+DYTNGEYYGQPPNMAAQDGENFSDFSSYGPPGTPGYDSYGGQYTASQMSY
+GEPNSSGTSTPIYGNYDPNAIAMALPNEPYPAWTADSQSPVSIEQIEDIF
+IDLTNRLGFQRDSMRNMFDH
+>>ERG1|6321614|ref|NP_011691.1|squaleneepoxidase;anessentialenzymeintheergosterol-biosynthesispathway;catalyzestheepoxidationofsqualeneto2,3-oxidosqualeneandisthespecifictargetoftheantifungaldrugterbinafine
+; fa_frame: f
+; fa_initn:  23
+; fa_init1:  23
+; fa_opt:  23
+; fa_z-score: 47.1
+; fa_bits: 12.4
+; fa_expect:     53
+; sw_score: 23
+; sw_ident: 0.500
+; sw_sim: 0.667
+; sw_overlap: 6
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 6
+; al_display_start: 1
+------------------------------SPTSPSYSP
+>ERG1|6321614|ref|NP_011691.1|squaleneepoxidase;anessentialenzymeintheergosterol-biosynthesispathway;catalyzestheepoxidationofsqualeneto2,3-oxidosqualeneandisthespecifictargetoftheantifungaldrugterbin ..
+; sq_len: 496
+; sq_type: p
+; al_start: 276
+; al_stop: 281
+; al_display_start: 246
+HGHVILGSDHMPILVYQISPEETRILCAYNSPKVPADIKSWMIKDVQPFI
+PKSLRPSFDEAVSQGKFRAMPNSYLPARQNDVTGMCVIGDALNMRHPLTG
+GGMTVGLHDVVLLIKKIGDL
+>>SAM2|6320710|ref|NP_010790.1|methioninebiosynthesisregulation
+; fa_frame: f
+; fa_initn:  22
+; fa_init1:  22
+; fa_opt:  22
+; fa_z-score: 46.9
+; fa_bits: 12.0
+; fa_expect:     54
+; sw_score: 22
+; sw_ident: 0.600
+; sw_sim: 0.600
+; sw_overlap: 5
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 5
+; al_stop: 9
+; al_display_start: 1
+--------------------------SPTSPSYSP
+>SAM2|6320710|ref|NP_010790.1|methioninebiosynthesisregulation ..
+; sq_len: 384
+; sq_type: p
+; al_start: 358
+; al_stop: 362
+; al_display_start: 328
+TKSDDEIIEIIKKNFDLRPGVLVKELDLARPIYLPTASYGHFTNQEYSWE
+KPKKLEF
+>>CHS3|6319497|ref|NP_009579.1|requiredforchitinsynthesis.Enzymeresponsibleforthehyperaccumulationofchitininresponsetocellwallstress
+; fa_frame: f
+; fa_initn:  26
+; fa_init1:  26
+; fa_opt:  26
+; fa_z-score: 46.7
+; fa_bits: 13.6
+; fa_expect:     55
+; sw_score: 26
+; sw_ident: 0.375
+; sw_sim: 0.750
+; sw_overlap: 8
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 9
+; al_display_start: 1
+-----------------------------SPTSPSYSP
+>CHS3|6319497|ref|NP_009579.1|requiredforchitinsynthesis.Enzymeresponsibleforthehyperaccumulationofchitininresponsetocellwallstress ..
+; sq_len: 1165
+; sq_type: p
+; al_start: 74
+; al_stop: 81
+; al_display_start: 44
+PERSRLNNPDNPHFYYAQKTQEQMNHLDVLPSSTGVNPNATRRSGSLRSK
+GSVRSKFSGRETDSYLLQDMNTTDKKASVKISDEGVAEDEFDKDGDVDNF
+EESSTQPINKSIKPLRKETN
+>>YAR028W|S53480|probable
+; fa_frame: f
+; fa_initn:  20
+; fa_init1:  20
+; fa_opt:  20
+; fa_z-score: 46.5
+; fa_bits: 11.2
+; fa_expect:     56
+; sw_score: 20
+; sw_ident: 0.667
+; sw_sim: 1.000
+; sw_overlap: 3
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 7
+; al_stop: 9
+; al_display_start: 1
+------------------------SPTSPSYSP
+>YAR028W|S53480|probable ..
+; sq_len: 234
+; sq_type: p
+; al_start: 142
+; al_stop: 144
+; al_display_start: 112
+VEVIARKPAGKEWGTVAYNMNQYLFMKRLWYTPYYFYSGKKCHEFFTTLI
+KEVNSGSHSDSSSNSAEDTQSPVSAGKTSNGLNNFYSIRSDPILMAYVLK
+ATQIEKEAQSEYWRKQYPDA
+>>PHO87|10383798|ref|NP_009966.2|MaycollaboratewithPho86pandPho84pininorganicphosphateuptake;proteincontains12predictedtransmembranedomains
+; fa_frame: f
+; fa_initn:  25
+; fa_init1:  25
+; fa_opt:  25
+; fa_z-score: 46.4
+; fa_bits: 13.2
+; fa_expect:     56
+; sw_score: 25
+; sw_ident: 0.667
+; sw_sim: 0.667
+; sw_overlap: 6
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 4
+; al_stop: 9
+; al_display_start: 1
+---------------------------SPTSPSYSP
+>PHO87|10383798|ref|NP_009966.2|MaycollaboratewithPho86pandPho84pininorganicphosphateuptake;proteincontains12predictedtransmembranedomains ..
+; sq_len: 923
+; sq_type: p
+; al_start: 644
+; al_stop: 649
+; al_display_start: 614
+PLLDPLDYTSPFAKALVMGVALSADIGGMASPISSPQNIISMQYLKPYGI
+GWGQFFAVALPTGILSMLCSWALMILTFKIGKTKLEKFKPIRTRFTIKQY
+FIIIVTIATILLWCVESQIE
+>>STE6|6322640|ref|NP_012713.1|ABCtransporter,glycoprotein,componentofa-factorsecretorypathway
+; fa_frame: f
+; fa_initn:  26
+; fa_init1:  26
+; fa_opt:  26
+; fa_z-score: 45.9
+; fa_bits: 13.6
+; fa_expect:     58
+; sw_score: 26
+; sw_ident: 0.600
+; sw_sim: 0.800
+; sw_overlap: 5
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 6
+; al_display_start: 1
+-----------------------------SPTSPSYSP
+>STE6|6322640|ref|NP_012713.1|ABCtransporter,glycoprotein,componentofa-factorsecretorypathway ..
+; sq_len: 1290
+; sq_type: p
+; al_start: 367
+; al_stop: 371
+; al_display_start: 337
+RNPLNKTVAHQFPLDYATSDLTFANVSFSYPSRPSEAVLKNVSLNFSAGQ
+FTFIVGKSGSGKSTLSNLLLRFYDGYNGSISINGHNIQTIDQKLLIENIT
+VVEQRCTLFNDTLRKNILLG
+>>YKL187C|6322661|ref|NP_012734.1|HypotheticalORF
+; fa_frame: f
+; fa_initn:  24
+; fa_init1:  24
+; fa_opt:  24
+; fa_z-score: 45.9
+; fa_bits: 12.8
+; fa_expect:     58
+; sw_score: 24
+; sw_ident: 0.333
+; sw_sim: 0.833
+; sw_overlap: 6
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 4
+; al_stop: 9
+; al_display_start: 1
+---------------------------SPTSPSYSP
+>YKL187C|6322661|ref|NP_012734.1|HypotheticalORF ..
+; sq_len: 750
+; sq_type: p
+; al_start: 100
+; al_stop: 105
+; al_display_start: 70
+GPILTILGSALTAPNSSLDDIFGAMKNIADTPALTPLLTLLSNADNTTVT
+IESLTELAPLAISGNPASSTRQLTEINGLLKYSDNATETLDGLSRLVSAS
+LSSASSNSSSDSTTLVLDLL
+>>GAP1|6322892|ref|NP_012965.1|generalaminoacidpermease
+; fa_frame: f
+; fa_initn:  23
+; fa_init1:  23
+; fa_opt:  23
+; fa_z-score: 45.4
+; fa_bits: 12.4
+; fa_expect:     60
+; sw_score: 23
+; sw_ident: 0.600
+; sw_sim: 1.000
+; sw_overlap: 5
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 3
+; al_stop: 7
+; al_display_start: 1
+----------------------------SPTSPSYSP
+>GAP1|6322892|ref|NP_012965.1|generalaminoacidpermease ..
+; sq_len: 602
+; sq_type: p
+; al_start: 199
+; al_stop: 203
+; al_display_start: 169
+YANNFNYMLQWLVVLPLEIVSASITVNFWGTDPKYRDGFVALFWLAIVII
+NMFGVKGYGEAEFVFSFIKVITVVGFIILGIILNCGGGPTGGYIGGKYWH
+DPGAFAGDTPGAKFKGVCSV
+>>CIT2|6319850|ref|NP_009931.1|non-mitochondriacitratesynthase
+; fa_frame: f
+; fa_initn:  22
+; fa_init1:  22
+; fa_opt:  22
+; fa_z-score: 45.4
+; fa_bits: 12.0
+; fa_expect:     61
+; sw_score: 22
+; sw_ident: 0.600
+; sw_sim: 0.800
+; sw_overlap: 5
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 3
+; al_stop: 7
+; al_display_start: 1
+----------------------------SPTSPSYSP
+>CIT2|6319850|ref|NP_009931.1|non-mitochondriacitratesynthase ..
+; sq_len: 460
+; sq_type: p
+; al_start: 345
+; al_stop: 349
+; al_display_start: 315
+YSKDTIEKYLWDTLNSGRVIPGYGHAVLRKTDPRYMAQRKFAMDHFPDYE
+LFKLVSSIYEVAPGVLTEHGKTKNPWPNVDAHSGVLLQYYGLKESSFYTV
+LFGVSRAFGILAQLITDRAI
+>>ERG3|6323085|ref|NP_013157.1|C-5steroldesaturase
+; fa_frame: f
+; fa_initn:  21
+; fa_init1:  21
+; fa_opt:  21
+; fa_z-score: 45.1
+; fa_bits: 11.6
+; fa_expect:     62
+; sw_score: 21
+; sw_ident: 0.500
+; sw_sim: 0.667
+; sw_overlap: 6
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 4
+; al_stop: 9
+; al_display_start: 1
+---------------------------SPTSPSYSP
+>ERG3|6323085|ref|NP_013157.1|C-5steroldesaturase ..
+; sq_len: 365
+; sq_type: p
+; al_start: 227
+; al_stop: 232
+; al_display_start: 197
+YLAHRWLHWPRVYRALHKPHHKWLVCTPFASHSFHPVDGFLQSISYHIYP
+LILPLHKVSYLILFTFVNFWTVMIHDGQYLSNNPAVNGTACHTVHHLYFN
+YNYGQFTTLWDRLGGSYRRP
+>>ARO10|6320588|ref|NP_010668.1|
+; fa_frame: f
+; fa_initn:  23
+; fa_init1:  23
+; fa_opt:  23
+; fa_z-score: 45.0
+; fa_bits: 12.4
+; fa_expect:     62
+; sw_score: 23
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 3
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 7
+; al_stop: 9
+; al_display_start: 1
+------------------------SPTSPSYSP
+>ARO10|6320588|ref|NP_010668.1| ..
+; sq_len: 635
+; sq_type: p
+; al_start: 59
+; al_stop: 61
+; al_display_start: 29
+EYIFKRLLSIDTKSVFGVPGDFNLSLLEYLYSPSVESAGLRWVGTCNELN
+AAYAADGYSRYSNKIGCLITTYGVGELSALNGIAGSFAENVKVLHIVGVA
+KSIDSRSSNFSDRNLHHLVP
+>>HSP104|S61476|endopeptidase
+; fa_frame: f
+; fa_initn:  24
+; fa_init1:  24
+; fa_opt:  24
+; fa_z-score: 44.2
+; fa_bits: 12.8
+; fa_expect:     66
+; sw_score: 26
+; sw_ident: 0.600
+; sw_sim: 1.000
+; sw_overlap: 5
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 4
+; al_stop: 8
+; al_display_start: 1
+---------------------------SPTSPSYSP
+>HSP104|S61476|endopeptidase ..
+; sq_len: 908
+; sq_type: p
+; al_start: 87
+; al_stop: 91
+; al_display_start: 57
+KGRYDYDLFKKVVNRNLVRIPQQQPAPAEITPSYALGKVLQDAAKIQKQQ
+KDSFIAQDHILFALFNDSSIQQIFKEAQVDIEAIKQQALELRGNTRIDSR
+GADTNTPLEYLSKYAIDMTE
+>>ELP3|6325171|ref|NP_015239.1|elongatorprotein;histoneandotherproteinacetyltransferase;hassequencehomologytoknownHATsandNATs
+; fa_frame: f
+; fa_initn:  22
+; fa_init1:  22
+; fa_opt:  22
+; fa_z-score: 43.8
+; fa_bits: 12.0
+; fa_expect:     68
+; sw_score: 22
+; sw_ident: 0.600
+; sw_sim: 0.800
+; sw_overlap: 5
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 3
+; al_stop: 7
+; al_display_start: 1
+----------------------------SPTSPSYSP
+>ELP3|6325171|ref|NP_015239.1|elongatorprotein;histoneandotherproteinacetyltransferase;hassequencehomologytoknownHATsandNATs ..
+; sq_len: 557
+; sq_type: p
+; al_start: 231
+; al_stop: 235
+; al_display_start: 201
+ALSGFNGNDIDEAILYSQQSLTKCVGITIETRPDYCTQTHLDDMLKYGCT
+RLEIGVQSLYEDVARDTNRGHTVRSVCETFAVSKDAGYKVVSHMMPDLPN
+VGMERDIEQFKEYFENPDFR
+>>URA7|6319432|ref|NP_009514.1|CatalyzestheATP-dependenttransferofamidenitrogenfromglutaminetoUTPtoformCTPinlaststepofpyrimidinebiosynthesis,verysimilartoURA8pbutappearstoberesponsibleforthemajorityofCTPsynthesis
+; fa_frame: f
+; fa_initn:  22
+; fa_init1:  22
+; fa_opt:  22
+; fa_z-score: 43.5
+; fa_bits: 12.0
+; fa_expect:     69
+; sw_score: 22
+; sw_ident: 0.500
+; sw_sim: 1.000
+; sw_overlap: 4
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 5
+; al_display_start: 1
+-----------------------------SPTSPSYSP
+>URA7|6319432|ref|NP_009514.1|CatalyzestheATP-dependenttransferofamidenitrogenfromglutaminetoUTPtoformCTPinlaststepofpyrimidinebiosynthesis,verysimilartoURA8pbutappearstoberesponsibleforthemajorityofC ..
+; sq_len: 579
+; sq_type: p
+; al_start: 545
+; al_stop: 548
+; al_display_start: 515
+GKRCEILELKNHPYYIATQYHPEYTSKVLDPSKPFLGLVAASAGILQDVI
+EGKYDLEAGENKFNF
+>>PRE9|SNBYY3|proteasome
+; fa_frame: f
+; fa_initn:  19
+; fa_init1:  19
+; fa_opt:  19
+; fa_z-score: 43.4
+; fa_bits: 10.8
+; fa_expect:     69
+; sw_score: 19
+; sw_ident: 0.667
+; sw_sim: 1.000
+; sw_overlap: 3
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 7
+; al_stop: 9
+; al_display_start: 1
+------SPTSPSYSP
+>PRE9|SNBYY3|proteasome ..
+; sq_len: 258
+; sq_type: p
+; al_start: 13
+; al_stop: 15
+; al_display_start: 1
+MGSRRYDSRTTIFSPEGRLYQVEYALESISHAGTAIGIMASDGIVLAAER
+KVTSTLLEQD
+>>YRO2|6319528|ref|NP_009610.1|HomologtoHSP30heatshockproteinYro1p
+; fa_frame: f
+; fa_initn:  20
+; fa_init1:  20
+; fa_opt:  20
+; fa_z-score: 43.3
+; fa_bits: 11.2
+; fa_expect:     70
+; sw_score: 20
+; sw_ident: 0.750
+; sw_sim: 1.000
+; sw_overlap: 4
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 4
+; al_display_start: 1
+------------------------------SPTSPSYSP
+>YRO2|6319528|ref|NP_009610.1|HomologtoHSP30heatshockproteinYro1p ..
+; sq_len: 344
+; sq_type: p
+; al_start: 290
+; al_stop: 293
+; al_display_start: 260
+ANYLGIERLGLIFDEEPAEHVGPVAEKKMPSPASFKSSDSDSSIKEKLKL
+KKKHKKDKKKAKKAKKAKKAKKAQEEEEDVATDSE
+>>GDH1|6324951|ref|NP_015020.1|NADP-specificglutamatedehydrogenase
+; fa_frame: f
+; fa_initn:  21
+; fa_init1:  21
+; fa_opt:  21
+; fa_z-score: 43.2
+; fa_bits: 11.6
+; fa_expect:     70
+; sw_score: 21
+; sw_ident: 0.500
+; sw_sim: 0.833
+; sw_overlap: 6
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 6
+; al_display_start: 1
+------------------------------SPTSPSYSP
+>GDH1|6324951|ref|NP_015020.1|NADP-specificglutamatedehydrogenase ..
+; sq_len: 454
+; sq_type: p
+; al_start: 357
+; al_stop: 362
+; al_display_start: 327
+LVAQGVKFIAEGSNMGSTPEAIAVFETARSTATGPSEAVWYGPPKAANLG
+GVAVSGLEMAQNSQRITWTSERVDQELKRIMINCFNECIDYAKKYTKDGK
+VLPSLVKGANIASFIKVSDA
+>>URA3|6320814|ref|NP_010893.1|orotidine-5'-phosphatedecarboxylase
+; fa_frame: f
+; fa_initn:  19
+; fa_init1:  19
+; fa_opt:  19
+; fa_z-score: 43.1
+; fa_bits: 10.8
+; fa_expect:     71
+; sw_score: 19
+; sw_ident: 0.750
+; sw_sim: 0.750
+; sw_overlap: 4
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 3
+; al_stop: 6
+; al_display_start: 1
+---------SPTSPSYSP
+>URA3|6320814|ref|NP_010893.1|orotidine-5'-phosphatedecarboxylase ..
+; sq_len: 267
+; sq_type: p
+; al_start: 12
+; al_stop: 15
+; al_display_start: 1
+MSKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKELLELVEA
+LGPKICLLKT
+>>YER067W|6320910|ref|NP_010990.1|HypotheticalORF
+; fa_frame: f
+; fa_initn:  17
+; fa_init1:  17
+; fa_opt:  17
+; fa_z-score: 42.8
+; fa_bits: 10.0
+; fa_expect:     72
+; sw_score: 17
+; sw_ident: 0.500
+; sw_sim: 0.750
+; sw_overlap: 4
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 6
+; al_stop: 9
+; al_display_start: 1
+-------------------------SPTSPSYSP
+>YER067W|6320910|ref|NP_010990.1|HypotheticalORF ..
+; sq_len: 161
+; sq_type: p
+; al_start: 52
+; al_stop: 55
+; al_display_start: 22
+VKVFEDLQGFETFIANETEDDDFDHLHCKLNYYPPFVLHESHEDPEKISD
+AANSHSKKFVRHLHQHIEKHLLKDIKQAVRKPELKFHEKSKEETFDKITW
+HYGEETEYHGRPFKIDVQVV
+>>ADE13|6323391|ref|NP_013463.1|AdenylosuccinateLyase
+; fa_frame: f
+; fa_initn:  21
+; fa_init1:  21
+; fa_opt:  21
+; fa_z-score: 42.7
+; fa_bits: 11.6
+; fa_expect:     72
+; sw_score: 23
+; sw_ident: 0.375
+; sw_sim: 0.625
+; sw_overlap: 8
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 8
+; al_display_start: 1
+--------SPTSPSYSP
+>ADE13|6323391|ref|NP_013463.1|AdenylosuccinateLyase ..
+; sq_len: 482
+; sq_type: p
+; al_start: 9
+; al_stop: 16
+; al_display_start: 1
+MPDYDNYTTPLSSRYASKEMSATFSLRNRFSTWRKLWLNLAIAEKELGLT
+VVTDEAIEQM
+>>sp|P32804|ZRT1_YEAST
+; fa_frame: f
+; fa_initn:  20
+; fa_init1:  20
+; fa_opt:  20
+; fa_z-score: 42.5
+; fa_bits: 11.2
+; fa_expect:     73
+; sw_score: 20
+; sw_ident: 0.375
+; sw_sim: 0.500
+; sw_overlap: 8
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 9
+; al_display_start: 1
+-----------------------------SPTSPSYSP
+>sp|P32804|ZRT1_YEAST ..
+; sq_len: 376
+; sq_type: p
+; al_start: 275
+; al_stop: 282
+; al_display_start: 245
+DEFSSLYPVLVFHQSFEGLGIGARLSAIEFPRSKRWWPWALCVAYGLTTP
+ICVAIGLGVRTRYVSGSYTALVISGVLDAISAGILLYTGLVELLARDFIF
+NPQRTKDLRELSFNVICTLF
+>>PDX3|6319509|ref|NP_009591.1|pyridoxine(pyridoxiamine)phosphateoxidase
+; fa_frame: f
+; fa_initn:  18
+; fa_init1:  18
+; fa_opt:  18
+; fa_z-score: 42.1
+; fa_bits: 10.4
+; fa_expect:     75
+; sw_score: 18
+; sw_ident: 0.286
+; sw_sim: 0.714
+; sw_overlap: 7
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 8
+; al_display_start: 1
+-----------------------------SPTSPSYSP
+>PDX3|6319509|ref|NP_009591.1|pyridoxine(pyridoxiamine)phosphateoxidase ..
+; sq_len: 228
+; sq_type: p
+; al_start: 55
+; al_stop: 61
+; al_display_start: 25
+TLNEKQLTDDPIDLFTKWFNEAKEDPRETLPEAITFSSAELPSGRVSSRI
+LLFKELDHRGFTIYSNWGTSRKAHDIATNPNAAIVFFWKDLQRQVRVEGI
+TEHVNRETSERYFKTRPRGS
+>>CCT8|6322452|ref|NP_012526.1|requiredforassemblyofmicrotubulesandactinvivo
+; fa_frame: f
+; fa_initn:  21
+; fa_init1:  21
+; fa_opt:  21
+; fa_z-score: 41.3
+; fa_bits: 11.5
+; fa_expect:     78
+; sw_score: 21
+; sw_ident: 0.400
+; sw_sim: 0.800
+; sw_overlap: 5
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 6
+; al_display_start: 1
+----SPTSPSYSP
+>CCT8|6322452|ref|NP_012526.1|requiredforassemblyofmicrotubulesandactinvivo ..
+; sq_len: 568
+; sq_type: p
+; al_start: 6
+; al_stop: 10
+; al_display_start: 1
+MSLRLPQNPNAGLFKQGYNSYSNADGQIIKSIAAIRELHQMCLTSMGPCG
+RNKIIVNHLG
+>>YIL041W|6322148|ref|NP_012223.1|Golgi-VesicleProteinof36kDaMSFNAFASSLSKKLQEISTSVSEKTQELPSLAQSTQRMVQERLGQVTDISQLPREYTELEDKVDTIKLIY
+; fa_frame: f
+; fa_initn:  18
+; fa_init1:  18
+; fa_opt:  18
+; fa_z-score: 41.2
+; fa_bits: 10.4
+; fa_expect:     78
+; sw_score: 18
+; sw_ident: 0.667
+; sw_sim: 1.000
+; sw_overlap: 3
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 5
+; al_stop: 7
+; al_display_start: 1
+-------------SPTSPSYSP
+>YIL041W|6322148|ref|NP_012223.1|Golgi-VesicleProteinof36kDaMSFNAFASSLSKKLQEISTSVSEKTQELPSLAQSTQRMVQERLGQVTDISQLPREYTELEDKVDTIKLIY ..
+; sq_len: 256
+; sq_type: p
+; al_start: 18
+; al_stop: 20
+; al_display_start: 1
+NHFLGVTAIYENGSYDYPKYINESVNEFSRSVASKLTELTHATSASEAQN
+ILVAPGPIKE
+>>RPS20|6321772|ref|NP_011848.1|HomologytoratS20,humanS20,XenopusS22,andE.coliS10
+; fa_frame: f
+; fa_initn:  15
+; fa_init1:  15
+; fa_opt:  15
+; fa_z-score: 40.6
+; fa_bits: 9.2
+; fa_expect:     80
+; sw_score: 15
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 2
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 3
+; al_display_start: 1
+-----------------------------SPTSPSYSP
+>RPS20|6321772|ref|NP_011848.1|HomologytoratS20,humanS20,XenopusS22,andE.coliS10 ..
+; sq_len: 121
+; sq_type: p
+; al_start: 59
+; al_stop: 60
+; al_display_start: 29
+TKVKQLENVSSNIVKNAEQHNLVKKGPVRLPTKVLKISTRKTPNGEGSKT
+WETYEMRIHKRYIDLEAPVQIVKRITQITIEPGVDVEVVVASN
+>>HTB2|HSBYB2|histone
+; fa_frame: f
+; fa_initn:  15
+; fa_init1:  15
+; fa_opt:  15
+; fa_z-score: 39.9
+; fa_bits: 9.2
+; fa_expect:     83
+; sw_score: 15
+; sw_ident: 0.667
+; sw_sim: 1.000
+; sw_overlap: 3
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 4
+; al_display_start: 1
+-------SPTSPSYSP
+>HTB2|HSBYB2|histone ..
+; sq_len: 131
+; sq_type: p
+; al_start: 9
+; al_stop: 11
+; al_display_start: 1
+MSSAAEKKPASKAPAEKKPAAKKTSTSVDGKKRSKVRKETYSSYIYKVLK
+QTHPDTGISQ
+>>ERG25|S64354|ERG25
+; fa_frame: f
+; fa_initn:  18
+; fa_init1:  18
+; fa_opt:  18
+; fa_z-score: 39.6
+; fa_bits: 10.3
+; fa_expect:     84
+; sw_score: 18
+; sw_ident: 0.667
+; sw_sim: 1.000
+; sw_overlap: 3
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 7
+; al_stop: 9
+; al_display_start: 1
+----------------------SPTSPSYSP
+>ERG25|S64354|ERG25 ..
+; sq_len: 309
+; sq_type: p
+; al_start: 29
+; al_stop: 31
+; al_display_start: 1
+MSAVFNNATLSGLVQASTYSQTLQNVAHYQPQLNFMEKYWAAWYSYMNND
+VLATGLMFFLLHEFMYFFRCLPWFIIDQIPYFRRWKLQPTKIPSAKEQLY
+CLKSVLLSHFLVEAIPIWTF
+>>sp|P15873|PCNA_YEAST
+; fa_frame: f
+; fa_initn:  17
+; fa_init1:  17
+; fa_opt:  17
+; fa_z-score: 38.8
+; fa_bits: 9.9
+; fa_expect:     86
+; sw_score: 17
+; sw_ident: 0.667
+; sw_sim: 1.000
+; sw_overlap: 3
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 4
+; al_display_start: 1
+-----------------------------SPTSPSYSP
+>sp|P15873|PCNA_YEAST ..
+; sq_len: 258
+; sq_type: p
+; al_start: 140
+; al_stop: 142
+; al_display_start: 110
+RIAEYSLKLMDIDADFLKIEELQYDSTLSLPSSEFSKIVRDLSQLSDSIN
+IMITKETIKFVADGDIGSGSVIIKPFVDMEHPETSIKLEMDQPVDLTFGA
+KYLLDIIKGSSLSDRVGIRL
+>>GSC2|6321469|ref|NP_011546.1|highlysimilartoFKS1(GSC1).GSC2andFKS1encoderedundantcatalyticcomponentsof1,3-beta-glucansynthase.Deletionofbothislethal
+; fa_frame: f
+; fa_initn:  24
+; fa_init1:  24
+; fa_opt:  24
+; fa_z-score: 38.0
+; fa_bits: 12.7
+; fa_expect:     88
+; sw_score: 24
+; sw_ident: 0.429
+; sw_sim: 0.857
+; sw_overlap: 7
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 7
+; al_display_start: 1
+------------------------------SPTSPSYSP
+>GSC2|6321469|ref|NP_011546.1|highlysimilartoFKS1(GSC1).GSC2andFKS1encoderedundantcatalyticcomponentsof1,3-beta-glucansynthase.Deletionofbothislethal ..
+; sq_len: 1895
+; sq_type: p
+; al_start: 122
+; al_stop: 128
+; al_display_start: 92
+MMNPSSQDGENFSDFSSYGPPSGTYPNDQYTPSQMSYPDQDGSSGASTPY
+GNGVVNGNGQYYDPNAIEMALPNDPYPAWTADPQSPLPIEQIEDIFIDLT
+NKFGFQRDSMRNMFDHFMTL
+>>DLD3|6320764|ref|NP_010843.1|D-lactatedehydrogenase
+; fa_frame: f
+; fa_initn:  19
+; fa_init1:  19
+; fa_opt:  19
+; fa_z-score: 37.9
+; fa_bits: 10.7
+; fa_expect:     88
+; sw_score: 19
+; sw_ident: 0.333
+; sw_sim: 0.833
+; sw_overlap: 6
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 7
+; al_display_start: 1
+-----------------------------SPTSPSYSP
+>DLD3|6320764|ref|NP_010843.1|D-lactatedehydrogenase ..
+; sq_len: 496
+; sq_type: p
+; al_start: 129
+; al_stop: 134
+; al_display_start: 99
+GNTDLVGASVPVFDEIVLSLRNMNKVRDFDPVSGTFKCDAGVVMRDAHQF
+LHDHDHIFPLDLPSRNNCQVGGVVSTNAGGLNFLRYGSLHGNVLGLEVVL
+PNGEIISNINALRKDNTGYD
+>>ALD6|6325196|ref|NP_015264.1|UtilizesNADP+asthepreferredcoenzyme.ActivatedbyMg2+
+; fa_frame: f
+; fa_initn:  19
+; fa_init1:  19
+; fa_opt:  19
+; fa_z-score: 37.8
+; fa_bits: 10.7
+; fa_expect:     88
+; sw_score: 19
+; sw_ident: 0.429
+; sw_sim: 0.571
+; sw_overlap: 7
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 3
+; al_stop: 9
+; al_display_start: 1
+----------------------------SPTSPSYSP
+>ALD6|6325196|ref|NP_015264.1|UtilizesNADP+asthepreferredcoenzyme.ActivatedbyMg2+ ..
+; sq_len: 500
+; sq_type: p
+; al_start: 42
+; al_stop: 48
+; al_display_start: 12
+VKITLPNGLTYEQPTGLFINNKFMKAQDGKTYPVEDPSTENTVCEVSSAT
+TEDVEYAIECADRAFHDTEWATQDPRERGRLLSKLADELESQIDLVSSIE
+ALDNGKTLALARGDVTIAIN
+>>CTR9|6324427|ref|NP_014496.1|CTR9isrequiredfornormalCLN1andCLN2G1cyclinexpression
+; fa_frame: f
+; fa_initn:  21
+; fa_init1:  21
+; fa_opt:  21
+; fa_z-score: 35.9
+; fa_bits: 11.5
+; fa_expect:     92
+; sw_score: 21
+; sw_ident: 0.400
+; sw_sim: 0.800
+; sw_overlap: 5
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 6
+; al_display_start: 1
+-----------------------------SPTSPSYSP
+>CTR9|6324427|ref|NP_014496.1|CTR9isrequiredfornormalCLN1andCLN2G1cyclinexpression ..
+; sq_len: 1077
+; sq_type: p
+; al_start: 39
+; al_stop: 43
+; al_display_start: 9
+GYPSMEWPTSLDIPLKASEELVGIDLETDLPDDPTDLKTLLVEENSEKEH
+WLTIALAYCNHGKTNEGIKLIEMALDVFQNSERASLHTFLTWAHLNLAKG
+QSLSVETKEHELTQAELNLK
+>>CDC48|6320077|ref|NP_010157.1|MicrosomalproteinofCDC48/PAS1/SEC18familyofATPases;fulllengthhomologytomammalianproteinVCP;involvedinsecretion,peroxisomeformationandgeneexpression
+; fa_frame: f
+; fa_initn:  20
+; fa_init1:  20
+; fa_opt:  20
+; fa_z-score: 35.8
+; fa_bits: 11.1
+; fa_expect:     92
+; sw_score: 20
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 3
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 4
+; al_stop: 6
+; al_display_start: 1
+---------------------------SPTSPSYSP
+>CDC48|6320077|ref|NP_010157.1|MicrosomalproteinofCDC48/PAS1/SEC18familyofATPases;fulllengthhomologytomammalianproteinVCP;involvedinsecretion,peroxisomeformationandgeneexpression ..
+; sq_len: 835
+; sq_type: p
+; al_start: 519
+; al_stop: 521
+; al_display_start: 489
+VGGLDEIKEELKETVEYPVLHPDQYTKFGLSPSKGVLFYGPPGTGKTLLA
+KAVATEVSANFISVKGPELLSMWYGESESNIRDIFDKARAAAPTVVFLDE
+LDSIAKARGGSLGDAGGASD
+>>GNP1|6320717|ref|NP_010796.1|high-affinityglutaminepermease
+; fa_frame: f
+; fa_initn:  19
+; fa_init1:  19
+; fa_opt:  19
+; fa_z-score: 35.4
+; fa_bits: 10.7
+; fa_expect:     93
+; sw_score: 19
+; sw_ident: 0.750
+; sw_sim: 0.750
+; sw_overlap: 4
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 4
+; al_display_start: 1
+------------------------------SPTSPSYSP
+>GNP1|6320717|ref|NP_010796.1|high-affinityglutaminepermease ..
+; sq_len: 663
+; sq_type: p
+; al_start: 94
+; al_stop: 97
+; al_display_start: 64
+ENMEYEGEHHASYLRRFIDSFRRAEGSHANSPDSSNSNGTTPISTKDSSS
+QLDNELNRKSSYITVDGIKQSPQEQEQKQENLKKSIKPRHTVMMSLGTGI
+GTGLLVGNSKVLNNAGPGGL
+>>YOL109W|6324463|ref|NP_014532.1|overexpressioncausesresistancetoZeocin
+; fa_frame: f
+; fa_initn:  12
+; fa_init1:  12
+; fa_opt:  12
+; fa_z-score: 34.3
+; fa_bits: 7.9
+; fa_expect:     94
+; sw_score: 12
+; sw_ident: 0.500
+; sw_sim: 1.000
+; sw_overlap: 2
+>Consensus_2 ..
+; sq_len: 9
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 2
+; al_display_start: 1
+------------------------------SPTSPSYSP
+>YOL109W|6324463|ref|NP_014532.1|overexpressioncausesresistancetoZeocin ..
+; sq_len: 113
+; sq_type: p
+; al_start: 49
+; al_stop: 50
+; al_display_start: 19
+LEETKESLQNKGQEVKEQAEASIDNLKNEATPEAEQVKKEEQNIADGVEQ
+KKTEAANKVEETKKQASAAVSEKKETKKEGGFLKKLNRKIASIFN
+>>><<<
+
+
+9 residues in 1 query   sequences
+56820 residues in 95 library sequences
+ Scomplib [34t25]
+ start: Mon Dec 10 23:42:03 2007 done: Mon Dec 10 23:42:03 2007
+ Total Scan time:  0.010 Total Display time:  0.040
+
+Function used was FASTA [version 3.4t25 Sept 2, 2005]

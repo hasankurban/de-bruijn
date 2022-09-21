@@ -1,0 +1,106 @@
+# /usr/local/bin/fasta34 -m 10 -A -H -q -p -E 200 /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_9061/temp_consensus.fasta /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_9061/file1.txt
+FASTA searches a protein or DNA sequence data bank
+ version 3.4t25 Sept 2, 2005
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query library /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_9061/temp_consensus.fasta vs /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_9061/file1.txt library
+searching /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_9061/file1.txt library
+
+  1>>>Consensus_2  - 27 aa
+ vs  /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_vers library
+
+   7642 residues in     2 sequences
+ Altschul/Gish params: n0: 27 Lambda: 0.158 K: 0.019 H: 0.100
+
+FASTA (3.47 Mar 2004) function [optimized, BL50 matrix (15:-5)] ktup: 1
+ join: 42, opt: 30, open/ext: -10/-2, width:  16
+ Scan time:  0.000
+The best scores are:                                      opt bits E(2)
+gi|120433599|ref|NM_001079878.1|cyclic nucleotide  (3794)  154  45.6 3.8e-09
+gi|120433598|ref|NM_001298.2|cyclic nucleotide gat (3848)  154  45.6 3.9e-09
+
+>>>Consensus_2, 27 aa vs /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_9061/file1.txt library
+; pg_name: /usr/local/bin/fasta34
+; pg_ver: 34t25
+; pg_argv: /usr/local/bin/fasta34 -m 10 -A -H -q -p -E 200 /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_9061/temp_consensus.fasta /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_9061/file1.txt
+; pg_name: FASTA
+; pg_ver: 3.47 Mar 2004
+; pg_matrix: BL50 (15:-5)
+; pg_open-ext: -10 -2
+; pg_ktup: 1
+; pg_optcut: 30
+; pg_cgap: 42
+; mp_extrap: 60000 0
+; mp_stats: Altschul/Gish params: n0: 27 Lambda: 0.158 K: 0.019 H: 0.100
+; mp_KS: -0.0000 (N=33) at  86
+>>gi|120433599|ref|NM_001079878.1|cyclic nucleotide gated channel alpha 3 isoform 2
+; fa_frame: f
+; fa_initn: 148
+; fa_init1: 148
+; fa_opt: 154
+; fa_z-score: 202.0
+; fa_bits: 45.6
+; fa_expect: 3.8e-09
+; sw_score: 162
+; sw_ident: 0.613
+; sw_sim: 0.710
+; sw_overlap: 31
+>Consensus_2 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 27
+; al_display_start: 1
+-----------------------------GCCTCCTTCACC-----CAGG
+GCTCCTTTCCT
+>gi|120433599|ref|NM_001079878.1|cyclic ..
+; sq_len: 3794
+; sq_type: p
+; al_start: 684
+; al_stop: 714
+; al_display_start: 654
+GCTGCGCAGGTGGGCTGCCAGGCATGTGCACCACCAGGACCAGGGACCGG
+ACTCTTTTCCTGATCGTTTCCGTGGAGCCGAGCTTAAGGAGGTGTCCAGC
+CAAGAAAGCAATGCCCAGGC
+>>gi|120433598|ref|NM_001298.2|cyclic nucleotide gated channel alpha 3 isoform 1
+; fa_frame: f
+; fa_initn: 148
+; fa_init1: 148
+; fa_opt: 154
+; fa_z-score: 201.9
+; fa_bits: 45.6
+; fa_expect: 3.9e-09
+; sw_score: 162
+; sw_ident: 0.613
+; sw_sim: 0.710
+; sw_overlap: 31
+>Consensus_2 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 27
+; al_display_start: 1
+-----------------------------GCCTCCTTCACC-----CAGG
+GCTCCTTTCCT
+>gi|120433598|ref|NM_001298.2|cyclic ..
+; sq_len: 3848
+; sq_type: p
+; al_start: 684
+; al_stop: 714
+; al_display_start: 654
+GCTGCGCAGGTGGGCTGCCAGGCATGTGCACCACCAGGACCAGGGACCGG
+ACTCTTTTCCTGATCGTTTCCGTGGAGCCGAGCTTAAGGAGGTGTCCAGC
+CAAGAAAGCAATGCCCAGGC
+>>><<<
+
+
+27 residues in 1 query   sequences
+7642 residues in 2 library sequences
+ Scomplib [34t25]
+ start: Fri Dec 14 13:08:57 2007 done: Fri Dec 14 13:08:57 2007
+ Total Scan time:  0.000 Total Display time:  0.020
+
+Function used was FASTA [version 3.4t25 Sept 2, 2005]

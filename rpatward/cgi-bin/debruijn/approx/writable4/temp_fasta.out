@@ -1,0 +1,998 @@
+# /usr/local/bin/fasta34 -m 10 temp_consensus.fasta writable4/PS00090
+FASTA searches a protein or DNA sequence data bank
+ version 3.4t25 Sept 2, 2005
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query library temp_consensus.fasta vs writable4/PS00090 library
+searching writable4/PS00090 library
+
+  1>>>Consensus_0  - 27 aa
+ vs  writable4/PS00090 library
+
+       opt      E()
+< 20     0     0:
+  22     0     0:           one = represents 1 library sequences
+  24     0     0:
+  26     0     0:
+  28     0     0:
+  30     0     0:
+  32     0     0:
+  34     0     1:*
+  36     4     2:=*==
+  38     2     3:==*
+  40     1     4:=  *
+  42     3     5:=== *
+  44     8     6:=====*==
+  46     3     6:===  *
+  48     1     6:=    *
+  50     5     5:====*
+  52     3     5:=== *
+  54     3     4:===*
+  56     1     3:= *
+  58     1     3:= *
+  60     3     2:=*=
+  62     3     2:=*=
+  64     2     1:*=
+  66     1     1:*
+  68     0     1:*
+  70     3     1:*==
+  72     0     1:*
+  74     0     0:
+  76     1     0:=
+  78     0     0:
+  80     0     0:
+  82     0     0:
+  84     0     0:
+  86     2     0:==
+  88     0     0:
+  90     0     0:
+  92     3     0:===
+  94     3     0:===
+  96     2     0:==
+  98     2     0:==
+ 100     0     0:
+ 102     0     0:
+ 104     1     0:=
+ 106     0     0:
+ 108     2     0:==
+ 110     2     0:==
+ 112     0     0:
+ 114     0     0:
+ 116     0     0:
+ 118     0     0:
+>120     0     0:
+  30380 residues in    65 sequences
+  Expectation_n fit: rho(ln(x))= 33.2684+/- 0.212; mu= -138.4307+/-12.779
+ mean_var=272.7968+/-152.248, 0's: 0 Z-trim: 15  B-trim: 0 in 0/5
+ Lambda= 0.077652
+ Kolmogorov-Smirnov  statistic: 0.2993 (N=19) at  58
+
+FASTA (3.47 Mar 2004) function [optimized, BL50 matrix (15:-5)] ktup: 1
+ join: 42, opt: 30, open/ext: -10/-2, width:  16
+ Scan time:  0.010
+The best scores are:                                      opt bits E(65)
+NIFD_RHICP (P06769) Nitrogenase molybdenum-iron pr ( 500)  169  25.8   0.015
+NIFD_BRAJA (P06121) Nitrogenase molybdenum-iron pr ( 500)  168  25.7   0.016
+NIFD_BRASP (P06120) Nitrogenase molybdenum-iron pr ( 500)  165  25.4    0.02
+NIFD_NOSCO (P52337) Nitrogenase molybdenum-iron pr ( 296)  146  24.5   0.023
+NIFD_HERSE (P77874) Nitrogenase molybdenum-iron pr ( 484)  157  24.6   0.034
+NIFD_CYAA5 (O07642) Nitrogenase molybdenum-iron pr ( 480)  148  23.6   0.067
+NIFD_RHOCA (P08717) Nitrogenase molybdenum-iron pr ( 499)  147  23.4   0.081
+NIFD_RHISN (P19066) Nitrogenase molybdenum-iron pr ( 504)  146  23.2   0.089
+NIFD_THIFE (P06662) Nitrogenase molybdenum-iron pr ( 489)  143  23.0     0.1
+NIFD_AZOBR (P25313) Nitrogenase molybdenum-iron pr ( 482)  142  22.9    0.11
+NIFD_FRAAL (Q02452) Nitrogenase molybdenum-iron pr ( 473)  139  22.6    0.13
+NIFD_ALCFA (Q44045) Nitrogenase molybdenum-iron pr ( 489)  140  22.6    0.13
+NIFD_PLEBO (Q00239) Nitrogenase molybdenum-iron pr ( 494)  140  22.6    0.14
+NIFD_AZOVI (P07328) Nitrogenase molybdenum-iron pr ( 491)  138  22.4    0.16
+NIFD_ANASP (P00464) Nitrogenase molybdenum-iron pr ( 497)  138  22.4    0.16
+NIFD_KLEPN (P00466) Nitrogenase molybdenum-iron pr ( 483)  129  21.4     0.3
+NIFD_SYNP8 (Q55029) Nitrogenase molybdenum-iron pr ( 476)  126  21.1    0.36
+NIFD_METBA (P55170) Nitrogenase molybdenum-iron pr ( 532)  114  19.5     1.2
+VNFD_AZOPA (O68953) Nitrogenase vanadium-iron prot ( 265)   82  17.5     2.4
+NIFD_CLOPA (P00467) Nitrogenase molybdenum-iron pr ( 533)  104  18.4     2.6
+VNFD_AZOSA (O68954) Nitrogenase vanadium-iron prot ( 279)   82  17.4     2.7
+NIFD_METTH (O27605) Nitrogenase molybdenum-iron pr ( 469)   94  17.6     4.1
+NIFD_METTM (Q50788) Nitrogenase molybdenum-iron pr ( 470)   89  17.0       6
+NIFE_SYNP8 (O07355) Nitrogenase iron-molybdenum co ( 469)   88  16.9     6.4
+NIFE_CLOPA (P10996) Nitrogenase iron-molybdenum co ( 456)   87  16.9     6.4
+NIFE_METBA (P51755) Nitrogenase iron-molybdenum co ( 463)   87  16.8     6.6
+VNFD_AZOCH (P15332) Nitrogenase vanadium-iron prot ( 472)   86  16.7     7.5
+ANFD_HELGE (O68955) Nitrogenase iron-iron protein  ( 280)   66  15.6     9.1
+NIFE_METMP (P71528) Nitrogenase iron-molybdenum co ( 483)   84  16.4     9.2
+
+>>>Consensus_0, 27 aa vs writable4/PS00090 library
+; pg_name: /usr/local/bin/fasta34
+; pg_ver: 34t25
+; pg_argv: /usr/local/bin/fasta34 -m 10 temp_consensus.fasta writable4/PS00090
+; pg_name: FASTA
+; pg_ver: 3.47 Mar 2004
+; pg_matrix: BL50 (15:-5)
+; pg_open-ext: -10 -2
+; pg_ktup: 1
+; pg_optcut: 30
+; pg_cgap: 42
+; mp_extrap: 60000 65
+; mp_stats:  Expectation_n fit: rho(ln(x))= 33.2684+/- 0.212; mu= -138.4307+/-12.779  mean_var=272.7968+/-152.248, 0's: 0 Z-trim: 15  B-trim: 0 in 0/5  Lambda= 0.077652
+; mp_KS: 0.2993 (N=19) at  58
+>>NIFD_RHICP (P06769) Nitrogenase molybdenum-iron protein alpha chain (E
+; fa_frame: f
+; fa_initn: 169
+; fa_init1: 169
+; fa_opt: 169
+; fa_z-score: 111.0
+; fa_bits: 25.8
+; fa_expect:  0.015
+; sw_score: 169
+; sw_ident: 0.963
+; sw_sim: 1.000
+; sw_overlap: 27
+>Consensus_0 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 27
+; al_display_start: 1
+------------------------------ISIQSECPIGLIGDDIEAVS
+RAKSKEY
+>NIFD_RHICP ..
+; sq_len: 500
+; sq_type: p
+; al_start: 153
+; al_stop: 179
+; al_display_start: 123
+FREKDIVFGGDKKLVKILDEIQELFPLNNGITIQSECPIGLIGDDIEAVS
+RAKSKEYGGKTIVPVRCEGFRGVSQSLGHHIANDAVRDWIFDQVEADGKP
+KVEPTPYDVAIIGDYNIGGD
+>>NIFD_BRAJA (P06121) Nitrogenase molybdenum-iron protein alpha chain (E
+; fa_frame: f
+; fa_initn: 168
+; fa_init1: 168
+; fa_opt: 168
+; fa_z-score: 110.4
+; fa_bits: 25.7
+; fa_expect:  0.016
+; sw_score: 168
+; sw_ident: 0.926
+; sw_sim: 1.000
+; sw_overlap: 27
+>Consensus_0 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 27
+; al_display_start: 1
+------------------------------ISIQSECPIGLIGDDIEAVS
+RAKSKEY
+>NIFD_BRAJA ..
+; sq_len: 500
+; sq_type: p
+; al_start: 153
+; al_stop: 179
+; al_display_start: 123
+FQEKDIVFGGDKKLDKILDEIQELFPLNNGITIQSECPVGLIGDDIEAVS
+RAKSKEYGGKTIVPVRCEGFRGVSQSLGHHIANDAVRDWIFGHIEAEGKP
+KFEPTPYDVAIIGDYNIGGD
+>>NIFD_BRASP (P06120) Nitrogenase molybdenum-iron protein alpha chain (E
+; fa_frame: f
+; fa_initn: 165
+; fa_init1: 165
+; fa_opt: 165
+; fa_z-score: 108.5
+; fa_bits: 25.4
+; fa_expect:   0.02
+; sw_score: 165
+; sw_ident: 0.926
+; sw_sim: 1.000
+; sw_overlap: 27
+>Consensus_0 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 27
+; al_display_start: 1
+------------------------------ISIQSECPIGLIGDDIEAVS
+RAKSKEY
+>NIFD_BRASP ..
+; sq_len: 500
+; sq_type: p
+; al_start: 153
+; al_stop: 179
+; al_display_start: 123
+FQEKDIVFGGDKKLIKVLDEIQELFPLNNGITIQSECPIGLIGDDIEAVS
+RSKSKEYGGKTIVPVRCEGFRGVSQSLGHHIANDAVRDWIFDKLEPEGEP
+KFQPTPYDVAIIGDYNIGGD
+>>NIFD_NOSCO (P52337) Nitrogenase molybdenum-iron protein alpha chain (E
+; fa_frame: f
+; fa_initn: 146
+; fa_init1: 146
+; fa_opt: 146
+; fa_z-score: 107.6
+; fa_bits: 24.5
+; fa_expect:  0.023
+; sw_score: 146
+; sw_ident: 0.846
+; sw_sim: 0.923
+; sw_overlap: 26
+>Consensus_0 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 26
+; al_display_start: 1
+------------------------------ISIQSECPIGLIGDDIEAVS
+RAKSKEY
+>NIFD_NOSCO ..
+; sq_len: 296
+; sq_type: p
+; al_start: 150
+; al_stop: 175
+; al_display_start: 120
+FQERDIVFGGDKKLVKLIQELDVLFPLNRGVSIQSECPIGLIGDDIEAVA
+RKTSKEIGKPVVPVRCEGFRGVSQSLGHHIANDMVRDWVFTRSDQAKKDG
+TLKFEGTPYDVAIIGDYNIG
+>>NIFD_HERSE (P77874) Nitrogenase molybdenum-iron protein alpha chain (E
+; fa_frame: f
+; fa_initn: 157
+; fa_init1: 157
+; fa_opt: 157
+; fa_z-score: 104.3
+; fa_bits: 24.6
+; fa_expect:  0.034
+; sw_score: 157
+; sw_ident: 0.852
+; sw_sim: 0.963
+; sw_overlap: 27
+>Consensus_0 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 27
+; al_display_start: 1
+------------------------------ISIQSECPIGLIGDDIEAVS
+RAKSKEY
+>NIFD_HERSE ..
+; sq_len: 484
+; sq_type: p
+; al_start: 149
+; al_stop: 175
+; al_display_start: 119
+FQEKDIVFGGDKKLEKIVDEIQELFPLNKGISVQSECPIGLIGDDIEAVS
+KKKSKQYEGHTIVPVRCEGFRGVSQSLGHHVANDAIKEWVLDKMDPDKNQ
+FVATPYDVAIIGDYNIGGDA
+>>NIFD_CYAA5 (O07642) Nitrogenase molybdenum-iron protein alpha chain (E
+; fa_frame: f
+; fa_initn: 148
+; fa_init1: 148
+; fa_opt: 148
+; fa_z-score: 99.1
+; fa_bits: 23.6
+; fa_expect:  0.067
+; sw_score: 148
+; sw_ident: 0.769
+; sw_sim: 1.000
+; sw_overlap: 26
+>Consensus_0 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 26
+; al_display_start: 1
+------------------------------ISIQSECPIGLIGDDIEAVS
+RAKSKEY
+>NIFD_CYAA5 ..
+; sq_len: 480
+; sq_type: p
+; al_start: 144
+; al_stop: 169
+; al_display_start: 114
+FQERDIVFGGDKKLAKIIDEIEELFPLNGGVSVQSECPVGLIGDDIESVA
+RTKSKETGKSVVPVRCEGFRGVSQSLGHHIANDMIRDWVFPTADKENAEK
+GFEGTPYDVAIIGDYNIGGD
+>>NIFD_RHOCA (P08717) Nitrogenase molybdenum-iron protein alpha chain (E
+; fa_frame: f
+; fa_initn: 147
+; fa_init1: 147
+; fa_opt: 147
+; fa_z-score: 97.7
+; fa_bits: 23.4
+; fa_expect:  0.081
+; sw_score: 147
+; sw_ident: 0.846
+; sw_sim: 0.962
+; sw_overlap: 26
+>Consensus_0 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 26
+; al_display_start: 1
+------------------------------ISIQSECPIGLIGDDIEAVS
+RAKSKEY
+>NIFD_RHOCA ..
+; sq_len: 499
+; sq_type: p
+; al_start: 163
+; al_stop: 188
+; al_display_start: 133
+FQEKDIVFGGDKKLEKTIDEINELFPLSKGITIQSECPIGLIGDDIEAVS
+KKKNKEINKTIVPVRCEGFRGVSQSLGHHIANDAVRDWIFEQPESEATKA
+FEPGPYDVNIIGDYNIGGDA
+>>NIFD_RHISN (P19066) Nitrogenase molybdenum-iron protein alpha chain (E
+; fa_frame: f
+; fa_initn: 146
+; fa_init1: 146
+; fa_opt: 146
+; fa_z-score: 96.9
+; fa_bits: 23.2
+; fa_expect:  0.089
+; sw_score: 146
+; sw_ident: 0.815
+; sw_sim: 0.926
+; sw_overlap: 27
+>Consensus_0 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 27
+; al_display_start: 1
+------------------------------ISIQSECPIGLIGDDIEAVS
+RAKSKEY
+>NIFD_RHISN ..
+; sq_len: 504
+; sq_type: p
+; al_start: 158
+; al_stop: 184
+; al_display_start: 128
+FQEKDIVFGGDKKLEQVIDEIEELFPLNNGITIQSECPIGLIGDDIEAVS
+RKKAAEHETTIVPVRCEGFRGVSQSLGHHIANDAIRDWVFDKADGKTDVE
+FETGPYDVNVIGDYNIGGDA
+>>NIFD_THIFE (P06662) Nitrogenase molybdenum-iron protein alpha chain (E
+; fa_frame: f
+; fa_initn: 143
+; fa_init1: 143
+; fa_opt: 143
+; fa_z-score: 95.7
+; fa_bits: 23.0
+; fa_expect:    0.1
+; sw_score: 143
+; sw_ident: 0.741
+; sw_sim: 0.926
+; sw_overlap: 27
+>Consensus_0 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 27
+; al_display_start: 1
+------------------------------ISIQSECPIGLIGDDIEAVS
+RAKSKEY
+>NIFD_THIFE ..
+; sq_len: 489
+; sq_type: p
+; al_start: 157
+; al_stop: 183
+; al_display_start: 127
+FQEKDIVFGGDKKLAKLMDELEELFPMSKGITVQSECPIGLIGDDIEAVS
+KKKAAEFGKPVVPNRCEGFRGVSQSLGHHIANDSIRDWVLDPAADKHPDF
+ESTPYDVTLLGDYNIGGDWG
+>>NIFD_AZOBR (P25313) Nitrogenase molybdenum-iron protein alpha chain (E
+; fa_frame: f
+; fa_initn: 142
+; fa_init1: 142
+; fa_opt: 142
+; fa_z-score: 95.3
+; fa_bits: 22.9
+; fa_expect:   0.11
+; sw_score: 142
+; sw_ident: 0.846
+; sw_sim: 0.962
+; sw_overlap: 26
+>Consensus_0 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 26
+; al_display_start: 1
+------------------------------ISIQSECPIGLIGDDIEAVS
+RAKSKEY
+>NIFD_AZOBR ..
+; sq_len: 482
+; sq_type: p
+; al_start: 148
+; al_stop: 173
+; al_display_start: 118
+FQEKDIVFGGDKKLHKVIEEINELFPLVNGISIQSECPIGLNGDDIEGVS
+KAKSEELGKPVVPVRCEGFRGVSQSLGHHIANDVIRDWILPKKTEPKEGF
+VSTPYDVTIIGDYNIGGDAW
+>>NIFD_FRAAL (Q02452) Nitrogenase molybdenum-iron protein alpha chain (E
+; fa_frame: f
+; fa_initn: 139
+; fa_init1: 139
+; fa_opt: 139
+; fa_z-score: 93.9
+; fa_bits: 22.6
+; fa_expect:   0.13
+; sw_score: 139
+; sw_ident: 0.800
+; sw_sim: 1.000
+; sw_overlap: 25
+>Consensus_0 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 25
+; al_display_start: 1
+------------------------------ISIQSECPIGLIGDDIEAVS
+RAKSKEY
+>NIFD_FRAAL ..
+; sq_len: 473
+; sq_type: p
+; al_start: 150
+; al_stop: 174
+; al_display_start: 120
+FQEKDIVFGGDPKLEQGLDEIVELFPLAKGISVQSECPIGLIGDDIEAVA
+RVSSRLDIPVMRVRCEGFRGVSQSLGHHIANDAVRDHVLGTGGDSFEQTD
+YDVALIGDYNIGGDAWASRR
+>>NIFD_ALCFA (Q44045) Nitrogenase molybdenum-iron protein alpha chain (E
+; fa_frame: f
+; fa_initn: 140
+; fa_init1: 140
+; fa_opt: 140
+; fa_z-score: 93.8
+; fa_bits: 22.6
+; fa_expect:   0.13
+; sw_score: 140
+; sw_ident: 0.741
+; sw_sim: 0.926
+; sw_overlap: 27
+>Consensus_0 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 27
+; al_display_start: 1
+------------------------------ISIQSECPIGLIGDDIEAVS
+RAKSKEY
+>NIFD_ALCFA ..
+; sq_len: 489
+; sq_type: p
+; al_start: 145
+; al_stop: 171
+; al_display_start: 115
+FQEKDIVFGGDKKLAKLIDEIETLFPLKKGISVQSECPIGLIGDDIEAVA
+KKKAAEHETTVVPVRCEGFRGVSQSLGHHIANDAIRDWVLDKRDDDTSFE
+TTPYDVSIIGDYNIGGDAWS
+>>NIFD_PLEBO (Q00239) Nitrogenase molybdenum-iron protein alpha chain (E
+; fa_frame: f
+; fa_initn: 140
+; fa_init1: 140
+; fa_opt: 140
+; fa_z-score: 93.6
+; fa_bits: 22.6
+; fa_expect:   0.14
+; sw_score: 140
+; sw_ident: 0.808
+; sw_sim: 0.962
+; sw_overlap: 26
+>Consensus_0 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 26
+; al_display_start: 1
+------------------------------ISIQSECPIGLIGDDIEAVS
+RAKSKEY
+>NIFD_PLEBO ..
+; sq_len: 494
+; sq_type: p
+; al_start: 156
+; al_stop: 181
+; al_display_start: 126
+FQERDIVFGGDKKLAKLITELEELFPLNRGISIQSECPIGLIGDDIEAVA
+KKSAKEINKAVVPVRCEGFRGVSQSLGHHIANDAVRDWIFPRTDKAKKDG
+TIDVDPTQYDVAIIGDYNIG
+>>NIFD_AZOVI (P07328) Nitrogenase molybdenum-iron protein alpha chain (E
+; fa_frame: f
+; fa_initn: 138
+; fa_init1: 138
+; fa_opt: 138
+; fa_z-score: 92.6
+; fa_bits: 22.4
+; fa_expect:   0.16
+; sw_score: 138
+; sw_ident: 0.769
+; sw_sim: 0.962
+; sw_overlap: 26
+>Consensus_0 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 26
+; al_display_start: 1
+------------------------------ISIQSECPIGLIGDDIEAVS
+RAKSKEY
+>NIFD_AZOVI ..
+; sq_len: 491
+; sq_type: p
+; al_start: 147
+; al_stop: 172
+; al_display_start: 117
+FQEKDIVFGGDKKLAKLIDEVETLFPLNKGISVQSECPIGLIGDDIESVS
+KVKGAELSKTIVPVRCEGFRGVSQSLGHHIANDAVRDWVLGKRDEDTTFA
+STPYDVAIIGDYNIGGDAWS
+>>NIFD_ANASP (P00464) Nitrogenase molybdenum-iron protein alpha chain (E
+; fa_frame: f
+; fa_initn: 134
+; fa_init1: 134
+; fa_opt: 138
+; fa_z-score: 92.3
+; fa_bits: 22.4
+; fa_expect:   0.16
+; sw_score: 138
+; sw_ident: 0.769
+; sw_sim: 0.923
+; sw_overlap: 26
+>Consensus_0 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 26
+; al_display_start: 1
+------------------------------ISIQSECPIGLIGDDIEAVS
+RAKSKEY
+>NIFD_ANASP ..
+; sq_len: 497
+; sq_type: p
+; al_start: 150
+; al_stop: 175
+; al_display_start: 120
+FQERDIVFGGDKKLTKLIEELDVLFPLNRGVSIQSECPIGLIGDDIEAVA
+KKTSKQIGKPVVPLRCEGFRGVSQSLGHHIANDAIRDWIFPEYDKLKKEN
+RLDFEPSPYDVALIGDYNIG
+>>NIFD_KLEPN (P00466) Nitrogenase molybdenum-iron protein alpha chain (E
+; fa_frame: f
+; fa_initn: 129
+; fa_init1: 129
+; fa_opt: 129
+; fa_z-score: 87.4
+; fa_bits: 21.4
+; fa_expect:    0.3
+; sw_score: 129
+; sw_ident: 0.760
+; sw_sim: 0.920
+; sw_overlap: 25
+>Consensus_0 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 25
+; al_display_start: 1
+------------------------------ISIQSECPIGLIGDDIEAVS
+RAKSKEY
+>NIFD_KLEPN ..
+; sq_len: 483
+; sq_type: p
+; al_start: 149
+; al_stop: 173
+; al_display_start: 119
+FQERDIVFGGDKKLSKLIEEMELLFPLTKGITIQSECPVGLIGDDISAVA
+NASSKALDKPVIPVRCEGFRGVSQSLGHHIANDVVRDWILNNREGQPFET
+TPYDVAIIGDYNIGGDAWAS
+>>NIFD_SYNP8 (Q55029) Nitrogenase molybdenum-iron protein alpha chain (E
+; fa_frame: f
+; fa_initn: 126
+; fa_init1: 126
+; fa_opt: 126
+; fa_z-score: 85.9
+; fa_bits: 21.1
+; fa_expect:   0.36
+; sw_score: 126
+; sw_ident: 0.720
+; sw_sim: 0.920
+; sw_overlap: 25
+>Consensus_0 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 25
+; al_display_start: 1
+------------------------------ISIQSECPIGLIGDDIEAVS
+RAKSKEY
+>NIFD_SYNP8 ..
+; sq_len: 476
+; sq_type: p
+; al_start: 144
+; al_stop: 168
+; al_display_start: 114
+FQEKDIVFGGDKKLLKITEEIEELFPLHNGISIQSECPVGLIGDDIEGVA
+KKAQKITGKPVFPFRCEGFRGVSQSLGHHIANDAVRDWVFSRDDAQEIET
+TPYDVAIIGDYNIGGDAWSS
+>>NIFD_METBA (P55170) Nitrogenase molybdenum-iron protein alpha chain (E
+; fa_frame: f
+; fa_initn: 114
+; fa_init1: 114
+; fa_opt: 114
+; fa_z-score: 76.4
+; fa_bits: 19.5
+; fa_expect:    1.2
+; sw_score: 114
+; sw_ident: 0.593
+; sw_sim: 0.815
+; sw_overlap: 27
+>Consensus_0 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 27
+; al_display_start: 1
+------------------------------ISIQSECPIGLIGDDIEAVS
+RAKSKEY
+>NIFD_METBA ..
+; sq_len: 532
+; sq_type: p
+; al_start: 147
+; al_stop: 173
+; al_display_start: 117
+DMKETDIVFGGEKKLKKAIDEVVKIFHPEAITICATCPVGLIGDDIESVA
+REAEKEHGIKVIPARCEGYRGVSQSAGHHIASNALMEHLIGTEEIKSPTP
+FDINVFGEYNIGGDLWEVKP
+>>VNFD_AZOPA (O68953) Nitrogenase vanadium-iron protein alpha chain (EC 
+; fa_frame: f
+; fa_initn:  80
+; fa_init1:  80
+; fa_opt:  82
+; fa_z-score: 71.1
+; fa_bits: 17.5
+; fa_expect:    2.4
+; sw_score: 82
+; sw_ident: 0.458
+; sw_sim: 0.750
+; sw_overlap: 24
+>Consensus_0 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 3
+; al_stop: 26
+; al_display_start: 1
+----------------------------ISIQSECPIGLIGDDIEAVSRA
+KSKEY
+>VNFD_AZOPA ..
+; sq_len: 265
+; sq_type: p
+; al_start: 76
+; al_stop: 99
+; al_display_start: 46
+ESHVVFGGEKRLEKSMHEAFDEMPDIKRMIVYTTCPTALIGDDIKAVAKK
+VMKDRPDVDVFTVECPGFSGVSQSKGHHVLNIGWINEKVETMEKEITSEY
+TMNFIGDFNIQGDTQLLQTY
+>>NIFD_CLOPA (P00467) Nitrogenase molybdenum-iron protein alpha chain (E
+; fa_frame: f
+; fa_initn: 104
+; fa_init1: 104
+; fa_opt: 104
+; fa_z-score: 70.3
+; fa_bits: 18.4
+; fa_expect:    2.6
+; sw_score: 104
+; sw_ident: 0.577
+; sw_sim: 0.808
+; sw_overlap: 26
+>Consensus_0 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 26
+; al_display_start: 1
+------------------------------ISIQSECPIGLIGDDIEAVS
+RAKSKEY
+>NIFD_CLOPA ..
+; sq_len: 533
+; sq_type: p
+; al_start: 138
+; al_stop: 163
+; al_display_start: 108
+DMQESDIVFGGVNKLKDAIHEAYEMFHPAAIGVYATCPVGLIGDDILAVA
+ATASKEIGIPVHAFSCEGYKGVSQSAGHHIANNTVMTDIIGKGNKEQKKY
+SINVLGEYNIGGDAWEMDRV
+>>VNFD_AZOSA (O68954) Nitrogenase vanadium-iron protein alpha chain (EC 
+; fa_frame: f
+; fa_initn:  80
+; fa_init1:  80
+; fa_opt:  82
+; fa_z-score: 70.0
+; fa_bits: 17.4
+; fa_expect:    2.7
+; sw_score: 82
+; sw_ident: 0.458
+; sw_sim: 0.750
+; sw_overlap: 24
+>Consensus_0 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 3
+; al_stop: 26
+; al_display_start: 1
+----------------------------ISIQSECPIGLIGDDIEAVSRA
+KSKEY
+>VNFD_AZOSA ..
+; sq_len: 279
+; sq_type: p
+; al_start: 90
+; al_stop: 113
+; al_display_start: 60
+ESHVVFGGEKRLEKSMHEAFDEMPDIKRMIVYTTCPTALIGDDIKAVAKK
+VMKDRPDVDVFTVECPGFSGVSQSKGHHVLNIGWINEKVETMEKEITSEY
+TMNFIGDFNIQGDTQLLQTY
+>>NIFD_METTH (O27605) Nitrogenase molybdenum-iron protein alpha chain (E
+; fa_frame: f
+; fa_initn:  94
+; fa_init1:  94
+; fa_opt:  94
+; fa_z-score: 66.8
+; fa_bits: 17.6
+; fa_expect:    4.1
+; sw_score: 94
+; sw_ident: 0.750
+; sw_sim: 0.800
+; sw_overlap: 20
+>Consensus_0 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 7
+; al_stop: 26
+; al_display_start: 1
+------------------------ISIQSECPIGLIGDDIEAVSRAKSKE
+Y
+>NIFD_METTH ..
+; sq_len: 469
+; sq_type: p
+; al_start: 147
+; al_stop: 166
+; al_display_start: 117
+VFGGMDKLKRCIIEAAKEFPEANAVYTYATCTTGLIGDDIEAVSREVSEE
+IGKDVVAINAPGFAGPTQSKGHQVANYTLFENLVGTAEPPVVTDYDVNLI
+GEYNIDGDLWVLKRYFEEMG
+>>NIFD_METTM (Q50788) Nitrogenase molybdenum-iron protein alpha chain (E
+; fa_frame: f
+; fa_initn:  89
+; fa_init1:  89
+; fa_opt:  89
+; fa_z-score: 63.8
+; fa_bits: 17.0
+; fa_expect:      6
+; sw_score: 89
+; sw_ident: 0.650
+; sw_sim: 0.800
+; sw_overlap: 20
+>Consensus_0 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 7
+; al_stop: 26
+; al_display_start: 1
+------------------------ISIQSECPIGLIGDDIEAVSRAKSKE
+Y
+>NIFD_METTM ..
+; sq_len: 470
+; sq_type: p
+; al_start: 147
+; al_stop: 166
+; al_display_start: 117
+VFGGMDKLKRCILEAVREFPEANAVYTYATCTTGLIGDDIDAISREVSEE
+IGKDVVAINAPGFAGPTQSKGHQVANYTLFEDLVGTAEPPRTTEYDVNLI
+GEYNIDGDLWVLKKYFEEMG
+>>NIFE_SYNP8 (O07355) Nitrogenase iron-molybdenum cofactor biosynthesis 
+; fa_frame: f
+; fa_initn:  88
+; fa_init1:  88
+; fa_opt:  88
+; fa_z-score: 63.2
+; fa_bits: 16.9
+; fa_expect:    6.4
+; sw_score: 88
+; sw_ident: 0.444
+; sw_sim: 0.741
+; sw_overlap: 27
+>Consensus_0 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 27
+; al_display_start: 1
+------------------------------ISIQSECPIGLIGDDIEAVS
+RAKSKEY
+>NIFE_SYNP8 ..
+; sq_len: 469
+; sq_type: p
+; al_start: 125
+; al_stop: 151
+; al_display_start: 95
+DLSENDVIFGGEKKLYQAIAQLVKRYHPAAVFVYSTCVTALIGDDLDAVC
+KAATKKYETPIIPVHAPGFVGSKNLGNRLGGEALLDHVVGTREPEFTTDF
+DINLIGEYNVAGEMWGVLPL
+>>NIFE_CLOPA (P10996) Nitrogenase iron-molybdenum cofactor biosynthesis 
+; fa_frame: f
+; fa_initn:  87
+; fa_init1:  87
+; fa_opt:  87
+; fa_z-score: 63.2
+; fa_bits: 16.9
+; fa_expect:    6.4
+; sw_score: 87
+; sw_ident: 0.444
+; sw_sim: 0.704
+; sw_overlap: 27
+>Consensus_0 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 27
+; al_display_start: 1
+------------------------------ISIQSECPIGLIGDDIEAVS
+RAKSKEY
+>NIFE_CLOPA ..
+; sq_len: 456
+; sq_type: p
+; al_start: 134
+; al_stop: 160
+; al_display_start: 104
+DLREKDVIFGGEKKLSAAIDEIVAEKHPKVIFVYSTCIVGVIGDDTDAVC
+KAAEEKYGIRVIPVKSPGFAGSKSTGYKAACDALMKLMGDKTTDEKIDGI
+NFLGDFNLAGEIWIVTNYLK
+>>NIFE_METBA (P51755) Nitrogenase iron-molybdenum cofactor biosynthesis 
+; fa_frame: f
+; fa_initn:  87
+; fa_init1:  87
+; fa_opt:  87
+; fa_z-score: 62.9
+; fa_bits: 16.8
+; fa_expect:    6.6
+; sw_score: 87
+; sw_ident: 0.407
+; sw_sim: 0.778
+; sw_overlap: 27
+>Consensus_0 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 27
+; al_display_start: 1
+------------------------------ISIQSECPIGLIGDDIEAVS
+RAKSKEY
+>NIFE_METBA ..
+; sq_len: 463
+; sq_type: p
+; al_start: 126
+; al_stop: 152
+; al_display_start: 96
+DMKEIDVVFGGEKKLSNAIDELVEVYHPPVILVYSTCIVGIIGDDLESVC
+KTASQKHTIHVTPVKSEGFNGNKSDGYKAACDALKRLIKRPSEDEIKKKA
+PRVPETIKPKINILGDFNVA
+>>VNFD_AZOCH (P15332) Nitrogenase vanadium-iron protein alpha chain (EC 
+; fa_frame: f
+; fa_initn:  86
+; fa_init1:  86
+; fa_opt:  86
+; fa_z-score: 61.9
+; fa_bits: 16.7
+; fa_expect:    7.5
+; sw_score: 86
+; sw_ident: 0.500
+; sw_sim: 0.750
+; sw_overlap: 24
+>Consensus_0 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 3
+; al_stop: 26
+; al_display_start: 1
+----------------------------ISIQSECPIGLIGDDIEAVSRA
+KSKEY
+>VNFD_AZOCH ..
+; sq_len: 472
+; sq_type: p
+; al_start: 132
+; al_stop: 155
+; al_display_start: 102
+ESHVVFGGEKRLEQRMHEAFDEMPDIKRMIVYTTCPTALIGDDIKAVAKK
+VMKERPDVDVFTVECPGFSGVSQSKGHHVLNIGWINEKVETMEKEITSEY
+TMNFIGDFNIQGDTQLLQTY
+>>ANFD_HELGE (O68955) Nitrogenase iron-iron protein alpha chain (EC 1.18
+; fa_frame: f
+; fa_initn:  66
+; fa_init1:  66
+; fa_opt:  66
+; fa_z-score: 60.3
+; fa_bits: 15.6
+; fa_expect:    9.1
+; sw_score: 66
+; sw_ident: 0.429
+; sw_sim: 0.810
+; sw_overlap: 21
+>Consensus_0 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 21
+; al_display_start: 1
+------------------------------ISIQSECPIGLIGDDIEAVS
+RAKSKEY
+>ANFD_HELGE ..
+; sq_len: 280
+; sq_type: p
+; al_start: 88
+; al_stop: 108
+; al_display_start: 58
+MKEKHIVFGAEKLLKKNIIEAFQAFPDIKRMTIYQTCASALIGDDINAIA
+QEVMDELPDVDIFVCNSPGFAGPSQSGGHHKINIAWIDQKVGTVEPKITS
+DYVINYVGEYNIQGDQEVML
+>>NIFE_METMP (P71528) Nitrogenase iron-molybdenum cofactor biosynthesis 
+; fa_frame: f
+; fa_initn:  84
+; fa_init1:  84
+; fa_opt:  84
+; fa_z-score: 60.2
+; fa_bits: 16.4
+; fa_expect:    9.2
+; sw_score: 84
+; sw_ident: 0.571
+; sw_sim: 0.762
+; sw_overlap: 21
+>Consensus_0 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 21
+; al_display_start: 1
+------------------------------ISIQSECPIGLIGDDIEAVS
+RAKSKEY
+>NIFE_METMP ..
+; sq_len: 483
+; sq_type: p
+; al_start: 154
+; al_stop: 174
+; al_display_start: 124
+DLQEKDIVFGGEKKLYESILEVNKLYHPGAIFVYSTCVVGLIGDDLKAVC
+RQAQEATGCRVIPVQSEGFKSFNKTAGHKLACDAMLDYVIGTEEPEEEHP
+YSINIIGEFNVAGDLWGIIP
+>>><<<
+
+
+27 residues in 1 query   sequences
+30380 residues in 65 library sequences
+ Scomplib [34t25]
+ start: Thu Jun 15 19:59:17 2006 done: Thu Jun 15 19:59:18 2006
+ Total Scan time:  0.010 Total Display time:  0.030
+
+Function used was FASTA [version 3.4t25 Sept 2, 2005]

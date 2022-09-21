@@ -1,0 +1,354 @@
+# /usr/local/bin/fasta34 -m 10 -A -H -q -p -E 200 /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_2099/temp_consensus.fasta /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_2099/file1.txt
+FASTA searches a protein or DNA sequence data bank
+ version 3.4t25 Sept 2, 2005
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query library /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_2099/temp_consensus.fasta vs /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_2099/file1.txt library
+searching /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_2099/file1.txt library
+
+  1>>>Consensus_1  - 26 aa
+ vs  /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_vers library
+
+  19555 residues in    10 sequences
+ MLE_cen statistics: Lambda= 0.0610;  K=0.01405 (cen=0)
+
+FASTA (3.47 Mar 2004) function [optimized, BL50 matrix (15:-5)] ktup: 1
+ join: 42, opt: 30, open/ext: -10/-2, width:  16
+ Scan time:  0.000
+The best scores are:                                      opt bits E(10)
+gi|110347437|ref|NP_001036010.                     (1557)  145  18.9    0.79
+gi|110347412|ref|NP_003564.2|                      (1587)  145  18.9    0.81
+gi|110347431|ref|NP_001036009.                     (1624)  145  18.9    0.82
+gi|18497288|ref|NP_066548.2|                       (1256)  118  16.5     2.9
+gi|4557733|ref|NP_000419.1|                        (1821)  107  15.6     6.2
+gi|56237021|ref|NP_115823.3|                       (2809)  113  16.1     6.5
+gi|24430141|ref|NP_000129.2|                       (2871)  112  16.0     6.8
+gi|66346695|ref|NP_001990.2|                       (2912)  111  15.9     7.1
+gi|46249412|ref|NP_000618.2|                       (1396)   89  14.0     8.9
+gi|46249414|ref|NP_996826.1|                       (1722)   89  14.0     9.4
+
+>>>Consensus_1, 26 aa vs /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_2099/file1.txt library
+; pg_name: /usr/local/bin/fasta34
+; pg_ver: 34t25
+; pg_argv: /usr/local/bin/fasta34 -m 10 -A -H -q -p -E 200 /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_2099/temp_consensus.fasta /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_2099/file1.txt
+; pg_name: FASTA
+; pg_ver: 3.47 Mar 2004
+; pg_matrix: BL50 (15:-5)
+; pg_open-ext: -10 -2
+; pg_ktup: 1
+; pg_optcut: 30
+; pg_cgap: 42
+; mp_extrap: 60000 10
+; mp_stats: MLE_cen statistics: Lambda= 0.0610;  K=0.01405 (cen=0)
+; mp_KS: -0.0000 (N=33) at  86
+>>gi|110347437|ref|NP_001036010.
+; fa_frame: f
+; fa_initn: 133
+; fa_init1: 133
+; fa_opt: 145
+; fa_z-score: 65.0
+; fa_bits: 18.9
+; fa_expect:   0.79
+; sw_score: 145
+; sw_ident: 0.731
+; sw_sim: 0.923
+; sw_overlap: 26
+>Consensus_1 ..
+; sq_len: 26
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 26
+; al_display_start: 1
+------------------------------YRPGPRGASCLDVDECAENP
+GVCENG
+>gi|110347437|ref|NP_001036010. ..
+; sq_len: 1557
+; sq_type: p
+; al_start: 842
+; al_stop: 866
+; al_display_start: 812
+VNECLEGDFCFPHGECLNTDGSFACTCAPGYRPGPRGASCLDVDECSEED
+-LCQSGICTNTDGSFECICPPGHRAGPDLASCLDVDECRERGPALCGSQR
+CENSPGSYRCVRDCDPGYHA
+>>gi|110347412|ref|NP_003564.2|
+; fa_frame: f
+; fa_initn: 133
+; fa_init1: 133
+; fa_opt: 145
+; fa_z-score: 64.8
+; fa_bits: 18.9
+; fa_expect:   0.81
+; sw_score: 145
+; sw_ident: 0.731
+; sw_sim: 0.923
+; sw_overlap: 26
+>Consensus_1 ..
+; sq_len: 26
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 26
+; al_display_start: 1
+------------------------------YRPGPRGASCLDVDECAENP
+GVCENG
+>gi|110347412|ref|NP_003564.2| ..
+; sq_len: 1587
+; sq_type: p
+; al_start: 872
+; al_stop: 896
+; al_display_start: 842
+VNECLEGDFCFPHGECLNTDGSFACTCAPGYRPGPRGASCLDVDECSEED
+-LCQSGICTNTDGSFECICPPGHRAGPDLASCLDVDECRERGPALCGSQR
+CENSPGSYRCVRDCDPGYHA
+>>gi|110347431|ref|NP_001036009.
+; fa_frame: f
+; fa_initn: 133
+; fa_init1: 133
+; fa_opt: 145
+; fa_z-score: 64.6
+; fa_bits: 18.9
+; fa_expect:   0.82
+; sw_score: 145
+; sw_ident: 0.731
+; sw_sim: 0.923
+; sw_overlap: 26
+>Consensus_1 ..
+; sq_len: 26
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 26
+; al_display_start: 1
+------------------------------YRPGPRGASCLDVDECAENP
+GVCENG
+>gi|110347431|ref|NP_001036009. ..
+; sq_len: 1624
+; sq_type: p
+; al_start: 909
+; al_stop: 933
+; al_display_start: 879
+VNECLEGDFCFPHGECLNTDGSFACTCAPGYRPGPRGASCLDVDECSEED
+-LCQSGICTNTDGSFECICPPGHRAGPDLASCLDVDECRERGPALCGSQR
+CENSPGSYRCVRDCDPGYHA
+>>gi|18497288|ref|NP_066548.2|
+; fa_frame: f
+; fa_initn:  93
+; fa_init1:  93
+; fa_opt: 118
+; fa_z-score: 53.8
+; fa_bits: 16.5
+; fa_expect:    2.9
+; sw_score: 118
+; sw_ident: 0.654
+; sw_sim: 0.731
+; sw_overlap: 26
+>Consensus_1 ..
+; sq_len: 26
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 26
+; al_display_start: 1
+------------------------------YRPGPRGASCLDVDECAENP
+GVCENG
+>gi|18497288|ref|NP_066548.2| ..
+; sq_len: 1256
+; sq_type: p
+; al_start: 774
+; al_stop: 798
+; al_display_start: 744
+DVNECAEGSPCSPGWCENLPGSFRCTCAQGYAPAPDGRSCLDVDEC-EAG
+DVCDNGICSNTPGSFQCQCLSGYHLSRDRSHCEDIDECDFPAACIGGDCI
+NTNGSYRCLCPQGHRLVGGR
+>>gi|4557733|ref|NP_000419.1|
+; fa_frame: f
+; fa_initn: 128
+; fa_init1: 107
+; fa_opt: 107
+; fa_z-score: 45.7
+; fa_bits: 15.6
+; fa_expect:    6.2
+; sw_score: 107
+; sw_ident: 0.538
+; sw_sim: 0.692
+; sw_overlap: 26
+>Consensus_1 ..
+; sq_len: 26
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 26
+; al_display_start: 1
+------------------------------YRPGPRGASCLDVDECAENP
+GVCENG
+>gi|4557733|ref|NP_000419.1| ..
+; sq_len: 1821
+; sq_type: p
+; al_start: 1124
+; al_stop: 1149
+; al_display_start: 1094
+LDECAFPGVCPSGVCTNTAGSFSCKDCDGGYRPSPLGDSCEDVDECEDPQ
+SSCLGGECKNTVGSYQCLCPQGFQLANGTVCEDVNECMGEEHCAPHGECL
+NSHGSFFCLCAPGFVSAEGG
+>>gi|56237021|ref|NP_115823.3|
+; fa_frame: f
+; fa_initn: 113
+; fa_init1: 113
+; fa_opt: 113
+; fa_z-score: 45.1
+; fa_bits: 16.1
+; fa_expect:    6.5
+; sw_score: 113
+; sw_ident: 0.636
+; sw_sim: 0.773
+; sw_overlap: 22
+>Consensus_1 ..
+; sq_len: 26
+; sq_offset: 1
+; sq_type: p
+; al_start: 5
+; al_stop: 26
+; al_display_start: 1
+--------------------------YRPGPRGASCLDVDECAENPGVCE
+NG
+>gi|56237021|ref|NP_115823.3| ..
+; sq_len: 2809
+; sq_type: p
+; al_start: 1189
+; al_stop: 1210
+; al_display_start: 1159
+CRVQNGGCDVHCINTEGSYRCSCGQGYSLMPDGRACADVDECEENPRVCD
+QGHCTNMPGGHRCLCYDGFMATPDMRTCVDVDECDLNPHICLHGDCENTK
+GSFVCHCQLGYMVRKGATGC
+>>gi|24430141|ref|NP_000129.2|
+; fa_frame: f
+; fa_initn: 112
+; fa_init1: 112
+; fa_opt: 112
+; fa_z-score: 44.5
+; fa_bits: 16.0
+; fa_expect:    6.8
+; sw_score: 112
+; sw_ident: 0.500
+; sw_sim: 0.731
+; sw_overlap: 26
+>Consensus_1 ..
+; sq_len: 26
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 26
+; al_display_start: 1
+------------------------------YRPGPRGASCLDVDECAENP
+GVCENG
+>gi|24430141|ref|NP_000129.2| ..
+; sq_len: 2871
+; sq_type: p
+; al_start: 2280
+; al_stop: 2305
+; al_display_start: 2250
+ECEEGKHDCTEKQMECKNLIGTYMCICGPGYQRRPDGEGCVDENECQTKP
+GICENGRCLNTRGSYTCECNDGFTASPNQDECLDNREGYCFTEVLQNMCQ
+IGSSNRNPVTKSECCCDGGR
+>>gi|66346695|ref|NP_001990.2|
+; fa_frame: f
+; fa_initn: 111
+; fa_init1: 111
+; fa_opt: 111
+; fa_z-score: 43.9
+; fa_bits: 15.9
+; fa_expect:    7.1
+; sw_score: 111
+; sw_ident: 0.545
+; sw_sim: 0.773
+; sw_overlap: 22
+>Consensus_1 ..
+; sq_len: 26
+; sq_offset: 1
+; sq_type: p
+; al_start: 5
+; al_stop: 26
+; al_display_start: 1
+--------------------------YRPGPRGASCLDVDECAENPGVCE
+NG
+>gi|66346695|ref|NP_001990.2| ..
+; sq_len: 2912
+; sq_type: p
+; al_start: 1276
+; al_stop: 1297
+; al_display_start: 1246
+CMIMNGGCDTQCTNSEGSYECSCSEGYALMPDGRSCADIDECENNPDICD
+GGQCTNIPGEYRCLCYDGFMASMDMKTCIDVNECDLNSNICMFGECENTK
+GSFICHCQLGYSVKKGTTGC
+>>gi|46249412|ref|NP_000618.2|
+; fa_frame: f
+; fa_initn: 146
+; fa_init1:  89
+; fa_opt:  89
+; fa_z-score: 39.2
+; fa_bits: 14.0
+; fa_expect:    8.9
+; sw_score: 97
+; sw_ident: 0.640
+; sw_sim: 0.760
+; sw_overlap: 25
+>Consensus_1 ..
+; sq_len: 26
+; sq_offset: 1
+; sq_type: p
+; al_start: 4
+; al_stop: 26
+; al_display_start: 1
+---------------------------YRPGPRG--ASCLDVDECAENPG
+VCENG
+>gi|46249412|ref|NP_000618.2| ..
+; sq_len: 1396
+; sq_type: p
+; al_start: 703
+; al_stop: 726
+; al_display_start: 673
+DIDECLNPSTCPDEQCVNSPGSYQCVPCTEGFRGWNGQCLDVDECLE-PN
+VCANGDCSNLEGSYMCSCHKGYTRTPDHKHCRDIDECQQGNLCVNGQCKN
+TEGSFRCTCGQGYQLSAAKD
+>>gi|46249414|ref|NP_996826.1|
+; fa_frame: f
+; fa_initn: 146
+; fa_init1:  89
+; fa_opt:  89
+; fa_z-score: 37.6
+; fa_bits: 14.0
+; fa_expect:    9.4
+; sw_score: 97
+; sw_ident: 0.640
+; sw_sim: 0.760
+; sw_overlap: 25
+>Consensus_1 ..
+; sq_len: 26
+; sq_offset: 1
+; sq_type: p
+; al_start: 4
+; al_stop: 26
+; al_display_start: 1
+---------------------------YRPGPRG--ASCLDVDECAENPG
+VCENG
+>gi|46249414|ref|NP_996826.1| ..
+; sq_len: 1722
+; sq_type: p
+; al_start: 1029
+; al_stop: 1052
+; al_display_start: 999
+DIDECLNPSTCPDEQCVNSPGSYQCVPCTEGFRGWNGQCLDVDECLE-PN
+VCANGDCSNLEGSYMCSCHKGYTRTPDHKHCRDIDECQQGNLCVNGQCKN
+TEGSFRCTCGQGYQLSAAKD
+>>><<<
+
+
+26 residues in 1 query   sequences
+19555 residues in 10 library sequences
+ Scomplib [34t25]
+ start: Thu Dec 13 19:22:24 2007 done: Thu Dec 13 19:22:24 2007
+ Total Scan time:  0.000 Total Display time:  0.040
+
+Function used was FASTA [version 3.4t25 Sept 2, 2005]

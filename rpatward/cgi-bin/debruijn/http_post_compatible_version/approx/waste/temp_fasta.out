@@ -1,0 +1,779 @@
+# /usr/local/bin/fasta34 -m 10 -A -H -q -p -E 200 /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/waste/temp_consensus.fasta /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/waste/PS00033
+FASTA searches a protein or DNA sequence data bank
+ version 3.4t25 Sept 2, 2005
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query library /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/waste/temp_consensus.fasta vs /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/waste/PS00033 library
+searching /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/waste/PS00033 library
+
+  1>>>Consensus_3  - 27 aa
+ vs  /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_vers library
+
+   8028 residues in    24 sequences
+  Expectation_n fit: rho(ln(x))= 0.0000+/-0.0195; mu= 30.5000+/- 1.163
+ mean_var=157.5959+/-114.195, 0's: 0 Z-trim: 20  B-trim: 0 in 0/1
+ Lambda= 0.102165
+
+FASTA (3.47 Mar 2004) function [optimized, BL50 matrix (15:-5)] ktup: 1
+ join: 42, opt: 30, open/ext: -10/-2, width:  16
+ Scan time:  0.000
+The best scores are:                                      opt bits E(24)
+HME2_MOUSE (P09066) Homeobox protein engrailed-2 ( ( 324)  201  39.1 3.7e-07
+HME2_HUMAN (P19622) Homeobox protein engrailed-2 ( ( 333)  191  37.6   1e-06
+HMIN_BOMMO (P27610) Homeobox protein invected.     ( 476)  170  35.0 8.7e-06
+HME3_BRARE (P31533) Homeobox protein engrailed-3 ( ( 261)  170  34.2 8.7e-06
+HMEC_XENLA (P52729) Homeobox protein engrailed-2A  ( 265)  168  33.9 1.1e-05
+HME2_CHICK (Q05917) Homeobox protein engrailed-2 ( ( 288)  167  33.9 1.2e-05
+HME1_HUMAN (Q05925) Homeobox protein engrailed-1 ( ( 392)  160  33.3 2.4e-05
+HME1_MOUSE (P09065) Homeobox protein engrailed-1 ( ( 401)  160  33.3 2.4e-05
+HMED_XENLA (P52730) Homeobox protein engrailed-2B  ( 265)  158  32.4   3e-05
+HME2_BRARE (P09015) Homeobox protein engrailed-2 ( ( 265)  156  32.1 3.6e-05
+HME1_CHICK (Q05916) Homeobox protein engrailed-1 ( ( 333)  152  31.9 5.5e-05
+HMIN_DROME (P05527) Homeobox protein invected.     ( 576)  152  32.7 5.5e-05
+HMEN_DROME (P02836) Segmentation polarity homeobox ( 552)  152  32.6 5.5e-05
+HMEN_DROVI (P09145) Segmentation polarity homeobox ( 584)  151  32.5 6.1e-05
+HME1_BRARE (Q04896) Homeobox protein engrailed-1.  ( 231)  147  30.6 9.1e-05
+HMEN_ANOGA (O02491) Segmentation polarity homeobox ( 596)  144  31.5 0.00012
+HMEN_BOMMO (P27609) Segmentation polarity homeobox ( 372)  144  30.9 0.00012
+HMEB_XENLA (P31538) Homeobox protein engrailed-1B  ( 171)  141  29.3 0.00017
+HMEN_ARTSF (Q05640) Homeobox protein engrailed.    ( 349)  135  29.4 0.00031
+HME2_SCHMA (Q26601) Homeobox protein engrailed-lik ( 524)  120  27.8  0.0014
+HME6_APIME (P09075) Homeobox protein E60 (Fragment ( 109)   31  12.4     9.9
+HME3_APIME (P09076) Homeobox protein E30 (Fragment ( 109)   30  12.3      11
+HMEN_TRIGR (P09532) Homeobox protein engrailed (SU ( 154)   27  12.3      13
+HMEN_HELTR (P23397) Homeobox protein Ht-En (Fragme (  98)   27  11.7      13
+
+>>>Consensus_3, 27 aa vs /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/waste/PS00033 library
+; pg_name: /usr/local/bin/fasta34
+; pg_ver: 34t25
+; pg_argv: /usr/local/bin/fasta34 -m 10 -A -H -q -p -E 200 /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/waste/temp_consensus.fasta /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/waste/PS00033
+; pg_name: FASTA
+; pg_ver: 3.47 Mar 2004
+; pg_matrix: BL50 (15:-5)
+; pg_open-ext: -10 -2
+; pg_ktup: 1
+; pg_optcut: 30
+; pg_cgap: 42
+; mp_extrap: 60000 4
+; mp_stats:  Expectation_n fit: rho(ln(x))= 0.0000+/-0.0195; mu= 30.5000+/- 1.163  mean_var=157.5959+/-114.195, 0's: 0 Z-trim: 20  B-trim: 0 in 0/1  Lambda= 0.102165
+; mp_KS: -0.0000 (N=33) at  86
+>>HME2_MOUSE (P09066) Homeobox protein engrailed-2 (Mo-En-2).
+; fa_frame: f
+; fa_initn: 201
+; fa_init1: 201
+; fa_opt: 201
+; fa_z-score: 185.8
+; fa_bits: 39.1
+; fa_expect: 3.7e-07
+; sw_score: 201
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 27
+>Consensus_3 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 27
+; al_display_start: 1
+------------------------------SATLGAQPMLWPAWVYCTRY
+SDRPSSG
+>HME2_MOUSE ..
+; sq_len: 324
+; sq_type: p
+; al_start: 194
+; al_stop: 220
+; al_display_start: 164
+PGGSLDGVLKARGLGGGDLSVSSDSDSSQASATLGAQPMLWPAWVYCTRY
+SDRPSSGPRSRKPKKKNPNKEDKRPRTAFTAEQLQRLKAEFQTNRYLTEQ
+RRQSLAQELSLNESQIKIWF
+>>HME2_HUMAN (P19622) Homeobox protein engrailed-2 (Hu-En-2).
+; fa_frame: f
+; fa_initn: 191
+; fa_init1: 191
+; fa_opt: 191
+; fa_z-score: 177.9
+; fa_bits: 37.6
+; fa_expect:  1e-06
+; sw_score: 191
+; sw_ident: 0.962
+; sw_sim: 1.000
+; sw_overlap: 26
+>Consensus_3 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 27
+; al_display_start: 1
+-----------------------------SATLGAQPMLWPAWVYCTRYS
+DRPSSG
+>HME2_HUMAN ..
+; sq_len: 333
+; sq_type: p
+; al_start: 204
+; al_stop: 229
+; al_display_start: 174
+GGPLDGSLKARGLGGGDLSVSSDSDSSQAGANLGAQPMLWPAWVYCTRYS
+DRPSSGPRSRKPKKKNPNKEDKRPRTAFTAEQLQRLKAEFQTNRYLTEQR
+RQSLAQELSLNESQIKIWFQ
+>>HMIN_BOMMO (P27610) Homeobox protein invected.
+; fa_frame: f
+; fa_initn: 170
+; fa_init1: 170
+; fa_opt: 170
+; fa_z-score: 161.1
+; fa_bits: 35.0
+; fa_expect: 8.7e-06
+; sw_score: 170
+; sw_ident: 0.846
+; sw_sim: 0.923
+; sw_overlap: 26
+>Consensus_3 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 27
+; al_display_start: 1
+-----------------------------SATLGAQPMLWPAWVYCTRYS
+DRPSSG
+>HMIN_BOMMO ..
+; sq_len: 476
+; sq_type: p
+; al_start: 327
+; al_stop: 352
+; al_display_start: 297
+RVPDIKTPDKAGAIDLSKDDSGSNSGSTSGATSGDSPMVWPAWVYCTRYS
+DRPSSGRSPRTRRPKKPPGDTASNDEKRPRTAFSGPQLARLKHEFAENRY
+LTERRRQSLAAELGLAEAQI
+>>HME3_BRARE (P31533) Homeobox protein engrailed-3 (Zf-En-1).
+; fa_frame: f
+; fa_initn: 170
+; fa_init1: 170
+; fa_opt: 170
+; fa_z-score: 161.1
+; fa_bits: 34.2
+; fa_expect: 8.7e-06
+; sw_score: 170
+; sw_ident: 0.846
+; sw_sim: 0.923
+; sw_overlap: 26
+>Consensus_3 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 27
+; al_display_start: 1
+-----------------------------SATLGAQPMLWPAWVYCTRYS
+DRPSSG
+>HME3_BRARE ..
+; sq_len: 261
+; sq_type: p
+; al_start: 132
+; al_stop: 157
+; al_display_start: 102
+TDISTDESLKSRAETGDQCLSSDSDCSQRCAAQAKQPMLWPAWVYCTRYS
+DRPSSGPRSRKPKKKTPTKEDKRPRTAFTAEQLQRLKNEFQNNRYLTEQR
+RQALAQELGLNESQIKIWFQ
+>>HMEC_XENLA (P52729) Homeobox protein engrailed-2A (En-2A) (EN2 1.4).
+; fa_frame: f
+; fa_initn: 168
+; fa_init1: 168
+; fa_opt: 168
+; fa_z-score: 159.5
+; fa_bits: 33.9
+; fa_expect: 1.1e-05
+; sw_score: 168
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 21
+>Consensus_3 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 7
+; al_stop: 27
+; al_display_start: 1
+------------------------SATLGAQPMLWPAWVYCTRYSDRPSS
+G
+>HMEC_XENLA ..
+; sq_len: 265
+; sq_type: p
+; al_start: 141
+; al_stop: 161
+; al_display_start: 111
+EETLKSRGLNGDHSLSSDSDSSQTSSKATQQPMLWPAWVYCTRYSDRPSS
+GPRSRKPKKKSVSKEDKRPRTAFTADQLQRLKAEFQTNRYLTEQRRQSLA
+QELSLNESQIKIWFQNKRAK
+>>HME2_CHICK (Q05917) Homeobox protein engrailed-2 (Gg-En-2).
+; fa_frame: f
+; fa_initn: 167
+; fa_init1: 167
+; fa_opt: 167
+; fa_z-score: 158.7
+; fa_bits: 33.9
+; fa_expect: 1.2e-05
+; sw_score: 167
+; sw_ident: 0.955
+; sw_sim: 0.955
+; sw_overlap: 22
+>Consensus_3 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 5
+; al_stop: 26
+; al_display_start: 1
+--------------------------SATLGAQPMLWPAWVYCTRYSDRP
+SSG
+>HME2_CHICK ..
+; sq_len: 288
+; sq_type: p
+; al_start: 163
+; al_stop: 184
+; al_display_start: 133
+LEAALKARGLSGAELSVSSDSDSSQAGSNAGNQPMLWPAWVYCTRYSDRP
+SSPRSRKPKKKNPNKEDKRPRTAFTAEQLQRLKAEFQTNRYLTEQRRQSL
+AQELGLNESQIKIWFQNKRA
+>>HME1_HUMAN (Q05925) Homeobox protein engrailed-1 (Hu-En-1).
+; fa_frame: f
+; fa_initn: 160
+; fa_init1: 160
+; fa_opt: 160
+; fa_z-score: 153.2
+; fa_bits: 33.3
+; fa_expect: 2.4e-05
+; sw_score: 160
+; sw_ident: 0.905
+; sw_sim: 1.000
+; sw_overlap: 21
+>Consensus_3 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 7
+; al_stop: 27
+; al_display_start: 1
+------------------------SATLGAQPMLWPAWVYCTRYSDRPSS
+G
+>HME1_HUMAN ..
+; sq_len: 392
+; sq_type: p
+; al_start: 268
+; al_stop: 288
+; al_display_start: 238
+QGTKYPEHGNPAILLMGSANGGPVVKTDSQQPLVWPAWVYCTRYSDRPSS
+GPRTRKLKKKKNEKEDKRPRTAFTAEQLQRLKAEFQANRYITEQRRQTLA
+QELSLNESQIKIWFQNKRAK
+>>HME1_MOUSE (P09065) Homeobox protein engrailed-1 (Mo-En-1).
+; fa_frame: f
+; fa_initn: 160
+; fa_init1: 160
+; fa_opt: 160
+; fa_z-score: 153.2
+; fa_bits: 33.3
+; fa_expect: 2.4e-05
+; sw_score: 160
+; sw_ident: 0.905
+; sw_sim: 1.000
+; sw_overlap: 21
+>Consensus_3 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 7
+; al_stop: 27
+; al_display_start: 1
+------------------------SATLGAQPMLWPAWVYCTRYSDRPSS
+G
+>HME1_MOUSE ..
+; sq_len: 401
+; sq_type: p
+; al_start: 277
+; al_stop: 297
+; al_display_start: 247
+AQGAKFPEHNPAILLMGSANGGPVVKTDSQQPLVWPAWVYCTRYSDRPSS
+GPRTRKLKKKKNEKEDKRPRTAFTAEQLQRLKAEFQANRYITEQRRQTLA
+QELSLNESQIKIWFQNKRAK
+>>HMED_XENLA (P52730) Homeobox protein engrailed-2B (En-2B) (EN2 MABEN).
+; fa_frame: f
+; fa_initn: 158
+; fa_init1: 158
+; fa_opt: 158
+; fa_z-score: 151.6
+; fa_bits: 32.4
+; fa_expect:  3e-05
+; sw_score: 158
+; sw_ident: 0.905
+; sw_sim: 1.000
+; sw_overlap: 21
+>Consensus_3 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 7
+; al_stop: 27
+; al_display_start: 1
+------------------------SATLGAQPMLWPAWVYCTRYSDRPSS
+G
+>HMED_XENLA ..
+; sq_len: 265
+; sq_type: p
+; al_start: 141
+; al_stop: 161
+; al_display_start: 111
+EETLKSRGLNGDHSLSSDSDSSQASSKATQKPILWPAWVYCTRYSDRPSS
+GPRSRKPKKKSVSKEDKRPRTAFTAEQLQRLKAEFQTNRYLTEQRRQSLA
+QELGLNESQIKIWFQNKRAK
+>>HME2_BRARE (P09015) Homeobox protein engrailed-2 (Zf-En-2).
+; fa_frame: f
+; fa_initn: 156
+; fa_init1: 156
+; fa_opt: 156
+; fa_z-score: 150.0
+; fa_bits: 32.1
+; fa_expect: 3.6e-05
+; sw_score: 156
+; sw_ident: 0.952
+; sw_sim: 0.952
+; sw_overlap: 21
+>Consensus_3 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 7
+; al_stop: 27
+; al_display_start: 1
+------------------------SATLGAQPMLWPAWVYCTRYSDRPSS
+G
+>HME2_BRARE ..
+; sq_len: 265
+; sq_type: p
+; al_start: 141
+; al_stop: 161
+; al_display_start: 111
+EPLKPRGENVDQCLGSESDSSQSNSNGQTGQGMLWPAWVYCTRYSDRPSS
+GPRSRKPKKKAASKEDKRPRTAFTAEQLQRLKAEFQTNRYLTEQRRQSLA
+QELGLNESQIKIWFQNKRAK
+>>HME1_CHICK (Q05916) Homeobox protein engrailed-1 (Gg-En-1).
+; fa_frame: f
+; fa_initn: 152
+; fa_init1: 152
+; fa_opt: 152
+; fa_z-score: 146.8
+; fa_bits: 31.9
+; fa_expect: 5.5e-05
+; sw_score: 152
+; sw_ident: 0.900
+; sw_sim: 1.000
+; sw_overlap: 20
+>Consensus_3 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 7
+; al_stop: 26
+; al_display_start: 1
+------------------------SATLGAQPMLWPAWVYCTRYSDRPSS
+G
+>HME1_CHICK ..
+; sq_len: 333
+; sq_type: p
+; al_start: 210
+; al_stop: 229
+; al_display_start: 180
+PAAKYGEHGSPAILLMGSNNGGAVLKPDSQQPLVWPAWVYCTRYSDRPSS
+PRTRKLKKKKTEKEDKRPRTAFTAEQLQRLKAEFQANRYITEQRRQSLAQ
+ELSLNESRVKIWFQNKRAKI
+>>HMIN_DROME (P05527) Homeobox protein invected.
+; fa_frame: f
+; fa_initn: 152
+; fa_init1: 152
+; fa_opt: 152
+; fa_z-score: 146.8
+; fa_bits: 32.7
+; fa_expect: 5.5e-05
+; sw_score: 152
+; sw_ident: 0.900
+; sw_sim: 1.000
+; sw_overlap: 20
+>Consensus_3 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 8
+; al_stop: 27
+; al_display_start: 1
+-----------------------SATLGAQPMLWPAWVYCTRYSDRPSSG
+>HMIN_DROME ..
+; sq_len: 576
+; sq_type: p
+; al_start: 413
+; al_stop: 432
+; al_display_start: 383
+APVDLVKSPPPAAGAGATGASGKSGEDSGTPIVWPAWVYCTRYSDRPSSG
+RSPRARKPKKPATSSSAAGGGGGGVEKGEAADGGGVPEDKRPRTAFSGTQ
+LARLKHEFNENRYLTEKRRQ
+>>HMEN_DROME (P02836) Segmentation polarity homeobox protein engrailed.
+; fa_frame: f
+; fa_initn: 152
+; fa_init1: 152
+; fa_opt: 152
+; fa_z-score: 146.8
+; fa_bits: 32.6
+; fa_expect: 5.5e-05
+; sw_score: 152
+; sw_ident: 0.704
+; sw_sim: 0.889
+; sw_overlap: 27
+>Consensus_3 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 27
+; al_display_start: 1
+------------------------------SATLGAQPMLWPAWVYCTRY
+SDRPSSG
+>HMEN_DROME ..
+; sq_len: 552
+; sq_type: p
+; al_start: 412
+; al_stop: 438
+; al_display_start: 382
+PQPQPIPPPSAVSRDSGMESSDDTRSETGSTTTEGGKNEMWPAWVYCTRY
+SDRPSSGPRYRRPKQPKDKTNDEKRPRTAFSSEQLARLKREFNENRYLTE
+RRRQQLSSELGLNEAQIKIW
+>>HMEN_DROVI (P09145) Segmentation polarity homeobox protein engrailed.
+; fa_frame: f
+; fa_initn: 151
+; fa_init1: 151
+; fa_opt: 151
+; fa_z-score: 146.0
+; fa_bits: 32.5
+; fa_expect: 6.1e-05
+; sw_score: 151
+; sw_ident: 0.704
+; sw_sim: 0.889
+; sw_overlap: 27
+>Consensus_3 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 27
+; al_display_start: 1
+------------------------------SATLGAQPMLWPAWVYCTRY
+SDRPSSG
+>HMEN_DROVI ..
+; sq_len: 584
+; sq_type: p
+; al_start: 444
+; al_stop: 470
+; al_display_start: 414
+SSPQPIPPPSAVSRDSGMESSDDTRSETGSTTTDGGKNEMWPAWVYCTRY
+SDRPSSGPRYRRPKQPKDKTNDEKRPRTAFSSEQLARLKREFNENRYLTE
+RRRQQLSSELGLNEAQIKIW
+>>HME1_BRARE (Q04896) Homeobox protein engrailed-1.
+; fa_frame: f
+; fa_initn: 147
+; fa_init1: 147
+; fa_opt: 147
+; fa_z-score: 142.8
+; fa_bits: 30.6
+; fa_expect: 9.1e-05
+; sw_score: 147
+; sw_ident: 0.857
+; sw_sim: 0.952
+; sw_overlap: 21
+>Consensus_3 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 7
+; al_stop: 27
+; al_display_start: 1
+------------------------SATLGAQPMLWPAWVYCTRYSDRPSS
+G
+>HME1_BRARE ..
+; sq_len: 231
+; sq_type: p
+; al_start: 106
+; al_stop: 126
+; al_display_start: 76
+STVSSPVSSRQSNKVEQGSSKSSSPSKDSQKQILWPAWVYCTRYSDRPSS
+GPRTRKLKKKNNNTESDDKRPRTAFTAEQLQRLKAEFQTSRYITEQRRQA
+LARELGLNESQIKIWFQNKR
+>>HMEN_ANOGA (O02491) Segmentation polarity homeobox protein engrailed.
+; fa_frame: f
+; fa_initn: 144
+; fa_init1: 144
+; fa_opt: 144
+; fa_z-score: 140.4
+; fa_bits: 31.5
+; fa_expect: 0.00012
+; sw_score: 144
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 18
+>Consensus_3 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 10
+; al_stop: 27
+; al_display_start: 1
+---------------------SATLGAQPMLWPAWVYCTRYSDRPSSG
+>HMEN_ANOGA ..
+; sq_len: 596
+; sq_type: p
+; al_start: 464
+; al_stop: 481
+; al_display_start: 434
+SSSQERGMESSDDAKSETSSTKDGSENGSNLWPAWVYCTRYSDRPSSGPR
+YRRTKQPKKRADSEEKRPRTAFSNAQLQRLKNEFNENRYLTEKRRQTLSA
+ELGLNEAQIKIWFQNKRAKI
+>>HMEN_BOMMO (P27609) Segmentation polarity homeobox protein engrailed.
+; fa_frame: f
+; fa_initn: 144
+; fa_init1: 144
+; fa_opt: 144
+; fa_z-score: 140.4
+; fa_bits: 30.9
+; fa_expect: 0.00012
+; sw_score: 144
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 18
+>Consensus_3 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 10
+; al_stop: 27
+; al_display_start: 1
+---------------------SATLGAQPMLWPAWVYCTRYSDRPSSG
+>HMEN_BOMMO ..
+; sq_len: 372
+; sq_type: p
+; al_start: 249
+; al_stop: 266
+; al_display_start: 219
+SIVSSTSSGAVSTCGSSDASSIQSQSNPGQLWPAWVYCTRYSDRPSSGPR
+SRRVKKKAAPEEKRPRTAFSGAQLARLKHEFAENRYLTERRRQSLAAELG
+LAEAQIKIWFQNKRAKIKKA
+>>HMEB_XENLA (P31538) Homeobox protein engrailed-1B (En-1B) (Fragment).
+; fa_frame: f
+; fa_initn: 141
+; fa_init1: 141
+; fa_opt: 141
+; fa_z-score: 138.0
+; fa_bits: 29.3
+; fa_expect: 0.00017
+; sw_score: 141
+; sw_ident: 0.895
+; sw_sim: 1.000
+; sw_overlap: 19
+>Consensus_3 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 9
+; al_stop: 27
+; al_display_start: 1
+----------------------SATLGAQPMLWPAWVYCTRYSDRPSSG
+>HMEB_XENLA ..
+; sq_len: 171
+; sq_type: p
+; al_start: 49
+; al_stop: 67
+; al_display_start: 19
+TPSDSSKGSDSNPALLLVGNAAPPVHKKDSVVWPAWVYCTRYSDRPSSGP
+RTRKLKKKKSEKEDKRPRTAFTAEQLQRLKAEFQANRYITEQRRQTLAQE
+LSLNESQIKIWFQNKRAKIK
+>>HMEN_ARTSF (Q05640) Homeobox protein engrailed.
+; fa_frame: f
+; fa_initn: 135
+; fa_init1: 135
+; fa_opt: 135
+; fa_z-score: 133.2
+; fa_bits: 29.4
+; fa_expect: 0.00031
+; sw_score: 135
+; sw_ident: 0.941
+; sw_sim: 1.000
+; sw_overlap: 17
+>Consensus_3 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 11
+; al_stop: 27
+; al_display_start: 1
+--------------------SATLGAQPMLWPAWVYCTRYSDRPSSG
+>HMEN_ARTSF ..
+; sq_len: 349
+; sq_type: p
+; al_start: 215
+; al_stop: 231
+; al_display_start: 185
+RTESRLSSSSKDSVPDNDKINPPLPPEASKWPAWVFCTRYSDRPSSGRSP
+RCRRMKKDKAITPDEKRPRTAFTAEQLSRLKHEFNENRYLTERRRQDLAR
+ELGLHENQIKIWFQNNRAKL
+>>HME2_SCHMA (Q26601) Homeobox protein engrailed-like SMOX-2.
+; fa_frame: f
+; fa_initn: 120
+; fa_init1: 120
+; fa_opt: 120
+; fa_z-score: 121.3
+; fa_bits: 27.8
+; fa_expect: 0.0014
+; sw_score: 120
+; sw_ident: 0.938
+; sw_sim: 1.000
+; sw_overlap: 16
+>Consensus_3 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 12
+; al_stop: 27
+; al_display_start: 1
+-------------------SATLGAQPMLWPAWVYCTRYSDRPSSG
+>HME2_SCHMA ..
+; sq_len: 524
+; sq_type: p
+; al_start: 391
+; al_stop: 406
+; al_display_start: 361
+HNKKLGSRGRIHEITSSNKLNTNDPSRLHLPAWVFCTRYSDRPSSGPRIR
+KPRMNRSNDELNLKRPRTSFTVPQLKRLSQEFEKNRYLDELRRKKLATEL
+DLRESQVKIWFQNKRAKTKK
+>>HME6_APIME (P09075) Homeobox protein E60 (Fragment).
+; fa_frame: f
+; fa_initn:  31
+; fa_init1:  31
+; fa_opt:  31
+; fa_z-score: 50.4
+; fa_bits: 12.4
+; fa_expect:    9.9
+; sw_score: 31
+; sw_ident: 0.259
+; sw_sim: 0.407
+; sw_overlap: 27
+>Consensus_3 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 27
+; al_display_start: 1
+------------------------------SATLGAQPMLWPAWVYCTRY
+SDRPSSG
+>HME6_APIME ..
+; sq_len: 109
+; sq_type: p
+; al_start: 54
+; al_stop: 80
+; al_display_start: 24
+RTAFSGEQLARLKREFAENRYLTERRRQQLSRDLGLNEAQIKIWFQNKRA
+KIKKASGQKNPLALQLMAQGLYNHSTVPLTKEEEEQ
+>>HME3_APIME (P09076) Homeobox protein E30 (Fragment).
+; fa_frame: f
+; fa_initn:  30
+; fa_init1:  30
+; fa_opt:  30
+; fa_z-score: 49.6
+; fa_bits: 12.3
+; fa_expect:     11
+; sw_score: 30
+; sw_ident: 0.259
+; sw_sim: 0.370
+; sw_overlap: 27
+>Consensus_3 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 27
+; al_display_start: 1
+------------------------------SATLGAQPMLWPAWVYCTRY
+SDRPSSG
+>HME3_APIME ..
+; sq_len: 109
+; sq_type: p
+; al_start: 54
+; al_stop: 80
+; al_display_start: 24
+RTAFSAEQLARLKREFAENRYLTERRRQQLSRDLGLTEAQIKIWFQNKRA
+KIKKASGQKNPLALQLMAQGLYNHSTVPVDEDGEEI
+>>HMEN_TRIGR (P09532) Homeobox protein engrailed (SU-HB-En) (Fragment).
+; fa_frame: f
+; fa_initn:  27
+; fa_init1:  27
+; fa_opt:  27
+; fa_z-score: 47.2
+; fa_bits: 12.3
+; fa_expect:     13
+; sw_score: 27
+; sw_ident: 0.286
+; sw_sim: 0.500
+; sw_overlap: 14
+>Consensus_3 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 14
+; al_stop: 27
+; al_display_start: 1
+-----------------SATLGAQPMLWPAWVYCTRYSDRPSSG
+>HMEN_TRIGR ..
+; sq_len: 154
+; sq_type: p
+; al_start: 84
+; al_stop: 97
+; al_display_start: 54
+QEFQQSNYLTEQRRRSLAKELTLSESQIKIWFQNKRAKIKKASGLKNDLA
+RQLMAQGLYNHSTVPLEADSMDTKLLNGQNTSGDCSRSDYTSDSDGDSLT
+H
+>>HMEN_HELTR (P23397) Homeobox protein Ht-En (Fragment).
+; fa_frame: f
+; fa_initn:  27
+; fa_init1:  27
+; fa_opt:  27
+; fa_z-score: 47.2
+; fa_bits: 11.7
+; fa_expect:     13
+; sw_score: 27
+; sw_ident: 0.286
+; sw_sim: 0.500
+; sw_overlap: 14
+>Consensus_3 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 14
+; al_stop: 27
+; al_display_start: 1
+-----------------SATLGAQPMLWPAWVYCTRYSDRPSSG
+>HMEN_HELTR ..
+; sq_len: 98
+; sq_type: p
+; al_start: 50
+; al_stop: 63
+; al_display_start: 20
+REFSENKYLTEQRRTCLAKELNLNESQIKIWFQNKRAKMKKASGVKNQLA
+LQLMAQGLYNHSSSSSSSSSSSSSIFLLA
+>>><<<
+
+
+27 residues in 1 query   sequences
+8028 residues in 24 library sequences
+ Scomplib [34t25]
+ start: Mon Aug  7 15:08:45 2006 done: Mon Aug  7 15:08:45 2006
+ Total Scan time:  0.000 Total Display time:  0.020
+
+Function used was FASTA [version 3.4t25 Sept 2, 2005]

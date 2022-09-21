@@ -1,0 +1,156 @@
+# /usr/local/bin/fasta34 -m 10 -A -H -q -p -E 200 /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_2056/temp_consensus.fasta /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_2056/file1.txt
+FASTA searches a protein or DNA sequence data bank
+ version 3.4t25 Sept 2, 2005
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query library /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_2056/temp_consensus.fasta vs /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_2056/file1.txt library
+searching /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_2056/file1.txt library
+
+  1>>>Consensus_2  - 7 aa
+ vs  /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_vers library
+
+    530 residues in     4 sequences
+ Altschul/Gish params: n0: 7 Lambda: 0.158 K: 0.019 H: 0.100
+
+FASTA (3.47 Mar 2004) function [optimized, BL50 matrix (15:-5)] ktup: 1
+ join: 51, opt: 39, open/ext: -10/-2, width:  16
+ Scan time:  0.000
+The best scores are:                                      opt bits E(4)
+gi|1346678|sp|P48744.1|NDP_MOU                     ( 131)   66  23.9 0.00023
+gi|110815873|sp|Q2KI78.1|NDP_B                     ( 133)   66  23.9 0.00023
+Q00604|NDP_HUMAN                                   ( 133)   66  23.9 0.00023
+gi|548342|sp|Q00604.1|NDP_HUMA                     ( 133)   66  23.9 0.00023
+
+>>>Consensus_2, 7 aa vs /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_2056/file1.txt library
+; pg_name: /usr/local/bin/fasta34
+; pg_ver: 34t25
+; pg_argv: /usr/local/bin/fasta34 -m 10 -A -H -q -p -E 200 /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_2056/temp_consensus.fasta /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_2056/file1.txt
+; pg_name: FASTA
+; pg_ver: 3.47 Mar 2004
+; pg_matrix: BL50 (15:-5)
+; pg_open-ext: -10 -2
+; pg_ktup: 1
+; pg_optcut: 39
+; pg_cgap: 51
+; mp_extrap: 60000 0
+; mp_stats: Altschul/Gish params: n0: 7 Lambda: 0.158 K: 0.019 H: 0.100
+; mp_KS: -0.0000 (N=33) at  86
+>>gi|1346678|sp|P48744.1|NDP_MOU
+; fa_frame: f
+; fa_initn:  66
+; fa_init1:  66
+; fa_opt:  66
+; fa_z-score: 121.6
+; fa_bits: 23.9
+; fa_expect: 0.00023
+; sw_score: 66
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 7
+>Consensus_2 ..
+; sq_len: 7
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 7
+; al_display_start: 1
+------------------------------SCHCEEC
+>gi|1346678|sp|P48744.1|NDP_MOU ..
+; sq_len: 131
+; sq_type: p
+; al_start: 123
+; al_stop: 129
+; al_display_start: 93
+CCRPQTSKLKALRLRCSGGMRLTATYRYILSCHCEECSS
+>>gi|110815873|sp|Q2KI78.1|NDP_B
+; fa_frame: f
+; fa_initn:  66
+; fa_init1:  66
+; fa_opt:  66
+; fa_z-score: 121.5
+; fa_bits: 23.9
+; fa_expect: 0.00023
+; sw_score: 66
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 7
+>Consensus_2 ..
+; sq_len: 7
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 7
+; al_display_start: 1
+------------------------------SCHCEEC
+>gi|110815873|sp|Q2KI78.1|NDP_B ..
+; sq_len: 133
+; sq_type: p
+; al_start: 125
+; al_stop: 131
+; al_display_start: 95
+CCRPQTSKLKALRLRCSGGMRLTATYRYILSCHCEECSS
+>>Q00604|NDP_HUMAN
+; fa_frame: f
+; fa_initn:  66
+; fa_init1:  66
+; fa_opt:  66
+; fa_z-score: 121.5
+; fa_bits: 23.9
+; fa_expect: 0.00023
+; sw_score: 66
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 7
+>Consensus_2 ..
+; sq_len: 7
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 7
+; al_display_start: 1
+------------------------------SCHCEEC
+>Q00604|NDP_HUMAN ..
+; sq_len: 133
+; sq_type: p
+; al_start: 125
+; al_stop: 131
+; al_display_start: 95
+CCRPQTSKLKALRLRCSGGMRLTATYRYILSCHCEECNS
+>>gi|548342|sp|Q00604.1|NDP_HUMA
+; fa_frame: f
+; fa_initn:  66
+; fa_init1:  66
+; fa_opt:  66
+; fa_z-score: 121.5
+; fa_bits: 23.9
+; fa_expect: 0.00023
+; sw_score: 66
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 7
+>Consensus_2 ..
+; sq_len: 7
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 7
+; al_display_start: 1
+------------------------------SCHCEEC
+>gi|548342|sp|Q00604.1|NDP_HUMA ..
+; sq_len: 133
+; sq_type: p
+; al_start: 125
+; al_stop: 131
+; al_display_start: 95
+CCRPQTSKLKALRLRCSGGMRLTATYRYILSCHCEECNS
+>>><<<
+
+
+7 residues in 1 query   sequences
+530 residues in 4 library sequences
+ Scomplib [34t25]
+ start: Fri Dec 14 13:54:07 2007 done: Fri Dec 14 13:54:07 2007
+ Total Scan time:  0.000 Total Display time:  0.000
+
+Function used was FASTA [version 3.4t25 Sept 2, 2005]

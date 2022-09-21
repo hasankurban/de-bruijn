@@ -1,0 +1,385 @@
+# /usr/local/bin/fasta34 -m 10 -A -H -q -p -E 200 /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_8205/temp_consensus.fasta /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_8205/file1.txt
+FASTA searches a protein or DNA sequence data bank
+ version 3.4t25 Sept 2, 2005
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query library /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_8205/temp_consensus.fasta vs /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_8205/file1.txt library
+searching /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_8205/file1.txt library
+
+  1>>>Consensus_7  - 24 aa
+ vs  /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_vers library
+
+   6646 residues in    11 sequences
+ MLE_cen statistics: Lambda= 0.0264;  K=0.002154 (cen=0)
+
+FASTA (3.47 Mar 2004) function [optimized, BL50 matrix (15:-5)] ktup: 1
+ join: 42, opt: 30, open/ext: -10/-2, width:  16
+ Scan time:  0.000
+The best scores are:                                      opt bits E(11)
+ptr_466778_PPP2R1B__protein_ph                     ( 575)  163  15.1     3.6
+xtr_448463_ppp2r1a__protein_ph                     ( 589)  163  15.1     3.7
+xla_398563_LOC398563__similar_                     ( 589)  163  15.1     3.7
+hsa_5519_PPP2R1B__protein_phos                     ( 601)  163  15.1     3.8
+rno_315648_Ppp2r1b__protein_ph                     ( 601)  163  15.1     3.8
+cfa_479444_PPP2R1B__LOC479444_                     ( 633)  163  15.1     3.9
+mmu_73699_Ppp2r1b__protein_pho                     ( 658)  163  15.1     4.1
+kla_KLLA0F07689g_unnamed_prote                     ( 610)  143  14.3     5.7
+sce_YAL016W_TPD3__FUN32__Regul                     ( 635)  134  14.0     6.8
+cgr_CAGL0H06281g_unnamed_prote                     ( 606)  127  13.7     7.3
+ehi_302.t00007_protein_phospha                     ( 549)   64  11.3      11
+
+>>>Consensus_7, 24 aa vs /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_8205/file1.txt library
+; pg_name: /usr/local/bin/fasta34
+; pg_ver: 34t25
+; pg_argv: /usr/local/bin/fasta34 -m 10 -A -H -q -p -E 200 /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_8205/temp_consensus.fasta /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_8205/file1.txt
+; pg_name: FASTA
+; pg_ver: 3.47 Mar 2004
+; pg_matrix: BL50 (15:-5)
+; pg_open-ext: -10 -2
+; pg_ktup: 1
+; pg_optcut: 30
+; pg_cgap: 42
+; mp_extrap: 60000 11
+; mp_stats: MLE_cen statistics: Lambda= 0.0264;  K=0.002154 (cen=0)
+; mp_KS: -0.0000 (N=33) at  86
+>>ptr_466778_PPP2R1B__protein_ph
+; fa_frame: f
+; fa_initn: 163
+; fa_init1: 163
+; fa_opt: 163
+; fa_z-score: 52.6
+; fa_bits: 15.1
+; fa_expect:    3.6
+; sw_score: 163
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 24
+>Consensus_7 ..
+; sq_len: 24
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 24
+; al_display_start: 1
+------------------------------WRVRLAIIEYMPLLAGQLGV
+EFFD
+>ptr_466778_PPP2R1B__protein_ph ..
+; sq_len: 575
+; sq_type: p
+; al_start: 403
+; al_stop: 426
+; al_display_start: 373
+NLDCVNEVIGIRQLSQSLLPAIVELAEDAKWRVRLAIIEYMPLLAGQLGV
+EFFDEKLNSLCMAWLVDHVYAIREAATNNLMKLVQKFGTEWAQNTIVPKV
+LVMANDPNYLHRMTTLFCIN
+>>xtr_448463_ppp2r1a__protein_ph
+; fa_frame: f
+; fa_initn: 163
+; fa_init1: 163
+; fa_opt: 163
+; fa_z-score: 52.4
+; fa_bits: 15.1
+; fa_expect:    3.7
+; sw_score: 163
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 24
+>Consensus_7 ..
+; sq_len: 24
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 24
+; al_display_start: 1
+------------------------------WRVRLAIIEYMPLLAGQLGV
+EFFD
+>xtr_448463_ppp2r1a__protein_ph ..
+; sq_len: 589
+; sq_type: p
+; al_start: 417
+; al_stop: 440
+; al_display_start: 387
+NLDCVNEVIGIRQLSQSLLPAIVELAEDTKWRVRLAIIEYMPLLAGQLGV
+EFFDEKLNSLCMAWLVDHVYAIREAATNNLMKLVEKFGAEWAQNTIVPKV
+LAMANDPNYLHRMTTLFCVN
+>>xla_398563_LOC398563__similar_
+; fa_frame: f
+; fa_initn: 163
+; fa_init1: 163
+; fa_opt: 163
+; fa_z-score: 52.4
+; fa_bits: 15.1
+; fa_expect:    3.7
+; sw_score: 163
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 24
+>Consensus_7 ..
+; sq_len: 24
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 24
+; al_display_start: 1
+------------------------------WRVRLAIIEYMPLLAGQLGV
+EFFD
+>xla_398563_LOC398563__similar_ ..
+; sq_len: 589
+; sq_type: p
+; al_start: 417
+; al_stop: 440
+; al_display_start: 387
+NLDCVNEVIGIRQLSQSLLPAIVELAEDTKWRVRLAIIEYMPLLAGQLGV
+EFFDEKLNSLCMAWLVDHVYAIREAATNNLMKLVEKFGAEWAQNTIVPKV
+LAMANDPNYLHRMTTLFCVN
+>>hsa_5519_PPP2R1B__protein_phos
+; fa_frame: f
+; fa_initn: 163
+; fa_init1: 163
+; fa_opt: 163
+; fa_z-score: 52.2
+; fa_bits: 15.1
+; fa_expect:    3.8
+; sw_score: 163
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 24
+>Consensus_7 ..
+; sq_len: 24
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 24
+; al_display_start: 1
+------------------------------WRVRLAIIEYMPLLAGQLGV
+EFFD
+>hsa_5519_PPP2R1B__protein_phos ..
+; sq_len: 601
+; sq_type: p
+; al_start: 429
+; al_stop: 452
+; al_display_start: 399
+NLDCVNEVIGIRQLSQSLLPAIVELAEDAKWRVRLAIIEYMPLLAGQLGV
+EFFDEKLNSLCMAWLVDHVYAIREAATNNLMKLVQKFGTEWAQNTIVPKV
+LVMANDPNYLHRMTTLFCIN
+>>rno_315648_Ppp2r1b__protein_ph
+; fa_frame: f
+; fa_initn: 163
+; fa_init1: 163
+; fa_opt: 163
+; fa_z-score: 52.2
+; fa_bits: 15.1
+; fa_expect:    3.8
+; sw_score: 163
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 24
+>Consensus_7 ..
+; sq_len: 24
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 24
+; al_display_start: 1
+------------------------------WRVRLAIIEYMPLLAGQLGV
+EFFD
+>rno_315648_Ppp2r1b__protein_ph ..
+; sq_len: 601
+; sq_type: p
+; al_start: 429
+; al_stop: 452
+; al_display_start: 399
+NLDCVNEVIGIRQLSQSLLPAIVELAEDAKWRVRLAIIEYMPLLAGQLGV
+EFFDEKLNSLCMAWLVDHVYAIREAATNNLMKLVQKFGTEWAQNTIVPKV
+LVMANDPNYLHRMTTLFCIN
+>>cfa_479444_PPP2R1B__LOC479444_
+; fa_frame: f
+; fa_initn: 163
+; fa_init1: 163
+; fa_opt: 163
+; fa_z-score: 51.8
+; fa_bits: 15.1
+; fa_expect:    3.9
+; sw_score: 163
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 24
+>Consensus_7 ..
+; sq_len: 24
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 24
+; al_display_start: 1
+------------------------------WRVRLAIIEYMPLLAGQLGV
+EFFD
+>cfa_479444_PPP2R1B__LOC479444_ ..
+; sq_len: 633
+; sq_type: p
+; al_start: 429
+; al_stop: 452
+; al_display_start: 399
+NLDCVNEVIGIRQLSQSLLPAIVELAEDAKWRVRLAIIEYMPLLAGQLGV
+EFFDEKLNSLCMAWLVDHVYAIREAATNNLMKLVQKFGTEWAQNTIVPKV
+LVMANDPNYLHRMTTLFCIN
+>>mmu_73699_Ppp2r1b__protein_pho
+; fa_frame: f
+; fa_initn: 163
+; fa_init1: 163
+; fa_opt: 163
+; fa_z-score: 51.5
+; fa_bits: 15.1
+; fa_expect:    4.1
+; sw_score: 163
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 24
+>Consensus_7 ..
+; sq_len: 24
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 24
+; al_display_start: 1
+------------------------------WRVRLAIIEYMPLLAGQLGV
+EFFD
+>mmu_73699_Ppp2r1b__protein_pho ..
+; sq_len: 658
+; sq_type: p
+; al_start: 429
+; al_stop: 452
+; al_display_start: 399
+NLDCVNEVIGIRQLSQSLLPAIVELAEDAKWRVRLAIIEYMPLLAGQLGV
+EFFDEKLNSLCMAWLVDHVYAIREAATNNLMKLVQKFGTEWAQNTIVPKV
+LVMANDPNYLHRMTTLFCIN
+>>kla_KLLA0F07689g_unnamed_prote
+; fa_frame: f
+; fa_initn: 143
+; fa_init1: 143
+; fa_opt: 143
+; fa_z-score: 48.0
+; fa_bits: 14.3
+; fa_expect:    5.7
+; sw_score: 143
+; sw_ident: 0.875
+; sw_sim: 0.958
+; sw_overlap: 24
+>Consensus_7 ..
+; sq_len: 24
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 24
+; al_display_start: 1
+------------------------------WRVRLAIIEYMPLLAGQLGV
+EFFD
+>kla_KLLA0F07689g_unnamed_prote ..
+; sq_len: 610
+; sq_type: p
+; al_start: 427
+; al_stop: 450
+; al_display_start: 397
+KLKIVNESVGIEFLSENLLPAITELAKDPNWRVRLAIIEYIPLLAEQLGM
+EFFDSKLSDLCLSWLWDGVYSIRSAAITNLSKLTEIFGSDWAQEEIISRL
+LKSDTQLLENFNYRITLLFA
+>>sce_YAL016W_TPD3__FUN32__Regul
+; fa_frame: f
+; fa_initn: 134
+; fa_init1: 134
+; fa_opt: 134
+; fa_z-score: 45.8
+; fa_bits: 14.0
+; fa_expect:    6.8
+; sw_score: 134
+; sw_ident: 0.750
+; sw_sim: 0.958
+; sw_overlap: 24
+>Consensus_7 ..
+; sq_len: 24
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 24
+; al_display_start: 1
+------------------------------WRVRLAIIEYMPLLAGQLGV
+EFFD
+>sce_YAL016W_TPD3__FUN32__Regul ..
+; sq_len: 635
+; sq_type: p
+; al_start: 452
+; al_stop: 475
+; al_display_start: 422
+SLKVVNDVIGIELLSDSLLPAITELAKDVNWRVRMAIIEYIPILAEQLGM
+QFFDQQLSDLCLSWLWDTVYSIREAAVNNLKRLTEIFGSDWCRDEIISRL
+LKFDLQLLENFVSRFTILSA
+>>cgr_CAGL0H06281g_unnamed_prote
+; fa_frame: f
+; fa_initn: 127
+; fa_init1: 127
+; fa_opt: 127
+; fa_z-score: 44.8
+; fa_bits: 13.7
+; fa_expect:    7.3
+; sw_score: 127
+; sw_ident: 0.750
+; sw_sim: 0.958
+; sw_overlap: 24
+>Consensus_7 ..
+; sq_len: 24
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 24
+; al_display_start: 1
+------------------------------WRVRLAIIEYMPLLAGQLGV
+EFFD
+>cgr_CAGL0H06281g_unnamed_prote ..
+; sq_len: 606
+; sq_type: p
+; al_start: 424
+; al_stop: 447
+; al_display_start: 394
+KLKVVNEVIGIDMLTDSLLPAISELAKDSSWHVRLAIIEYIPILAEQLGV
+DFFNSQLSDLCLSWLWDAVYSIREAAIKNLQKLTNIFGSEWCNNEVVPRL
+LNLDSHMLENFIYRITLLQT
+>>ehi_302.t00007_protein_phospha
+; fa_frame: f
+; fa_initn:  64
+; fa_init1:  64
+; fa_opt:  64
+; fa_z-score: 32.6
+; fa_bits: 11.3
+; fa_expect:     11
+; sw_score: 64
+; sw_ident: 0.556
+; sw_sim: 0.611
+; sw_overlap: 18
+>Consensus_7 ..
+; sq_len: 24
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 18
+; al_display_start: 1
+------------------------------WRVRLAIIEYMPLLAGQLGV
+EFFD
+>ehi_302.t00007_protein_phospha ..
+; sq_len: 549
+; sq_type: p
+; al_start: 377
+; al_stop: 394
+; al_display_start: 347
+TLDYLNHVMVLSQLSQKVLATVMKLVNDSSWRCRLQTIELIPELIQQLTE
+CQFELVRVSVSILTDKVYAIRVKAIENIKKLIASCGIDWVKSRILPSVIS
+LASSGLYHHRIICMNCITQI
+>>><<<
+
+
+24 residues in 1 query   sequences
+6646 residues in 11 library sequences
+ Scomplib [34t25]
+ start: Thu Dec 13 06:45:22 2007 done: Thu Dec 13 06:45:22 2007
+ Total Scan time:  0.000 Total Display time:  0.010
+
+Function used was FASTA [version 3.4t25 Sept 2, 2005]

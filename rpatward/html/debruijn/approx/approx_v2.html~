@@ -1,0 +1,27 @@
+<html>
+
+<body>
+
+<form action="http://biokdd.informatics.indiana.edu/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/main.pl"
+enctype="multipart/form-data" method="post">
+
+<p>
+<table>
+<tr><td>Upload the input file containing protein sequences in FASTA format </td><td> <input type="file" name="file1" size="chars"> </td> </tr>
+<tr><td>Similarity constant</td\><td> <input type="text" name="sim_constant" value=0.5> </td> </tr>
+<tr><td>Select the Substitution matrix to use</td\><td> <select type="text" name="matrices"><option>BLOSUM62</option></select> </td> </tr>
+<tr><td>Motif extension threshold</td\><td> <input type="text" name="scale_threshold" value=80> </td> </tr>
+<tr><td>Motif detection threshold</td\><td> <input type="text" name="scale_max_threshold" value=80> </td> </tr>
+</table>
+</p>
+ 
+
+<p>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</p>
+
+</form>
+
+</body>
+</html>

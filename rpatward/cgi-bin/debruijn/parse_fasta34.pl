@@ -1,0 +1,133 @@
+## Parses output of fasta34
+
+
+use strict;
+use warnings;
+
+my ($query_accession, $query_accession_gene);
+
+my  $inFile = $ARGV[0];
+
+
+open(IN, "$inFile");
+
+my $flag = 0;
+my $start_flag = 0;
+my $start_query_flag = 1;
+
+my ($query, $al_start, $al_display_start, $lib, $alignment_consensus, $alignment_lib, $lib_flanking, $consensus_flanking, $max_flank, $overlap);
+
+my %cons_align = ();
+my %lib_align = ();
+
+while (my $line = <IN>){
+    chomp $line;
+    if( $start_query_flag == 1 && $line =~ /\d+\>\>\>(\w+)/) { ### start of query
+	$query= $1; 
+	$start_flag = 1;
+	$start_query_flag = 0;
+    }
+
+    if($flag==1 && $line =~ /^;\s+sw_overlap:\s+(\d+)/){
+	$overlap = $1;
+	$flag = 2;
+    }
+
+    if($flag ==3){
+	if($line =~ /^>$lib/){
+	    $flag =4;
+	}
+	else{
+	    $alignment_consensus .= $line;
+	}
+    }
+
+    if($flag ==2){
+	if ($line =~ /^;\s+al_start:\s+(\d+)/){
+	    $al_start = $1;        
+	}
+	if ($line =~ /^;\s+al_display_start:\s+(\d+)/){
+            $al_display_start = $1;
+	    $consensus_flanking= $al_start - $al_display_start ;
+	    $alignment_consensus = "";
+	    $flag =3; 
+        }
+    }
+
+
+    if($flag ==5){
+        if($line =~ /^>>(\w+)/ || $line =~ />>>/){
+
+	    # Finish up processing of previous hit 
+	    if ($lib_flanking > $consensus_flanking){
+		$max_flank =$lib_flanking;
+	    }
+	    else{
+		$max_flank = $consensus_flanking;
+	    }
+	    $cons_align{$query}{$lib}=substr($alignment_consensus,$max_flank,$overlap);
+	    $lib_align{$query}{$lib}=substr($alignment_lib,$max_flank,$overlap);
+
+	    my $temp_line = $line;
+
+	    if($temp_line =~ /^>>(\w+)/){
+		$lib = $1;
+		$flag  = 1;
+	    }
+	    else{
+		if($temp_line =~ />>><<</){
+		    last;
+		}
+		if($temp_line =~ /\d+>>>(\w+)/){
+		    $query = $1;
+		    $start_flag = 1;
+		    $flag = 0;
+                }
+	    }
+
+	}
+        else{
+            $alignment_lib .= $line;
+        }
+    }
+
+
+    if($flag ==4){
+        if ($line =~ /^;\s+al_start:\s+(\d+)/){
+            $al_start = $1;
+        }
+        if ($line =~ /^;\s+al_display_start:\s+(\d+)/){
+            $al_display_start = $1;
+            $lib_flanking=$al_start - $al_display_start;
+
+	    $alignment_lib = "";
+            $flag =5;
+        }
+    }
+
+
+    
+    if($start_flag == 1 && $line =~ /^>>(\w+)/){
+	$lib = $1;
+	$flag =1;
+	$start_flag =0;
+    }
+
+}    
+
+open(OP, ">alignment.out");
+open(OPT, ">temp_alignment.txt");
+	
+foreach my $consensus (sort keys %cons_align){
+    foreach my $lib_seq (sort keys %{$cons_align{$consensus}}){
+	print OP "$consensus\t$cons_align{$consensus}{$lib_seq}\n$lib_seq\t$lib_align{$consensus}{$lib_seq}\n\n";
+	print OPT "$lib_align{$consensus}{$lib_seq}\n";
+    }
+    print OP "//\n";
+
+}
+
+close OP;
+close OPT;
+
+exit;

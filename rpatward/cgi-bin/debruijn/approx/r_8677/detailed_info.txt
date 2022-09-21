@@ -1,0 +1,4526 @@
+The forward max is 3 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 1 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA
+The forward max is 0 at ABCA -> BCAB 
+The backward max is 0 at  -> ABCA

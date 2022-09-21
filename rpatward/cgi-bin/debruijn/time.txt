@@ -1,0 +1,3 @@
+writable/file1.txt	169 wallclock secs (75.21 usr  0.27 sys +  0.12 cusr  0.04 csys = 75.64 CPU)
+writable/file1.txt	149 wallclock secs (77.68 usr  0.32 sys +  0.27 cusr  0.09 csys = 78.36 CPU)
+writable/file1.txt	153 wallclock secs (76.01 usr  0.36 sys +  0.27 cusr  0.08 csys = 76.72 CPU)

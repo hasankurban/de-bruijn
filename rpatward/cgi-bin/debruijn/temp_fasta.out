@@ -1,0 +1,5738 @@
+# fasta34 -m 10 consensus_seqs.fasta writable/file1.txt
+FASTA searches a protein or DNA sequence data bank
+ version 3.4t25 Sept 2, 2005
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query library consensus_seqs.fasta vs writable/file1.txt library
+searching writable/file1.txt library
+
+  1>>>consensus_0 - 19 aa
+ vs  writable/file1.txt library
+
+       opt      E()
+< 20     0     0:
+  22     1     0:=          one = represents 1 library sequences
+  24     0     0:
+  26     0     0:
+  28     0     0:
+  30     1     0:=
+  32     0     0:
+  34     0     1:*
+  36     5     1:*====
+  38     0     2: *
+  40     0     3:  *
+  42     4     4:===*
+  44     0     4:   *
+  46     0     4:   *
+  48     2     4:== *
+  50     5     3:==*==
+  52     4     3:==*=
+  54     5     3:==*==
+  56     1     2:=*
+  58     1     2:=*
+  60     1     1:*
+  62     0     1:*
+  64     2     1:*=
+  66     2     1:*=
+  68     0     1:*
+  70     0     0:
+  72     0     0:
+  74     1     0:=
+  76     0     0:
+  78     0     0:
+  80     4     0:====
+  82     0     0:
+  84     0     0:
+  86     0     0:
+  88     0     0:
+  90     0     0:
+  92     0     0:
+  94     0     0:
+  96     0     0:
+  98     0     0:
+ 100     0     0:
+ 102     3     0:===
+ 104     0     0:
+ 106     0     0:
+ 108     0     0:
+ 110     0     0:
+ 112     0     0:
+ 114     0     0:
+ 116     0     0:
+ 118     0     0:
+>120     0     0:
+  28595 residues in    42 sequences
+  Expectation_n fit: rho(ln(x))= 42.1046+/-0.0615; mu= -190.6405+/- 3.991
+ mean_var=277.6726+/-197.343, 0's: 0 Z-trim: 7  B-trim: 0 in 0/7
+ Lambda= 0.076968
+ Kolmogorov-Smirnov  statistic: 0.2187 (N=13) at  48
+
+FASTA (3.47 Mar 2004) function [optimized, BL50 matrix (15:-5)] ktup: 1
+ join: 42, opt: 30, open/ext: -10/-2, width:  16
+ Scan time:  0.010
+The best scores are:                                      opt bits E(42)
+PLMN_CANFA (P80009) Plasminogen (EC 3.4.21.7) (Fra ( 333)  142  23.2   0.027
+PLMN_HORSE (P80010) Plasminogen (EC 3.4.21.7) (Fra ( 338)  142  23.2   0.028
+PLMN_SHEEP (P81286) Plasminogen (EC 3.4.21.7) (Fra ( 343)  142  23.1   0.029
+PLMN_MACMU (P12545) Plasminogen precursor (EC 3.4. ( 810)  142  20.4    0.47
+PLMN_HUMAN (P00747) Plasminogen precursor (EC 3.4. ( 810)  142  20.4    0.47
+PLMN_MOUSE (P20918) Plasminogen precursor (EC 3.4. ( 812)  142  20.4    0.48
+PLMN_BOVIN (P06868) Plasminogen precursor (EC 3.4. ( 812)  142  20.4    0.48
+PLMN_PIG (P06867) Plasminogen (EC 3.4.21.7).       ( 790)  132  19.3    0.94
+PLMN_ERIEU (Q29485) Plasminogen precursor (EC 3.4. ( 810)  118  17.7     2.9
+UROK_CHICK (P15120) Urokinase-type plasminogen act ( 434)   91  16.7     3.1
+UROK_RAT (P29598) Urokinase-type plasminogen activ ( 432)   90  16.6     3.3
+UROK_MOUSE (P06869) Urokinase-type plasminogen act ( 433)   90  16.6     3.3
+UROK_HUMAN (P00749) Urokinase-type plasminogen act ( 431)   81  15.6     6.2
+UROK_PAPCY (P16227) Urokinase-type plasminogen act ( 433)   81  15.6     6.3
+URTG_DESRO (P49150) Salivary plasminogen activator ( 394)   72  14.9       9
+
+>>>consensus_0, 19 aa vs writable/file1.txt library
+; pg_name: fasta34
+; pg_ver: 34t25
+; pg_argv: fasta34 -m 10 consensus_seqs.fasta writable/file1.txt
+; pg_name: FASTA
+; pg_ver: 3.47 Mar 2004
+; pg_matrix: BL50 (15:-5)
+; pg_open-ext: -10 -2
+; pg_ktup: 1
+; pg_optcut: 30
+; pg_cgap: 42
+; mp_extrap: 60000 42
+; mp_stats:  Expectation_n fit: rho(ln(x))= 42.1046+/-0.0615; mu= -190.6405+/- 3.991  mean_var=277.6726+/-197.343, 0's: 0 Z-trim: 7  B-trim: 0 in 0/7  Lambda= 0.076968
+; mp_KS: 0.2187 (N=13) at  48
+>>PLMN_CANFA (P80009) Plasminogen (EC 3.4.21.7) (Fragment).
+; fa_frame: f
+; fa_initn: 142
+; fa_init1: 142
+; fa_opt: 142
+; fa_z-score: 102.9
+; fa_bits: 23.2
+; fa_expect:  0.027
+; sw_score: 142
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 19
+>consensus_0 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+------------------------------YILQGVTSWGLGCARPNKP
+>PLMN_CANFA ..
+; sq_len: 333
+; sq_type: p
+; al_start: 295
+; al_stop: 313
+; al_display_start: 265
+TELCAGNLAGGTDSCQGDSGGPLVCFEKDKYILQGVTSWGLGCARPNKPG
+VYVRVSRFVTWIEGIMRNN
+>>PLMN_HORSE (P80010) Plasminogen (EC 3.4.21.7) (Fragment).
+; fa_frame: f
+; fa_initn: 142
+; fa_init1: 142
+; fa_opt: 142
+; fa_z-score: 102.5
+; fa_bits: 23.2
+; fa_expect:  0.028
+; sw_score: 142
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 19
+>consensus_0 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+------------------------------YILQGVTSWGLGCARPNKP
+>PLMN_HORSE ..
+; sq_len: 338
+; sq_type: p
+; al_start: 300
+; al_stop: 318
+; al_display_start: 270
+TELCAGHLVGGVDSCQGDSGGPLVCFEKDKYILQGVTSWGLGCARPNKPG
+VYVRVSSFINWIERIMQSN
+>>PLMN_SHEEP (P81286) Plasminogen (EC 3.4.21.7) (Fragment).
+; fa_frame: f
+; fa_initn: 142
+; fa_init1: 142
+; fa_opt: 142
+; fa_z-score: 102.1
+; fa_bits: 23.1
+; fa_expect:  0.029
+; sw_score: 142
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 19
+>consensus_0 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+------------------------------YILQGVTSWGLGCARPNKP
+>PLMN_SHEEP ..
+; sq_len: 343
+; sq_type: p
+; al_start: 305
+; al_stop: 323
+; al_display_start: 275
+TELCAGDLAGGTDSCQGDSGGPLVCFEKDKYILQGVTSWGLGCARPNKPG
+VYVRVSTYVPWIEETMRRY
+>>PLMN_MACMU (P12545) Plasminogen precursor (EC 3.4.21.7).
+; fa_frame: f
+; fa_initn: 142
+; fa_init1: 142
+; fa_opt: 142
+; fa_z-score: 80.4
+; fa_bits: 20.4
+; fa_expect:   0.47
+; sw_score: 142
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 19
+>consensus_0 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+------------------------------YILQGVTSWGLGCARPNKP
+>PLMN_MACMU ..
+; sq_len: 810
+; sq_type: p
+; al_start: 772
+; al_stop: 790
+; al_display_start: 742
+TELCAGHLAGGTDSCQGDSGGPLVCFEKDKYILQGVTSWGLGCARPNKPG
+VYVRVSRFVTWIEGVMRNN
+>>PLMN_HUMAN (P00747) Plasminogen precursor (EC 3.4.21.7) [Contains: Ang
+; fa_frame: f
+; fa_initn: 142
+; fa_init1: 142
+; fa_opt: 142
+; fa_z-score: 80.4
+; fa_bits: 20.4
+; fa_expect:   0.47
+; sw_score: 142
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 19
+>consensus_0 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+------------------------------YILQGVTSWGLGCARPNKP
+>PLMN_HUMAN ..
+; sq_len: 810
+; sq_type: p
+; al_start: 772
+; al_stop: 790
+; al_display_start: 742
+TELCAGHLAGGTDSCQGDSGGPLVCFEKDKYILQGVTSWGLGCARPNKPG
+VYVRVSRFVTWIEGVMRNN
+>>PLMN_MOUSE (P20918) Plasminogen precursor (EC 3.4.21.7) [Contains: Ang
+; fa_frame: f
+; fa_initn: 142
+; fa_init1: 142
+; fa_opt: 142
+; fa_z-score: 80.3
+; fa_bits: 20.4
+; fa_expect:   0.48
+; sw_score: 142
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 19
+>consensus_0 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+------------------------------YILQGVTSWGLGCARPNKP
+>PLMN_MOUSE ..
+; sq_len: 812
+; sq_type: p
+; al_start: 774
+; al_stop: 792
+; al_display_start: 744
+TELCAGQLAGGVDSCQGDSGGPLVCFEKDKYILQGVTSWGLGCARPNKPG
+VYVRVSRFVDWIEREMRNN
+>>PLMN_BOVIN (P06868) Plasminogen precursor (EC 3.4.21.7).
+; fa_frame: f
+; fa_initn: 142
+; fa_init1: 142
+; fa_opt: 142
+; fa_z-score: 80.3
+; fa_bits: 20.4
+; fa_expect:   0.48
+; sw_score: 142
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 19
+>consensus_0 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+------------------------------YILQGVTSWGLGCARPNKP
+>PLMN_BOVIN ..
+; sq_len: 812
+; sq_type: p
+; al_start: 774
+; al_stop: 792
+; al_display_start: 744
+TELCAGHLIGGTDSCQGDSGGPLVCFEKDKYILQGVTSWGLGCARPNKPG
+VYVRVSPYVPWIEETMRRN
+>>PLMN_PIG (P06867) Plasminogen (EC 3.4.21.7).
+; fa_frame: f
+; fa_initn: 132
+; fa_init1: 132
+; fa_opt: 132
+; fa_z-score: 75.0
+; fa_bits: 19.3
+; fa_expect:   0.94
+; sw_score: 132
+; sw_ident: 0.947
+; sw_sim: 0.947
+; sw_overlap: 19
+>consensus_0 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+------------------------------YILQGVTSWGLGCARPNKP
+>PLMN_PIG ..
+; sq_len: 790
+; sq_type: p
+; al_start: 752
+; al_stop: 770
+; al_display_start: 722
+NELCAGHLAGGIDSCQGDSGGPLVCFEKDKYILQGVTSWGLGCALPNKPG
+VYVRVSRFVTWIEEIMRRN
+>>PLMN_ERIEU (Q29485) Plasminogen precursor (EC 3.4.21.7).
+; fa_frame: f
+; fa_initn: 118
+; fa_init1: 118
+; fa_opt: 118
+; fa_z-score: 66.0
+; fa_bits: 17.7
+; fa_expect:    2.9
+; sw_score: 118
+; sw_ident: 0.842
+; sw_sim: 0.947
+; sw_overlap: 19
+>consensus_0 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+------------------------------YILQGVTSWGLGCARPNKP
+>PLMN_ERIEU ..
+; sq_len: 810
+; sq_type: p
+; al_start: 772
+; al_stop: 790
+; al_display_start: 742
+TELCAGHLAGGVDSCQGDSGGPLVCFEKDRYILQGVTSWGLGCARLTRPG
+VYVRVSRYVSWLQDVMRNN
+>>UROK_CHICK (P15120) Urokinase-type plasminogen activator precursor (EC
+; fa_frame: f
+; fa_initn:  91
+; fa_init1:  91
+; fa_opt:  91
+; fa_z-score: 65.6
+; fa_bits: 16.7
+; fa_expect:    3.1
+; sw_score: 91
+; sw_ident: 0.647
+; sw_sim: 0.824
+; sw_overlap: 17
+>consensus_0 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 3
+; al_stop: 19
+; al_display_start: 1
+----------------------------YILQGVTSWGLGCARPNKP
+>UROK_CHICK ..
+; sq_len: 434
+; sq_type: p
+; al_start: 387
+; al_stop: 403
+; al_display_start: 357
+VCAGDPLWETDACKGDSGGPMVCEHNGRMTLYGIVSWGDGCAKKNKPGVY
+TRVTRYLNWIDSNMNAVFTKSRSFREPK
+>>UROK_RAT (P29598) Urokinase-type plasminogen activator precursor (EC
+; fa_frame: f
+; fa_initn:  90
+; fa_init1:  90
+; fa_opt:  90
+; fa_z-score: 65.1
+; fa_bits: 16.6
+; fa_expect:    3.3
+; sw_score: 90
+; sw_ident: 0.647
+; sw_sim: 0.882
+; sw_overlap: 17
+>consensus_0 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 3
+; al_stop: 19
+; al_display_start: 1
+----------------------------YILQGVTSWGLGCARPNKP
+>UROK_RAT ..
+; sq_len: 432
+; sq_type: p
+; al_start: 391
+; al_stop: 407
+; al_display_start: 361
+LCAADPEWKTDSCSGDSGGPLICNIDGRPTLSGIVSWGSGCAEKNKPGVY
+TRVSYFLNWIQSHIGEENGLAF
+>>UROK_MOUSE (P06869) Urokinase-type plasminogen activator precursor (EC
+; fa_frame: f
+; fa_initn:  90
+; fa_init1:  90
+; fa_opt:  90
+; fa_z-score: 65.0
+; fa_bits: 16.6
+; fa_expect:    3.3
+; sw_score: 90
+; sw_ident: 0.647
+; sw_sim: 0.882
+; sw_overlap: 17
+>consensus_0 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 3
+; al_stop: 19
+; al_display_start: 1
+----------------------------YILQGVTSWGLGCARPNKP
+>UROK_MOUSE ..
+; sq_len: 433
+; sq_type: p
+; al_start: 392
+; al_stop: 408
+; al_display_start: 362
+LCAADPEWKTDSCKGDSGGPLICNIEGRPTLSGIVSWGRGCAEKNKPGVY
+TRVSHFLDWIQSHIGEEKGLAF
+>>UROK_HUMAN (P00749) Urokinase-type plasminogen activator precursor (EC
+; fa_frame: f
+; fa_initn:  81
+; fa_init1:  81
+; fa_opt:  81
+; fa_z-score: 59.7
+; fa_bits: 15.6
+; fa_expect:    6.2
+; sw_score: 81
+; sw_ident: 0.588
+; sw_sim: 0.765
+; sw_overlap: 17
+>consensus_0 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 3
+; al_stop: 19
+; al_display_start: 1
+----------------------------YILQGVTSWGLGCARPNKP
+>UROK_HUMAN ..
+; sq_len: 431
+; sq_type: p
+; al_start: 390
+; al_stop: 406
+; al_display_start: 360
+LCAADPQWKTDSCQGDSGGPLVCSLQGRMTLTGIVSWGRGCALKDKPGVY
+TRVSHFLPWIRSHTKEENGLAL
+>>UROK_PAPCY (P16227) Urokinase-type plasminogen activator precursor (EC
+; fa_frame: f
+; fa_initn:  81
+; fa_init1:  81
+; fa_opt:  81
+; fa_z-score: 59.6
+; fa_bits: 15.6
+; fa_expect:    6.3
+; sw_score: 81
+; sw_ident: 0.588
+; sw_sim: 0.765
+; sw_overlap: 17
+>consensus_0 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 3
+; al_stop: 19
+; al_display_start: 1
+----------------------------YILQGVTSWGLGCARPNKP
+>UROK_PAPCY ..
+; sq_len: 433
+; sq_type: p
+; al_start: 392
+; al_stop: 408
+; al_display_start: 362
+LCAADPQWETDSCQGDSGGPLVCSIQGHMTLTGIVSWGRGCALKDKPGVY
+TRVSRFLPWIHSHTREQNGLAL
+>>URTG_DESRO (P49150) Salivary plasminogen activator gamma precursor (EC
+; fa_frame: f
+; fa_initn:  72
+; fa_init1:  72
+; fa_opt:  72
+; fa_z-score: 56.6
+; fa_bits: 14.9
+; fa_expect:      9
+; sw_score: 72
+; sw_ident: 0.471
+; sw_sim: 0.765
+; sw_overlap: 17
+>consensus_0 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 3
+; al_stop: 19
+; al_display_start: 1
+----------------------------YILQGVTSWGLGCARPNKP
+>URTG_DESRO ..
+; sq_len: 394
+; sq_type: p
+; al_start: 359
+; al_stop: 375
+; al_display_start: 329
+RSGEIYPNVHDACQGDSGGPLVCMNDNHMTLLGIISWGVGCGEKDIPGVY
+TKVTNYLGWIRDNMRP
+  2>>>consensus_1 - 21 aa
+ vs  writable/file1.txt library
+
+       opt      E()
+< 20     1     0:=
+  22     0     0:           one = represents 1 library sequences
+  24     0     0:
+  26     0     0:
+  28     0     0:
+  30     0     0:
+  32     0     0:
+  34     0     1:*
+  36     4     1:*===
+  38     1     2:=*
+  40     1     3:= *
+  42     2     3:==*
+  44     4     4:===*
+  46     3     4:===*
+  48     1     4:=  *
+  50     3     3:==*
+  52     0     3:  *
+  54     0     2: *
+  56     1     2:=*
+  58     1     2:=*
+  60     0     1:*
+  62     1     1:*
+  64     1     1:*
+  66     3     1:*==
+  68     6     1:*=====
+  70     0     0:
+  72     0     0:
+  74     1     0:=
+  76     2     0:==
+  78     0     0:
+  80     2     0:==
+  82     0     0:
+  84     0     0:
+  86     0     0:
+  88     0     0:
+  90     0     0:
+  92     0     0:
+  94     0     0:
+  96     0     0:
+  98     0     0:
+ 100     0     0:
+ 102     0     0:
+ 104     0     0:
+ 106     0     0:
+ 108     0     0:
+ 110     0     0:
+ 112     0     0:
+ 114     1     0:=
+ 116     0     0:
+ 118     2     0:==
+>120     1     0:=
+  28595 residues in    42 sequences
+  Expectation_n fit: rho(ln(x))= 131.1216+/-0.0769; mu= -795.8520+/- 5.141
+ mean_var=559.3847+/-318.765, 0's: 0 Z-trim: 5  B-trim: 0 in 0/7
+ Lambda= 0.054227
+ Kolmogorov-Smirnov  statistic: 0.3409 (N=17) at  62
+
+FASTA (3.47 Mar 2004) function [optimized, BL50 matrix (15:-5)] ktup: 1
+ join: 42, opt: 30, open/ext: -10/-2, width:  16
+ Scan time:  0.010
+The best scores are:                                      opt bits E(42)
+PLMN_CANFA (P80009) Plasminogen (EC 3.4.21.7) (Fra ( 333)  149  27.9  0.0011
+PLMN_RAT (Q01177) Plasminogen (EC 3.4.21.7) (Fragm ( 169)   39  25.3  0.0036
+PLMN_HORSE (P80010) Plasminogen (EC 3.4.21.7) (Fra ( 338)  129  26.2  0.0037
+PLMN_SHEEP (P81286) Plasminogen (EC 3.4.21.7) (Fra ( 343)  121  25.5  0.0064
+PLMN_PETMA (P33574) Plasminogen (EC 3.4.21.7) (Fra ( 325)   35  19.2    0.46
+PLMN_MACMU (P12545) Plasminogen precursor (EC 3.4. ( 810)  153  20.4    0.51
+PLMN_HUMAN (P00747) Plasminogen precursor (EC 3.4. ( 810)  147  20.0     0.7
+PLMN_MOUSE (P20918) Plasminogen precursor (EC 3.4. ( 812)  144  19.7    0.84
+PLMN_PIG (P06867) Plasminogen (EC 3.4.21.7).       ( 790)  136  19.3     1.1
+UROK_HUMAN (P00749) Urokinase-type plasminogen act ( 431)   43  17.4     2.2
+UROK_RAT (P29598) Urokinase-type plasminogen activ ( 432)   43  17.4     2.2
+UROK_BOVIN (Q05589) Urokinase-type plasminogen act ( 433)   43  17.3     2.2
+UROK_MOUSE (P06869) Urokinase-type plasminogen act ( 433)   43  17.3     2.2
+PLMN_ERIEU (Q29485) Plasminogen precursor (EC 3.4. ( 810)  124  18.2     2.4
+URTG_DESRO (P49150) Salivary plasminogen activator ( 394)   29  17.1     2.4
+UROK_PAPCY (P16227) Urokinase-type plasminogen act ( 433)   41  17.2     2.5
+UROK_PIG (P04185) Urokinase-type plasminogen activ ( 442)   43  17.2     2.6
+UROK_CHICK (P15120) Urokinase-type plasminogen act ( 434)   38  16.9       3
+PLMN_BOVIN (P06868) Plasminogen precursor (EC 3.4. ( 812)  118  17.7     3.3
+URTB_DESRO (P98121) Salivary plasminogen activator ( 431)   29  16.3     4.5
+URT1_DESRO (P98119) Salivary plasminogen activator ( 477)   31  15.5     7.9
+URT2_DESRO (P15638) Salivary plasminogen activator ( 477)   29  15.4     8.8
+
+>>>consensus_1, 21 aa vs writable/file1.txt library
+; pg_name: fasta34
+; pg_ver: 34t25
+; pg_argv: fasta34 -m 10 consensus_seqs.fasta writable/file1.txt
+; pg_name: FASTA
+; pg_ver: 3.47 Mar 2004
+; pg_matrix: BL50 (15:-5)
+; pg_open-ext: -10 -2
+; pg_ktup: 1
+; pg_optcut: 30
+; pg_cgap: 42
+; mp_extrap: 60000 40
+; mp_stats:  Expectation_n fit: rho(ln(x))= 131.1216+/-0.0769; mu= -795.8520+/- 5.141  mean_var=559.3847+/-318.765, 0's: 0 Z-trim: 5  B-trim: 0 in 0/7  Lambda= 0.054227
+; mp_KS: 0.3409 (N=17) at  62
+>>PLMN_CANFA (P80009) Plasminogen (EC 3.4.21.7) (Fragment).
+; fa_frame: f
+; fa_initn: 149
+; fa_init1: 149
+; fa_opt: 149
+; fa_z-score: 127.5
+; fa_bits: 27.9
+; fa_expect: 0.0011
+; sw_score: 149
+; sw_ident: 0.900
+; sw_sim: 1.000
+; sw_overlap: 20
+>consensus_1 ..
+; sq_len: 21
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 21
+; al_display_start: 1
+-----------------------------LCASSSFDCGKPQVEPKKCPG
+>PLMN_CANFA ..
+; sq_len: 333
+; sq_type: p
+; al_start: 83
+; al_stop: 102
+; al_display_start: 53
+YCRNPDGDVNGPWCYTMNQRKLFDYCDVPQCVSTSFDCGKPQVEPKKCPG
+RVVGGCVANPHSWPWQISLRTRYGKHFCGGTLISPEWVLTAAHCLERSSR
+PASYKVILGAHKEVNLESDV
+>>PLMN_RAT (Q01177) Plasminogen (EC 3.4.21.7) (Fragment).
+; fa_frame: f
+; fa_initn:  32
+; fa_init1:  32
+; fa_opt:  39
+; fa_z-score: 118.6
+; fa_bits: 25.3
+; fa_expect: 0.0036
+; sw_score: 39
+; sw_ident: 0.400
+; sw_sim: 0.650
+; sw_overlap: 20
+>consensus_1 ..
+; sq_len: 21
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 20
+; al_display_start: 1
+--------LCASS-SFDCGKPQVEPKKCPG
+>PLMN_RAT ..
+; sq_len: 169
+; sq_type: p
+; al_start: 10
+; al_stop: 29
+; al_display_start: 1
+RWEYCEIPSCGSSVSPDQSDSSVLPEQTPVVQECYQGNGKSYRGTSSTTN
+TGKKCQSWVS
+>>PLMN_HORSE (P80010) Plasminogen (EC 3.4.21.7) (Fragment).
+; fa_frame: f
+; fa_initn: 129
+; fa_init1: 129
+; fa_opt: 129
+; fa_z-score: 118.2
+; fa_bits: 26.2
+; fa_expect: 0.0037
+; sw_score: 129
+; sw_ident: 0.800
+; sw_sim: 0.850
+; sw_overlap: 20
+>consensus_1 ..
+; sq_len: 21
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 21
+; al_display_start: 1
+-----------------------------LCASSSFDCGKPQVEPKKCPG
+>PLMN_HORSE ..
+; sq_len: 338
+; sq_type: p
+; al_start: 88
+; al_stop: 107
+; al_display_start: 58
+YCRNPDGDVNGPWCYTMNPQKLFDYCDVPQCESSPFDCGKPKVEPKKCSG
+RIVGGCVAIAHSWPWQISLRTRFGRHFCGGTLISPEWVLTAAHCLERSSR
+PSTYKVVLGTHHELRLAAGA
+>>PLMN_SHEEP (P81286) Plasminogen (EC 3.4.21.7) (Fragment).
+; fa_frame: f
+; fa_initn: 121
+; fa_init1: 121
+; fa_opt: 121
+; fa_z-score: 114.0
+; fa_bits: 25.5
+; fa_expect: 0.0064
+; sw_score: 121
+; sw_ident: 0.938
+; sw_sim: 1.000
+; sw_overlap: 16
+>consensus_1 ..
+; sq_len: 21
+; sq_offset: 1
+; sq_type: p
+; al_start: 5
+; al_stop: 20
+; al_display_start: 1
+--------------------------LCASSSFDCGKPQVEPKKCPG
+>PLMN_SHEEP ..
+; sq_len: 343
+; sq_type: p
+; al_start: 96
+; al_stop: 111
+; al_display_start: 66
+RNPDGDVNGPWCYTTNPRKLFDYCDIPQCESSFDCGKPKVEPKKCPARVV
+GGCVATPHSWPWQVSLRRRSREHFCGGTLISPEWVLTAAHCLDSILGPSF
+YTVILGAHYEMAREASVQEI
+>>PLMN_PETMA (P33574) Plasminogen (EC 3.4.21.7) (Fragments).
+; fa_frame: f
+; fa_initn:  35
+; fa_init1:  35
+; fa_opt:  35
+; fa_z-score: 80.6
+; fa_bits: 19.2
+; fa_expect:   0.46
+; sw_score: 35
+; sw_ident: 0.375
+; sw_sim: 0.750
+; sw_overlap: 8
+>consensus_1 ..
+; sq_len: 21
+; sq_offset: 1
+; sq_type: p
+; al_start: 12
+; al_stop: 19
+; al_display_start: 1
+-------------------LCASSSFDCGKPQVEPKKCPG
+>PLMN_PETMA ..
+; sq_len: 325
+; sq_type: p
+; al_start: 205
+; al_stop: 212
+; al_display_start: 175
+GKMSPDAGLEENFCRNPDQDPQGPWCYTXNPEAXPRYCDVLSVVGGXEAQ
+RNSXPRQISLQYGWQTVHVQSIHAEPRGVDIALVKIAPPAQLTACVITXW
+GETQGTGEDVQFCAGYPEGG
+>>PLMN_MACMU (P12545) Plasminogen precursor (EC 3.4.21.7).
+; fa_frame: f
+; fa_initn: 153
+; fa_init1: 153
+; fa_opt: 153
+; fa_z-score: 79.9
+; fa_bits: 20.4
+; fa_expect:   0.51
+; sw_score: 153
+; sw_ident: 0.950
+; sw_sim: 1.000
+; sw_overlap: 20
+>consensus_1 ..
+; sq_len: 21
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 21
+; al_display_start: 1
+-----------------------------LCASSSFDCGKPQVEPKKCPG
+>PLMN_MACMU ..
+; sq_len: 810
+; sq_type: p
+; al_start: 560
+; al_stop: 579
+; al_display_start: 530
+YCRNPDGDVGGPWCYTTNPRKLFDYCDVPQCAASSFDCGKPQVEPKKCPG
+RVVGGCVAYPHSWPWQISLRTRLGMHFCGGTLISPEWVLTAAHCLEKSSR
+PSFYKVILGAHREVHLEPHV
+>>PLMN_HUMAN (P00747) Plasminogen precursor (EC 3.4.21.7) [Contains: Ang
+; fa_frame: f
+; fa_initn: 147
+; fa_init1: 147
+; fa_opt: 147
+; fa_z-score: 77.4
+; fa_bits: 20.0
+; fa_expect:    0.7
+; sw_score: 147
+; sw_ident: 0.900
+; sw_sim: 0.950
+; sw_overlap: 20
+>consensus_1 ..
+; sq_len: 21
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 21
+; al_display_start: 1
+-----------------------------LCASSSFDCGKPQVEPKKCPG
+>PLMN_HUMAN ..
+; sq_len: 810
+; sq_type: p
+; al_start: 560
+; al_stop: 579
+; al_display_start: 530
+YCRNPDGDVGGPWCYTTNPRKLYDYCDVPQCAAPSFDCGKPQVEPKKCPG
+RVVGGCVAHPHSWPWQVSLRTRFGMHFCGGTLISPEWVLTAAHCLEKSPR
+PSSYKVILGAHQEVNLEPHV
+>>PLMN_MOUSE (P20918) Plasminogen precursor (EC 3.4.21.7) [Contains: Ang
+; fa_frame: f
+; fa_initn: 130
+; fa_init1: 130
+; fa_opt: 144
+; fa_z-score: 76.0
+; fa_bits: 19.7
+; fa_expect:   0.84
+; sw_score: 144
+; sw_ident: 0.909
+; sw_sim: 0.955
+; sw_overlap: 22
+>consensus_1 ..
+; sq_len: 21
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 21
+; al_display_start: 1
+------------------------------LCAS-SSFDCGKPQVEPKKC
+PG
+>PLMN_MOUSE ..
+; sq_len: 812
+; sq_type: p
+; al_start: 559
+; al_stop: 580
+; al_display_start: 529
+NYCRNPDGDVNGPWCYTTNPRKLYDYCDIPLCASASSFECGKPQVEPKKC
+PGRVVGGCVANPHSWPWQISLRTRFTGQHFCGGTLIAPEWVLTAAHCLEK
+SSRPEFYKVILGAHEEYIRG
+>>PLMN_PIG (P06867) Plasminogen (EC 3.4.21.7).
+; fa_frame: f
+; fa_initn: 136
+; fa_init1: 136
+; fa_opt: 136
+; fa_z-score: 74.1
+; fa_bits: 19.3
+; fa_expect:    1.1
+; sw_score: 136
+; sw_ident: 0.842
+; sw_sim: 1.000
+; sw_overlap: 19
+>consensus_1 ..
+; sq_len: 21
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 20
+; al_display_start: 1
+-----------------------------LCASSSFDCGKPQVEPKKCPG
+>PLMN_PIG ..
+; sq_len: 790
+; sq_type: p
+; al_start: 540
+; al_stop: 558
+; al_display_start: 510
+YCRNPDGDDNGPWCYTTNPQKLFDYCDVPQCVTSSFDCGKPKVEPKKCPA
+RVVGGCVSIPHSWPWQISLRYRYRGHFCGGTLISPEWVLTAKHCLEKSSS
+PSSYKVILGAHEEYHLGEGV
+>>UROK_HUMAN (P00749) Urokinase-type plasminogen activator precursor (EC
+; fa_frame: f
+; fa_initn:  43
+; fa_init1:  43
+; fa_opt:  43
+; fa_z-score: 68.4
+; fa_bits: 17.4
+; fa_expect:    2.2
+; sw_score: 43
+; sw_ident: 0.364
+; sw_sim: 0.818
+; sw_overlap: 11
+>consensus_1 ..
+; sq_len: 21
+; sq_offset: 1
+; sq_type: p
+; al_start: 7
+; al_stop: 17
+; al_display_start: 1
+------------------------LCASSSFDCGKPQVEPKKCPG
+>UROK_HUMAN ..
+; sq_len: 431
+; sq_type: p
+; al_start: 166
+; al_stop: 176
+; al_display_start: 136
+QVGLKPLVQECMVHDCADGKKPSSPPEELKFQCGQKTLRPRFKIIGGEFT
+TIENQPWFAAIYRRHRGGSVTYVCGGSLMSPCWVISATHCFIDYPKKEDY
+IVYLGRSRLNSNTQGEMKFE
+>>UROK_RAT (P29598) Urokinase-type plasminogen activator precursor (EC
+; fa_frame: f
+; fa_initn:  43
+; fa_init1:  43
+; fa_opt:  43
+; fa_z-score: 68.2
+; fa_bits: 17.4
+; fa_expect:    2.2
+; sw_score: 43
+; sw_ident: 0.364
+; sw_sim: 0.818
+; sw_overlap: 11
+>consensus_1 ..
+; sq_len: 21
+; sq_offset: 1
+; sq_type: p
+; al_start: 7
+; al_stop: 17
+; al_display_start: 1
+------------------------LCASSSFDCGKPQVEPKKCPG
+>UROK_RAT ..
+; sq_len: 432
+; sq_type: p
+; al_start: 166
+; al_stop: 176
+; al_display_start: 136
+QIGLKQFVQECMVQDCSLSKKPSSTVDQQGFQCGQKALRPRFKIVGGEFT
+VVENQPWFAAIYLKNKGGSPPSFKCGGSLISPCWVASATHCFVNQPKKEE
+YVVYLGQSKRNSYNPGEMKF
+>>UROK_BOVIN (Q05589) Urokinase-type plasminogen activator precursor (EC
+; fa_frame: f
+; fa_initn:  43
+; fa_init1:  43
+; fa_opt:  43
+; fa_z-score: 68.1
+; fa_bits: 17.3
+; fa_expect:    2.2
+; sw_score: 43
+; sw_ident: 0.364
+; sw_sim: 0.818
+; sw_overlap: 11
+>consensus_1 ..
+; sq_len: 21
+; sq_offset: 1
+; sq_type: p
+; al_start: 7
+; al_stop: 17
+; al_display_start: 1
+------------------------LCASSSFDCGKPQVEPKKCPG
+>UROK_BOVIN ..
+; sq_len: 433
+; sq_type: p
+; al_start: 168
+; al_stop: 178
+; al_display_start: 138
+QIGLKQFVQFCMVQDCSVGKSPSSPREKEEFQCGQKALRPRFKIVGGQVT
+NAENQPWFAAIYRRHRGGSITYLCGGSLISPCWVVSATHCFIDHPKKENY
+IVYLGQSRLNSDTRGEMQFE
+>>UROK_MOUSE (P06869) Urokinase-type plasminogen activator precursor (EC
+; fa_frame: f
+; fa_initn:  43
+; fa_init1:  43
+; fa_opt:  43
+; fa_z-score: 68.1
+; fa_bits: 17.3
+; fa_expect:    2.2
+; sw_score: 43
+; sw_ident: 0.364
+; sw_sim: 0.818
+; sw_overlap: 11
+>consensus_1 ..
+; sq_len: 21
+; sq_offset: 1
+; sq_type: p
+; al_start: 7
+; al_stop: 17
+; al_display_start: 1
+------------------------LCASSSFDCGKPQVEPKKCPG
+>UROK_MOUSE ..
+; sq_len: 433
+; sq_type: p
+; al_start: 167
+; al_stop: 177
+; al_display_start: 137
+QIGLRQFVQECMVHDCSLSKKPSSSVDQQGFQCGQKALRPRFKIVGGEFT
+EVENQPWFAAIYQKNKGGSPPSFKCGGSLISPCWVASAAHCFIQLPKKEN
+YVVYLGQSKESSYNPGEMKF
+>>PLMN_ERIEU (Q29485) Plasminogen precursor (EC 3.4.21.7).
+; fa_frame: f
+; fa_initn: 118
+; fa_init1: 118
+; fa_opt: 124
+; fa_z-score: 67.6
+; fa_bits: 18.2
+; fa_expect:    2.4
+; sw_score: 124
+; sw_ident: 0.810
+; sw_sim: 0.905
+; sw_overlap: 21
+>consensus_1 ..
+; sq_len: 21
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 21
+; al_display_start: 1
+-----------------------------LCAS-SSFDCGKPQVEPKKCP
+G
+>PLMN_ERIEU ..
+; sq_len: 810
+; sq_type: p
+; al_start: 561
+; al_stop: 581
+; al_display_start: 531
+YCRNPDGDANGPWCYTTNPRKLFDYCDIPHCVSPSSADCGKPKVEPKKCP
+GRVGGCVAHPHSWPWQVSLRRFGQHFCGGTLISPEWVVTAAHCLEKFSNP
+AIYKVVLGAHQETRLERDVQ
+>>URTG_DESRO (P49150) Salivary plasminogen activator gamma precursor (EC
+; fa_frame: f
+; fa_initn:  29
+; fa_init1:  29
+; fa_opt:  29
+; fa_z-score: 67.4
+; fa_bits: 17.1
+; fa_expect:    2.4
+; sw_score: 29
+; sw_ident: 0.267
+; sw_sim: 0.467
+; sw_overlap: 15
+>consensus_1 ..
+; sq_len: 21
+; sq_offset: 1
+; sq_type: p
+; al_start: 5
+; al_stop: 19
+; al_display_start: 1
+--------------------------LCASSSFDCGKPQVEPKKCPG
+>URTG_DESRO ..
+; sq_len: 394
+; sq_type: p
+; al_start: 117
+; al_stop: 131
+; al_display_start: 87
+VKLGLGNHNYCRNPDGASKPWCYVIKARKFTSESCSVPVCSKATCGLRKY
+KEPQLHSTGGLFTDITSHPWQAAIFAQNRRSSGERFLCGGILISSCWVLT
+AAHCFQERYPPQHLRVVLGR
+>>UROK_PAPCY (P16227) Urokinase-type plasminogen activator precursor (EC
+; fa_frame: f
+; fa_initn:  41
+; fa_init1:  41
+; fa_opt:  41
+; fa_z-score: 67.3
+; fa_bits: 17.2
+; fa_expect:    2.5
+; sw_score: 41
+; sw_ident: 0.364
+; sw_sim: 0.818
+; sw_overlap: 11
+>consensus_1 ..
+; sq_len: 21
+; sq_offset: 1
+; sq_type: p
+; al_start: 7
+; al_stop: 17
+; al_display_start: 1
+------------------------LCASSSFDCGKPQVEPKKCPG
+>UROK_PAPCY ..
+; sq_len: 433
+; sq_type: p
+; al_start: 165
+; al_stop: 175
+; al_display_start: 135
+QVGLKQRVQECMVHNCADGKKPSSPPEELQFQCGQRTLRPRFKIVGGEFT
+TIENQPWFAAIYRRHRGGSVTYVCGGSLISPCWVVSATHCFINYPKKEDY
+IVYLGRSRLNSNTQGEMKFE
+>>UROK_PIG (P04185) Urokinase-type plasminogen activator precursor (EC
+; fa_frame: f
+; fa_initn:  43
+; fa_init1:  43
+; fa_opt:  43
+; fa_z-score: 67.0
+; fa_bits: 17.2
+; fa_expect:    2.6
+; sw_score: 43
+; sw_ident: 0.364
+; sw_sim: 0.818
+; sw_overlap: 11
+>consensus_1 ..
+; sq_len: 21
+; sq_offset: 1
+; sq_type: p
+; al_start: 7
+; al_stop: 17
+; al_display_start: 1
+------------------------LCASSSFDCGKPQVEPKKCPG
+>UROK_PIG ..
+; sq_len: 442
+; sq_type: p
+; al_start: 177
+; al_stop: 187
+; al_display_start: 147
+ECMVPNCSGGESHRPAYDGKNPFSTPEKVEFQCGQKALRPRFKIVGGKST
+TIENQPWFAAIYRRHRGGSVTYVCGGSLISPCWVVSATHCFINYQQKEDY
+IVYLGRQTLHSSTHGEMKFE
+>>UROK_CHICK (P15120) Urokinase-type plasminogen activator precursor (EC
+; fa_frame: f
+; fa_initn:  38
+; fa_init1:  38
+; fa_opt:  38
+; fa_z-score: 65.9
+; fa_bits: 16.9
+; fa_expect:      3
+; sw_score: 38
+; sw_ident: 0.308
+; sw_sim: 0.692
+; sw_overlap: 13
+>consensus_1 ..
+; sq_len: 21
+; sq_offset: 1
+; sq_type: p
+; al_start: 4
+; al_stop: 16
+; al_display_start: 1
+---------------------------LCASSSFDCGKPQVEPKKCPG
+>UROK_CHICK ..
+; sq_len: 434
+; sq_type: p
+; al_start: 197
+; al_stop: 209
+; al_display_start: 167
+FSKYFKIVGGSQAEVETQPWIAGIFQNIMGTDQFLCGGSLIDPCWVLTAA
+HCFYNPTKKQPNKSVYKVFLGKSILNTNDEHEQVFMVDEIISHPDFTDHT
+GGNDNDIALIRIRTASGQCA
+>>PLMN_BOVIN (P06868) Plasminogen precursor (EC 3.4.21.7).
+; fa_frame: f
+; fa_initn: 118
+; fa_init1: 118
+; fa_opt: 118
+; fa_z-score: 65.0
+; fa_bits: 17.7
+; fa_expect:    3.3
+; sw_score: 118
+; sw_ident: 0.882
+; sw_sim: 0.941
+; sw_overlap: 17
+>consensus_1 ..
+; sq_len: 21
+; sq_offset: 1
+; sq_type: p
+; al_start: 5
+; al_stop: 21
+; al_display_start: 1
+--------------------------LCASSSFDCGKPQVEPKKCPG
+>PLMN_BOVIN ..
+; sq_len: 812
+; sq_type: p
+; al_start: 566
+; al_stop: 582
+; al_display_start: 536
+RNPDGDVNGPWCYTMNPRKPFDYCDVPQCESSFDCGKPKVEPKKCSGRIV
+GGCVSKPHSWPWQVSLRRSSRHFCGGTLISPKWVLTAAHCLDNILALSFY
+KVILGAHNEKVREQSVQEIP
+>>URTB_DESRO (P98121) Salivary plasminogen activator beta precursor (EC 
+; fa_frame: f
+; fa_initn:  29
+; fa_init1:  29
+; fa_opt:  29
+; fa_z-score: 62.5
+; fa_bits: 16.3
+; fa_expect:    4.5
+; sw_score: 34
+; sw_ident: 0.375
+; sw_sim: 0.562
+; sw_overlap: 16
+>consensus_1 ..
+; sq_len: 21
+; sq_offset: 1
+; sq_type: p
+; al_start: 5
+; al_stop: 19
+; al_display_start: 1
+--------------------------LCASSSFDCGKPQ-VEPKKCPG
+>URTB_DESRO ..
+; sq_len: 431
+; sq_type: p
+; al_start: 59
+; al_stop: 74
+; al_display_start: 29
+RQLARGSRAYGGCSELRCFNGGTCWQAASFSDFVCQCPKGYTGKQCEVDT
+HATCYKDQGVTYRGTWSTSESGAQCINWNSNLLTRRTYNGRRSDAITLGL
+GNHNYCRNPDNNSKPWCYVI
+>>URT1_DESRO (P98119) Salivary plasminogen activator alpha 1 precursor (
+; fa_frame: f
+; fa_initn:  31
+; fa_init1:  31
+; fa_opt:  31
+; fa_z-score: 57.7
+; fa_bits: 15.5
+; fa_expect:    7.9
+; sw_score: 32
+; sw_ident: 0.375
+; sw_sim: 0.500
+; sw_overlap: 16
+>consensus_1 ..
+; sq_len: 21
+; sq_offset: 1
+; sq_type: p
+; al_start: 5
+; al_stop: 19
+; al_display_start: 1
+--------------------------LCASSSFDCGKPQ-VEPKKCPG
+>URT1_DESRO ..
+; sq_len: 477
+; sq_type: p
+; al_start: 105
+; al_stop: 120
+; al_display_start: 75
+GQARCHTVPVNSCSEPRCFNGGTCWQAVYFSDFVCQCPAGYTGKRCEVDT
+RATCYEGQGVTYRGTWSTAESRVECINWNSSLLTRRTYNGRMPDAFNLGL
+GNHNYCRNPNGAPKPWCYVI
+>>URT2_DESRO (P15638) Salivary plasminogen activator alpha 2 precursor (
+; fa_frame: f
+; fa_initn:  29
+; fa_init1:  29
+; fa_opt:  29
+; fa_z-score: 56.8
+; fa_bits: 15.4
+; fa_expect:    8.8
+; sw_score: 34
+; sw_ident: 0.375
+; sw_sim: 0.562
+; sw_overlap: 16
+>consensus_1 ..
+; sq_len: 21
+; sq_offset: 1
+; sq_type: p
+; al_start: 5
+; al_stop: 19
+; al_display_start: 1
+--------------------------LCASSSFDCGKPQ-VEPKKCPG
+>URT2_DESRO ..
+; sq_len: 477
+; sq_type: p
+; al_start: 105
+; al_stop: 120
+; al_display_start: 75
+GLAQCHTVPVKSCSELRCFNGGTCWQAASFSDFVCQCPKGYTGKQCEVDT
+HATCYKDQGVTYRGTWSTSESGAQCINWNSNLLTRRTYNGRRSDAITLGL
+GNHNYCRNPDNNSKPWCYVI
+  3>>>consensus_2 - 19 aa
+ vs  writable/file1.txt library
+
+       opt      E()
+< 20     0     0:
+  22     0     0:           one = represents 1 library sequences
+  24     0     0:
+  26     0     0:
+  28     0     0:
+  30     0     0:
+  32     2     0:==
+  34     1     1:*
+  36     2     1:*=
+  38     3     2:=*=
+  40     0     3:  *
+  42     0     4:   *
+  44     0     4:   *
+  46     1     4:=  *
+  48     3     4:===*
+  50     2     3:==*
+  52     2     3:==*
+  54     2     3:==*
+  56    11     2:=*=========
+  58     0     2: *
+  60     1     1:*
+  62     1     1:*
+  64     0     1:*
+  66     3     1:*==
+  68     0     1:*
+  70     3     0:===
+  72     1     0:=
+  74     2     0:==
+  76     0     0:
+  78     0     0:
+  80     1     0:=
+  82     0     0:
+  84     0     0:
+  86     0     0:
+  88     1     0:=
+  90     0     0:
+  92     0     0:
+  94     0     0:
+  96     0     0:
+  98     0     0:
+ 100     0     0:
+ 102     0     0:
+ 104     0     0:
+ 106     0     0:
+ 108     0     0:
+ 110     0     0:
+ 112     0     0:
+ 114     0     0:
+ 116     0     0:
+ 118     0     0:
+>120     0     0:
+  28595 residues in    42 sequences
+  Expectation_n fit: rho(ln(x))= 27.7734+/-0.0393; mu= -97.6964+/- 2.585
+ mean_var=105.9781+/-58.182, 0's: 0 Z-trim: 2  B-trim: 0 in 0/8
+ Lambda= 0.124585
+ Kolmogorov-Smirnov  statistic: 0.3155 (N=18) at  54
+
+FASTA (3.47 Mar 2004) function [optimized, BL50 matrix (15:-5)] ktup: 1
+ join: 42, opt: 30, open/ext: -10/-2, width:  16
+ Scan time:  0.010
+The best scores are:                                      opt bits E(42)
+PLMN_RAT (Q01177) Plasminogen (EC 3.4.21.7) (Fragm ( 169)   84  19.5    0.18
+PLMN_PETMA (P33574) Plasminogen (EC 3.4.21.7) (Fra ( 325)   94  19.0    0.49
+PLMN_CANFA (P80009) Plasminogen (EC 3.4.21.7) (Fra ( 333)   89  18.0    0.99
+PLMN_SHEEP (P81286) Plasminogen (EC 3.4.21.7) (Fra ( 343)   89  17.9     1.1
+PLMN_PIG (P06867) Plasminogen (EC 3.4.21.7).       ( 790)  110  18.7     1.4
+PLMN_BOVIN (P06868) Plasminogen precursor (EC 3.4. ( 812)  110  18.6     1.6
+PLMN_HUMAN (P00747) Plasminogen precursor (EC 3.4. ( 810)  109  18.5     1.8
+PLMN_MACMU (P12545) Plasminogen precursor (EC 3.4. ( 810)  109  18.5     1.8
+APOA_MACMU (P14417) Apolipoprotein(a) (EC 3.4.21.- (1420)  121  18.6     2.7
+PLMN_HORSE (P80010) Plasminogen (EC 3.4.21.7) (Fra ( 338)   81  16.5     2.8
+URTG_DESRO (P49150) Salivary plasminogen activator ( 394)   85  16.7     2.8
+PLMN_MOUSE (P20918) Plasminogen precursor (EC 3.4. ( 812)  101  17.0     4.6
+URTB_DESRO (P98121) Salivary plasminogen activator ( 431)   81  15.7     6.1
+URT2_DESRO (P15638) Salivary plasminogen activator ( 477)   81  15.3     8.4
+UROK_MOUSE (P06869) Urokinase-type plasminogen act ( 433)   78  15.1     8.7
+TPA_RAT (P19637) Tissue-type plasminogen activator ( 559)   85  15.5     8.8
+TPA_HUMAN (P00750) Tissue-type plasminogen activat ( 562)   85  15.4     8.9
+PLMN_ERIEU (Q29485) Plasminogen precursor (EC 3.4. ( 810)   95  15.9     9.1
+UROK_HUMAN (P00749) Urokinase-type plasminogen act ( 431)   77  15.0     9.6
+UROK_RAT (P29598) Urokinase-type plasminogen activ ( 432)   77  14.9     9.6
+UROK_BOVIN (Q05589) Urokinase-type plasminogen act ( 433)   77  14.9     9.7
+UROK_PAPCY (P16227) Urokinase-type plasminogen act ( 433)   77  14.9     9.7
+TPA_MOUSE (P11214) Tissue-type plasminogen activat ( 559)   84  15.3     9.8
+
+>>>consensus_2, 19 aa vs writable/file1.txt library
+; pg_name: fasta34
+; pg_ver: 34t25
+; pg_argv: fasta34 -m 10 consensus_seqs.fasta writable/file1.txt
+; pg_name: FASTA
+; pg_ver: 3.47 Mar 2004
+; pg_matrix: BL50 (15:-5)
+; pg_open-ext: -10 -2
+; pg_ktup: 1
+; pg_optcut: 30
+; pg_cgap: 42
+; mp_extrap: 60000 42
+; mp_stats:  Expectation_n fit: rho(ln(x))= 27.7734+/-0.0393; mu= -97.6964+/- 2.585  mean_var=105.9781+/-58.182, 0's: 0 Z-trim: 2  B-trim: 0 in 0/8  Lambda= 0.124585
+; mp_KS: 0.3155 (N=18) at  54
+>>PLMN_RAT (Q01177) Plasminogen (EC 3.4.21.7) (Fragment).
+; fa_frame: f
+; fa_initn:  77
+; fa_init1:  77
+; fa_opt:  84
+; fa_z-score: 88.1
+; fa_bits: 19.5
+; fa_expect:   0.18
+; sw_score: 84
+; sw_ident: 0.600
+; sw_sim: 0.750
+; sw_overlap: 20
+>consensus_2 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+------------------------------AGLIMNYCRNPDAVA-APYC
+>PLMN_RAT ..
+; sq_len: 169
+; sq_type: p
+; al_start: 76
+; al_stop: 95
+; al_display_start: 46
+SSTTNTGKKCQSWVSMTPHSHSKTPANFPDSGLEMNYCRNPDNDQRGPWC
+FTTDPSVRWEYCNLKRCSETGGGVAESAIVPQVPSAPGTSETDCMYGNGK
+EYRGKTAVTAAGTPCQEWAA
+>>PLMN_PETMA (P33574) Plasminogen (EC 3.4.21.7) (Fragments).
+; fa_frame: f
+; fa_initn:  94
+; fa_init1:  94
+; fa_opt:  94
+; fa_z-score: 80.2
+; fa_bits: 19.0
+; fa_expect:   0.49
+; sw_score: 94
+; sw_ident: 0.611
+; sw_sim: 0.778
+; sw_overlap: 18
+>consensus_2 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 19
+; al_display_start: 1
+-----------------------------AGLIMNYCRNPDAVAAPYC
+>PLMN_PETMA ..
+; sq_len: 325
+; sq_type: p
+; al_start: 118
+; al_stop: 135
+; al_display_start: 88
+GYRGTAALTVSGKACQAWASQTPGDVYSCQGLVSNYCRNPDGEKLPWCYT
+TEYCNVPSCTGGPTGSEYHEILTPAQDXYTGIVEDYRGKMSPDAGLEENF
+CRNPDQDPQGPWCYTXNPEA
+>>PLMN_CANFA (P80009) Plasminogen (EC 3.4.21.7) (Fragment).
+; fa_frame: f
+; fa_initn:  72
+; fa_init1:  72
+; fa_opt:  89
+; fa_z-score: 74.7
+; fa_bits: 18.0
+; fa_expect:   0.99
+; sw_score: 89
+; sw_ident: 0.650
+; sw_sim: 0.800
+; sw_overlap: 20
+>consensus_2 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+------------------------------AGLIMNYCRNPDA-VAAPYC
+>PLMN_CANFA ..
+; sq_len: 333
+; sq_type: p
+; al_start: 47
+; al_stop: 66
+; al_display_start: 17
+ATTVMGIPCQEWAAQEPHRHSIFTPETNPQAGLEKNYCRNPDGDVNGPWC
+YTMNQRKLFDYCDVPQCVSTSFDCGKPQVEPKKCPGRVVGGCVANPHSWP
+WQISLRTRYGKHFCGGTLIS
+>>PLMN_SHEEP (P81286) Plasminogen (EC 3.4.21.7) (Fragment).
+; fa_frame: f
+; fa_initn:  72
+; fa_init1:  72
+; fa_opt:  89
+; fa_z-score: 73.9
+; fa_bits: 17.9
+; fa_expect:    1.1
+; sw_score: 89
+; sw_ident: 0.650
+; sw_sim: 0.800
+; sw_overlap: 20
+>consensus_2 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+------------------------------AGLIMNYCRNPDA-VAAPYC
+>PLMN_SHEEP ..
+; sq_len: 343
+; sq_type: p
+; al_start: 58
+; al_stop: 77
+; al_display_start: 28
+ATTVAGVPCQEWAAQEPHRHGIFTPETNPRAGLEKNYCRNPDGDVNGPWC
+YTTNPRKLFDYCDIPQCESSFDCGKPKVEPKKCPARVVGGCVATPHSWPW
+QVSLRRRSREHFCGGTLISP
+>>PLMN_PIG (P06867) Plasminogen (EC 3.4.21.7).
+; fa_frame: f
+; fa_initn: 110
+; fa_init1: 110
+; fa_opt: 110
+; fa_z-score: 71.8
+; fa_bits: 18.7
+; fa_expect:    1.4
+; sw_score: 110
+; sw_ident: 0.737
+; sw_sim: 0.842
+; sw_overlap: 19
+>consensus_2 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+------------------------------AGLIMNYCRNPDAVAAPYC
+>PLMN_PIG ..
+; sq_len: 790
+; sq_type: p
+; al_start: 400
+; al_stop: 418
+; al_display_start: 370
+SSTTITGRKCQSWVSMTPHRHEKTPGNFPNAGLTMNYCRNPDADKSPWCY
+TTDPRVRWEYCNLKKCSETEQQVTNFPAIAQVPSVEDLSEDCMFGNGKRY
+RGKRATTVAGVPCQEWAAQE
+>>PLMN_BOVIN (P06868) Plasminogen precursor (EC 3.4.21.7).
+; fa_frame: f
+; fa_initn: 110
+; fa_init1: 110
+; fa_opt: 110
+; fa_z-score: 71.0
+; fa_bits: 18.6
+; fa_expect:    1.6
+; sw_score: 110
+; sw_ident: 0.737
+; sw_sim: 0.842
+; sw_overlap: 19
+>consensus_2 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+------------------------------AGLIMNYCRNPDAVAAPYC
+>PLMN_BOVIN ..
+; sq_len: 812
+; sq_type: p
+; al_start: 426
+; al_stop: 444
+; al_display_start: 396
+SSTTITGRKCQSWSSMTPHRHLKTPENYPNAGLTMNYCRNPDADKSPWCY
+TTDPRVRWEFCNLKKCSETPEQVPAAPQAPGVENPPEADCMIGTGKSYRG
+KKATTVAGVPCQEWAAQEPH
+>>PLMN_HUMAN (P00747) Plasminogen precursor (EC 3.4.21.7) [Contains: Ang
+; fa_frame: f
+; fa_initn: 109
+; fa_init1: 109
+; fa_opt: 109
+; fa_z-score: 70.1
+; fa_bits: 18.5
+; fa_expect:    1.8
+; sw_score: 109
+; sw_ident: 0.737
+; sw_sim: 0.842
+; sw_overlap: 19
+>consensus_2 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+------------------------------AGLIMNYCRNPDAVAAPYC
+>PLMN_HUMAN ..
+; sq_len: 810
+; sq_type: p
+; al_start: 419
+; al_stop: 437
+; al_display_start: 389
+SSTTTTGKKCQSWSSMTPHRHQKTPENYPNAGLTMNYCRNPDADKGPWCF
+TTDPSVRWEYCNLKKCSGTEASVVAPPPVVLLPDVETPSEEDCMFGNGKG
+YRGKRATTVTGTPCQDWAAQ
+>>PLMN_MACMU (P12545) Plasminogen precursor (EC 3.4.21.7).
+; fa_frame: f
+; fa_initn: 109
+; fa_init1: 109
+; fa_opt: 109
+; fa_z-score: 70.1
+; fa_bits: 18.5
+; fa_expect:    1.8
+; sw_score: 109
+; sw_ident: 0.737
+; sw_sim: 0.842
+; sw_overlap: 19
+>consensus_2 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+------------------------------AGLIMNYCRNPDAVAAPYC
+>PLMN_MACMU ..
+; sq_len: 810
+; sq_type: p
+; al_start: 419
+; al_stop: 437
+; al_display_start: 389
+SSTTTTGKKCQSWSSMTPHWHEKTPENFPNAGLTMNYCRNPDADKGPWCF
+TTDPSVRWEYCNLKKCSGTEGSVAAPPPVAQLPDAETPSEEDCMFGNGKG
+YRGKKATTVTGTPCQEWAAQ
+>>APOA_MACMU (P14417) Apolipoprotein(a) (EC 3.4.21.-) (Apo(a)) (Lp(a)) (
+; fa_frame: f
+; fa_initn: 121
+; fa_init1: 121
+; fa_opt: 121
+; fa_z-score: 66.6
+; fa_bits: 18.6
+; fa_expect:    2.7
+; sw_score: 121
+; sw_ident: 0.889
+; sw_sim: 0.889
+; sw_overlap: 18
+>consensus_2 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 19
+; al_display_start: 1
+-----------------------------AGLIMNYCRNPDAVAAPYC
+>APOA_MACMU ..
+; sq_len: 1420
+; sq_type: p
+; al_start: 93
+; al_stop: 110
+; al_display_start: 63
+FTTVTGRTCQAWSSMTPHSHSRTPENYPNGGLIRNYCRNPDPVAAPYCYT
+MDPNVRWEYCNLTQCSDAEGIAVTPLTVTPVPSLEAPSKQAPTEQRPGVQ
+ECYHGNGQSYRGTYFTTVTG
+>>PLMN_HORSE (P80010) Plasminogen (EC 3.4.21.7) (Fragment).
+; fa_frame: f
+; fa_initn:  64
+; fa_init1:  64
+; fa_opt:  81
+; fa_z-score: 66.5
+; fa_bits: 16.5
+; fa_expect:    2.8
+; sw_score: 81
+; sw_ident: 0.600
+; sw_sim: 0.800
+; sw_overlap: 20
+>consensus_2 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+------------------------------AGLIMNYCRNPDA-VAAPYC
+>PLMN_HORSE ..
+; sq_len: 338
+; sq_type: p
+; al_start: 52
+; al_stop: 71
+; al_display_start: 22
+ATTVTGTRCQAWAAQEPHRHSIFTPEANPWANLEKNYCRNPDGDVNGPWC
+YTMNPQKLFDYCDVPQCESSPFDCGKPKVEPKKCSGRIVGGCVAIAHSWP
+WQISLRTRFGRHFCGGTLIS
+>>URTG_DESRO (P49150) Salivary plasminogen activator gamma precursor (EC
+; fa_frame: f
+; fa_initn:  85
+; fa_init1:  85
+; fa_opt:  85
+; fa_z-score: 66.2
+; fa_bits: 16.7
+; fa_expect:    2.8
+; sw_score: 85
+; sw_ident: 0.643
+; sw_sim: 0.929
+; sw_overlap: 14
+>consensus_2 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 6
+; al_stop: 19
+; al_display_start: 1
+-------------------------AGLIMNYCRNPDAVAAPYC
+>URTG_DESRO ..
+; sq_len: 394
+; sq_type: p
+; al_start: 95
+; al_stop: 108
+; al_display_start: 65
+QCINWNSNLLIRRTYNGRMPEAVKLGLGNHNYCRNPDGASKPWCYVIKAR
+KFTSESCSVPVCSKATCGLRKYKEPQLHSTGGLFTDITSHPWQAAIFAQN
+RRSSGERFLCGGILISSCWV
+>>PLMN_MOUSE (P20918) Plasminogen precursor (EC 3.4.21.7) [Contains: Ang
+; fa_frame: f
+; fa_initn: 101
+; fa_init1: 101
+; fa_opt: 101
+; fa_z-score: 62.3
+; fa_bits: 17.0
+; fa_expect:    4.6
+; sw_score: 101
+; sw_ident: 0.684
+; sw_sim: 0.842
+; sw_overlap: 19
+>consensus_2 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+------------------------------AGLIMNYCRNPDAVAAPYC
+>PLMN_MOUSE ..
+; sq_len: 812
+; sq_type: p
+; al_start: 419
+; al_stop: 437
+; al_display_start: 389
+SSTTITGKKCQSWAAMFPHRHSKTPENFPDAGLEMNYCRNPDGDKGPWCY
+TTDPSVRWEYCNLKRCSETGGSVVELPTVSQEPSGPSDSETDCMYGNGKD
+YRGKTAVTAAGTPCQGWAAQ
+>>URTB_DESRO (P98121) Salivary plasminogen activator beta precursor (EC 
+; fa_frame: f
+; fa_initn:  81
+; fa_init1:  81
+; fa_opt:  81
+; fa_z-score: 59.9
+; fa_bits: 15.7
+; fa_expect:    6.1
+; sw_score: 81
+; sw_ident: 0.643
+; sw_sim: 0.786
+; sw_overlap: 14
+>consensus_2 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 6
+; al_stop: 19
+; al_display_start: 1
+-------------------------AGLIMNYCRNPDAVAAPYC
+>URTB_DESRO ..
+; sq_len: 431
+; sq_type: p
+; al_start: 132
+; al_stop: 145
+; al_display_start: 102
+QCINWNSNLLTRRTYNGRRSDAITLGLGNHNYCRNPDNNSKPWCYVIKAS
+KFILEFCSVPVCSKATCGLRKYKEPQLHSTGGLFTDITSHPWQAAIFAQN
+RRSSGERFLCGGILISSCWV
+>>URT2_DESRO (P15638) Salivary plasminogen activator alpha 2 precursor (
+; fa_frame: f
+; fa_initn:  81
+; fa_init1:  81
+; fa_opt:  81
+; fa_z-score: 57.2
+; fa_bits: 15.3
+; fa_expect:    8.4
+; sw_score: 81
+; sw_ident: 0.643
+; sw_sim: 0.786
+; sw_overlap: 14
+>consensus_2 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 6
+; al_stop: 19
+; al_display_start: 1
+-------------------------AGLIMNYCRNPDAVAAPYC
+>URT2_DESRO ..
+; sq_len: 477
+; sq_type: p
+; al_start: 178
+; al_stop: 191
+; al_display_start: 148
+QCINWNSNLLTRRTYNGRRSDAITLGLGNHNYCRNPDNNSKPWCYVIKAS
+KFILEFCSVPVCSKATCGLRKYKEPQLHSTGGLFTDITSHPWQAAIFAQN
+RRSSGERFLCGGILISSCWV
+>>UROK_MOUSE (P06869) Urokinase-type plasminogen activator precursor (EC
+; fa_frame: f
+; fa_initn:  78
+; fa_init1:  78
+; fa_opt:  78
+; fa_z-score: 56.9
+; fa_bits: 15.1
+; fa_expect:    8.7
+; sw_score: 78
+; sw_ident: 0.643
+; sw_sim: 0.714
+; sw_overlap: 14
+>consensus_2 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 6
+; al_stop: 19
+; al_display_start: 1
+-------------------------AGLIMNYCRNPDAVAAPYC
+>UROK_MOUSE ..
+; sq_len: 433
+; sq_type: p
+; al_start: 121
+; al_stop: 134
+; al_display_start: 91
+PCLAWNAPAVLQKPYNAHRPDAISLGLGKHNYCRNPDNQKRPWCYVQIGL
+RQFVQECMVHDCSLSKKPSSSVDQQGFQCGQKALRPRFKIVGGEFTEVEN
+QPWFAAIYQKNKGGSPPSFK
+>>TPA_RAT (P19637) Tissue-type plasminogen activator precursor (EC 3.
+; fa_frame: f
+; fa_initn:  85
+; fa_init1:  85
+; fa_opt:  85
+; fa_z-score: 56.8
+; fa_bits: 15.5
+; fa_expect:    8.8
+; sw_score: 85
+; sw_ident: 0.714
+; sw_sim: 0.857
+; sw_overlap: 14
+>consensus_2 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 6
+; al_stop: 19
+; al_display_start: 1
+-------------------------AGLIMNYCRNPDAVAAPYC
+>TPA_RAT ..
+; sq_len: 559
+; sq_type: p
+; al_start: 263
+; al_stop: 276
+; al_display_start: 233
+SCLPWNSMILIGKTYTAWRANSQALGLGRHNYCRNPDGDAKPWCHVMKDR
+KLTWEYCDMSPCSTCGLRQYKQPQFRIKGGLFTDITSHPWQAAIFVKNKR
+SPGERFLCGGVLISSCWVLS
+>>TPA_HUMAN (P00750) Tissue-type plasminogen activator precursor (EC 3.
+; fa_frame: f
+; fa_initn:  85
+; fa_init1:  85
+; fa_opt:  85
+; fa_z-score: 56.7
+; fa_bits: 15.4
+; fa_expect:    8.9
+; sw_score: 85
+; sw_ident: 0.714
+; sw_sim: 0.857
+; sw_overlap: 14
+>consensus_2 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 6
+; al_stop: 19
+; al_display_start: 1
+-------------------------AGLIMNYCRNPDAVAAPYC
+>TPA_HUMAN ..
+; sq_len: 562
+; sq_type: p
+; al_start: 265
+; al_stop: 278
+; al_display_start: 235
+SCLPWNSMILIGKVYTAQNPSAQALGLGKHNYCRNPDGDAKPWCHVLKNR
+RLTWEYCDVPSCSTCGLRQYSQPQFRIKGGLFADIASHPWQAAIFAKHRR
+SPGERFLCGGILISSCWILS
+>>PLMN_ERIEU (Q29485) Plasminogen precursor (EC 3.4.21.7).
+; fa_frame: f
+; fa_initn:  95
+; fa_init1:  95
+; fa_opt:  95
+; fa_z-score: 56.5
+; fa_bits: 15.9
+; fa_expect:    9.1
+; sw_score: 95
+; sw_ident: 0.632
+; sw_sim: 0.789
+; sw_overlap: 19
+>consensus_2 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+------------------------------AGLIMNYCRNPDAVAAPYC
+>PLMN_ERIEU ..
+; sq_len: 810
+; sq_type: p
+; al_start: 421
+; al_stop: 439
+; al_display_start: 391
+SSTTITGKKCQPWTSMRPHRHSKTPENYPDADLTMNYCRNPDGDKGPWCY
+TTDPSVRWEFCNLKKCSGTEMSATNSSPVQVSSASESSEQDCIIDNGKGY
+RGTKATTGAGTPCQAWAAQE
+>>UROK_HUMAN (P00749) Urokinase-type plasminogen activator precursor (EC
+; fa_frame: f
+; fa_initn:  77
+; fa_init1:  77
+; fa_opt:  77
+; fa_z-score: 56.0
+; fa_bits: 15.0
+; fa_expect:    9.6
+; sw_score: 77
+; sw_ident: 0.643
+; sw_sim: 0.714
+; sw_overlap: 14
+>consensus_2 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 6
+; al_stop: 19
+; al_display_start: 1
+-------------------------AGLIMNYCRNPDAVAAPYC
+>UROK_HUMAN ..
+; sq_len: 431
+; sq_type: p
+; al_start: 120
+; al_stop: 133
+; al_display_start: 90
+PCLPWNSATVLQQTYHAHRSDALQLGLGKHNYCRNPDNRRRPWCYVQVGL
+KPLVQECMVHDCADGKKPSSPPEELKFQCGQKTLRPRFKIIGGEFTTIEN
+QPWFAAIYRRHRGGSVTYVC
+>>UROK_RAT (P29598) Urokinase-type plasminogen activator precursor (EC
+; fa_frame: f
+; fa_initn:  77
+; fa_init1:  77
+; fa_opt:  77
+; fa_z-score: 56.0
+; fa_bits: 14.9
+; fa_expect:    9.6
+; sw_score: 77
+; sw_ident: 0.643
+; sw_sim: 0.714
+; sw_overlap: 14
+>consensus_2 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 6
+; al_stop: 19
+; al_display_start: 1
+-------------------------AGLIMNYCRNPDAVAAPYC
+>UROK_RAT ..
+; sq_len: 432
+; sq_type: p
+; al_start: 120
+; al_stop: 133
+; al_display_start: 90
+PCLAWNSPAVLQQTYNAHRSDALSLGLGKHNYCRNPDNQRRPWCYVQIGL
+KQFVQECMVQDCSLSKKPSSTVDQQGFQCGQKALRPRFKIVGGEFTVVEN
+QPWFAAIYLKNKGGSPPSFK
+>>UROK_BOVIN (Q05589) Urokinase-type plasminogen activator precursor (EC
+; fa_frame: f
+; fa_initn:  77
+; fa_init1:  77
+; fa_opt:  77
+; fa_z-score: 55.9
+; fa_bits: 14.9
+; fa_expect:    9.7
+; sw_score: 77
+; sw_ident: 0.643
+; sw_sim: 0.714
+; sw_overlap: 14
+>consensus_2 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 6
+; al_stop: 19
+; al_display_start: 1
+-------------------------AGLIMNYCRNPDAVAAPYC
+>UROK_BOVIN ..
+; sq_len: 433
+; sq_type: p
+; al_start: 122
+; al_stop: 135
+; al_display_start: 92
+PCLAWDSPTVLLKMYHAHRSDAIQLGLGKHNYCRNPDNQRRPWCYVQIGL
+KQFVQFCMVQDCSVGKSPSSPREKEEFQCGQKALRPRFKIVGGQVTNAEN
+QPWFAAIYRRHRGGSITYLC
+>>UROK_PAPCY (P16227) Urokinase-type plasminogen activator precursor (EC
+; fa_frame: f
+; fa_initn:  77
+; fa_init1:  77
+; fa_opt:  77
+; fa_z-score: 55.9
+; fa_bits: 14.9
+; fa_expect:    9.7
+; sw_score: 77
+; sw_ident: 0.643
+; sw_sim: 0.714
+; sw_overlap: 14
+>consensus_2 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 6
+; al_stop: 19
+; al_display_start: 1
+-------------------------AGLIMNYCRNPDAVAAPYC
+>UROK_PAPCY ..
+; sq_len: 433
+; sq_type: p
+; al_start: 119
+; al_stop: 132
+; al_display_start: 89
+SCLAWNSATVLQQTYHAHRSDALQLGLGKHNYCRNPDNRRRPWCYVQVGL
+KQRVQECMVHNCADGKKPSSPPEELQFQCGQRTLRPRFKIVGGEFTTIEN
+QPWFAAIYRRHRGGSVTYVC
+>>TPA_MOUSE (P11214) Tissue-type plasminogen activator precursor (EC 3.
+; fa_frame: f
+; fa_initn:  84
+; fa_init1:  84
+; fa_opt:  84
+; fa_z-score: 55.8
+; fa_bits: 15.3
+; fa_expect:    9.8
+; sw_score: 84
+; sw_ident: 0.714
+; sw_sim: 0.857
+; sw_overlap: 14
+>consensus_2 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 6
+; al_stop: 19
+; al_display_start: 1
+-------------------------AGLIMNYCRNPDAVAAPYC
+>TPA_MOUSE ..
+; sq_len: 559
+; sq_type: p
+; al_start: 263
+; al_stop: 276
+; al_display_start: 233
+SCLPWNSIVLMGKSYTAWRTNSQALGLGRHNYCRNPDGDARPWCHVMKDR
+KLTWEYCDMSPCSTCGLRQYKRPQFRIKGGLYTDITSHPWQAPIFVKNKR
+SPGERFLCGGVLISSCWVLS
+  4>>>consensus_3 - 18 aa
+ vs  writable/file1.txt library
+
+       opt      E()
+< 20     0     0:
+  22     0     0:           one = represents 1 library sequences
+  24     0     0:
+  26     0     0:
+  28     0     0:
+  30     0     0:
+  32     0     0:
+  34     0     1:*
+  36     0     1:*
+  38     0     2: *
+  40     0     3:  *
+  42     2     4:== *
+  44     2     4:== *
+  46     3     4:===*
+  48     8     4:===*====
+  50     3     3:==*
+  52     1     3:= *
+  54     2     3:==*
+  56     0     2: *
+  58     2     2:=*
+  60     4     1:*===
+  62     6     1:*=====
+  64     0     1:*
+  66     1     1:*
+  68     0     1:*
+  70     0     0:
+  72     0     0:
+  74     1     0:=
+  76     0     0:
+  78     1     0:=
+  80     0     0:
+  82     0     0:
+  84     0     0:
+  86     0     0:
+  88     4     0:====
+  90     0     0:
+  92     0     0:
+  94     0     0:
+  96     1     0:=
+  98     0     0:
+ 100     0     0:
+ 102     0     0:
+ 104     0     0:
+ 106     0     0:
+ 108     0     0:
+ 110     0     0:
+ 112     0     0:
+ 114     0     0:
+ 116     0     0:
+ 118     1     0:=
+>120     0     0:
+  28595 residues in    42 sequences
+  Expectation_n fit: rho(ln(x))= -10.9837+/-0.0775; mu= 128.4250+/- 4.947
+ mean_var=178.9812+/-92.694, 0's: 0 Z-trim: 5  B-trim: 0 in 0/8
+ Lambda= 0.095867
+ Kolmogorov-Smirnov  statistic: 0.2901 (N=14) at  58
+
+FASTA (3.47 Mar 2004) function [optimized, BL50 matrix (15:-5)] ktup: 1
+ join: 42, opt: 30, open/ext: -10/-2, width:  16
+ Scan time:  0.010
+The best scores are:                                      opt bits E(42)
+APOA_HUMAN (P08519) Apolipoprotein(a) precursor (E (4548)  127  29.8  0.0038
+APOA_MACMU (P14417) Apolipoprotein(a) (EC 3.4.21.- (1420)  111  24.1    0.06
+PLMN_BOVIN (P06868) Plasminogen precursor (EC 3.4. ( 812)  106  21.7    0.17
+PLMN_MACMU (P12545) Plasminogen precursor (EC 3.4. ( 810)  106  21.7    0.18
+PLMN_HUMAN (P00747) Plasminogen precursor (EC 3.4. ( 810)  106  21.7    0.18
+PLMN_PIG (P06867) Plasminogen (EC 3.4.21.7).       ( 790)  106  21.7    0.18
+PLMN_MOUSE (P20918) Plasminogen precursor (EC 3.4. ( 812)   93  19.9     0.6
+PLMN_ERIEU (Q29485) Plasminogen precursor (EC 3.4. ( 810)   87  19.1     1.1
+HGFL_MOUSE (P26928) Hepatocyte growth factor-like  ( 716)   79  17.6     2.6
+PLMN_CANFA (P80009) Plasminogen (EC 3.4.21.7) (Fra ( 333)   82  15.8     4.2
+PLMN_RAT (Q01177) Plasminogen (EC 3.4.21.7) (Fragm ( 169)   89  14.7     4.4
+PLMN_SHEEP (P81286) Plasminogen (EC 3.4.21.7) (Fra ( 343)   81  15.7     4.5
+HGF_HUMAN (P14210) Hepatocyte growth factor precur ( 728)   72  16.7     4.8
+HGF_MOUSE (Q08048) Hepatocyte growth factor precur ( 728)   72  16.7     4.8
+HGF_RAT (P17945) Hepatocyte growth factor precurso ( 728)   72  16.7     4.8
+THRB_RAT (P18292) Prothrombin precursor (EC 3.4.21 ( 617)   73  16.4     5.2
+PLMN_PETMA (P33574) Plasminogen (EC 3.4.21.7) (Fra ( 325)   80  15.4     5.2
+THRB_HUMAN (P00734) Prothrombin precursor (EC 3.4. ( 622)   71  16.1     6.1
+THRB_MOUSE (P19221) Prothrombin precursor (EC 3.4. ( 618)   71  16.1     6.2
+HGFL_HUMAN (P26927) Hepatocyte growth factor-like  ( 711)   69  16.2     6.4
+THRB_BOVIN (P00735) Prothrombin precursor (EC 3.4. ( 625)   69  15.9     7.3
+
+>>>consensus_3, 18 aa vs writable/file1.txt library
+; pg_name: fasta34
+; pg_ver: 34t25
+; pg_argv: fasta34 -m 10 consensus_seqs.fasta writable/file1.txt
+; pg_name: FASTA
+; pg_ver: 3.47 Mar 2004
+; pg_matrix: BL50 (15:-5)
+; pg_open-ext: -10 -2
+; pg_ktup: 1
+; pg_optcut: 30
+; pg_cgap: 42
+; mp_extrap: 60000 42
+; mp_stats:  Expectation_n fit: rho(ln(x))= -10.9837+/-0.0775; mu= 128.4250+/- 4.947  mean_var=178.9812+/-92.694, 0's: 0 Z-trim: 5  B-trim: 0 in 0/8  Lambda= 0.095867
+; mp_KS: 0.2901 (N=14) at  58
+>>APOA_HUMAN (P08519) Apolipoprotein(a) precursor (EC 3.4.21.-) (Apo(a))
+; fa_frame: f
+; fa_initn: 127
+; fa_init1: 127
+; fa_opt: 127
+; fa_z-score: 118.1
+; fa_bits: 29.8
+; fa_expect: 0.0038
+; sw_score: 127
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 18
+>consensus_3 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 18
+; al_display_start: 1
+------------------------------PNAGLIMNYCRNPDAVAA
+>APOA_HUMAN ..
+; sq_len: 4548
+; sq_type: p
+; al_start: 68
+; al_stop: 85
+; al_display_start: 38
+GTYSTTVTGRTCQAWSSMTPHQHNRTTENYPNAGLIMNYCRNPDAVAAPY
+CYTRDPGVRWEYCNLTQCSDAEGTAVAPPTVTPVPSLEAPSEQAPTEQRP
+GVQECYHGNGQSYRGTYSTT
+>>APOA_MACMU (P14417) Apolipoprotein(a) (EC 3.4.21.-) (Apo(a)) (Lp(a)) (
+; fa_frame: f
+; fa_initn: 111
+; fa_init1: 111
+; fa_opt: 111
+; fa_z-score: 96.6
+; fa_bits: 24.1
+; fa_expect:   0.06
+; sw_score: 111
+; sw_ident: 0.833
+; sw_sim: 0.889
+; sw_overlap: 18
+>consensus_3 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 18
+; al_display_start: 1
+------------------------------PNAGLIMNYCRNPDAVAA
+>APOA_MACMU ..
+; sq_len: 1420
+; sq_type: p
+; al_start: 432
+; al_stop: 449
+; al_display_start: 402
+GTYFTTVTGRTCQAWSSMTPHSHSRTPENYPNAGLVKNYCRNPDPVAAPW
+CYTTDPSVRWEYCNLTRCSDAEGTAVMPPNIIPVPSLEAFLEQEPTEETP
+GVQECYYHYGQSYRGTYSTT
+>>PLMN_BOVIN (P06868) Plasminogen precursor (EC 3.4.21.7).
+; fa_frame: f
+; fa_initn: 106
+; fa_init1: 106
+; fa_opt: 106
+; fa_z-score: 88.2
+; fa_bits: 21.7
+; fa_expect:   0.17
+; sw_score: 106
+; sw_ident: 0.933
+; sw_sim: 0.933
+; sw_overlap: 15
+>consensus_3 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 15
+; al_display_start: 1
+------------------------------PNAGLIMNYCRNPDAVAA
+>PLMN_BOVIN ..
+; sq_len: 812
+; sq_type: p
+; al_start: 424
+; al_stop: 438
+; al_display_start: 394
+GTSSTTITGRKCQSWSSMTPHRHLKTPENYPNAGLTMNYCRNPDADKSPW
+CYTTDPRVRWEFCNLKKCSETPEQVPAAPQAPGVENPPEADCMIGTGKSY
+RGKKATTVAGVPCQEWAAQE
+>>PLMN_MACMU (P12545) Plasminogen precursor (EC 3.4.21.7).
+; fa_frame: f
+; fa_initn: 106
+; fa_init1: 106
+; fa_opt: 106
+; fa_z-score: 88.2
+; fa_bits: 21.7
+; fa_expect:   0.18
+; sw_score: 106
+; sw_ident: 0.933
+; sw_sim: 0.933
+; sw_overlap: 15
+>consensus_3 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 15
+; al_display_start: 1
+------------------------------PNAGLIMNYCRNPDAVAA
+>PLMN_MACMU ..
+; sq_len: 810
+; sq_type: p
+; al_start: 417
+; al_stop: 431
+; al_display_start: 387
+GTSSTTTTGKKCQSWSSMTPHWHEKTPENFPNAGLTMNYCRNPDADKGPW
+CFTTDPSVRWEYCNLKKCSGTEGSVAAPPPVAQLPDAETPSEEDCMFGNG
+KGYRGKKATTVTGTPCQEWA
+>>PLMN_HUMAN (P00747) Plasminogen precursor (EC 3.4.21.7) [Contains: Ang
+; fa_frame: f
+; fa_initn: 106
+; fa_init1: 106
+; fa_opt: 106
+; fa_z-score: 88.2
+; fa_bits: 21.7
+; fa_expect:   0.18
+; sw_score: 106
+; sw_ident: 0.933
+; sw_sim: 0.933
+; sw_overlap: 15
+>consensus_3 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 15
+; al_display_start: 1
+------------------------------PNAGLIMNYCRNPDAVAA
+>PLMN_HUMAN ..
+; sq_len: 810
+; sq_type: p
+; al_start: 417
+; al_stop: 431
+; al_display_start: 387
+GTSSTTTTGKKCQSWSSMTPHRHQKTPENYPNAGLTMNYCRNPDADKGPW
+CFTTDPSVRWEYCNLKKCSGTEASVVAPPPVVLLPDVETPSEEDCMFGNG
+KGYRGKRATTVTGTPCQDWA
+>>PLMN_PIG (P06867) Plasminogen (EC 3.4.21.7).
+; fa_frame: f
+; fa_initn: 106
+; fa_init1: 106
+; fa_opt: 106
+; fa_z-score: 88.0
+; fa_bits: 21.7
+; fa_expect:   0.18
+; sw_score: 106
+; sw_ident: 0.933
+; sw_sim: 0.933
+; sw_overlap: 15
+>consensus_3 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 15
+; al_display_start: 1
+------------------------------PNAGLIMNYCRNPDAVAA
+>PLMN_PIG ..
+; sq_len: 790
+; sq_type: p
+; al_start: 398
+; al_stop: 412
+; al_display_start: 368
+GTSSTTITGRKCQSWVSMTPHRHEKTPGNFPNAGLTMNYCRNPDADKSPW
+CYTTDPRVRWEYCNLKKCSETEQQVTNFPAIAQVPSVEDLSEDCMFGNGK
+RYRGKRATTVAGVPCQEWAA
+>>PLMN_MOUSE (P20918) Plasminogen precursor (EC 3.4.21.7) [Contains: Ang
+; fa_frame: f
+; fa_initn:  93
+; fa_init1:  93
+; fa_opt:  93
+; fa_z-score: 78.5
+; fa_bits: 19.9
+; fa_expect:    0.6
+; sw_score: 93
+; sw_ident: 0.857
+; sw_sim: 0.929
+; sw_overlap: 14
+>consensus_3 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 14
+; al_display_start: 1
+------------------------------PNAGLIMNYCRNPDAVAA
+>PLMN_MOUSE ..
+; sq_len: 812
+; sq_type: p
+; al_start: 417
+; al_stop: 430
+; al_display_start: 387
+GTSSTTITGKKCQSWAAMFPHRHSKTPENFPDAGLEMNYCRNPDGDKGPW
+CYTTDPSVRWEYCNLKRCSETGGSVVELPTVSQEPSGPSDSETDCMYGNG
+KDYRGKTAVTAAGTPCQGWA
+>>PLMN_ERIEU (Q29485) Plasminogen precursor (EC 3.4.21.7).
+; fa_frame: f
+; fa_initn: 110
+; fa_init1:  87
+; fa_opt:  87
+; fa_z-score: 74.0
+; fa_bits: 19.1
+; fa_expect:    1.1
+; sw_score: 87
+; sw_ident: 0.786
+; sw_sim: 0.857
+; sw_overlap: 14
+>consensus_3 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 14
+; al_display_start: 1
+------------------------------PNAGLIMNYCRNPDAVAA
+>PLMN_ERIEU ..
+; sq_len: 810
+; sq_type: p
+; al_start: 419
+; al_stop: 432
+; al_display_start: 389
+GTSSTTITGKKCQPWTSMRPHRHSKTPENYPDADLTMNYCRNPDGDKGPW
+CYTTDPSVRWEFCNLKKCSGTEMSATNSSPVQVSSASESSEQDCIIDNGK
+GYRGTKATTGAGTPCQAWAA
+>>HGFL_MOUSE (P26928) Hepatocyte growth factor-like protein precursor (M
+; fa_frame: f
+; fa_initn:  79
+; fa_init1:  79
+; fa_opt:  79
+; fa_z-score: 67.0
+; fa_bits: 17.6
+; fa_expect:    2.6
+; sw_score: 79
+; sw_ident: 0.714
+; sw_sim: 0.857
+; sw_overlap: 14
+>consensus_3 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 14
+; al_display_start: 1
+------------------------------PNAGLIMNYCRNPDAVAA
+>HGFL_MOUSE ..
+; sq_len: 716
+; sq_type: p
+; al_start: 419
+; al_stop: 432
+; al_display_start: 389
+GSVSKTRKGVQCQHWSSETPHKPQFTPTSAPQAGLEANFCRNPDGDSHGP
+WCYTLDPDILFDYCALQRCDDDQPPSILDPPDQVVFEKCGKRVDKSNKLR
+VVGGHPGNSPWTVSLRNRQG
+>>PLMN_CANFA (P80009) Plasminogen (EC 3.4.21.7) (Fragment).
+; fa_frame: f
+; fa_initn:  82
+; fa_init1:  82
+; fa_opt:  82
+; fa_z-score: 63.0
+; fa_bits: 15.8
+; fa_expect:    4.2
+; sw_score: 82
+; sw_ident: 0.786
+; sw_sim: 0.857
+; sw_overlap: 14
+>consensus_3 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 14
+; al_display_start: 1
+------------------------------PNAGLIMNYCRNPDAVAA
+>PLMN_CANFA ..
+; sq_len: 333
+; sq_type: p
+; al_start: 45
+; al_stop: 58
+; al_display_start: 15
+KKATTVMGIPCQEWAAQEPHRHSIFTPETNPQAGLEKNYCRNPDGDVNGP
+WCYTMNQRKLFDYCDVPQCVSTSFDCGKPQVEPKKCPGRVVGGCVANPHS
+WPWQISLRTRYGKHFCGGTL
+>>PLMN_RAT (Q01177) Plasminogen (EC 3.4.21.7) (Fragment).
+; fa_frame: f
+; fa_initn:  89
+; fa_init1:  89
+; fa_opt:  89
+; fa_z-score: 62.6
+; fa_bits: 14.7
+; fa_expect:    4.4
+; sw_score: 89
+; sw_ident: 0.786
+; sw_sim: 0.929
+; sw_overlap: 14
+>consensus_3 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 14
+; al_display_start: 1
+------------------------------PNAGLIMNYCRNPDAVAA
+>PLMN_RAT ..
+; sq_len: 169
+; sq_type: p
+; al_start: 74
+; al_stop: 87
+; al_display_start: 44
+GTSSTTNTGKKCQSWVSMTPHSHSKTPANFPDSGLEMNYCRNPDNDQRGP
+WCFTTDPSVRWEYCNLKRCSETGGGVAESAIVPQVPSAPGTSETDCMYGN
+GKEYRGKTAVTAAGTPCQEW
+>>PLMN_SHEEP (P81286) Plasminogen (EC 3.4.21.7) (Fragment).
+; fa_frame: f
+; fa_initn:  81
+; fa_init1:  81
+; fa_opt:  81
+; fa_z-score: 62.5
+; fa_bits: 15.7
+; fa_expect:    4.5
+; sw_score: 81
+; sw_ident: 0.786
+; sw_sim: 0.786
+; sw_overlap: 14
+>consensus_3 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 14
+; al_display_start: 1
+------------------------------PNAGLIMNYCRNPDAVAA
+>PLMN_SHEEP ..
+; sq_len: 343
+; sq_type: p
+; al_start: 56
+; al_stop: 69
+; al_display_start: 26
+KKATTVAGVPCQEWAAQEPHRHGIFTPETNPRAGLEKNYCRNPDGDVNGP
+WCYTTNPRKLFDYCDIPQCESSFDCGKPKVEPKKCPARVVGGCVATPHSW
+PWQVSLRRRSREHFCGGTLI
+>>HGF_HUMAN (P14210) Hepatocyte growth factor precursor (Scatter factor
+; fa_frame: f
+; fa_initn:  72
+; fa_init1:  72
+; fa_opt:  72
+; fa_z-score: 61.9
+; fa_bits: 16.7
+; fa_expect:    4.8
+; sw_score: 72
+; sw_ident: 0.643
+; sw_sim: 0.786
+; sw_overlap: 14
+>consensus_3 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 14
+; al_display_start: 1
+------------------------------PNAGLIMNYCRNPDAVAA
+>HGF_HUMAN ..
+; sq_len: 728
+; sq_type: p
+; al_start: 251
+; al_stop: 264
+; al_display_start: 221
+GLMDHTESGKICQRWDHQTPHRHKFLPERYPDKGFDDNYCRNPDGQPRPW
+CYTLDPHTRWEYCAIKTCADNTMNDTDVPLETTECIQGQGEGYRGTVNTI
+WNGIPCQRWDSQYPHEHDMT
+>>HGF_MOUSE (Q08048) Hepatocyte growth factor precursor (Scatter factor
+; fa_frame: f
+; fa_initn:  72
+; fa_init1:  72
+; fa_opt:  72
+; fa_z-score: 61.9
+; fa_bits: 16.7
+; fa_expect:    4.8
+; sw_score: 72
+; sw_ident: 0.643
+; sw_sim: 0.786
+; sw_overlap: 14
+>consensus_3 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 14
+; al_display_start: 1
+------------------------------PNAGLIMNYCRNPDAVAA
+>HGF_MOUSE ..
+; sq_len: 728
+; sq_type: p
+; al_start: 252
+; al_stop: 265
+; al_display_start: 222
+GPMDHTESGKTCQRWDQQTPHRHKFLPERYPDKGFDDNYCRNPDGKPRPW
+CYTLDPDTPWEYCAIKTCAHSAVNETDVPMETTECIQGQGEGYRGTSNTI
+WNGIPCQRWDSQYPHKHDIT
+>>HGF_RAT (P17945) Hepatocyte growth factor precursor (Scatter factor
+; fa_frame: f
+; fa_initn:  72
+; fa_init1:  72
+; fa_opt:  72
+; fa_z-score: 61.9
+; fa_bits: 16.7
+; fa_expect:    4.8
+; sw_score: 72
+; sw_ident: 0.643
+; sw_sim: 0.786
+; sw_overlap: 14
+>consensus_3 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 14
+; al_display_start: 1
+------------------------------PNAGLIMNYCRNPDAVAA
+>HGF_RAT ..
+; sq_len: 728
+; sq_type: p
+; al_start: 252
+; al_stop: 265
+; al_display_start: 222
+GPMDHTESGKTCQRWDQQTPHRHKFLPERYPDKGFDDNYCRNPDGKPRPW
+CYTLDPDTPWEYCAIKMCAHSAVNETDVPMETTECIKGQGEGYRGTTNTI
+WNGIPCQRWDSQYPHKHDIT
+>>THRB_RAT (P18292) Prothrombin precursor (EC 3.4.21.5).
+; fa_frame: f
+; fa_initn:  73
+; fa_init1:  73
+; fa_opt:  73
+; fa_z-score: 61.3
+; fa_bits: 16.4
+; fa_expect:    5.2
+; sw_score: 73
+; sw_ident: 0.571
+; sw_sim: 0.929
+; sw_overlap: 14
+>consensus_3 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 14
+; al_display_start: 1
+------------------------------PNAGLIMNYCRNPDAVAA
+>THRB_RAT ..
+; sq_len: 617
+; sq_type: p
+; al_start: 255
+; al_stop: 268
+; al_display_start: 225
+GNLAVTTLGSPCLAWDSLPTKTLSKYQNFDPEVKLVQNFCRNPDRDEEGA
+WCFVAQQPGFEYCSLNYCDEAVGEENHDGDESIAGRTTDAEFHTFFDERT
+FGLGEADCGLRPLFEKKSLT
+>>PLMN_PETMA (P33574) Plasminogen (EC 3.4.21.7) (Fragments).
+; fa_frame: f
+; fa_initn:  80
+; fa_init1:  80
+; fa_opt:  80
+; fa_z-score: 61.3
+; fa_bits: 15.4
+; fa_expect:    5.2
+; sw_score: 80
+; sw_ident: 0.714
+; sw_sim: 0.857
+; sw_overlap: 14
+>consensus_3 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 14
+; al_display_start: 1
+------------------------------PNAGLIMNYCRNPDAVAA
+>PLMN_PETMA ..
+; sq_len: 325
+; sq_type: p
+; al_start: 179
+; al_stop: 192
+; al_display_start: 149
+GPTGSEYHEILTPAQDXYTGIVEDYRGKMSPDAGLEENFCRNPDQDPQGP
+WCYTXNPEAXPRYCDVLSVVGGXEAQRNSXPRQISLQYGWQTVHVQSIHA
+EPRGVDIALVKIAPPAQLTA
+>>THRB_HUMAN (P00734) Prothrombin precursor (EC 3.4.21.5) (Coagulation f
+; fa_frame: f
+; fa_initn:  71
+; fa_init1:  71
+; fa_opt:  71
+; fa_z-score: 59.9
+; fa_bits: 16.1
+; fa_expect:    6.1
+; sw_score: 71
+; sw_ident: 0.600
+; sw_sim: 0.800
+; sw_overlap: 15
+>consensus_3 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 15
+; al_display_start: 1
+------------------------------PNAGLIMNYCRNPDAVAA
+>THRB_HUMAN ..
+; sq_len: 622
+; sq_type: p
+; al_start: 148
+; al_stop: 162
+; al_display_start: 118
+GHVNITRSGIECQLWRSRYPHKPEINSTTHPGADLQENFCRNPDSSTTGP
+WCYTTDPTVRRQECSIPVCGQDQVTVAMTPRSEGSSVNLSPPLEQCVPDR
+GQQYQGRLAVTTHGLPCLAW
+>>THRB_MOUSE (P19221) Prothrombin precursor (EC 3.4.21.5).
+; fa_frame: f
+; fa_initn:  71
+; fa_init1:  71
+; fa_opt:  71
+; fa_z-score: 59.8
+; fa_bits: 16.1
+; fa_expect:    6.2
+; sw_score: 71
+; sw_ident: 0.600
+; sw_sim: 0.800
+; sw_overlap: 15
+>consensus_3 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 15
+; al_display_start: 1
+------------------------------PNAGLIMNYCRNPDAVAA
+>THRB_MOUSE ..
+; sq_len: 618
+; sq_type: p
+; al_start: 149
+; al_stop: 163
+; al_display_start: 119
+GTVNVTHTGIQCQLWRSRYPHKPEINSTTHPGADLKENFCRNPDSSTTGP
+WCYTTDPTVRREECSVPVCGQEGRTTVVMTPRSGGSKDNLSPPLGQCLTE
+RGRLYQGNLAVTTLGSPCLP
+>>HGFL_HUMAN (P26927) Hepatocyte growth factor-like protein precursor (M
+; fa_frame: f
+; fa_initn:  69
+; fa_init1:  69
+; fa_opt:  69
+; fa_z-score: 59.5
+; fa_bits: 16.2
+; fa_expect:    6.4
+; sw_score: 69
+; sw_ident: 0.643
+; sw_sim: 0.786
+; sw_overlap: 14
+>consensus_3 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 14
+; al_display_start: 1
+------------------------------PNAGLIMNYCRNPDAVAA
+>HGFL_HUMAN ..
+; sq_len: 711
+; sq_type: p
+; al_start: 410
+; al_stop: 423
+; al_display_start: 380
+GTVSKTRKGVQCQRWSAETPHKPQFTFTSEPHAQLEENFCRNPDGDSHGP
+WCYTMDPRTPFDYCALRRCADDQPPSILDPPDQVQFEKCGKRVDRLDQRR
+SKLRVVGGHPGNSPWTVSLR
+>>THRB_BOVIN (P00735) Prothrombin precursor (EC 3.4.21.5).
+; fa_frame: f
+; fa_initn:  69
+; fa_init1:  69
+; fa_opt:  69
+; fa_z-score: 58.4
+; fa_bits: 15.9
+; fa_expect:    7.3
+; sw_score: 69
+; sw_ident: 0.643
+; sw_sim: 0.786
+; sw_overlap: 14
+>consensus_3 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 14
+; al_display_start: 1
+------------------------------PNAGLIMNYCRNPDAVAA
+>THRB_BOVIN ..
+; sq_len: 625
+; sq_type: p
+; al_start: 149
+; al_stop: 162
+; al_display_start: 119
+GNVSVTRSGIECQLWRSRYPHKPEINSTTHPGADLRENFCRNPDGSITGP
+WCYTTSPTLRREECSVPVCGQDRVTVEVIPRSGGSTTSQSPLLETCVPDR
+GREYRGRLAVTTSGSRCLAW
+  5>>>consensus_4 - 18 aa
+ vs  writable/file1.txt library
+
+       opt      E()
+< 20     1     0:=
+  22     0     0:           one = represents 1 library sequences
+  24     0     0:
+  26     0     0:
+  28     0     0:
+  30     0     0:
+  32     0     0:
+  34     1     1:*
+  36     3     1:*==
+  38     1     2:=*
+  40     0     3:  *
+  42     3     4:===*
+  44     1     4:=  *
+  46     0     4:   *
+  48     1     4:=  *
+  50     0     3:  *
+  52     5     3:==*==
+  54     3     3:==*
+  56     0     2: *
+  58     2     2:=*
+  60     5     1:*====
+  62     2     1:*=
+  64     5     1:*====
+  66     1     1:*
+  68     4     1:*===
+  70     0     0:
+  72     0     0:
+  74     0     0:
+  76     2     0:==
+  78     0     0:
+  80     1     0:=
+  82     0     0:
+  84     0     0:
+  86     0     0:
+  88     0     0:
+  90     0     0:
+  92     0     0:
+  94     0     0:
+  96     0     0:
+  98     0     0:
+ 100     0     0:
+ 102     0     0:
+ 104     0     0:
+ 106     0     0:
+ 108     0     0:
+ 110     0     0:
+ 112     0     0:
+ 114     0     0:
+ 116     0     0:
+ 118     0     0:
+>120     1     0:=
+  28595 residues in    42 sequences
+  Expectation_n fit: rho(ln(x))= 53.2234+/-0.0452; mu= -264.5598+/- 2.993
+ mean_var=149.3710+/-80.920, 0's: 0 Z-trim: 3  B-trim: 0 in 0/8
+ Lambda= 0.104940
+ Kolmogorov-Smirnov  statistic: 0.3704 (N=16) at  58
+
+FASTA (3.47 Mar 2004) function [optimized, BL50 matrix (15:-5)] ktup: 1
+ join: 42, opt: 30, open/ext: -10/-2, width:  16
+ Scan time:  0.010
+The best scores are:                                      opt bits E(42)
+PLMN_RAT (Q01177) Plasminogen (EC 3.4.21.7) (Fragm ( 169)   94  25.4   0.003
+PLMN_SHEEP (P81286) Plasminogen (EC 3.4.21.7) (Fra ( 343)   84  19.2    0.44
+PLMN_HORSE (P80010) Plasminogen (EC 3.4.21.7) (Fra ( 338)   78  18.3    0.76
+PLMN_PETMA (P33574) Plasminogen (EC 3.4.21.7) (Fra ( 325)   75  18.2    0.84
+THRB_RAT (P18292) Prothrombin precursor (EC 3.4.21 ( 617)  101  17.8     1.9
+PLMN_CANFA (P80009) Plasminogen (EC 3.4.21.7) (Fra ( 333)   68  16.9       2
+THRB_MOUSE (P19221) Prothrombin precursor (EC 3.4. ( 618)  100  17.7     2.2
+THRB_HUMAN (P00734) Prothrombin precursor (EC 3.4. ( 622)  100  17.6     2.2
+APOA_MACMU (P14417) Apolipoprotein(a) (EC 3.4.21.- (1420)  141  18.4       3
+HGF_MOUSE (Q08048) Hepatocyte growth factor precur ( 728)  105  17.4     3.2
+HGF_RAT (P17945) Hepatocyte growth factor precurso ( 728)  105  17.4     3.2
+PLMN_ERIEU (Q29485) Plasminogen precursor (EC 3.4. ( 810)  109  17.3     3.7
+PLMN_MOUSE (P20918) Plasminogen precursor (EC 3.4. ( 812)  109  17.2     3.8
+HGF_HUMAN (P14210) Hepatocyte growth factor precur ( 728)  103  17.1     3.9
+URTG_DESRO (P49150) Salivary plasminogen activator ( 394)   69  16.0     4.4
+PLMN_PIG (P06867) Plasminogen (EC 3.4.21.7).       ( 790)  105  16.8     4.9
+PLMN_MACMU (P12545) Plasminogen precursor (EC 3.4. ( 810)  106  16.8       5
+PLMN_HUMAN (P00747) Plasminogen precursor (EC 3.4. ( 810)  106  16.8       5
+THRB_BOVIN (P00735) Prothrombin precursor (EC 3.4. ( 625)   92  16.4     5.1
+PLMN_BOVIN (P06868) Plasminogen precursor (EC 3.4. ( 812)  105  16.6     5.6
+HGFL_MOUSE (P26928) Hepatocyte growth factor-like  ( 716)   98  16.4     5.8
+HGFL_HUMAN (P26927) Hepatocyte growth factor-like  ( 711)   96  16.2     6.8
+URTB_DESRO (P98121) Salivary plasminogen activator ( 431)   68  15.2     7.7
+
+>>>consensus_4, 18 aa vs writable/file1.txt library
+; pg_name: fasta34
+; pg_ver: 34t25
+; pg_argv: fasta34 -m 10 consensus_seqs.fasta writable/file1.txt
+; pg_name: FASTA
+; pg_ver: 3.47 Mar 2004
+; pg_matrix: BL50 (15:-5)
+; pg_open-ext: -10 -2
+; pg_ktup: 1
+; pg_optcut: 30
+; pg_cgap: 42
+; mp_extrap: 60000 42
+; mp_stats:  Expectation_n fit: rho(ln(x))= 53.2234+/-0.0452; mu= -264.5598+/- 2.993  mean_var=149.3710+/-80.920, 0's: 0 Z-trim: 3  B-trim: 0 in 0/8  Lambda= 0.104940
+; mp_KS: 0.3704 (N=16) at  58
+>>PLMN_RAT (Q01177) Plasminogen (EC 3.4.21.7) (Fragment).
+; fa_frame: f
+; fa_initn:  87
+; fa_init1:  87
+; fa_opt:  94
+; fa_z-score: 120.0
+; fa_bits: 25.4
+; fa_expect:  0.003
+; sw_score: 94
+; sw_ident: 0.684
+; sw_sim: 0.789
+; sw_overlap: 19
+>consensus_4 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 18
+; al_display_start: 1
+------------------------------NPD-PVAAPWCYTTDPSVR
+>PLMN_RAT ..
+; sq_len: 169
+; sq_type: p
+; al_start: 85
+; al_stop: 103
+; al_display_start: 55
+CQSWVSMTPHSHSKTPANFPDSGLEMNYCRNPDNDQRGPWCFTTDPSVRW
+EYCNLKRCSETGGGVAESAIVPQVPSAPGTSETDCMYGNGKEYRGKTAVT
+AAGTPCQEWAAQEPH
+>>PLMN_SHEEP (P81286) Plasminogen (EC 3.4.21.7) (Fragment).
+; fa_frame: f
+; fa_initn:  72
+; fa_init1:  72
+; fa_opt:  84
+; fa_z-score: 81.0
+; fa_bits: 19.2
+; fa_expect:   0.44
+; sw_score: 84
+; sw_ident: 0.688
+; sw_sim: 0.812
+; sw_overlap: 16
+>consensus_4 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 15
+; al_display_start: 1
+------------------------------NPD-PVAAPWCYTTDPSVR
+>PLMN_SHEEP ..
+; sq_len: 343
+; sq_type: p
+; al_start: 67
+; al_stop: 82
+; al_display_start: 37
+QEWAAQEPHRHGIFTPETNPRAGLEKNYCRNPDGDVNGPWCYTTNPRKLF
+DYCDIPQCESSFDCGKPKVEPKKCPARVVGGCVATPHSWPWQVSLRRRSR
+EHFCGGTLISPEWVLTAAHC
+>>PLMN_HORSE (P80010) Plasminogen (EC 3.4.21.7) (Fragment).
+; fa_frame: f
+; fa_initn:  66
+; fa_init1:  66
+; fa_opt:  78
+; fa_z-score: 76.7
+; fa_bits: 18.3
+; fa_expect:   0.76
+; sw_score: 78
+; sw_ident: 0.625
+; sw_sim: 0.750
+; sw_overlap: 16
+>consensus_4 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 15
+; al_display_start: 1
+------------------------------NPD-PVAAPWCYTTDPSVR
+>PLMN_HORSE ..
+; sq_len: 338
+; sq_type: p
+; al_start: 61
+; al_stop: 76
+; al_display_start: 31
+QAWAAQEPHRHSIFTPEANPWANLEKNYCRNPDGDVNGPWCYTMNPQKLF
+DYCDVPQCESSPFDCGKPKVEPKKCSGRIVGGCVAIAHSWPWQISLRTRF
+GRHFCGGTLISPEWVLTAAH
+>>PLMN_PETMA (P33574) Plasminogen (EC 3.4.21.7) (Fragments).
+; fa_frame: f
+; fa_initn:  75
+; fa_init1:  75
+; fa_opt:  75
+; fa_z-score: 76.0
+; fa_bits: 18.2
+; fa_expect:   0.84
+; sw_score: 75
+; sw_ident: 0.643
+; sw_sim: 0.714
+; sw_overlap: 14
+>consensus_4 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 14
+; al_display_start: 1
+------------------------------NPDPVAAPWCYTTDPSVR
+>PLMN_PETMA ..
+; sq_len: 325
+; sq_type: p
+; al_start: 126
+; al_stop: 139
+; al_display_start: 96
+TVSGKACQAWASQTPGDVYSCQGLVSNYCRNPDGEKLPWCYTTEYCNVPS
+CTGGPTGSEYHEILTPAQDXYTGIVEDYRGKMSPDAGLEENFCRNPDQDP
+QGPWCYTXNPEAXPRYCDVL
+>>THRB_RAT (P18292) Prothrombin precursor (EC 3.4.21.5).
+; fa_frame: f
+; fa_initn:  89
+; fa_init1:  89
+; fa_opt: 101
+; fa_z-score: 69.3
+; fa_bits: 17.8
+; fa_expect:    1.9
+; sw_score: 101
+; sw_ident: 0.684
+; sw_sim: 0.895
+; sw_overlap: 19
+>consensus_4 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 18
+; al_display_start: 1
+------------------------------NPDP-VAAPWCYTTDPSVR
+>THRB_RAT ..
+; sq_len: 617
+; sq_type: p
+; al_start: 160
+; al_stop: 178
+; al_display_start: 130
+CQLWRSRYPHRPDINSTTHPGADLKENFCRNPDSSTSGPWCYTTDPTVRR
+EECSIPVCGQEGRTTVKMTPRSRGSKENLSPPLGECLLERGRLYQGNLAV
+TTLGSPCLAWDSLPTKTLSK
+>>PLMN_CANFA (P80009) Plasminogen (EC 3.4.21.7) (Fragment).
+; fa_frame: f
+; fa_initn:  56
+; fa_init1:  56
+; fa_opt:  68
+; fa_z-score: 69.2
+; fa_bits: 16.9
+; fa_expect:      2
+; sw_score: 68
+; sw_ident: 0.600
+; sw_sim: 0.733
+; sw_overlap: 15
+>consensus_4 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 14
+; al_display_start: 1
+------------------------------NPD-PVAAPWCYTTDPSVR
+>PLMN_CANFA ..
+; sq_len: 333
+; sq_type: p
+; al_start: 56
+; al_stop: 70
+; al_display_start: 26
+QEWAAQEPHRHSIFTPETNPQAGLEKNYCRNPDGDVNGPWCYTMNQRKLF
+DYCDVPQCVSTSFDCGKPQVEPKKCPGRVVGGCVANPHSWPWQISLRTRY
+GKHFCGGTLISPEWVLTAAH
+>>THRB_MOUSE (P19221) Prothrombin precursor (EC 3.4.21.5).
+; fa_frame: f
+; fa_initn:  88
+; fa_init1:  88
+; fa_opt: 100
+; fa_z-score: 68.4
+; fa_bits: 17.7
+; fa_expect:    2.2
+; sw_score: 100
+; sw_ident: 0.684
+; sw_sim: 0.895
+; sw_overlap: 19
+>consensus_4 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 18
+; al_display_start: 1
+------------------------------NPDP-VAAPWCYTTDPSVR
+>THRB_MOUSE ..
+; sq_len: 618
+; sq_type: p
+; al_start: 160
+; al_stop: 178
+; al_display_start: 130
+CQLWRSRYPHKPEINSTTHPGADLKENFCRNPDSSTTGPWCYTTDPTVRR
+EECSVPVCGQEGRTTVVMTPRSGGSKDNLSPPLGQCLTERGRLYQGNLAV
+TTLGSPCLPWNSLPAKTLSK
+>>THRB_HUMAN (P00734) Prothrombin precursor (EC 3.4.21.5) (Coagulation f
+; fa_frame: f
+; fa_initn:  88
+; fa_init1:  88
+; fa_opt: 100
+; fa_z-score: 68.1
+; fa_bits: 17.6
+; fa_expect:    2.2
+; sw_score: 100
+; sw_ident: 0.684
+; sw_sim: 0.895
+; sw_overlap: 19
+>consensus_4 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 18
+; al_display_start: 1
+------------------------------NPDP-VAAPWCYTTDPSVR
+>THRB_HUMAN ..
+; sq_len: 622
+; sq_type: p
+; al_start: 159
+; al_stop: 177
+; al_display_start: 129
+CQLWRSRYPHKPEINSTTHPGADLQENFCRNPDSSTTGPWCYTTDPTVRR
+QECSIPVCGQDQVTVAMTPRSEGSSVNLSPPLEQCVPDRGQQYQGRLAVT
+THGLPCLAWASAQAKALSKH
+>>APOA_MACMU (P14417) Apolipoprotein(a) (EC 3.4.21.-) (Apo(a)) (Lp(a)) (
+; fa_frame: f
+; fa_initn: 141
+; fa_init1: 141
+; fa_opt: 141
+; fa_z-score: 65.7
+; fa_bits: 18.4
+; fa_expect:      3
+; sw_score: 141
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 18
+>consensus_4 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 18
+; al_display_start: 1
+------------------------------NPDPVAAPWCYTTDPSVR
+>APOA_MACMU ..
+; sq_len: 1420
+; sq_type: p
+; al_start: 443
+; al_stop: 460
+; al_display_start: 413
+CQAWSSMTPHSHSRTPENYPNAGLVKNYCRNPDPVAAPWCYTTDPSVRWE
+YCNLTRCSDAEGTAVMPPNIIPVPSLEAFLEQEPTEETPGVQECYYHYGQ
+SYRGTYSTTVTGRTCQAWSS
+>>HGF_MOUSE (Q08048) Hepatocyte growth factor precursor (Scatter factor
+; fa_frame: f
+; fa_initn: 138
+; fa_init1: 105
+; fa_opt: 105
+; fa_z-score: 65.4
+; fa_bits: 17.4
+; fa_expect:    3.2
+; sw_score: 105
+; sw_ident: 0.611
+; sw_sim: 0.889
+; sw_overlap: 18
+>consensus_4 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 18
+; al_display_start: 1
+------------------------------NPDPVAAPWCYTTDPSVR
+>HGF_MOUSE ..
+; sq_len: 728
+; sq_type: p
+; al_start: 357
+; al_stop: 374
+; al_display_start: 327
+CQRWDSQYPHKHDITPENFKCKDLRENYCRNPDGAESPWCFTTDPNIRVG
+YCSQIPKCDVSSGQDCYRGNGKNYMGNLSKTRSGLTCSMWDKNMEDLHRH
+IFWEPDASKLNKNYCRNPDD
+>>HGF_RAT (P17945) Hepatocyte growth factor precursor (Scatter factor
+; fa_frame: f
+; fa_initn: 105
+; fa_init1: 105
+; fa_opt: 105
+; fa_z-score: 65.4
+; fa_bits: 17.4
+; fa_expect:    3.2
+; sw_score: 105
+; sw_ident: 0.611
+; sw_sim: 0.889
+; sw_overlap: 18
+>consensus_4 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 18
+; al_display_start: 1
+------------------------------NPDPVAAPWCYTTDPSVR
+>HGF_RAT ..
+; sq_len: 728
+; sq_type: p
+; al_start: 357
+; al_stop: 374
+; al_display_start: 327
+CQRWDSQYPHKHDITPENFKCKDLRENYCRNPDGAESPWCFTTDPNIRVG
+YCSQIPKCDVSSGQDCYRGNGKNYMGNLSKTRSGLTCSMWDKNMEDLHRH
+IFWEPDASKLTKNYCRNPDD
+>>PLMN_ERIEU (Q29485) Plasminogen precursor (EC 3.4.21.7).
+; fa_frame: f
+; fa_initn: 109
+; fa_init1: 109
+; fa_opt: 109
+; fa_z-score: 64.0
+; fa_bits: 17.3
+; fa_expect:    3.7
+; sw_score: 109
+; sw_ident: 0.778
+; sw_sim: 0.833
+; sw_overlap: 18
+>consensus_4 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 18
+; al_display_start: 1
+------------------------------NPDPVAAPWCYTTDPSVR
+>PLMN_ERIEU ..
+; sq_len: 810
+; sq_type: p
+; al_start: 430
+; al_stop: 447
+; al_display_start: 400
+CQPWTSMRPHRHSKTPENYPDADLTMNYCRNPDGDKGPWCYTTDPSVRWE
+FCNLKKCSGTEMSATNSSPVQVSSASESSEQDCIIDNGKGYRGTKATTGA
+GTPCQAWAAQEPHRHSIFTP
+>>PLMN_MOUSE (P20918) Plasminogen precursor (EC 3.4.21.7) [Contains: Ang
+; fa_frame: f
+; fa_initn: 109
+; fa_init1: 109
+; fa_opt: 109
+; fa_z-score: 63.9
+; fa_bits: 17.2
+; fa_expect:    3.8
+; sw_score: 109
+; sw_ident: 0.778
+; sw_sim: 0.833
+; sw_overlap: 18
+>consensus_4 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 18
+; al_display_start: 1
+------------------------------NPDPVAAPWCYTTDPSVR
+>PLMN_MOUSE ..
+; sq_len: 812
+; sq_type: p
+; al_start: 428
+; al_stop: 445
+; al_display_start: 398
+CQSWAAMFPHRHSKTPENFPDAGLEMNYCRNPDGDKGPWCYTTDPSVRWE
+YCNLKRCSETGGSVVELPTVSQEPSGPSDSETDCMYGNGKDYRGKTAVTA
+AGTPCQGWAAQEPHRHSIFT
+>>HGF_HUMAN (P14210) Hepatocyte growth factor precursor (Scatter factor
+; fa_frame: f
+; fa_initn: 103
+; fa_init1: 103
+; fa_opt: 103
+; fa_z-score: 63.7
+; fa_bits: 17.1
+; fa_expect:    3.9
+; sw_score: 103
+; sw_ident: 0.611
+; sw_sim: 0.833
+; sw_overlap: 18
+>consensus_4 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 18
+; al_display_start: 1
+------------------------------NPDPVAAPWCYTTDPSVR
+>HGF_HUMAN ..
+; sq_len: 728
+; sq_type: p
+; al_start: 356
+; al_stop: 373
+; al_display_start: 326
+CQRWDSQYPHEHDMTPENFKCKDLRENYCRNPDGSESPWCFTTDPNIRVG
+YCSQIPNCDMSHGQDCYRGNGKNYMGNLSQTRSGLTCSMWDKNMEDLHRH
+IFWEPDASKLNENYCRNPDD
+>>URTG_DESRO (P49150) Salivary plasminogen activator gamma precursor (EC
+; fa_frame: f
+; fa_initn:  69
+; fa_init1:  69
+; fa_opt:  69
+; fa_z-score: 62.7
+; fa_bits: 16.0
+; fa_expect:    4.4
+; sw_score: 69
+; sw_ident: 0.636
+; sw_sim: 0.818
+; sw_overlap: 11
+>consensus_4 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 11
+; al_display_start: 1
+------------------------------NPDPVAAPWCYTTDPSVR
+>URTG_DESRO ..
+; sq_len: 394
+; sq_type: p
+; al_start: 99
+; al_stop: 109
+; al_display_start: 69
+WNSNLLIRRTYNGRMPEAVKLGLGNHNYCRNPDGASKPWCYVIKARKFTS
+ESCSVPVCSKATCGLRKYKEPQLHSTGGLFTDITSHPWQAAIFAQNRRSS
+GERFLCGGILISSCWVLTAA
+>>PLMN_PIG (P06867) Plasminogen (EC 3.4.21.7).
+; fa_frame: f
+; fa_initn: 105
+; fa_init1: 105
+; fa_opt: 105
+; fa_z-score: 61.8
+; fa_bits: 16.8
+; fa_expect:    4.9
+; sw_score: 105
+; sw_ident: 0.722
+; sw_sim: 0.778
+; sw_overlap: 18
+>consensus_4 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 18
+; al_display_start: 1
+------------------------------NPDPVAAPWCYTTDPSVR
+>PLMN_PIG ..
+; sq_len: 790
+; sq_type: p
+; al_start: 409
+; al_stop: 426
+; al_display_start: 379
+CQSWVSMTPHRHEKTPGNFPNAGLTMNYCRNPDADKSPWCYTTDPRVRWE
+YCNLKKCSETEQQVTNFPAIAQVPSVEDLSEDCMFGNGKRYRGKRATTVA
+GVPCQEWAAQEPHRHSIFTP
+>>PLMN_MACMU (P12545) Plasminogen precursor (EC 3.4.21.7).
+; fa_frame: f
+; fa_initn: 106
+; fa_init1: 106
+; fa_opt: 106
+; fa_z-score: 61.6
+; fa_bits: 16.8
+; fa_expect:      5
+; sw_score: 106
+; sw_ident: 0.722
+; sw_sim: 0.833
+; sw_overlap: 18
+>consensus_4 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 18
+; al_display_start: 1
+------------------------------NPDPVAAPWCYTTDPSVR
+>PLMN_MACMU ..
+; sq_len: 810
+; sq_type: p
+; al_start: 428
+; al_stop: 445
+; al_display_start: 398
+CQSWSSMTPHWHEKTPENFPNAGLTMNYCRNPDADKGPWCFTTDPSVRWE
+YCNLKKCSGTEGSVAAPPPVAQLPDAETPSEEDCMFGNGKGYRGKKATTV
+TGTPCQEWAAQEPHSHRIFT
+>>PLMN_HUMAN (P00747) Plasminogen precursor (EC 3.4.21.7) [Contains: Ang
+; fa_frame: f
+; fa_initn: 106
+; fa_init1: 106
+; fa_opt: 106
+; fa_z-score: 61.6
+; fa_bits: 16.8
+; fa_expect:      5
+; sw_score: 106
+; sw_ident: 0.722
+; sw_sim: 0.833
+; sw_overlap: 18
+>consensus_4 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 18
+; al_display_start: 1
+------------------------------NPDPVAAPWCYTTDPSVR
+>PLMN_HUMAN ..
+; sq_len: 810
+; sq_type: p
+; al_start: 428
+; al_stop: 445
+; al_display_start: 398
+CQSWSSMTPHRHQKTPENYPNAGLTMNYCRNPDADKGPWCFTTDPSVRWE
+YCNLKKCSGTEASVVAPPPVVLLPDVETPSEEDCMFGNGKGYRGKRATTV
+TGTPCQDWAAQEPHRHSIFT
+>>THRB_BOVIN (P00735) Prothrombin precursor (EC 3.4.21.5).
+; fa_frame: f
+; fa_initn:  80
+; fa_init1:  80
+; fa_opt:  92
+; fa_z-score: 61.4
+; fa_bits: 16.4
+; fa_expect:    5.1
+; sw_score: 92
+; sw_ident: 0.579
+; sw_sim: 0.895
+; sw_overlap: 19
+>consensus_4 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 18
+; al_display_start: 1
+------------------------------NPD-PVAAPWCYTTDPSVR
+>THRB_BOVIN ..
+; sq_len: 625
+; sq_type: p
+; al_start: 160
+; al_stop: 178
+; al_display_start: 130
+CQLWRSRYPHKPEINSTTHPGADLRENFCRNPDGSITGPWCYTTSPTLRR
+EECSVPVCGQDRVTVEVIPRSGGSTTSQSPLLETCVPDRGREYRGRLAVT
+TSGSRCLAWSSEQAKALSKD
+>>PLMN_BOVIN (P06868) Plasminogen precursor (EC 3.4.21.7).
+; fa_frame: f
+; fa_initn: 105
+; fa_init1: 105
+; fa_opt: 105
+; fa_z-score: 60.6
+; fa_bits: 16.6
+; fa_expect:    5.6
+; sw_score: 105
+; sw_ident: 0.722
+; sw_sim: 0.778
+; sw_overlap: 18
+>consensus_4 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 18
+; al_display_start: 1
+------------------------------NPDPVAAPWCYTTDPSVR
+>PLMN_BOVIN ..
+; sq_len: 812
+; sq_type: p
+; al_start: 435
+; al_stop: 452
+; al_display_start: 405
+CQSWSSMTPHRHLKTPENYPNAGLTMNYCRNPDADKSPWCYTTDPRVRWE
+FCNLKKCSETPEQVPAAPQAPGVENPPEADCMIGTGKSYRGKKATTVAGV
+PCQEWAAQEPHQHSIFTPET
+>>HGFL_MOUSE (P26928) Hepatocyte growth factor-like protein precursor (M
+; fa_frame: f
+; fa_initn:  98
+; fa_init1:  98
+; fa_opt:  98
+; fa_z-score: 60.4
+; fa_bits: 16.4
+; fa_expect:    5.8
+; sw_score: 98
+; sw_ident: 0.706
+; sw_sim: 0.765
+; sw_overlap: 17
+>consensus_4 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 17
+; al_display_start: 1
+------------------------------NPDPVAAPWCYTTDPSVR
+>HGFL_MOUSE ..
+; sq_len: 716
+; sq_type: p
+; al_start: 242
+; al_stop: 258
+; al_display_start: 212
+CQRWDLQHPHSHPFQPEKFLDKDLKDNYCRNPDGSERPWCYTTDPNVERE
+FCDLPSCGPNLPPTVKGSKSQRRNKGKALNCFRGKGEDYRGTTNTTSAGV
+PCQRWDAQSPHQHRFVPEKY
+>>HGFL_HUMAN (P26927) Hepatocyte growth factor-like protein precursor (M
+; fa_frame: f
+; fa_initn:  96
+; fa_init1:  96
+; fa_opt:  96
+; fa_z-score: 59.0
+; fa_bits: 16.2
+; fa_expect:    6.8
+; sw_score: 96
+; sw_ident: 0.700
+; sw_sim: 0.850
+; sw_overlap: 20
+>consensus_4 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 18
+; al_display_start: 1
+------------------------------NPD--PVAAPWCYTTDPSVR
+>HGFL_HUMAN ..
+; sq_len: 711
+; sq_type: p
+; al_start: 159
+; al_stop: 177
+; al_display_start: 129
+LPCQAWSHKFPNDHKYTPTLRNGLEENFCRNPDGDP-GGPWCYTTDPAVR
+FQSCGIKSCREAACVWCNGEEYRGAVDRTESGRECQRWDLQHPHQHPFEP
+GKFLDQGLDDNYCRNPDGSE
+>>URTB_DESRO (P98121) Salivary plasminogen activator beta precursor (EC 
+; fa_frame: f
+; fa_initn:  68
+; fa_init1:  68
+; fa_opt:  68
+; fa_z-score: 57.9
+; fa_bits: 15.2
+; fa_expect:    7.7
+; sw_score: 68
+; sw_ident: 0.500
+; sw_sim: 0.625
+; sw_overlap: 16
+>consensus_4 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 16
+; al_display_start: 1
+------------------------------NPDPVAAPWCYTTDPSVR
+>URTB_DESRO ..
+; sq_len: 431
+; sq_type: p
+; al_start: 136
+; al_stop: 151
+; al_display_start: 106
+WNSNLLTRRTYNGRRSDAITLGLGNHNYCRNPDNNSKPWCYVIKASKFIL
+EFCSVPVCSKATCGLRKYKEPQLHSTGGLFTDITSHPWQAAIFAQNRRSS
+GERFLCGGILISSCWVLTAA
+  6>>>consensus_5 - 19 aa
+ vs  writable/file1.txt library
+
+       opt      E()
+< 20     0     0:
+  22     0     0:           one = represents 1 library sequences
+  24     0     0:
+  26     0     0:
+  28     0     0:
+  30     0     0:
+  32     0     0:
+  34     0     1:*
+  36     0     1:*
+  38     1     2:=*
+  40     0     3:  *
+  42     0     3:  *
+  44     1     4:=  *
+  46     2     4:== *
+  48     0     4:   *
+  50     9     3:==*======
+  52     7     3:==*====
+  54     1     2:=*
+  56     4     2:=*==
+  58     1     2:=*
+  60     2     1:*=
+  62     1     1:*
+  64     2     1:*=
+  66     0     1:*
+  68     2     1:*=
+  70     2     0:==
+  72     0     0:
+  74     0     0:
+  76     0     0:
+  78     0     0:
+  80     0     0:
+  82     0     0:
+  84     0     0:
+  86     2     0:==
+  88     0     0:
+  90     0     0:
+  92     1     0:=
+  94     0     0:
+  96     0     0:
+  98     0     0:
+ 100     1     0:=
+ 102     0     0:
+ 104     1     0:=
+ 106     0     0:
+ 108     0     0:
+ 110     0     0:
+ 112     0     0:
+ 114     0     0:
+ 116     0     0:
+ 118     0     0:
+>120     2     0:==
+  28595 residues in    42 sequences
+  Expectation_n fit: rho(ln(x))= 22.6711+/-0.0975; mu= -116.8729+/- 6.080
+ mean_var=23.1846+/-12.059, 0's: 0 Z-trim: 6  B-trim: 0 in 0/8
+ Lambda= 0.266363
+ Kolmogorov-Smirnov  statistic: 0.3222 (N=14) at  46
+
+FASTA (3.47 Mar 2004) function [optimized, BL50 matrix (15:-5)] ktup: 1
+ join: 42, opt: 30, open/ext: -10/-2, width:  16
+ Scan time:  0.010
+The best scores are:                                      opt bits E(42)
+APOA_MACMU (P14417) Apolipoprotein(a) (EC 3.4.21.- (1420)  103  36.8 9.4e-06
+APOA_HUMAN (P08519) Apolipoprotein(a) precursor (E (4548)  118  34.1  0.0002
+PLMN_RAT (Q01177) Plasminogen (EC 3.4.21.7) (Fragm ( 169)   26  22.7    0.02
+PLMN_HUMAN (P00747) Plasminogen precursor (EC 3.4. ( 810)   59  24.0   0.039
+PLMN_MACMU (P12545) Plasminogen precursor (EC 3.4. ( 810)   56  22.8   0.087
+PLMN_CANFA (P80009) Plasminogen (EC 3.4.21.7) (Fra ( 333)   33  20.5    0.19
+PLMN_SHEEP (P81286) Plasminogen (EC 3.4.21.7) (Fra ( 343)   33  20.2    0.22
+PLMN_HORSE (P80010) Plasminogen (EC 3.4.21.7) (Fra ( 338)   25  17.3     1.7
+PLMN_PIG (P06867) Plasminogen (EC 3.4.21.7).       ( 790)   44  18.4     1.8
+FA12_HUMAN (P00748) Coagulation factor XII precurs ( 615)   38  17.9     1.9
+HGFA_HUMAN (Q04756) Hepatocyte growth factor activ ( 655)   39  17.8     2.2
+TPA_RAT (P19637) Tissue-type plasminogen activator ( 559)   34  17.1     3.1
+TPA_MOUSE (P11214) Tissue-type plasminogen activat ( 559)   34  17.1     3.1
+PLMN_PETMA (P33574) Plasminogen (EC 3.4.21.7) (Fra ( 325)   20  15.6     4.8
+URTG_DESRO (P49150) Salivary plasminogen activator ( 394)   24  15.8     5.3
+URT1_DESRO (P98119) Salivary plasminogen activator ( 477)   28  15.9     5.7
+PLMN_BOVIN (P06868) Plasminogen precursor (EC 3.4. ( 812)   39  16.3     7.4
+URTB_DESRO (P98121) Salivary plasminogen activator ( 431)   24  15.1     8.6
+UROK_BOVIN (Q05589) Urokinase-type plasminogen act ( 433)   24  15.1     8.9
+UROK_MOUSE (P06869) Urokinase-type plasminogen act ( 433)   24  15.1     8.9
+HGFA_MOUSE (Q9R098) Hepatocyte growth factor activ ( 653)   33  15.6     9.5
+
+>>>consensus_5, 19 aa vs writable/file1.txt library
+; pg_name: fasta34
+; pg_ver: 34t25
+; pg_argv: fasta34 -m 10 consensus_seqs.fasta writable/file1.txt
+; pg_name: FASTA
+; pg_ver: 3.47 Mar 2004
+; pg_matrix: BL50 (15:-5)
+; pg_open-ext: -10 -2
+; pg_ktup: 1
+; pg_optcut: 30
+; pg_cgap: 42
+; mp_extrap: 60000 40
+; mp_stats:  Expectation_n fit: rho(ln(x))= 22.6711+/-0.0975; mu= -116.8729+/- 6.080  mean_var=23.1846+/-12.059, 0's: 0 Z-trim: 6  B-trim: 0 in 0/8  Lambda= 0.266363
+; mp_KS: 0.3222 (N=14) at  46
+>>APOA_MACMU (P14417) Apolipoprotein(a) (EC 3.4.21.-) (Apo(a)) (Lp(a)) (
+; fa_frame: f
+; fa_initn: 390
+; fa_init1: 102
+; fa_opt: 103
+; fa_z-score: 164.9
+; fa_bits: 36.8
+; fa_expect: 9.4e-06
+; sw_score: 103
+; sw_ident: 0.842
+; sw_sim: 0.947
+; sw_overlap: 19
+>consensus_5 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+------------------------------LLTTPTVVPVPSTELPSEE
+>APOA_MACMU ..
+; sq_len: 1420
+; sq_type: p
+; al_start: 924
+; al_stop: 942
+; al_display_start: 894
+AEIRPWCYTMDPSVRWEYCNLTQCPVTESSVLTTPTVVPVPSTEAPSEQA
+PPEKSPVVQDCYHGDGQSYRGTSSTTVTGRNCQSWSSMIPHWHQRTPENY
+PNAGLTRNYCRNPDSGKHPW
+>>APOA_HUMAN (P08519) Apolipoprotein(a) precursor (EC 3.4.21.-) (Apo(a))
+; fa_frame: f
+; fa_initn: 531
+; fa_init1: 118
+; fa_opt: 118
+; fa_z-score: 141.2
+; fa_bits: 34.1
+; fa_expect: 0.0002
+; sw_score: 118
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 19
+>consensus_5 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+------------------------------LLTTPTVVPVPSTELPSEE
+>APOA_HUMAN ..
+; sq_len: 4548
+; sq_type: p
+; al_start: 3866
+; al_stop: 3884
+; al_display_start: 3836
+AEIRPWCYTMDPSVRWEYCNLTQCPVMESTLLTTPTVVPVPSTELPSEEA
+PTENSTGVQDCYRGDGQSYRGTLSTTITGRTCQSWSSMTPHWHRRIPLYY
+PNAGLTRNYCRNPDAEIRPW
+>>PLMN_RAT (Q01177) Plasminogen (EC 3.4.21.7) (Fragment).
+; fa_frame: f
+; fa_initn:  26
+; fa_init1:  26
+; fa_opt:  26
+; fa_z-score: 105.2
+; fa_bits: 22.7
+; fa_expect:   0.02
+; sw_score: 32
+; sw_ident: 0.538
+; sw_sim: 0.692
+; sw_overlap: 13
+>consensus_5 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 7
+; al_stop: 18
+; al_display_start: 1
+------------------------LLTTPTVVP-VPSTELPSEE
+>PLMN_RAT ..
+; sq_len: 169
+; sq_type: p
+; al_start: 124
+; al_stop: 136
+; al_display_start: 94
+WCFTTDPSVRWEYCNLKRCSETGGGVAESAIVPQVPSAPGTSETDCMYGN
+GKEYRGKTAVTAAGTPCQEWAAQEPH
+>>PLMN_HUMAN (P00747) Plasminogen precursor (EC 3.4.21.7) [Contains: Ang
+; fa_frame: f
+; fa_initn:  59
+; fa_init1:  59
+; fa_opt:  59
+; fa_z-score: 99.9
+; fa_bits: 24.0
+; fa_expect:  0.039
+; sw_score: 59
+; sw_ident: 0.474
+; sw_sim: 0.789
+; sw_overlap: 19
+>consensus_5 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+------------------------------LLTTPTVVPVPSTELPSEE
+>PLMN_HUMAN ..
+; sq_len: 810
+; sq_type: p
+; al_start: 461
+; al_stop: 479
+; al_display_start: 431
+ADKGPWCFTTDPSVRWEYCNLKKCSGTEASVVAPPPVVLLPDVETPSEED
+CMFGNGKGYRGKRATTVTGTPCQDWAAQEPHRHSIFTPETNPRAGLEKNY
+CRNPDGDVGGPWCYTTNPRK
+>>PLMN_MACMU (P12545) Plasminogen precursor (EC 3.4.21.7).
+; fa_frame: f
+; fa_initn:  56
+; fa_init1:  56
+; fa_opt:  56
+; fa_z-score: 93.7
+; fa_bits: 22.8
+; fa_expect:  0.087
+; sw_score: 56
+; sw_ident: 0.533
+; sw_sim: 0.800
+; sw_overlap: 15
+>consensus_5 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 5
+; al_stop: 19
+; al_display_start: 1
+--------------------------LLTTPTVVPVPSTELPSEE
+>PLMN_MACMU ..
+; sq_len: 810
+; sq_type: p
+; al_start: 465
+; al_stop: 479
+; al_display_start: 435
+PWCFTTDPSVRWEYCNLKKCSGTEGSVAAPPPVAQLPDAETPSEEDCMFG
+NGKGYRGKKATTVTGTPCQEWAAQEPHSHRIFTPETNPRAGLEKNYCRNP
+DGDVGGPWCYTTNPRKLFDY
+>>PLMN_CANFA (P80009) Plasminogen (EC 3.4.21.7) (Fragment).
+; fa_frame: f
+; fa_initn:  33
+; fa_init1:  33
+; fa_opt:  33
+; fa_z-score: 87.8
+; fa_bits: 20.5
+; fa_expect:   0.19
+; sw_score: 33
+; sw_ident: 0.357
+; sw_sim: 0.643
+; sw_overlap: 14
+>consensus_5 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 6
+; al_stop: 19
+; al_display_start: 1
+-------------LLTTPTVVPVPSTELPSEE
+>PLMN_CANFA ..
+; sq_len: 333
+; sq_type: p
+; al_start: 19
+; al_stop: 32
+; al_display_start: 1
+ASDCMFGNGKGYRGKKATTVMGIPCQEWAAQEPHRHSIFTPETNPQAGLE
+KNYCRNPDGDVNGPWCYTMNQRKLFDYCDVPQCVSTSFDCGKPQVEPKKC
+PGRVVGGCVANPHSWPWQIS
+>>PLMN_SHEEP (P81286) Plasminogen (EC 3.4.21.7) (Fragment).
+; fa_frame: f
+; fa_initn:  33
+; fa_init1:  33
+; fa_opt:  33
+; fa_z-score: 86.4
+; fa_bits: 20.2
+; fa_expect:   0.22
+; sw_score: 33
+; sw_ident: 0.429
+; sw_sim: 0.643
+; sw_overlap: 14
+>consensus_5 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 6
+; al_stop: 19
+; al_display_start: 1
+------------------------LLTTPTVVPVPSTELPSEE
+>PLMN_SHEEP ..
+; sq_len: 343
+; sq_type: p
+; al_start: 30
+; al_stop: 43
+; al_display_start: 1
+APQAPSVENPPEADCMLGIGKGYRGKKATTVAGVPCQEWAAQEPHRHGIF
+TPETNPRAGLEKNYCRNPDGDVNGPWCYTTNPRKLFDYCDIPQCESSFDC
+GKPKVEPKKCPARVVGGCVA
+>>PLMN_HORSE (P80010) Plasminogen (EC 3.4.21.7) (Fragment).
+; fa_frame: f
+; fa_initn:  25
+; fa_init1:  25
+; fa_opt:  25
+; fa_z-score: 70.5
+; fa_bits: 17.3
+; fa_expect:    1.7
+; sw_score: 30
+; sw_ident: 0.200
+; sw_sim: 0.650
+; sw_overlap: 20
+>consensus_5 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 18
+; al_display_start: 1
+-----------------------------LLTTPTVVP---VPSTELPSE
+E
+>PLMN_HORSE ..
+; sq_len: 338
+; sq_type: p
+; al_start: 199
+; al_stop: 218
+; al_display_start: 169
+HELRLAAGAQQIDVSKLFLEPSRADIALLKLSSPAIITQNVIPACLPPAD
+YVVANWAECFVTGWGETQDSSNAGVLKEAQLPVIENKVCNRYEYLNGRVK
+STELCAGHLVGGVDSCQGDS
+>>PLMN_PIG (P06867) Plasminogen (EC 3.4.21.7).
+; fa_frame: f
+; fa_initn:  44
+; fa_init1:  44
+; fa_opt:  44
+; fa_z-score: 70.0
+; fa_bits: 18.4
+; fa_expect:    1.8
+; sw_score: 44
+; sw_ident: 0.467
+; sw_sim: 0.800
+; sw_overlap: 15
+>consensus_5 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 5
+; al_stop: 19
+; al_display_start: 1
+--------------------------LLTTPTVVPVPSTELPSEE
+>PLMN_PIG ..
+; sq_len: 790
+; sq_type: p
+; al_start: 446
+; al_stop: 460
+; al_display_start: 416
+PWCYTTDPRVRWEYCNLKKCSETEQQVTNFPAIAQVPSVEDLSEDCMFGN
+GKRYRGKRATTVAGVPCQEWAAQEPHRHSIFTPETNPRAGLEKNYCRNPD
+GDDNGPWCYTTNPQKLFDYC
+>>FA12_HUMAN (P00748) Coagulation factor XII precursor (EC 3.4.21.38) (H
+; fa_frame: f
+; fa_initn:  38
+; fa_init1:  38
+; fa_opt:  38
+; fa_z-score: 69.3
+; fa_bits: 17.9
+; fa_expect:    1.9
+; sw_score: 38
+; sw_ident: 0.278
+; sw_sim: 0.667
+; sw_overlap: 18
+>consensus_5 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 18
+; al_display_start: 1
+----------LLTTPTVVPVPSTELPSEE
+>FA12_HUMAN ..
+; sq_len: 615
+; sq_type: p
+; al_start: 11
+; al_stop: 28
+; al_display_start: 1
+MRALLLLGFLLVSLESTLSIPPWEAPKEHKYKAEEHTVVLTVTGEPCHFP
+FQYHRQLYHK
+>>HGFA_HUMAN (Q04756) Hepatocyte growth factor activator precursor (EC 3
+; fa_frame: f
+; fa_initn:  39
+; fa_init1:  39
+; fa_opt:  39
+; fa_z-score: 68.4
+; fa_bits: 17.8
+; fa_expect:    2.2
+; sw_score: 39
+; sw_ident: 0.308
+; sw_sim: 0.692
+; sw_overlap: 13
+>consensus_5 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 5
+; al_stop: 17
+; al_display_start: 1
+--------------------------LLTTPTVVPVPSTELPSEE
+>HGFA_HUMAN ..
+; sq_len: 655
+; sq_type: p
+; al_start: 519
+; al_stop: 531
+; al_display_start: 489
+SVFNPSDHDLVLIRLKKKGDRCATRSQFVQPICLPEPGSTFPAGHKCQIA
+GWGHLDENVSGYSSSLREALVPLVADHKCSSPEVYGADISPNMLCAGYFD
+CKSDACQGDSGGPLACEKNG
+>>TPA_RAT (P19637) Tissue-type plasminogen activator precursor (EC 3.
+; fa_frame: f
+; fa_initn:  34
+; fa_init1:  34
+; fa_opt:  34
+; fa_z-score: 65.5
+; fa_bits: 17.1
+; fa_expect:    3.1
+; sw_score: 34
+; sw_ident: 0.444
+; sw_sim: 0.889
+; sw_overlap: 9
+>consensus_5 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 8
+; al_stop: 16
+; al_display_start: 1
+-----------------------LLTTPTVVPVPSTELPSEE
+>TPA_RAT ..
+; sq_len: 559
+; sq_type: p
+; al_start: 429
+; al_stop: 437
+; al_display_start: 399
+DTYDNDIALLQLRSDSSQCAQESSSVGTACLPDPDVQLPDWTECELSGYG
+KHEASSPFFSDRLKEAHVRLYPSSRCTSQHLFNKTITSNMLCAGDTRTGG
+NQDVHDACQGDSGGPLVCMI
+>>TPA_MOUSE (P11214) Tissue-type plasminogen activator precursor (EC 3.
+; fa_frame: f
+; fa_initn:  34
+; fa_init1:  34
+; fa_opt:  34
+; fa_z-score: 65.5
+; fa_bits: 17.1
+; fa_expect:    3.1
+; sw_score: 34
+; sw_ident: 0.444
+; sw_sim: 0.778
+; sw_overlap: 9
+>consensus_5 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 8
+; al_stop: 16
+; al_display_start: 1
+-----------------------LLTTPTVVPVPSTELPSEE
+>TPA_MOUSE ..
+; sq_len: 559
+; sq_type: p
+; al_start: 429
+; al_stop: 437
+; al_display_start: 399
+DTYDNDIALLQLRSQSKQCAQESSSVGTACLPDPNLQLPDWTECELSGYG
+KHEASSPFFSDRLKEAHVRLYPSSRCTSQHLFNKTVTNNMLCAGDTRSGG
+NQDLHDACQGDSGGPLVCMI
+>>PLMN_PETMA (P33574) Plasminogen (EC 3.4.21.7) (Fragments).
+; fa_frame: f
+; fa_initn:  20
+; fa_init1:  20
+; fa_opt:  20
+; fa_z-score: 61.9
+; fa_bits: 15.6
+; fa_expect:    4.8
+; sw_score: 20
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 3
+>consensus_5 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 10
+; al_stop: 12
+; al_display_start: 1
+---------------------LLTTPTVVPVPSTELPSEE
+>PLMN_PETMA ..
+; sq_len: 325
+; sq_type: p
+; al_start: 143
+; al_stop: 145
+; al_display_start: 113
+VYSCQGLVSNYCRNPDGEKLPWCYTTEYCNVPSCTGGPTGSEYHEILTPA
+QDXYTGIVEDYRGKMSPDAGLEENFCRNPDQDPQGPWCYTXNPEAXPRYC
+DVLSVVGGXEAQRNSXPRQI
+>>URTG_DESRO (P49150) Salivary plasminogen activator gamma precursor (EC
+; fa_frame: f
+; fa_initn:  24
+; fa_init1:  24
+; fa_opt:  24
+; fa_z-score: 61.2
+; fa_bits: 15.8
+; fa_expect:    5.3
+; sw_score: 24
+; sw_ident: 0.357
+; sw_sim: 0.500
+; sw_overlap: 14
+>consensus_5 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 14
+; al_display_start: 1
+------------LLTTPTVVPVPSTELPSEE
+>URTG_DESRO ..
+; sq_len: 394
+; sq_type: p
+; al_start: 13
+; al_stop: 26
+; al_display_start: 1
+MVNTMKTKLLCVLLLCGAVFSLPRQETYRQLARGSRAYGDPHATCYKDQG
+VTYRGTWSTS
+>>URT1_DESRO (P98119) Salivary plasminogen activator alpha 1 precursor (
+; fa_frame: f
+; fa_initn:  28
+; fa_init1:  28
+; fa_opt:  28
+; fa_z-score: 60.5
+; fa_bits: 15.9
+; fa_expect:    5.7
+; sw_score: 28
+; sw_ident: 0.556
+; sw_sim: 0.556
+; sw_overlap: 9
+>consensus_5 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 8
+; al_stop: 16
+; al_display_start: 1
+-----------------------LLTTPTVVPVPSTELPSEE
+>URT1_DESRO ..
+; sq_len: 477
+; sq_type: p
+; al_start: 82
+; al_stop: 90
+; al_display_start: 52
+RRQESWLRPEVRSKRVEHCQCDRGQARCHTVPVNSCSEPRCFNGGTCWQA
+VYFSDFVCQCPAGYTGKRCEVDTRATCYEGQGVTYRGTWSTAESRVECIN
+WNSSLLTRRTYNGRMPDAFN
+>>PLMN_BOVIN (P06868) Plasminogen precursor (EC 3.4.21.7).
+; fa_frame: f
+; fa_initn:  39
+; fa_init1:  39
+; fa_opt:  39
+; fa_z-score: 58.3
+; fa_bits: 16.3
+; fa_expect:    7.4
+; sw_score: 39
+; sw_ident: 0.556
+; sw_sim: 0.667
+; sw_overlap: 9
+>consensus_5 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 8
+; al_stop: 16
+; al_display_start: 1
+-----------------------LLTTPTVVPVPSTELPSEE
+>PLMN_BOVIN ..
+; sq_len: 812
+; sq_type: p
+; al_start: 371
+; al_stop: 379
+; al_display_start: 341
+WCYTTNSEVRWEYCTIPSCESSPLSTERMDVPVPPEQTPVPQDCYHGNGQ
+SYRGTSSTTITGRKCQSWSSMTPHRHLKTPENYPNAGLTMNYCRNPDADK
+SPWCYTTDPRVRWEFCNLKK
+>>URTB_DESRO (P98121) Salivary plasminogen activator beta precursor (EC 
+; fa_frame: f
+; fa_initn:  24
+; fa_init1:  24
+; fa_opt:  24
+; fa_z-score: 57.0
+; fa_bits: 15.1
+; fa_expect:    8.6
+; sw_score: 24
+; sw_ident: 0.357
+; sw_sim: 0.500
+; sw_overlap: 14
+>consensus_5 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 14
+; al_display_start: 1
+------------LLTTPTVVPVPSTELPSEE
+>URTB_DESRO ..
+; sq_len: 431
+; sq_type: p
+; al_start: 13
+; al_stop: 26
+; al_display_start: 1
+MVNTMKTKLLCVLLLCGAVFSLPRQETYRQLARGSRAYGGCSELRCFNGG
+TCWQAASFSD
+>>UROK_BOVIN (Q05589) Urokinase-type plasminogen activator precursor (EC
+; fa_frame: f
+; fa_initn:  24
+; fa_init1:  24
+; fa_opt:  24
+; fa_z-score: 56.7
+; fa_bits: 15.1
+; fa_expect:    8.9
+; sw_score: 24
+; sw_ident: 0.444
+; sw_sim: 0.667
+; sw_overlap: 9
+>consensus_5 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 11
+; al_stop: 19
+; al_display_start: 1
+--------------------LLTTPTVVPVPSTELPSEE
+>UROK_BOVIN ..
+; sq_len: 433
+; sq_type: p
+; al_start: 159
+; al_stop: 167
+; al_display_start: 129
+NQRRPWCYVQIGLKQFVQFCMVQDCSVGKSPSSPREKEEFQCGQKALRPR
+FKIVGGQVTNAENQPWFAAIYRRHRGGSITYLCGGSLISPCWVVSATHCF
+IDHPKKENYIVYLGQSRLNS
+>>UROK_MOUSE (P06869) Urokinase-type plasminogen activator precursor (EC
+; fa_frame: f
+; fa_initn:  24
+; fa_init1:  24
+; fa_opt:  24
+; fa_z-score: 56.7
+; fa_bits: 15.1
+; fa_expect:    8.9
+; sw_score: 24
+; sw_ident: 0.500
+; sw_sim: 1.000
+; sw_overlap: 6
+>consensus_5 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 14
+; al_stop: 19
+; al_display_start: 1
+-----------------LLTTPTVVPVPSTELPSEE
+>UROK_MOUSE ..
+; sq_len: 433
+; sq_type: p
+; al_start: 230
+; al_stop: 235
+; al_display_start: 200
+KNKGGSPPSFKCGGSLISPCWVASAAHCFIQLPKKENYVVYLGQSKESSY
+NPGEMKFEVEQLILHEYYREDSLAYHNDIALLKIRTSTGQCAQPSRSIQT
+ICLPPRFTDAPFGSDCEITG
+>>HGFA_MOUSE (Q9R098) Hepatocyte growth factor activator precursor (EC 3
+; fa_frame: f
+; fa_initn:  33
+; fa_init1:  33
+; fa_opt:  33
+; fa_z-score: 56.1
+; fa_bits: 15.6
+; fa_expect:    9.5
+; sw_score: 33
+; sw_ident: 0.353
+; sw_sim: 0.588
+; sw_overlap: 17
+>consensus_5 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 3
+; al_stop: 19
+; al_display_start: 1
+----------------------------LLTTPTVVPVPSTELPSEE
+>HGFA_MOUSE ..
+; sq_len: 653
+; sq_type: p
+; al_start: 66
+; al_stop: 82
+; al_display_start: 36
+AGRNHTEPPGPNVTATPVTPTIPVISGNVSTSTESAPAAETEGPQSERYP
+PPSSSSPPGGQVLTESGQPCRFPFRYGGRMLHSCTSEGSAYRKWCATTHN
+YDRDRAWGYCAEVTLPVEGP
+  7>>>consensus_6 - 19 aa
+ vs  writable/file1.txt library
+
+       opt      E()
+< 20     1     0:=
+  22     0     0:           one = represents 1 library sequences
+  24     0     0:
+  26     0     0:
+  28     0     0:
+  30     0     0:
+  32     0     0:
+  34     0     1:*
+  36     0     1:*
+  38     4     2:=*==
+  40     1     3:= *
+  42     1     3:= *
+  44     3     4:===*
+  46     5     4:===*=
+  48     1     4:=  *
+  50     0     3:  *
+  52     0     3:  *
+  54     0     3:  *
+  56     5     2:=*===
+  58     3     2:=*=
+  60     0     1:*
+  62     1     1:*
+  64     3     1:*==
+  66     2     1:*=
+  68     1     1:*
+  70     5     0:=====
+  72     0     0:
+  74     1     0:=
+  76     0     0:
+  78     0     0:
+  80     1     0:=
+  82     0     0:
+  84     0     0:
+  86     0     0:
+  88     0     0:
+  90     0     0:
+  92     0     0:
+  94     0     0:
+  96     0     0:
+  98     0     0:
+ 100     0     0:
+ 102     0     0:
+ 104     0     0:
+ 106     0     0:
+ 108     0     0:
+ 110     0     0:
+ 112     0     0:
+ 114     3     0:===
+ 116     1     0:=
+ 118     0     0:
+>120     0     0:
+  28595 residues in    42 sequences
+  Expectation_n fit: rho(ln(x))= 151.0253+/-0.0665; mu= -931.6620+/- 4.417
+ mean_var=726.5468+/-421.230, 0's: 0 Z-trim: 5  B-trim: 0 in 0/7
+ Lambda= 0.047582
+ Kolmogorov-Smirnov  statistic: 0.3141 (N=15) at  62
+
+FASTA (3.47 Mar 2004) function [optimized, BL50 matrix (15:-5)] ktup: 1
+ join: 42, opt: 30, open/ext: -10/-2, width:  16
+ Scan time:  0.010
+The best scores are:                                      opt bits E(42)
+PLMN_RAT (Q01177) Plasminogen (EC 3.4.21.7) (Fragm ( 169)   20  24.6  0.0052
+PLMN_CANFA (P80009) Plasminogen (EC 3.4.21.7) (Fra ( 333)  120  25.4  0.0058
+PLMN_HORSE (P80010) Plasminogen (EC 3.4.21.7) (Fra ( 338)  120  25.3  0.0065
+PLMN_SHEEP (P81286) Plasminogen (EC 3.4.21.7) (Fra ( 343)  120  25.2  0.0072
+PLMN_PETMA (P33574) Plasminogen (EC 3.4.21.7) (Fra ( 325)   25  19.1    0.45
+URTG_DESRO (P49150) Salivary plasminogen activator ( 394)   39  18.4    0.91
+UROK_BOVIN (Q05589) Urokinase-type plasminogen act ( 433)   43  17.8     1.5
+UROK_HUMAN (P00749) Urokinase-type plasminogen act ( 431)   40  17.6     1.6
+UROK_PAPCY (P16227) Urokinase-type plasminogen act ( 433)   40  17.6     1.7
+URTB_DESRO (P98121) Salivary plasminogen activator ( 431)   39  17.6     1.7
+UROK_PIG (P04185) Urokinase-type plasminogen activ ( 442)   40  17.4       2
+UROK_CHICK (P15120) Urokinase-type plasminogen act ( 434)   37  17.4       2
+UROK_RAT (P29598) Urokinase-type plasminogen activ ( 432)   29  16.9     2.8
+UROK_MOUSE (P06869) Urokinase-type plasminogen act ( 433)   29  16.8     2.8
+PLMN_HUMAN (P00747) Plasminogen precursor (EC 3.4. ( 810)  120  17.5     3.3
+URT2_DESRO (P15638) Salivary plasminogen activator ( 477)   39  16.7     3.5
+URT1_DESRO (P98119) Salivary plasminogen activator ( 477)   37  16.5     3.8
+PLMN_MACMU (P12545) Plasminogen precursor (EC 3.4. ( 810)  113  17.0     4.6
+PLMN_ERIEU (Q29485) Plasminogen precursor (EC 3.4. ( 810)  105  16.5     6.5
+PLMN_MOUSE (P20918) Plasminogen precursor (EC 3.4. ( 812)  103  16.3     7.2
+TPA_RAT (P19637) Tissue-type plasminogen activator ( 559)   46  15.7     7.4
+TPA_HUMAN (P00750) Tissue-type plasminogen activat ( 562)   45  15.6       8
+TPA_MOUSE (P11214) Tissue-type plasminogen activat ( 559)   43  15.5     8.4
+PLMN_BOVIN (P06868) Plasminogen precursor (EC 3.4. ( 812)   99  16.0     8.6
+TPA_BOVIN (Q28198) Tissue-type plasminogen activat ( 566)   42  15.3     9.5
+PLMN_PIG (P06867) Plasminogen (EC 3.4.21.7).       ( 790)   92  15.8     9.7
+
+>>>consensus_6, 19 aa vs writable/file1.txt library
+; pg_name: fasta34
+; pg_ver: 34t25
+; pg_argv: fasta34 -m 10 consensus_seqs.fasta writable/file1.txt
+; pg_name: FASTA
+; pg_ver: 3.47 Mar 2004
+; pg_matrix: BL50 (15:-5)
+; pg_open-ext: -10 -2
+; pg_ktup: 1
+; pg_optcut: 30
+; pg_cgap: 42
+; mp_extrap: 60000 41
+; mp_stats:  Expectation_n fit: rho(ln(x))= 151.0253+/-0.0665; mu= -931.6620+/- 4.417  mean_var=726.5468+/-421.230, 0's: 0 Z-trim: 5  B-trim: 0 in 0/7  Lambda= 0.047582
+; mp_KS: 0.3141 (N=15) at  62
+>>PLMN_RAT (Q01177) Plasminogen (EC 3.4.21.7) (Fragment).
+; fa_frame: f
+; fa_initn:  20
+; fa_init1:  20
+; fa_opt:  20
+; fa_z-score: 115.6
+; fa_bits: 24.6
+; fa_expect: 0.0052
+; sw_score: 20
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 2
+>consensus_6 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 3
+; al_display_start: 1
+-----------------------------VCNHYEFLNGRVKSTELCA
+>PLMN_RAT ..
+; sq_len: 169
+; sq_type: p
+; al_start: 107
+; al_stop: 108
+; al_display_start: 77
+GLEMNYCRNPDNDQRGPWCFTTDPSVRWEYCNLKRCSETGGGVAESAIVP
+QVPSAPGTSETDCMYGNGKEYRGKTAVTAAGTPCQEWAAQEPH
+>>PLMN_CANFA (P80009) Plasminogen (EC 3.4.21.7) (Fragment).
+; fa_frame: f
+; fa_initn: 120
+; fa_init1: 120
+; fa_opt: 120
+; fa_z-score: 114.7
+; fa_bits: 25.4
+; fa_expect: 0.0058
+; sw_score: 120
+; sw_ident: 0.895
+; sw_sim: 1.000
+; sw_overlap: 19
+>consensus_6 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+------------------------------VCNHYEFLNGRVKSTELCA
+>PLMN_CANFA ..
+; sq_len: 333
+; sq_type: p
+; al_start: 251
+; al_stop: 269
+; al_display_start: 221
+LCYITGWGETQGTYGAGLLKEAQLPVIENKVCNRYEYLNGRVKSTELCAG
+NLAGGTDSCQGDSGGPLVCFEKDKYILQGVTSWGLGCARPNKPGVYVRVS
+RFVTWIEGIMRNN
+>>PLMN_HORSE (P80010) Plasminogen (EC 3.4.21.7) (Fragment).
+; fa_frame: f
+; fa_initn: 120
+; fa_init1: 120
+; fa_opt: 120
+; fa_z-score: 113.9
+; fa_bits: 25.3
+; fa_expect: 0.0065
+; sw_score: 120
+; sw_ident: 0.895
+; sw_sim: 1.000
+; sw_overlap: 19
+>consensus_6 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+------------------------------VCNHYEFLNGRVKSTELCA
+>PLMN_HORSE ..
+; sq_len: 338
+; sq_type: p
+; al_start: 256
+; al_stop: 274
+; al_display_start: 226
+ECFVTGWGETQDSSNAGVLKEAQLPVIENKVCNRYEYLNGRVKSTELCAG
+HLVGGVDSCQGDSGGPLVCFEKDKYILQGVTSWGLGCARPNKPGVYVRVS
+SFINWIERIMQSN
+>>PLMN_SHEEP (P81286) Plasminogen (EC 3.4.21.7) (Fragment).
+; fa_frame: f
+; fa_initn: 120
+; fa_init1: 120
+; fa_opt: 120
+; fa_z-score: 113.1
+; fa_bits: 25.2
+; fa_expect: 0.0072
+; sw_score: 120
+; sw_ident: 0.895
+; sw_sim: 1.000
+; sw_overlap: 19
+>consensus_6 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+------------------------------VCNHYEFLNGRVKSTELCA
+>PLMN_SHEEP ..
+; sq_len: 343
+; sq_type: p
+; al_start: 261
+; al_stop: 279
+; al_display_start: 231
+VCYITGWGETQGTFGVGRLKEARLPVIENKVCNRYEYLNGRVKSTELCAG
+DLAGGTDSCQGDSGGPLVCFEKDKYILQGVTSWGLGCARPNKPGVYVRVS
+TYVPWIEETMRRY
+>>PLMN_PETMA (P33574) Plasminogen (EC 3.4.21.7) (Fragments).
+; fa_frame: f
+; fa_initn:  25
+; fa_init1:  25
+; fa_opt:  25
+; fa_z-score: 80.9
+; fa_bits: 19.1
+; fa_expect:   0.45
+; sw_score: 25
+; sw_ident: 0.600
+; sw_sim: 0.800
+; sw_overlap: 5
+>consensus_6 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 14
+; al_stop: 18
+; al_display_start: 1
+-----------------VCNHYEFLNGRVKSTELCA
+>PLMN_PETMA ..
+; sq_len: 325
+; sq_type: p
+; al_start: 137
+; al_stop: 141
+; al_display_start: 107
+SQTPGDVYSCQGLVSNYCRNPDGEKLPWCYTTEYCNVPSCTGGPTGSEYH
+EILTPAQDXYTGIVEDYRGKMSPDAGLEENFCRNPDQDPQGPWCYTXNPE
+AXPRYCDVLSVVGGXEAQRN
+>>URTG_DESRO (P49150) Salivary plasminogen activator gamma precursor (EC
+; fa_frame: f
+; fa_initn:  39
+; fa_init1:  39
+; fa_opt:  39
+; fa_z-score: 75.3
+; fa_bits: 18.4
+; fa_expect:   0.91
+; sw_score: 39
+; sw_ident: 0.333
+; sw_sim: 0.611
+; sw_overlap: 18
+>consensus_6 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 19
+; al_display_start: 1
+-----------------------------VCNHYEFLNGRVKSTELCA
+>URTG_DESRO ..
+; sq_len: 394
+; sq_type: p
+; al_start: 308
+; al_stop: 325
+; al_display_start: 278
+LSGYGKHKSSSPFYSEQLKEGHVRLYPSSRCTSKFLFNKTVTNNMLCAGD
+TRSGEIYPNVHDACQGDSGGPLVCMNDNHMTLLGIISWGVGCGEKDIPGV
+YTKVTNYLGWIRDNMRP
+>>UROK_BOVIN (Q05589) Urokinase-type plasminogen activator precursor (EC
+; fa_frame: f
+; fa_initn:  43
+; fa_init1:  43
+; fa_opt:  43
+; fa_z-score: 71.5
+; fa_bits: 17.8
+; fa_expect:    1.5
+; sw_score: 43
+; sw_ident: 0.316
+; sw_sim: 0.737
+; sw_overlap: 19
+>consensus_6 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+------------------------------VCNHYEFLNGRVKSTELCA
+>UROK_BOVIN ..
+; sq_len: 433
+; sq_type: p
+; al_start: 346
+; al_stop: 364
+; al_display_start: 316
+EITGFGKENPSDYRYSDELKMTFVSLVSHEVCQQPHYYGAEVTDKMLCAA
+DPQWETDSCQGDSGGPLVCTIQGRLTLTGIVSWGRDCAMKYKPGVYTRVS
+KFLPWINTHTRGEINLVL
+>>UROK_HUMAN (P00749) Urokinase-type plasminogen activator precursor (EC
+; fa_frame: f
+; fa_initn:  40
+; fa_init1:  40
+; fa_opt:  40
+; fa_z-score: 70.6
+; fa_bits: 17.6
+; fa_expect:    1.6
+; sw_score: 40
+; sw_ident: 0.278
+; sw_sim: 0.722
+; sw_overlap: 18
+>consensus_6 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 19
+; al_display_start: 1
+-----------------------------VCNHYEFLNGRVKSTELCA
+>UROK_HUMAN ..
+; sq_len: 431
+; sq_type: p
+; al_start: 345
+; al_stop: 362
+; al_display_start: 315
+ITGFGKENSTDYLYPEQLKMTVVKLISHRECQQPHYYGSEVTTKMLCAAD
+PQWKTDSCQGDSGGPLVCSLQGRMTLTGIVSWGRGCALKDKPGVYTRVSH
+FLPWIRSHTKEENGLAL
+>>UROK_PAPCY (P16227) Urokinase-type plasminogen activator precursor (EC
+; fa_frame: f
+; fa_initn:  40
+; fa_init1:  40
+; fa_opt:  40
+; fa_z-score: 70.3
+; fa_bits: 17.6
+; fa_expect:    1.7
+; sw_score: 40
+; sw_ident: 0.278
+; sw_sim: 0.722
+; sw_overlap: 18
+>consensus_6 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 19
+; al_display_start: 1
+-----------------------------VCNHYEFLNGRVKSTELCA
+>UROK_PAPCY ..
+; sq_len: 433
+; sq_type: p
+; al_start: 347
+; al_stop: 364
+; al_display_start: 317
+ITGFGKENSTDYLYPEQLKMTVVKLVSHQKCQQPHYYGSEVTTKMLCAAD
+PQWETDSCQGDSGGPLVCSIQGHMTLTGIVSWGRGCALKDKPGVYTRVSR
+FLPWIHSHTREQNGLAL
+>>URTB_DESRO (P98121) Salivary plasminogen activator beta precursor (EC 
+; fa_frame: f
+; fa_initn:  39
+; fa_init1:  39
+; fa_opt:  39
+; fa_z-score: 70.2
+; fa_bits: 17.6
+; fa_expect:    1.7
+; sw_score: 39
+; sw_ident: 0.333
+; sw_sim: 0.611
+; sw_overlap: 18
+>consensus_6 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 19
+; al_display_start: 1
+-----------------------------VCNHYEFLNGRVKSTELCA
+>URTB_DESRO ..
+; sq_len: 431
+; sq_type: p
+; al_start: 345
+; al_stop: 362
+; al_display_start: 315
+LSGYGKHKSSSPFYSEQLKEGHVRLYPSSRCTSKFLFNKTVTNNMLCAGD
+TRSGEIYPNVHDACQGDSGGPLVCMNDNHMTLLGIISWGVGCGEKDIPGV
+YTKVTNYLGWIRDNMRP
+>>UROK_PIG (P04185) Urokinase-type plasminogen activator precursor (EC
+; fa_frame: f
+; fa_initn:  40
+; fa_init1:  40
+; fa_opt:  40
+; fa_z-score: 69.2
+; fa_bits: 17.4
+; fa_expect:      2
+; sw_score: 40
+; sw_ident: 0.278
+; sw_sim: 0.722
+; sw_overlap: 18
+>consensus_6 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 19
+; al_display_start: 1
+-----------------------------VCNHYEFLNGRVKSTELCA
+>UROK_PIG ..
+; sq_len: 442
+; sq_type: p
+; al_start: 356
+; al_stop: 373
+; al_display_start: 326
+IVGFGKEDPSDYLYPEQLKMTVVKLVSHRECQQPHYYGSEVTTKMLCAAD
+PQWKTDSCQGDSGGPLVCSTQGRLTLTGIVSWGRECAMKDKPGVYTRVSR
+FLTWIHTHVGGENGLAH
+>>UROK_CHICK (P15120) Urokinase-type plasminogen activator precursor (EC
+; fa_frame: f
+; fa_initn:  37
+; fa_init1:  37
+; fa_opt:  37
+; fa_z-score: 69.1
+; fa_bits: 17.4
+; fa_expect:      2
+; sw_score: 37
+; sw_ident: 0.278
+; sw_sim: 0.667
+; sw_overlap: 18
+>consensus_6 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 19
+; al_display_start: 1
+-----------------------------VCNHYEFLNGRVKSTELCA
+>UROK_CHICK ..
+; sq_len: 434
+; sq_type: p
+; al_start: 342
+; al_stop: 359
+; al_display_start: 312
+IAGYGKQNSYDIYYAQRLMSATVNLISQDDCKNKYYDSTRVTDNMVCAGD
+PLWETDACKGDSGGPMVCEHNGRMTLYGIVSWGDGCAKKNKPGVYTRVTR
+YLNWIDSNMNAVFTKSRSFR
+>>UROK_RAT (P29598) Urokinase-type plasminogen activator precursor (EC
+; fa_frame: f
+; fa_initn:  29
+; fa_init1:  29
+; fa_opt:  29
+; fa_z-score: 66.4
+; fa_bits: 16.9
+; fa_expect:    2.8
+; sw_score: 36
+; sw_ident: 0.222
+; sw_sim: 0.722
+; sw_overlap: 18
+>consensus_6 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 19
+; al_display_start: 1
+-----------------------------VCNHYEFLNGRVKSTELCA
+>UROK_RAT ..
+; sq_len: 432
+; sq_type: p
+; al_start: 346
+; al_stop: 363
+; al_display_start: 316
+ITGFGQESATDYFYPKDLKMSVVKIISHEQCKQPHYYGSEINYKMLCAAD
+PEWKTDSCSGDSGGPLICNIDGRPTLSGIVSWGSGCAEKNKPGVYTRVSY
+FLNWIQSHIGEENGLAF
+>>UROK_MOUSE (P06869) Urokinase-type plasminogen activator precursor (EC
+; fa_frame: f
+; fa_initn:  29
+; fa_init1:  29
+; fa_opt:  29
+; fa_z-score: 66.3
+; fa_bits: 16.8
+; fa_expect:    2.8
+; sw_score: 34
+; sw_ident: 0.222
+; sw_sim: 0.667
+; sw_overlap: 18
+>consensus_6 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 19
+; al_display_start: 1
+-----------------------------VCNHYEFLNGRVKSTELCA
+>UROK_MOUSE ..
+; sq_len: 433
+; sq_type: p
+; al_start: 347
+; al_stop: 364
+; al_display_start: 317
+ITGFGKESESDYLYPKNLKMSVVKLVSHEQCMQPHYYGSEINYKMLCAAD
+PEWKTDSCKGDSGGPLICNIEGRPTLSGIVSWGRGCAEKNKPGVYTRVSH
+FLDWIQSHIGEEKGLAF
+>>PLMN_HUMAN (P00747) Plasminogen precursor (EC 3.4.21.7) [Contains: Ang
+; fa_frame: f
+; fa_initn: 120
+; fa_init1: 120
+; fa_opt: 120
+; fa_z-score: 64.9
+; fa_bits: 17.5
+; fa_expect:    3.3
+; sw_score: 120
+; sw_ident: 0.895
+; sw_sim: 1.000
+; sw_overlap: 19
+>consensus_6 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+------------------------------VCNHYEFLNGRVKSTELCA
+>PLMN_HUMAN ..
+; sq_len: 810
+; sq_type: p
+; al_start: 728
+; al_stop: 746
+; al_display_start: 698
+ECFITGWGETQGTFGAGLLKEAQLPVIENKVCNRYEFLNGRVQSTELCAG
+HLAGGTDSCQGDSGGPLVCFEKDKYILQGVTSWGLGCARPNKPGVYVRVS
+RFVTWIEGVMRNN
+>>URT2_DESRO (P15638) Salivary plasminogen activator alpha 2 precursor (
+; fa_frame: f
+; fa_initn:  39
+; fa_init1:  39
+; fa_opt:  39
+; fa_z-score: 64.5
+; fa_bits: 16.7
+; fa_expect:    3.5
+; sw_score: 39
+; sw_ident: 0.333
+; sw_sim: 0.611
+; sw_overlap: 18
+>consensus_6 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 19
+; al_display_start: 1
+-----------------------------VCNHYEFLNGRVKSTELCA
+>URT2_DESRO ..
+; sq_len: 477
+; sq_type: p
+; al_start: 391
+; al_stop: 408
+; al_display_start: 361
+LSGYGKHKSSSPFYSEQLKEGHVRLYPSSRCTSKFLFNKTVTNNMLCAGD
+TRSGEIYPNVHDACQGDSGGPLVCMNDNHMTLLGIISWGVGCGEKDIPGV
+YTKVTNYLGWIRDNMRP
+>>URT1_DESRO (P98119) Salivary plasminogen activator alpha 1 precursor (
+; fa_frame: f
+; fa_initn:  37
+; fa_init1:  37
+; fa_opt:  37
+; fa_z-score: 63.8
+; fa_bits: 16.5
+; fa_expect:    3.8
+; sw_score: 37
+; sw_ident: 0.333
+; sw_sim: 0.556
+; sw_overlap: 18
+>consensus_6 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 19
+; al_display_start: 1
+-----------------------------VCNHYEFLNGRVKSTELCA
+>URT1_DESRO ..
+; sq_len: 477
+; sq_type: p
+; al_start: 391
+; al_stop: 408
+; al_display_start: 361
+LSGYGKHKSSSPFYSEQLKEGHVRLYPSSRCAPKFLFNKTVTNNMLCAGD
+TRSGEIYPNVHDACQGDSGGPLVCMNDNHMTLLGIISWGVGCGEKDVPGV
+YTKVTNYLGWIRDNMHL
+>>PLMN_MACMU (P12545) Plasminogen precursor (EC 3.4.21.7).
+; fa_frame: f
+; fa_initn: 113
+; fa_init1: 113
+; fa_opt: 113
+; fa_z-score: 62.3
+; fa_bits: 17.0
+; fa_expect:    4.6
+; sw_score: 113
+; sw_ident: 0.842
+; sw_sim: 0.947
+; sw_overlap: 19
+>consensus_6 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+------------------------------VCNHYEFLNGRVKSTELCA
+>PLMN_MACMU ..
+; sq_len: 810
+; sq_type: p
+; al_start: 728
+; al_stop: 746
+; al_display_start: 698
+ECFITGWGETQGTYGAGLLKEARLPVIENKVCNRYEFLNGTVKTTELCAG
+HLAGGTDSCQGDSGGPLVCFEKDKYILQGVTSWGLGCARPNKPGVYVRVS
+RFVTWIEGVMRNN
+>>PLMN_ERIEU (Q29485) Plasminogen precursor (EC 3.4.21.7).
+; fa_frame: f
+; fa_initn: 105
+; fa_init1: 105
+; fa_opt: 105
+; fa_z-score: 59.4
+; fa_bits: 16.5
+; fa_expect:    6.5
+; sw_score: 105
+; sw_ident: 0.789
+; sw_sim: 0.895
+; sw_overlap: 19
+>consensus_6 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+------------------------------VCNHYEFLNGRVKSTELCA
+>PLMN_ERIEU ..
+; sq_len: 810
+; sq_type: p
+; al_start: 728
+; al_stop: 746
+; al_display_start: 698
+LCYITGWGETKGTYGAGLLKEAQLPVIENKVCNRQSFLNGRVRSTELCAG
+HLAGGVDSCQGDSGGPLVCFEKDRYILQGVTSWGLGCARLTRPGVYVRVS
+RYVSWLQDVMRNN
+>>PLMN_MOUSE (P20918) Plasminogen precursor (EC 3.4.21.7) [Contains: Ang
+; fa_frame: f
+; fa_initn: 103
+; fa_init1: 103
+; fa_opt: 103
+; fa_z-score: 58.5
+; fa_bits: 16.3
+; fa_expect:    7.2
+; sw_score: 103
+; sw_ident: 0.789
+; sw_sim: 0.947
+; sw_overlap: 19
+>consensus_6 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+------------------------------VCNHYEFLNGRVKSTELCA
+>PLMN_MOUSE ..
+; sq_len: 812
+; sq_type: p
+; al_start: 730
+; al_stop: 748
+; al_display_start: 700
+ICYITGWGETQGTFGAGRLKEAQLPVIENKVCNRVEYLNNRVKSTELCAG
+QLAGGVDSCQGDSGGPLVCFEKDKYILQGVTSWGLGCARPNKPGVYVRVS
+RFVDWIEREMRNN
+>>TPA_RAT (P19637) Tissue-type plasminogen activator precursor (EC 3.
+; fa_frame: f
+; fa_initn:  46
+; fa_init1:  46
+; fa_opt:  46
+; fa_z-score: 58.3
+; fa_bits: 15.7
+; fa_expect:    7.4
+; sw_score: 46
+; sw_ident: 0.333
+; sw_sim: 0.667
+; sw_overlap: 18
+>consensus_6 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 19
+; al_display_start: 1
+-----------------------------VCNHYEFLNGRVKSTELCA
+>TPA_RAT ..
+; sq_len: 559
+; sq_type: p
+; al_start: 474
+; al_stop: 491
+; al_display_start: 444
+LSGYGKHEASSPFFSDRLKEAHVRLYPSSRCTSQHLFNKTITSNMLCAGD
+TRTGGNQDVHDACQGDSGGPLVCMIDKRMTLLGIISWGLGCGQKDVPGIY
+TKVTNYLNWIQDNMKQ
+>>TPA_HUMAN (P00750) Tissue-type plasminogen activator precursor (EC 3.
+; fa_frame: f
+; fa_initn:  45
+; fa_init1:  45
+; fa_opt:  45
+; fa_z-score: 57.6
+; fa_bits: 15.6
+; fa_expect:      8
+; sw_score: 45
+; sw_ident: 0.389
+; sw_sim: 0.667
+; sw_overlap: 18
+>consensus_6 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 19
+; al_display_start: 1
+-----------------------------VCNHYEFLNGRVKSTELCA
+>TPA_HUMAN ..
+; sq_len: 562
+; sq_type: p
+; al_start: 476
+; al_stop: 493
+; al_display_start: 446
+LSGYGKHEALSPFYSERLKEAHVRLYPSSRCTSQHLLNRTVTDNMLCAGD
+TRSGGPQANLHDACQGDSGGPLVCLNDGRMTLVGIISWGLGCGQKDVPGV
+YTKVTNYLDWIRDNMRP
+>>TPA_MOUSE (P11214) Tissue-type plasminogen activator precursor (EC 3.
+; fa_frame: f
+; fa_initn:  43
+; fa_init1:  43
+; fa_opt:  43
+; fa_z-score: 57.1
+; fa_bits: 15.5
+; fa_expect:    8.4
+; sw_score: 43
+; sw_ident: 0.333
+; sw_sim: 0.667
+; sw_overlap: 18
+>consensus_6 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 19
+; al_display_start: 1
+-----------------------------VCNHYEFLNGRVKSTELCA
+>TPA_MOUSE ..
+; sq_len: 559
+; sq_type: p
+; al_start: 474
+; al_stop: 491
+; al_display_start: 444
+LSGYGKHEASSPFFSDRLKEAHVRLYPSSRCTSQHLFNKTVTNNMLCAGD
+TRSGGNQDLHDACQGDSGGPLVCMINKQMTLTGIISWGLGCGQKDVPGVY
+TKVTNYLDWIHDNMKQ
+>>PLMN_BOVIN (P06868) Plasminogen precursor (EC 3.4.21.7).
+; fa_frame: f
+; fa_initn:  99
+; fa_init1:  99
+; fa_opt:  99
+; fa_z-score: 57.0
+; fa_bits: 16.0
+; fa_expect:    8.6
+; sw_score: 99
+; sw_ident: 0.737
+; sw_sim: 0.895
+; sw_overlap: 19
+>consensus_6 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+------------------------------VCNHYEFLNGRVKSTELCA
+>PLMN_BOVIN ..
+; sq_len: 812
+; sq_type: p
+; al_start: 730
+; al_stop: 748
+; al_display_start: 700
+ECYITGWGETQGTFGEGLLKEAHLPVIENKVCNRNEYLDGRVKPTELCAG
+HLIGGTDSCQGDSGGPLVCFEKDKYILQGVTSWGLGCARPNKPGVYVRVS
+PYVPWIEETMRRN
+>>TPA_BOVIN (Q28198) Tissue-type plasminogen activator precursor (EC 3.
+; fa_frame: f
+; fa_initn:  42
+; fa_init1:  42
+; fa_opt:  42
+; fa_z-score: 56.1
+; fa_bits: 15.3
+; fa_expect:    9.5
+; sw_score: 42
+; sw_ident: 0.333
+; sw_sim: 0.667
+; sw_overlap: 18
+>consensus_6 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 19
+; al_display_start: 1
+-----------------------------VCNHYEFLNGRVKSTELCA
+>TPA_BOVIN ..
+; sq_len: 566
+; sq_type: p
+; al_start: 480
+; al_stop: 497
+; al_display_start: 450
+LSGYGKHESSSPFFSERLKEAHVRLYPSSRCTSQHLFNRTVTNNMLCAGD
+TRSGGDHTNLHDACQGDSGGPLVCMKDNHMTLVGIISWGLGCGRKDVPGV
+YTKVTNYLDWIRDNTRP
+>>PLMN_PIG (P06867) Plasminogen (EC 3.4.21.7).
+; fa_frame: f
+; fa_initn:  92
+; fa_init1:  92
+; fa_opt:  92
+; fa_z-score: 55.9
+; fa_bits: 15.8
+; fa_expect:    9.7
+; sw_score: 92
+; sw_ident: 0.632
+; sw_sim: 0.947
+; sw_overlap: 19
+>consensus_6 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+------------------------------VCNHYEFLNGRVKSTELCA
+>PLMN_PIG ..
+; sq_len: 790
+; sq_type: p
+; al_start: 708
+; al_stop: 726
+; al_display_start: 678
+ACYITGWGETKGTYGAGLLKEARLPVIENKVCNRYEYLGGKVSPNELCAG
+HLAGGIDSCQGDSGGPLVCFEKDKYILQGVTSWGLGCALPNKPGVYVRVS
+RFVTWIEEIMRRN
+  8>>>consensus_7 - 18 aa
+ vs  writable/file1.txt library
+
+       opt      E()
+< 20     1     0:=
+  22     0     0:           one = represents 1 library sequences
+  24     0     0:
+  26     1     0:=
+  28     0     0:
+  30     0     0:
+  32     0     0:
+  34     0     1:*
+  36     0     1:*
+  38     0     2: *
+  40     4     3:==*=
+  42     5     3:==*==
+  44     2     4:== *
+  46     4     4:===*
+  48     4     4:===*
+  50     0     3:  *
+  52     2     3:==*
+  54     0     3:  *
+  56     1     2:=*
+  58     4     2:=*==
+  60     5     1:*====
+  62     1     1:*
+  64     0     1:*
+  66     2     1:*=
+  68     0     1:*
+  70     4     0:====
+  72     0     0:
+  74     0     0:
+  76     0     0:
+  78     0     0:
+  80     0     0:
+  82     0     0:
+  84     1     0:=
+  86     0     0:
+  88     1     0:=
+  90     0     0:
+  92     0     0:
+  94     0     0:
+  96     0     0:
+  98     0     0:
+ 100     0     0:
+ 102     0     0:
+ 104     0     0:
+ 106     0     0:
+ 108     0     0:
+ 110     0     0:
+ 112     0     0:
+ 114     0     0:
+ 116     0     0:
+ 118     0     0:
+>120     0     0:
+  28595 residues in    42 sequences
+  Expectation_n fit: rho(ln(x))= 75.8650+/-0.0728; mu= -444.2303+/- 4.653
+ mean_var=601.6613+/-275.859, 0's: 0 Z-trim: 3  B-trim: 0 in 0/8
+ Lambda= 0.052288
+ Kolmogorov-Smirnov  statistic: 0.2345 (N=14) at  56
+
+FASTA (3.47 Mar 2004) function [optimized, BL50 matrix (15:-5)] ktup: 1
+ join: 42, opt: 30, open/ext: -10/-2, width:  16
+ Scan time:  0.010
+The best scores are:                                      opt bits E(42)
+FA12_BOVIN (P98140) Coagulation factor XII precurs ( 593)  134  21.3    0.17
+PLMN_RAT (Q01177) Plasminogen (EC 3.4.21.7) (Fragm ( 169)   31  18.9    0.26
+PLMN_HORSE (P80010) Plasminogen (EC 3.4.21.7) (Fra ( 338)   50  17.4     1.5
+FA12_CAVPO (Q04962) Coagulation factor XII precurs ( 603)   93  18.1     1.6
+PLMN_SHEEP (P81286) Plasminogen (EC 3.4.21.7) (Fra ( 343)   49  17.2     1.7
+PLMN_CANFA (P80009) Plasminogen (EC 3.4.21.7) (Fra ( 333)   45  17.0     1.8
+PLMN_PETMA (P33574) Plasminogen (EC 3.4.21.7) (Fra ( 325)   37  16.5     2.5
+FA12_HUMAN (P00748) Coagulation factor XII precurs ( 615)   84  17.4     2.7
+UROK_PAPCY (P16227) Urokinase-type plasminogen act ( 433)   48  16.2     4.3
+UROK_BOVIN (Q05589) Urokinase-type plasminogen act ( 433)   41  15.6       6
+UROK_HUMAN (P00749) Urokinase-type plasminogen act ( 431)   40  15.6     6.2
+HGFA_MOUSE (Q9R098) Hepatocyte growth factor activ ( 653)   71  16.1     6.4
+HGFA_HUMAN (Q04756) Hepatocyte growth factor activ ( 655)   71  16.1     6.4
+UROK_PIG (P04185) Urokinase-type plasminogen activ ( 442)   41  15.5     6.5
+UROK_RAT (P29598) Urokinase-type plasminogen activ ( 432)   39  15.5     6.6
+UROK_MOUSE (P06869) Urokinase-type plasminogen act ( 433)   39  15.5     6.6
+URTG_DESRO (P49150) Salivary plasminogen activator ( 394)   31  15.3     6.9
+UROK_CHICK (P15120) Urokinase-type plasminogen act ( 434)   36  15.2     7.7
+URTB_DESRO (P98121) Salivary plasminogen activator ( 431)   31  14.9     9.5
+
+>>>consensus_7, 18 aa vs writable/file1.txt library
+; pg_name: fasta34
+; pg_ver: 34t25
+; pg_argv: fasta34 -m 10 consensus_seqs.fasta writable/file1.txt
+; pg_name: FASTA
+; pg_ver: 3.47 Mar 2004
+; pg_matrix: BL50 (15:-5)
+; pg_open-ext: -10 -2
+; pg_ktup: 1
+; pg_optcut: 30
+; pg_cgap: 42
+; mp_extrap: 60000 41
+; mp_stats:  Expectation_n fit: rho(ln(x))= 75.8650+/-0.0728; mu= -444.2303+/- 4.653  mean_var=601.6613+/-275.859, 0's: 0 Z-trim: 3  B-trim: 0 in 0/8  Lambda= 0.052288
+; mp_KS: 0.2345 (N=14) at  56
+>>FA12_BOVIN (P98140) Coagulation factor XII precursor (EC 3.4.21.38) (H
+; fa_frame: f
+; fa_initn: 134
+; fa_init1: 134
+; fa_opt: 134
+; fa_z-score: 88.2
+; fa_bits: 21.3
+; fa_expect:   0.17
+; sw_score: 134
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 18
+>consensus_7 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 18
+; al_display_start: 1
+------------------------------PLIDPQRCSAPDVHGAAF
+>FA12_BOVIN ..
+; sq_len: 593
+; sq_type: p
+; al_start: 503
+; al_stop: 520
+; al_display_start: 473
+ESEAAVCEVAGWGHQFEGGEYSSFLQEAQVPLIDPQRCSAPDVHGAAFTQ
+GMLCAGFLEGGTDACQGDSGGPLVCEDETPERQLILRGIVSWGSGCGNRL
+KPGVYTDVANYLAWIREHTA
+>>PLMN_RAT (Q01177) Plasminogen (EC 3.4.21.7) (Fragment).
+; fa_frame: f
+; fa_initn:  31
+; fa_init1:  31
+; fa_opt:  31
+; fa_z-score: 85.1
+; fa_bits: 18.9
+; fa_expect:   0.26
+; sw_score: 31
+; sw_ident: 0.667
+; sw_sim: 0.667
+; sw_overlap: 9
+>consensus_7 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 3
+; al_stop: 11
+; al_display_start: 1
+----------------------------PLIDPQRCSAPDVHGAAF
+>PLMN_RAT ..
+; sq_len: 169
+; sq_type: p
+; al_start: 124
+; al_stop: 132
+; al_display_start: 94
+WCFTTDPSVRWEYCNLKRCSETGGGVAESAIVPQVPSAPGTSETDCMYGN
+GKEYRGKTAVTAAGTPCQEWAAQEPH
+>>PLMN_HORSE (P80010) Plasminogen (EC 3.4.21.7) (Fragment).
+; fa_frame: f
+; fa_initn:  50
+; fa_init1:  50
+; fa_opt:  50
+; fa_z-score: 71.4
+; fa_bits: 17.4
+; fa_expect:    1.5
+; sw_score: 50
+; sw_ident: 0.400
+; sw_sim: 0.733
+; sw_overlap: 15
+>consensus_7 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 15
+; al_display_start: 1
+------------------------------PLIDPQRCSAPDVHGAAF
+>PLMN_HORSE ..
+; sq_len: 338
+; sq_type: p
+; al_start: 98
+; al_stop: 112
+; al_display_start: 68
+GPWCYTMNPQKLFDYCDVPQCESSPFDCGKPKVEPKKCSGRIVGGCVAIA
+HSWPWQISLRTRFGRHFCGGTLISPEWVLTAAHCLERSSRPSTYKVVLGT
+HHELRLAAGAQQIDVSKLFL
+>>FA12_CAVPO (Q04962) Coagulation factor XII precursor (EC 3.4.21.38) (H
+; fa_frame: f
+; fa_initn:  93
+; fa_init1:  93
+; fa_opt:  93
+; fa_z-score: 71.0
+; fa_bits: 18.1
+; fa_expect:    1.6
+; sw_score: 93
+; sw_ident: 0.667
+; sw_sim: 0.889
+; sw_overlap: 18
+>consensus_7 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 18
+; al_display_start: 1
+------------------------------PLIDPQRCSAPDVHGAAF
+>FA12_CAVPO ..
+; sq_len: 603
+; sq_type: p
+; al_start: 513
+; al_stop: 530
+; al_display_start: 483
+SETTCCEVAGWGHQFEGAEEYSSFLQEAQVPLISSERCSSPEVHGDAFLS
+GMLCAGFLEGGTDACQGDSGGPLVCEDEAAEHRLILRGIVSWGSGCGDRN
+KPGVYTDVASYLTWIQKHTA
+>>PLMN_SHEEP (P81286) Plasminogen (EC 3.4.21.7) (Fragment).
+; fa_frame: f
+; fa_initn:  49
+; fa_init1:  49
+; fa_opt:  49
+; fa_z-score: 70.5
+; fa_bits: 17.2
+; fa_expect:    1.7
+; sw_score: 49
+; sw_ident: 0.400
+; sw_sim: 0.667
+; sw_overlap: 15
+>consensus_7 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 15
+; al_display_start: 1
+------------------------------PLIDPQRCSAPDVHGAAF
+>PLMN_SHEEP ..
+; sq_len: 343
+; sq_type: p
+; al_start: 103
+; al_stop: 117
+; al_display_start: 73
+NGPWCYTTNPRKLFDYCDIPQCESSFDCGKPKVEPKKCPARVVGGCVATP
+HSWPWQVSLRRRSREHFCGGTLISPEWVLTAAHCLDSILGPSFYTVILGA
+HYEMAREASVQEIPVSRLFL
+>>PLMN_CANFA (P80009) Plasminogen (EC 3.4.21.7) (Fragment).
+; fa_frame: f
+; fa_initn:  45
+; fa_init1:  45
+; fa_opt:  45
+; fa_z-score: 69.8
+; fa_bits: 17.0
+; fa_expect:    1.8
+; sw_score: 45
+; sw_ident: 0.333
+; sw_sim: 0.667
+; sw_overlap: 15
+>consensus_7 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 15
+; al_display_start: 1
+------------------------------PLIDPQRCSAPDVHGAAF
+>PLMN_CANFA ..
+; sq_len: 333
+; sq_type: p
+; al_start: 93
+; al_stop: 107
+; al_display_start: 63
+GPWCYTMNQRKLFDYCDVPQCVSTSFDCGKPQVEPKKCPGRVVGGCVANP
+HSWPWQISLRTRYGKHFCGGTLISPEWVLTAAHCLERSSRPASYKVILGA
+HKEVNLESDVQEIEVYKLFL
+>>PLMN_PETMA (P33574) Plasminogen (EC 3.4.21.7) (Fragments).
+; fa_frame: f
+; fa_initn:  34
+; fa_init1:  34
+; fa_opt:  37
+; fa_z-score: 67.3
+; fa_bits: 16.5
+; fa_expect:    2.5
+; sw_score: 37
+; sw_ident: 0.438
+; sw_sim: 0.562
+; sw_overlap: 16
+>consensus_7 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 4
+; al_stop: 17
+; al_display_start: 1
+---------------------------PLIDPQR--CSAPDVHGAAF
+>PLMN_PETMA ..
+; sq_len: 325
+; sq_type: p
+; al_start: 35
+; al_stop: 50
+; al_display_start: 5
+GYSVTVXLYIFDCQKWSSNYPHKPNFSDATDPKGPWCYTTDYXGAASVTR
+SGLRGDEQTPHRHTFSPQSFAGLTTACVKGTGEGYRGTAALTVSGKACQA
+WASQTPGDVYSCQGLVSNYC
+>>FA12_HUMAN (P00748) Coagulation factor XII precursor (EC 3.4.21.38) (H
+; fa_frame: f
+; fa_initn: 112
+; fa_init1:  84
+; fa_opt:  84
+; fa_z-score: 66.7
+; fa_bits: 17.4
+; fa_expect:    2.7
+; sw_score: 84
+; sw_ident: 0.588
+; sw_sim: 0.941
+; sw_overlap: 17
+>consensus_7 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 17
+; al_display_start: 1
+------------------------------PLIDPQRCSAPDVHGAAF
+>FA12_HUMAN ..
+; sq_len: 615
+; sq_type: p
+; al_start: 525
+; al_stop: 541
+; al_display_start: 495
+SETTLCQVAGWGHQFEGAEEYASFLQEAQVPFLSLERCSAPDVHGSSILP
+GMLCAGFLEGGTDACQGDSGGPLVCEDQAAERRLTLQGIISWGSGCGDRN
+KPGVYTDVAYYLAWIREHTV
+>>UROK_PAPCY (P16227) Urokinase-type plasminogen activator precursor (EC
+; fa_frame: f
+; fa_initn:  48
+; fa_init1:  48
+; fa_opt:  48
+; fa_z-score: 62.9
+; fa_bits: 16.2
+; fa_expect:    4.3
+; sw_score: 48
+; sw_ident: 0.333
+; sw_sim: 0.733
+; sw_overlap: 15
+>consensus_7 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 16
+; al_display_start: 1
+-----------------------------PLIDPQRCSAPDVHGAAF
+>UROK_PAPCY ..
+; sq_len: 433
+; sq_type: p
+; al_start: 341
+; al_stop: 355
+; al_display_start: 311
+FGTSCEITGFGKENSTDYLYPEQLKMTVVKLVSHQKCQQPHYYGSEVTTK
+MLCAADPQWETDSCQGDSGGPLVCSIQGHMTLTGIVSWGRGCALKDKPGV
+YTRVSRFLPWIHSHTREQNG
+>>UROK_BOVIN (Q05589) Urokinase-type plasminogen activator precursor (EC
+; fa_frame: f
+; fa_initn:  41
+; fa_init1:  41
+; fa_opt:  41
+; fa_z-score: 60.1
+; fa_bits: 15.6
+; fa_expect:      6
+; sw_score: 41
+; sw_ident: 0.833
+; sw_sim: 0.833
+; sw_overlap: 6
+>consensus_7 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 6
+; al_stop: 11
+; al_display_start: 1
+-------------------------PLIDPQRCSAPDVHGAAF
+>UROK_BOVIN ..
+; sq_len: 433
+; sq_type: p
+; al_start: 51
+; al_stop: 56
+; al_display_start: 21
+SNEVHKESGESNCGCLNGGKCVTYKYFSNIQRCSCPKKFQGEHCEIDTSK
+TCYQGNGHSYRGKANRDLSGRPCLAWDSPTVLLKMYHAHRSDAIQLGLGK
+HNYCRNPDNQRRPWCYVQIG
+>>UROK_HUMAN (P00749) Urokinase-type plasminogen activator precursor (EC
+; fa_frame: f
+; fa_initn:  40
+; fa_init1:  40
+; fa_opt:  40
+; fa_z-score: 59.8
+; fa_bits: 15.6
+; fa_expect:    6.2
+; sw_score: 40
+; sw_ident: 0.333
+; sw_sim: 0.733
+; sw_overlap: 15
+>consensus_7 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 16
+; al_display_start: 1
+-----------------------------PLIDPQRCSAPDVHGAAF
+>UROK_HUMAN ..
+; sq_len: 431
+; sq_type: p
+; al_start: 339
+; al_stop: 353
+; al_display_start: 309
+FGTSCEITGFGKENSTDYLYPEQLKMTVVKLISHRECQQPHYYGSEVTTK
+MLCAADPQWKTDSCQGDSGGPLVCSLQGRMTLTGIVSWGRGCALKDKPGV
+YTRVSHFLPWIRSHTKEENG
+>>HGFA_MOUSE (Q9R098) Hepatocyte growth factor activator precursor (EC 3
+; fa_frame: f
+; fa_initn:  71
+; fa_init1:  71
+; fa_opt:  71
+; fa_z-score: 59.6
+; fa_bits: 16.1
+; fa_expect:    6.4
+; sw_score: 71
+; sw_ident: 0.500
+; sw_sim: 0.875
+; sw_overlap: 16
+>consensus_7 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 16
+; al_display_start: 1
+------------------------------PLIDPQRCSAPDVHGAAF
+>HGFA_MOUSE ..
+; sq_len: 653
+; sq_type: p
+; al_start: 558
+; al_stop: 573
+; al_display_start: 528
+PTGHKCQIAGWGHMDENVSSYSNSLLEALVPLVADHKCSSPEVYGADISP
+NMLCAGYFDCKSDACQGDSGGPLVCEKNGVAYLYGIISWGDGCGRLNKPG
+VYTRVANYVDWINDRIRPPK
+>>HGFA_HUMAN (Q04756) Hepatocyte growth factor activator precursor (EC 3
+; fa_frame: f
+; fa_initn:  71
+; fa_init1:  71
+; fa_opt:  71
+; fa_z-score: 59.5
+; fa_bits: 16.1
+; fa_expect:    6.4
+; sw_score: 71
+; sw_ident: 0.500
+; sw_sim: 0.875
+; sw_overlap: 16
+>consensus_7 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 16
+; al_display_start: 1
+------------------------------PLIDPQRCSAPDVHGAAF
+>HGFA_HUMAN ..
+; sq_len: 655
+; sq_type: p
+; al_start: 560
+; al_stop: 575
+; al_display_start: 530
+PAGHKCQIAGWGHLDENVSGYSSSLREALVPLVADHKCSSPEVYGADISP
+NMLCAGYFDCKSDACQGDSGGPLACEKNGVAYLYGIISWGDGCGRLHKPG
+VYTRVANYVDWINDRIRPPR
+>>UROK_PIG (P04185) Urokinase-type plasminogen activator precursor (EC
+; fa_frame: f
+; fa_initn:  41
+; fa_init1:  41
+; fa_opt:  41
+; fa_z-score: 59.4
+; fa_bits: 15.5
+; fa_expect:    6.5
+; sw_score: 41
+; sw_ident: 0.833
+; sw_sim: 0.833
+; sw_overlap: 6
+>consensus_7 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 6
+; al_stop: 11
+; al_display_start: 1
+-------------------------PLIDPQRCSAPDVHGAAF
+>UROK_PIG ..
+; sq_len: 442
+; sq_type: p
+; al_start: 51
+; al_stop: 56
+; al_display_start: 21
+SHELHQESGASNCGCLNGGKCVSYKYFSNIQRCSCPKKFQGEHCEIDTSQ
+TCFEGNGHSYRGKANTNTGGRPCLPWNSATVLLNTYHAHRPDALQLGLGK
+HNYCRNPDNQRRPWCYVQVG
+>>UROK_RAT (P29598) Urokinase-type plasminogen activator precursor (EC
+; fa_frame: f
+; fa_initn:  37
+; fa_init1:  37
+; fa_opt:  39
+; fa_z-score: 59.3
+; fa_bits: 15.5
+; fa_expect:    6.6
+; sw_score: 39
+; sw_ident: 0.267
+; sw_sim: 0.733
+; sw_overlap: 15
+>consensus_7 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 16
+; al_display_start: 1
+-----------------------------PLIDPQRCSAPDVHGAAF
+>UROK_RAT ..
+; sq_len: 432
+; sq_type: p
+; al_start: 340
+; al_stop: 354
+; al_display_start: 310
+FGSDCEITGFGQESATDYFYPKDLKMSVVKIISHEQCKQPHYYGSEINYK
+MLCAADPEWKTDSCSGDSGGPLICNIDGRPTLSGIVSWGSGCAEKNKPGV
+YTRVSYFLNWIQSHIGEENG
+>>UROK_MOUSE (P06869) Urokinase-type plasminogen activator precursor (EC
+; fa_frame: f
+; fa_initn:  39
+; fa_init1:  39
+; fa_opt:  39
+; fa_z-score: 59.2
+; fa_bits: 15.5
+; fa_expect:    6.6
+; sw_score: 39
+; sw_ident: 0.267
+; sw_sim: 0.667
+; sw_overlap: 15
+>consensus_7 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 16
+; al_display_start: 1
+-----------------------------PLIDPQRCSAPDVHGAAF
+>UROK_MOUSE ..
+; sq_len: 433
+; sq_type: p
+; al_start: 341
+; al_stop: 355
+; al_display_start: 311
+FGSDCEITGFGKESESDYLYPKNLKMSVVKLVSHEQCMQPHYYGSEINYK
+MLCAADPEWKTDSCKGDSGGPLICNIEGRPTLSGIVSWGRGCAEKNKPGV
+YTRVSHFLDWIQSHIGEEKG
+>>URTG_DESRO (P49150) Salivary plasminogen activator gamma precursor (EC
+; fa_frame: f
+; fa_initn:  31
+; fa_init1:  31
+; fa_opt:  31
+; fa_z-score: 58.9
+; fa_bits: 15.3
+; fa_expect:    6.9
+; sw_score: 31
+; sw_ident: 0.667
+; sw_sim: 0.833
+; sw_overlap: 6
+>consensus_7 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 11
+; al_stop: 16
+; al_display_start: 1
+--------------------PLIDPQRCSAPDVHGAAF
+>URTG_DESRO ..
+; sq_len: 394
+; sq_type: p
+; al_start: 335
+; al_stop: 340
+; al_display_start: 305
+SSRCTSKFLFNKTVTNNMLCAGDTRSGEIYPNVHDACQGDSGGPLVCMND
+NHMTLLGIISWGVGCGEKDIPGVYTKVTNYLGWIRDNMRP
+>>UROK_CHICK (P15120) Urokinase-type plasminogen activator precursor (EC
+; fa_frame: f
+; fa_initn:  36
+; fa_init1:  36
+; fa_opt:  36
+; fa_z-score: 57.9
+; fa_bits: 15.2
+; fa_expect:    7.7
+; sw_score: 36
+; sw_ident: 0.400
+; sw_sim: 0.700
+; sw_overlap: 10
+>consensus_7 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 6
+; al_stop: 15
+; al_display_start: 1
+-------------------------PLIDPQRCSAPDVHGAAF
+>UROK_CHICK ..
+; sq_len: 434
+; sq_type: p
+; al_start: 58
+; al_stop: 67
+; al_display_start: 28
+KLSHKHRPQHRECQCLNGGTCITYRFFSQIKRCLCPEGYGGLHCEIDTNS
+ICYSGNGEDYRGMAEDPGCLYWDHPSVIRWGDYHADLKNALQLGLGKHNY
+CRNPNGRSRPWCYTKRRYSI
+>>URTB_DESRO (P98121) Salivary plasminogen activator beta precursor (EC 
+; fa_frame: f
+; fa_initn:  31
+; fa_init1:  31
+; fa_opt:  31
+; fa_z-score: 56.1
+; fa_bits: 14.9
+; fa_expect:    9.5
+; sw_score: 31
+; sw_ident: 0.667
+; sw_sim: 0.833
+; sw_overlap: 6
+>consensus_7 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 11
+; al_stop: 16
+; al_display_start: 1
+--------------------PLIDPQRCSAPDVHGAAF
+>URTB_DESRO ..
+; sq_len: 431
+; sq_type: p
+; al_start: 372
+; al_stop: 377
+; al_display_start: 342
+SSRCTSKFLFNKTVTNNMLCAGDTRSGEIYPNVHDACQGDSGGPLVCMND
+NHMTLLGIISWGVGCGEKDIPGVYTKVTNYLGWIRDNMRP
+>>><<<
+
+
+151 residues in 8 query   sequences
+28595 residues in 42 library sequences
+ Scomplib [34t25]
+ start: Thu Jun 15 00:14:47 2006 done: Thu Jun 15 00:14:47 2006
+ Total Scan time:  0.080 Total Display time:  0.140
+
+Function used was FASTA [version 3.4t25 Sept 2, 2005]

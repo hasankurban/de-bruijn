@@ -1,0 +1,1686 @@
+# /usr/local/bin/fasta34 -m 10 -A -H -q -p -E 200 /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_40/temp_consensus.fasta /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_40/file1.txt
+FASTA searches a protein or DNA sequence data bank
+ version 3.4t25 Sept 2, 2005
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query library /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_40/temp_consensus.fasta vs /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_40/file1.txt library
+searching /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_40/file1.txt library
+
+  1>>>Consensus_0  - 33 aa
+ vs  /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_vers library
+
+  13716 residues in    53 sequences
+ MLE_cen statistics: Lambda= 0.1646;  K=9.187e+04 (cen=2)
+
+FASTA (3.47 Mar 2004) function [optimized, BL50 matrix (15:-5)] ktup: 1
+ join: 42, opt: 30, open/ext: -10/-2, width:  16
+ Scan time:  0.000
+The best scores are:                                      opt bits E(53)
+gi|400846|sp|P27177.2|PRIO_CHI                     ( 273)  146  18.2     1.6
+gi|2499801|sp|Q95211.1|PRIO_RA                     ( 252)  143  17.5     2.4
+gi|730384|sp|P40246.1|PRIO_ATE                     ( 232)  141  17.0       3
+gi|730383|sp|P40245.1|PRIO_AOT                     ( 239)  141  17.0     3.1
+gi|730386|sp|P40248.1|PRIO_CAL                     ( 241)  141  17.0     3.1
+gi|730385|sp|P40247.1|PRIO_CAL                     ( 252)  141  17.0     3.3
+gi|3183140|sp|Q60506.1|PRIO_CR                     ( 254)  141  17.0     3.3
+gi|17433173|sp|Q9Z0T3.1|PRIO_S                     ( 254)  141  17.0     3.3
+gi|130913|sp|P04273.1|PRIO_MES                     ( 254)  141  17.0     3.3
+gi|730397|sp|P40258.1|PRIO_SAI                     ( 260)  141  17.0     3.4
+gi|3183139|sp|Q60468.1|PRIO_CR                     ( 254)  139  16.5     4.5
+gi|130914|sp|P04925.2|PRIO_MOU                     ( 254)  138  16.3     5.3
+gi|75043213|sp|Q68G95.1|PRIO_M                     ( 256)  130  14.4      17
+gi|62900677|sp|Q5UJH8.1|PRIO_B                     ( 264)  128  13.9      23
+gi|730398|sp|P40242.1|PRIO1_TR                     ( 264)  128  13.9      23
+gi|62900674|sp|Q5UJG3.1|PRIO_T                     ( 264)  128  13.9      23
+gi|2499802|sp|Q95270.1|PRIO_TH                     ( 238)  125  13.2      30
+gi|54038886|sp|P67990.1|PRIO_C                     ( 238)  125  13.2      30
+gi|730392|sp|P40255.1|PRIO_MAN                     ( 241)  125  13.2      30
+gi|54038884|sp|P67988.1|PRIO_C                     ( 245)  125  13.2      31
+gi|2499798|sp|Q95174.1|PRIO_ER                     ( 246)  125  13.2      31
+gi|2499799|sp|Q95176.1|PRIO_CE                     ( 246)  125  13.2      31
+gi|48429053|sp|P61761.1|PRIO_C                     ( 246)  125  13.2      31
+gi|54038888|sp|P67992.1|PRIO_M                     ( 253)  125  13.2      31
+gi|48429055|sp|P61766.1|PRIO_H                     ( 253)  125  13.2      31
+gi|730390|sp|P40252.1|PRIO_GOR                     ( 253)  125  13.2      31
+gi|1709775|sp|P40257.2|PRIO_PR                     ( 253)  125  13.2      31
+gi|730389|sp|P40251.1|PRIO_COL                     ( 253)  125  13.2      31
+gi|130912|sp|P04156.1|PRIO_HUM                     ( 253)  125  13.2      31
+gi|730395|sp|P40256.1|PRIO_PON                     ( 253)  125  13.2      31
+gi|6093789|sp|O46501.1|PRIO_CA                     ( 255)  125  13.2      31
+gi|2499793|sp|P79141.1|PRIO_CA                     ( 255)  125  13.2      31
+gi|54038882|sp|P67986.1|PRIO_C                     ( 256)  125  13.2      31
+gi|50401119|sp|Q95M08.1|PRIO_B                     ( 256)  125  13.2      31
+gi|50400919|sp|Q7JIH3.1|PRIO_O                     ( 256)  125  13.2      31
+gi|130916|sp|P23907.1|PRIO_SHE                     ( 256)  125  13.2      31
+gi|83305348|sp|O18754.3|PRIO_F                     ( 256)  125  13.2      31
+gi|1709772|sp|P52113.1|PRIO_CA                     ( 256)  125  13.2      31
+gi|1346797|sp|P47852.1|PRIO_OD                     ( 256)  125  13.2      31
+gi|730393|sp|P40244.1|PRIO_MUS                     ( 257)  125  13.2      31
+gi|1709774|sp|P49927.1|PRIO_PI                     ( 257)  125  13.2      31
+gi|1709773|sp|P52114.1|PRIO_MU                     ( 257)  125  13.2      31
+gi|75043390|sp|Q6EH52.1|PRIO_A                     ( 264)  125  13.2      32
+gi|62900673|sp|Q5UJG1.1|PRIO_A                     ( 264)  125  13.2      32
+gi|130910|sp|P10279.2|PRIO_BOV                     ( 264)  125  13.2      32
+gi|62900678|sp|Q5UJI7.1|PRIO_B                     ( 264)  125  13.2      32
+gi|2507236|sp|P13852.2|PRIO_RA                     ( 254)  122  12.5      41
+gi|730409|sp|P40243.1|PRIO2_TR                     ( 256)  122  12.5      41
+gi|62900675|sp|Q5UJG7.1|PRIO_B                     ( 264)  122  12.5      41
+gi|1709771|sp|P51446.1|PRIO_AT                     ( 252)  117  11.3      51
+gi|730387|sp|P40249.1|PRIO_CEB                     ( 252)  116  11.1      52
+gi|2492906|sp|Q92125.1|ANXA7_X                     ( 512)  116  11.1      53
+gi|1709776|sp|P51780.1|PRIO_TR                     ( 259)   99   7.0      53
+
+>>>Consensus_0, 33 aa vs /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_40/file1.txt library
+; pg_name: /usr/local/bin/fasta34
+; pg_ver: 34t25
+; pg_argv: /usr/local/bin/fasta34 -m 10 -A -H -q -p -E 200 /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_40/temp_consensus.fasta /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_40/file1.txt
+; pg_name: FASTA
+; pg_ver: 3.47 Mar 2004
+; pg_matrix: BL50 (15:-5)
+; pg_open-ext: -10 -2
+; pg_ktup: 1
+; pg_optcut: 30
+; pg_cgap: 42
+; mp_extrap: 60000 53
+; mp_stats: MLE_cen statistics: Lambda= 0.1646;  K=9.187e+04 (cen=2)
+; mp_KS: -0.0000 (N=33) at  86
+>>gi|400846|sp|P27177.2|PRIO_CHI
+; fa_frame: f
+; fa_initn: 146
+; fa_init1: 146
+; fa_opt: 146
+; fa_z-score: 72.8
+; fa_bits: 18.2
+; fa_expect:    1.6
+; sw_score: 146
+; sw_ident: 0.857
+; sw_sim: 0.905
+; sw_overlap: 21
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 13
+; al_stop: 33
+; al_display_start: 1
+--------------FSQPSSQSYGAGGWGQPHGGGWGAGSHRQPSYP
+>gi|400846|sp|P27177.2|PRIO_CHI ..
+; sq_len: 273
+; sq_type: p
+; al_start: 27
+; al_stop: 47
+; al_display_start: 1
+MARLLTTCCLLALLLAACTDVALSKKGKGKPSGGGWGAGSHRQPSYPRQP
+GYPHNPGYPHNPGYPHNPGYPHNPGYPHNPGYPQNPGYPHNPGYPGWGQG
+YNPSSGGSYHNQKPWKPPKT
+>>gi|2499801|sp|Q95211.1|PRIO_RA
+; fa_frame: f
+; fa_initn: 120
+; fa_init1: 120
+; fa_opt: 143
+; fa_z-score: 69.6
+; fa_bits: 17.5
+; fa_expect:    2.4
+; sw_score: 143
+; sw_ident: 0.525
+; sw_sim: 0.725
+; sw_overlap: 40
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGGWG-AGSHRQ---PSYP
+>gi|2499801|sp|Q95211.1|PRIO_RA ..
+; sq_len: 252
+; sq_type: p
+; al_start: 65
+; al_stop: 104
+; al_display_start: 35
+GGSRYPGQSSPGGNRYPPQGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGWGQGGTHNQWGKPSKPKTSMKHVAGAAAAGAVVGGLGGYMLGSAMS
+RPLIHFGNDYEDRYYRENMY
+>>gi|730384|sp|P40246.1|PRIO_ATE
+; fa_frame: f
+; fa_initn: 120
+; fa_init1: 120
+; fa_opt: 141
+; fa_z-score: 67.6
+; fa_bits: 17.0
+; fa_expect:      3
+; sw_score: 141
+; sw_ident: 0.512
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGGWG--AGSHRQ---PSYP
+>gi|730384|sp|P40246.1|PRIO_ATE ..
+; sq_len: 232
+; sq_type: p
+; al_start: 49
+; al_stop: 89
+; al_display_start: 19
+PKPGGWNTGGSRYPGQGSPGGNRYPPQGGGWGQPHGGGWGQPHGGGWGQP
+HGGGWGQGGGTHNQWNKPSKPKTNMKHMAGAAAAGAVVGGLGGYMLGSAM
+SRPLIHFGNDYEDRYYRENM
+>>gi|730383|sp|P40245.1|PRIO_AOT
+; fa_frame: f
+; fa_initn: 120
+; fa_init1: 120
+; fa_opt: 141
+; fa_z-score: 67.4
+; fa_bits: 17.0
+; fa_expect:    3.1
+; sw_score: 141
+; sw_ident: 0.512
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGGWG--AGSHRQ---PSYP
+>gi|730383|sp|P40245.1|PRIO_AOT ..
+; sq_len: 239
+; sq_type: p
+; al_start: 57
+; al_stop: 97
+; al_display_start: 27
+GGSRYPGQSSPGGNRYPPQSGGWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGWGQGGGTHNQWNKPSKPKTNMKHMAGAAAAGAVVGGLGGYMLGSAM
+SRPLIHFGNDYEDRYYRENM
+>>gi|730386|sp|P40248.1|PRIO_CAL
+; fa_frame: f
+; fa_initn: 120
+; fa_init1: 120
+; fa_opt: 141
+; fa_z-score: 67.3
+; fa_bits: 17.0
+; fa_expect:    3.1
+; sw_score: 141
+; sw_ident: 0.512
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGGWG--AGSHRQ---PSYP
+>gi|730386|sp|P40248.1|PRIO_CAL ..
+; sq_len: 241
+; sq_type: p
+; al_start: 58
+; al_stop: 98
+; al_display_start: 28
+GSRYPGQGSPGGNRYPPQGGGSWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGWGQGGGTHNQWNKPSKPKTNMKHVAGAAAAGAVVGGLGGYMLGSAM
+SRPLIHFGNDYEDRYYRENM
+>>gi|730385|sp|P40247.1|PRIO_CAL
+; fa_frame: f
+; fa_initn: 120
+; fa_init1: 120
+; fa_opt: 141
+; fa_z-score: 67.0
+; fa_bits: 17.0
+; fa_expect:    3.3
+; sw_score: 141
+; sw_ident: 0.512
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGGWG--AGSHRQ---PSYP
+>gi|730385|sp|P40247.1|PRIO_CAL ..
+; sq_len: 252
+; sq_type: p
+; al_start: 64
+; al_stop: 104
+; al_display_start: 34
+GGSRYPGQGSPGGNRYPPQGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGWGQGGGTHSQWNKPSKPKTNMKHVAGAAAAGAVVGGLGGYMLGSAM
+SRPLIHFGNDYEDRYYRENM
+>>gi|3183140|sp|Q60506.1|PRIO_CR
+; fa_frame: f
+; fa_initn: 120
+; fa_init1: 120
+; fa_opt: 141
+; fa_z-score: 66.9
+; fa_bits: 17.0
+; fa_expect:    3.3
+; sw_score: 141
+; sw_ident: 0.512
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGGWG--AGSHRQ---PSYP
+>gi|3183140|sp|Q60506.1|PRIO_CR ..
+; sq_len: 254
+; sq_type: p
+; al_start: 65
+; al_stop: 105
+; al_display_start: 35
+GSRYPGQGSPGGNRYPPQGGGTWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGWGQGGGTHNQWNKPSKPKTNMKHVAGAAAAGAVVGGLGGYMLGSAM
+SRPMLHFGNDWEDRYYRENM
+>>gi|17433173|sp|Q9Z0T3.1|PRIO_S
+; fa_frame: f
+; fa_initn: 120
+; fa_init1: 120
+; fa_opt: 141
+; fa_z-score: 66.9
+; fa_bits: 17.0
+; fa_expect:    3.3
+; sw_score: 141
+; sw_ident: 0.512
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGGWG--AGSHRQ---PSYP
+>gi|17433173|sp|Q9Z0T3.1|PRIO_S ..
+; sq_len: 254
+; sq_type: p
+; al_start: 65
+; al_stop: 105
+; al_display_start: 35
+GSRYPGQGNPGGNRYPPQGGGTWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGWGQGGGTHSQWNKPSKPKTNMKHVAGAAAAGAVVGGLGGYMLGSAM
+SRPMIHFGNDWEDRYYRENM
+>>gi|130913|sp|P04273.1|PRIO_MES
+; fa_frame: f
+; fa_initn: 120
+; fa_init1: 120
+; fa_opt: 141
+; fa_z-score: 66.9
+; fa_bits: 17.0
+; fa_expect:    3.3
+; sw_score: 141
+; sw_ident: 0.512
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGGWG--AGSHRQ---PSYP
+>gi|130913|sp|P04273.1|PRIO_MES ..
+; sq_len: 254
+; sq_type: p
+; al_start: 65
+; al_stop: 105
+; al_display_start: 35
+GSRYPGQGSPGGNRYPPQGGGTWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGWGQGGGTHNQWNKPSKPKTNMKHMAGAAAAGAVVGGLGGYMLGSAM
+SRPMMHFGNDWEDRYYRENM
+>>gi|730397|sp|P40258.1|PRIO_SAI
+; fa_frame: f
+; fa_initn: 120
+; fa_init1: 120
+; fa_opt: 141
+; fa_z-score: 66.8
+; fa_bits: 17.0
+; fa_expect:    3.4
+; sw_score: 141
+; sw_ident: 0.512
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGGWG--AGSHRQ---PSYP
+>gi|730397|sp|P40258.1|PRIO_SAI ..
+; sq_len: 260
+; sq_type: p
+; al_start: 72
+; al_stop: 112
+; al_display_start: 42
+GSPGGNRYPPQGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGWGQGGGTHNQWNKPSKPKTNMKHMAGAAAAGAVVGGLGGYMLGSAM
+SRPLIHFGNDYEDRYYRENM
+>>gi|3183139|sp|Q60468.1|PRIO_CR
+; fa_frame: f
+; fa_initn: 120
+; fa_init1: 120
+; fa_opt: 139
+; fa_z-score: 64.4
+; fa_bits: 16.5
+; fa_expect:    4.5
+; sw_score: 139
+; sw_ident: 0.500
+; sw_sim: 0.737
+; sw_overlap: 38
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGGWG--AGSHRQPSYP
+>gi|3183139|sp|Q60468.1|PRIO_CR ..
+; sq_len: 254
+; sq_type: p
+; al_start: 65
+; al_stop: 102
+; al_display_start: 35
+GSRYPGQGSPGGNRYPPQGGGTWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGWGQGGGTHNQWNKPNKPKTSMKHMAGAAAAGAVVGGLGGYMLGSAM
+SRPMLHFGNDWEDRYYRENM
+>>gi|130914|sp|P04925.2|PRIO_MOU
+; fa_frame: f
+; fa_initn: 112
+; fa_init1: 112
+; fa_opt: 138
+; fa_z-score: 63.1
+; fa_bits: 16.3
+; fa_expect:    5.3
+; sw_score: 138
+; sw_ident: 0.512
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGGWG--AGSHRQ---PSYP
+>gi|130914|sp|P04925.2|PRIO_MOU ..
+; sq_len: 254
+; sq_type: p
+; al_start: 64
+; al_stop: 104
+; al_display_start: 34
+GGSRYPGQGSPGGNRYPPQGGTWGQPHGGGWGQPHGGSWGQPHGGSWGQP
+HGGGWGQGGGTHNQWNKPSKPKTNLKHVAGAAAAGAVVGGLGGYMLGSAM
+SRPMIHFGNDWEDRYYRENM
+>>gi|75043213|sp|Q68G95.1|PRIO_M
+; fa_frame: f
+; fa_initn: 126
+; fa_init1: 126
+; fa_opt: 130
+; fa_z-score: 52.8
+; fa_bits: 14.4
+; fa_expect:     17
+; sw_score: 131
+; sw_ident: 0.512
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGG-WG-AGSHRQ---PSYP
+>gi|75043213|sp|Q68G95.1|PRIO_M ..
+; sq_len: 256
+; sq_type: p
+; al_start: 68
+; al_stop: 108
+; al_display_start: 38
+GSRYPGQGSPGGNRYPPQGAGGWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGGWGQGGTHNQWNKPSKPKTNMKHVAGAAAAGAVVGGLGGYMLGSAM
+SRPLIHFGNDYEDRYYRENM
+>>gi|62900677|sp|Q5UJH8.1|PRIO_B
+; fa_frame: f
+; fa_initn: 125
+; fa_init1: 125
+; fa_opt: 128
+; fa_z-score: 49.9
+; fa_bits: 13.9
+; fa_expect:     23
+; sw_score: 131
+; sw_ident: 0.512
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGG-WG-AGSHRQ---PSYP
+>gi|62900677|sp|Q5UJH8.1|PRIO_B ..
+; sq_len: 264
+; sq_type: p
+; al_start: 76
+; al_stop: 116
+; al_display_start: 46
+SPGGNRYPSQGGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGGWGQGGTHSQWNKPSKPKTNMKHMAGAAAAGAVVGGLGGYMLGSAM
+SRPLIHFGNDYEDRYYRENM
+>>gi|730398|sp|P40242.1|PRIO1_TR
+; fa_frame: f
+; fa_initn: 125
+; fa_init1: 125
+; fa_opt: 128
+; fa_z-score: 49.9
+; fa_bits: 13.9
+; fa_expect:     23
+; sw_score: 129
+; sw_ident: 0.512
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGG-WG-AGSHRQ---PSYP
+>gi|730398|sp|P40242.1|PRIO1_TR ..
+; sq_len: 264
+; sq_type: p
+; al_start: 76
+; al_stop: 116
+; al_display_start: 46
+SPGGNRYPSQGGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGGWGQGGTHGQWNKPSKPKTNMKHVAGAAAAGAVVGGLGGYMLGSAM
+SRPLIHFGSDYEDRYYRENM
+>>gi|62900674|sp|Q5UJG3.1|PRIO_T
+; fa_frame: f
+; fa_initn: 125
+; fa_init1: 125
+; fa_opt: 128
+; fa_z-score: 49.9
+; fa_bits: 13.9
+; fa_expect:     23
+; sw_score: 129
+; sw_ident: 0.512
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGG-WG-AGSHRQ---PSYP
+>gi|62900674|sp|Q5UJG3.1|PRIO_T ..
+; sq_len: 264
+; sq_type: p
+; al_start: 76
+; al_stop: 116
+; al_display_start: 46
+SPGGNRYPSQGGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGGWGQGGTHGQWNKPSKPKTNMKHVAGAAAAGAVVGGLGGYMLGSAM
+SRPLIHFGNDYEDRYYRENM
+>>gi|2499802|sp|Q95270.1|PRIO_TH
+; fa_frame: f
+; fa_initn: 121
+; fa_init1: 121
+; fa_opt: 125
+; fa_z-score: 46.9
+; fa_bits: 13.2
+; fa_expect:     30
+; sw_score: 141
+; sw_ident: 0.512
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGGWG--AGSHRQ---PSYP
+>gi|2499802|sp|Q95270.1|PRIO_TH ..
+; sq_len: 238
+; sq_type: p
+; al_start: 50
+; al_stop: 90
+; al_display_start: 20
+KPGGWNTGGSRYPGQGSPGGNRYPPQGGGGWGQPHGGGWGQPHGGGWGQP
+HGGGWGQGGGTHNQWHKPSKPKTSMKHMAGAAAAGAVVGGLGGYMLGSAM
+SRPLIHFGNDYEDRYYRENM
+>>gi|54038886|sp|P67990.1|PRIO_C
+; fa_frame: f
+; fa_initn: 121
+; fa_init1: 121
+; fa_opt: 125
+; fa_z-score: 46.9
+; fa_bits: 13.2
+; fa_expect:     30
+; sw_score: 141
+; sw_ident: 0.512
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGGWG--AGSHRQ---PSYP
+>gi|54038886|sp|P67990.1|PRIO_C ..
+; sq_len: 238
+; sq_type: p
+; al_start: 50
+; al_stop: 90
+; al_display_start: 20
+KPGGWNTGGSRYPGQGSPGGNRYPPQGGGGWGQPHGGGWGQPHGGGWGQP
+HGGGWGQGGGTHNQWHKPSKPKTSMKHMAGAAAAGAVVGGLGGYMLGSAM
+SRPLIHFGNDYEDRYYRENM
+>>gi|730392|sp|P40255.1|PRIO_MAN
+; fa_frame: f
+; fa_initn: 121
+; fa_init1: 121
+; fa_opt: 125
+; fa_z-score: 46.8
+; fa_bits: 13.2
+; fa_expect:     30
+; sw_score: 137
+; sw_ident: 0.500
+; sw_sim: 0.711
+; sw_overlap: 38
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGGWG--AGSHRQPSYP
+>gi|730392|sp|P40255.1|PRIO_MAN ..
+; sq_len: 241
+; sq_type: p
+; al_start: 58
+; al_stop: 95
+; al_display_start: 28
+GSRYPGQGSPGGNRYPPQGGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGWGQGGGTHNQWHKPNKPKTSMKHMAGAAAAGAVVGGLGGYMLGSAM
+SRPLIHFGNDYEDRYYRENM
+>>gi|54038884|sp|P67988.1|PRIO_C
+; fa_frame: f
+; fa_initn: 121
+; fa_init1: 121
+; fa_opt: 125
+; fa_z-score: 46.7
+; fa_bits: 13.2
+; fa_expect:     31
+; sw_score: 141
+; sw_ident: 0.512
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGGWG--AGSHRQ---PSYP
+>gi|54038884|sp|P67988.1|PRIO_C ..
+; sq_len: 245
+; sq_type: p
+; al_start: 57
+; al_stop: 97
+; al_display_start: 27
+KPGGWNTGGSRYPGQGSPGGNRYPPQGGGGWGQPHGGGWGQPHGGGWGQP
+HGGGWGQGGGTHNQWHKPSKPKTSMKHMAGAAAAGAVVGGLGGYMLGSAM
+SRPLIHFGNDYEDRYYRENM
+>>gi|2499798|sp|Q95174.1|PRIO_ER
+; fa_frame: f
+; fa_initn: 121
+; fa_init1: 121
+; fa_opt: 125
+; fa_z-score: 46.6
+; fa_bits: 13.2
+; fa_expect:     31
+; sw_score: 141
+; sw_ident: 0.512
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGGWG--AGSHRQ---PSYP
+>gi|2499798|sp|Q95174.1|PRIO_ER ..
+; sq_len: 246
+; sq_type: p
+; al_start: 58
+; al_stop: 98
+; al_display_start: 28
+GSRYPGQGSPGGNRYPPQGGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGWGQGGGTHNQWHKPSKPKTSMKHMAGAAAAGAVVGGLGGYMLGSAM
+SRPLIHFGNDYEDRYYRENM
+>>gi|2499799|sp|Q95176.1|PRIO_CE
+; fa_frame: f
+; fa_initn: 121
+; fa_init1: 121
+; fa_opt: 125
+; fa_z-score: 46.6
+; fa_bits: 13.2
+; fa_expect:     31
+; sw_score: 141
+; sw_ident: 0.512
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGGWG--AGSHRQ---PSYP
+>gi|2499799|sp|Q95176.1|PRIO_CE ..
+; sq_len: 246
+; sq_type: p
+; al_start: 58
+; al_stop: 98
+; al_display_start: 28
+GSRYPGQGSPGGNRYPPQGGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGWGQGGGTHNQWHKPSKPKTSMKHMAGAAAAGAVVGGLGGYMLGSAM
+SRPLIHFGNEYEDRYYRENM
+>>gi|48429053|sp|P61761.1|PRIO_C
+; fa_frame: f
+; fa_initn: 121
+; fa_init1: 121
+; fa_opt: 125
+; fa_z-score: 46.6
+; fa_bits: 13.2
+; fa_expect:     31
+; sw_score: 141
+; sw_ident: 0.512
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGGWG--AGSHRQ---PSYP
+>gi|48429053|sp|P61761.1|PRIO_C ..
+; sq_len: 246
+; sq_type: p
+; al_start: 58
+; al_stop: 98
+; al_display_start: 28
+GSRYPGQGSPGGNRYPPQGGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGWGQGGGTHNQWHKPSKPKTSMKHMAGAAAAGAVVGGLGGYMLGSAM
+SRPLIHFGNDYEDRYYRENM
+>>gi|54038888|sp|P67992.1|PRIO_M
+; fa_frame: f
+; fa_initn: 121
+; fa_init1: 121
+; fa_opt: 125
+; fa_z-score: 46.4
+; fa_bits: 13.2
+; fa_expect:     31
+; sw_score: 141
+; sw_ident: 0.512
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGGWG--AGSHRQ---PSYP
+>gi|54038888|sp|P67992.1|PRIO_M ..
+; sq_len: 253
+; sq_type: p
+; al_start: 65
+; al_stop: 105
+; al_display_start: 35
+GSRYPGQGSPGGNRYPPQGGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGWGQGGGTHNQWHKPSKPKTSMKHMAGAAAAGAVVGGLGGYMLGSAM
+SRPLIHFGNDYEDRYYRENM
+>>gi|48429055|sp|P61766.1|PRIO_H
+; fa_frame: f
+; fa_initn: 121
+; fa_init1: 121
+; fa_opt: 125
+; fa_z-score: 46.4
+; fa_bits: 13.2
+; fa_expect:     31
+; sw_score: 141
+; sw_ident: 0.512
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGGWG--AGSHRQ---PSYP
+>gi|48429055|sp|P61766.1|PRIO_H ..
+; sq_len: 253
+; sq_type: p
+; al_start: 65
+; al_stop: 105
+; al_display_start: 35
+GSRYPGQGSPGGNRYPPQGGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGWGQGGGTHSQWNKPSKPKTNMKHMAGAAAAGAVVGGLGGYMLGSAM
+SRPIIHFGSDYEDRYYRENM
+>>gi|730390|sp|P40252.1|PRIO_GOR
+; fa_frame: f
+; fa_initn: 121
+; fa_init1: 121
+; fa_opt: 125
+; fa_z-score: 46.4
+; fa_bits: 13.2
+; fa_expect:     31
+; sw_score: 141
+; sw_ident: 0.512
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGGWG--AGSHRQ---PSYP
+>gi|730390|sp|P40252.1|PRIO_GOR ..
+; sq_len: 253
+; sq_type: p
+; al_start: 65
+; al_stop: 105
+; al_display_start: 35
+GSRYPGQGSPGGNRYPPQGGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGWGQGGGTHSQWNKPSKPKTNMKHMAGAAAAGAVVGGLGGYMLGSAM
+SRPIIHFGSDYEDRYYRENM
+>>gi|1709775|sp|P40257.2|PRIO_PR
+; fa_frame: f
+; fa_initn: 121
+; fa_init1: 121
+; fa_opt: 125
+; fa_z-score: 46.4
+; fa_bits: 13.2
+; fa_expect:     31
+; sw_score: 141
+; sw_ident: 0.512
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGGWG--AGSHRQ---PSYP
+>gi|1709775|sp|P40257.2|PRIO_PR ..
+; sq_len: 253
+; sq_type: p
+; al_start: 65
+; al_stop: 105
+; al_display_start: 35
+GSRYPGQGSPGGNRYPPQGGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGWGQGGGTHSQWNKPSKPKTSMKHMAGAAAAGAVVGGLGGYMLGSAM
+SRPLIHFGNDYEDRYYRENM
+>>gi|730389|sp|P40251.1|PRIO_COL
+; fa_frame: f
+; fa_initn: 121
+; fa_init1: 121
+; fa_opt: 125
+; fa_z-score: 46.4
+; fa_bits: 13.2
+; fa_expect:     31
+; sw_score: 141
+; sw_ident: 0.512
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGGWG--AGSHRQ---PSYP
+>gi|730389|sp|P40251.1|PRIO_COL ..
+; sq_len: 253
+; sq_type: p
+; al_start: 65
+; al_stop: 105
+; al_display_start: 35
+GSRYPGQGSPGGNRYPPQGGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGWGQGGGTHSQWNKPSKPKTSMKHMAGAAAAGAVVGGLGGYMLGSAM
+SRPLIHFGNDYEDRYYRENM
+>>gi|130912|sp|P04156.1|PRIO_HUM
+; fa_frame: f
+; fa_initn: 121
+; fa_init1: 121
+; fa_opt: 125
+; fa_z-score: 46.4
+; fa_bits: 13.2
+; fa_expect:     31
+; sw_score: 141
+; sw_ident: 0.512
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGGWG--AGSHRQ---PSYP
+>gi|130912|sp|P04156.1|PRIO_HUM ..
+; sq_len: 253
+; sq_type: p
+; al_start: 65
+; al_stop: 105
+; al_display_start: 35
+GSRYPGQGSPGGNRYPPQGGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGWGQGGGTHSQWNKPSKPKTNMKHMAGAAAAGAVVGGLGGYMLGSAM
+SRPIIHFGSDYEDRYYRENM
+>>gi|730395|sp|P40256.1|PRIO_PON
+; fa_frame: f
+; fa_initn: 121
+; fa_init1: 121
+; fa_opt: 125
+; fa_z-score: 46.4
+; fa_bits: 13.2
+; fa_expect:     31
+; sw_score: 141
+; sw_ident: 0.512
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGGWG--AGSHRQ---PSYP
+>gi|730395|sp|P40256.1|PRIO_PON ..
+; sq_len: 253
+; sq_type: p
+; al_start: 65
+; al_stop: 105
+; al_display_start: 35
+GSRYPGQGSPGGNRYPPQGGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGWGQGGGTHSQWNKPSKPKTNMKHMAGAAAAGAVVGGLGGYMLGSAM
+SRPIIHFGNDYEDRYYRENM
+>>gi|6093789|sp|O46501.1|PRIO_CA
+; fa_frame: f
+; fa_initn: 121
+; fa_init1: 121
+; fa_opt: 125
+; fa_z-score: 46.4
+; fa_bits: 13.2
+; fa_expect:     31
+; sw_score: 131
+; sw_ident: 0.512
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGG-WG-AGSHRQ---PSYP
+>gi|6093789|sp|O46501.1|PRIO_CA ..
+; sq_len: 255
+; sq_type: p
+; al_start: 68
+; al_stop: 108
+; al_display_start: 38
+GSRYPGQGSPGGNRYPPQGGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGGWGQGGTHSQWNKPSKPKTNMKHVAGAAAAGAVVGGLGGYLLGSAM
+SRPLIHFGNDCEDRYYRENM
+>>gi|2499793|sp|P79141.1|PRIO_CA
+; fa_frame: f
+; fa_initn: 121
+; fa_init1: 121
+; fa_opt: 125
+; fa_z-score: 46.4
+; fa_bits: 13.2
+; fa_expect:     31
+; sw_score: 138
+; sw_ident: 0.512
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGGWG--AGSHRQ---PSYP
+>gi|2499793|sp|P79141.1|PRIO_CA ..
+; sq_len: 255
+; sq_type: p
+; al_start: 68
+; al_stop: 108
+; al_display_start: 38
+GSRYPGQGSPGGNRYPPQGGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGWGQGGGAHGQWNKPSKPKTSMKHVAGAAAAGAVVGGLGGYMLGSAM
+SRPLIHFGNDYEDRYYRENM
+>>gi|54038882|sp|P67986.1|PRIO_C
+; fa_frame: f
+; fa_initn: 121
+; fa_init1: 121
+; fa_opt: 125
+; fa_z-score: 46.3
+; fa_bits: 13.2
+; fa_expect:     31
+; sw_score: 131
+; sw_ident: 0.512
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGG-WG-AGSHRQ---PSYP
+>gi|54038882|sp|P67986.1|PRIO_C ..
+; sq_len: 256
+; sq_type: p
+; al_start: 68
+; al_stop: 108
+; al_display_start: 38
+GSRYPGQGSPGGNRYPPQGGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGGWGQGGTHSQWNKPSKPKTNMKHVAGAAAAGAVVGGLGGYMLGSAM
+SRPLIHFGNDYEDRYYRENM
+>>gi|50401119|sp|Q95M08.1|PRIO_B
+; fa_frame: f
+; fa_initn: 121
+; fa_init1: 121
+; fa_opt: 125
+; fa_z-score: 46.3
+; fa_bits: 13.2
+; fa_expect:     31
+; sw_score: 134
+; sw_ident: 0.537
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGG-WG-AGSHRQ---PSYP
+>gi|50401119|sp|Q95M08.1|PRIO_B ..
+; sq_len: 256
+; sq_type: p
+; al_start: 68
+; al_stop: 108
+; al_display_start: 38
+GSRYPGQGSPGGNRYPPQGGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGGWGQGGSHSQWNKPSKPKTNMKHVAGAAAAGAVVGGLGGYMLGSAM
+SRPLIHFGSDYEDRYYRENM
+>>gi|50400919|sp|Q7JIH3.1|PRIO_O
+; fa_frame: f
+; fa_initn: 121
+; fa_init1: 121
+; fa_opt: 125
+; fa_z-score: 46.3
+; fa_bits: 13.2
+; fa_expect:     31
+; sw_score: 134
+; sw_ident: 0.537
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGG-WG-AGSHRQ---PSYP
+>gi|50400919|sp|Q7JIH3.1|PRIO_O ..
+; sq_len: 256
+; sq_type: p
+; al_start: 68
+; al_stop: 108
+; al_display_start: 38
+GSRYPGQGSPGGNRYPPQGGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGGWGQGGSHSQWNKPSKPKTNMKHVAGAAAAGAVVGGLGGYMLGSAM
+SRPLIHFGNDYEDRYYRENM
+>>gi|130916|sp|P23907.1|PRIO_SHE
+; fa_frame: f
+; fa_initn: 121
+; fa_init1: 121
+; fa_opt: 125
+; fa_z-score: 46.3
+; fa_bits: 13.2
+; fa_expect:     31
+; sw_score: 134
+; sw_ident: 0.537
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGG-WG-AGSHRQ---PSYP
+>gi|130916|sp|P23907.1|PRIO_SHE ..
+; sq_len: 256
+; sq_type: p
+; al_start: 68
+; al_stop: 108
+; al_display_start: 38
+GSRYPGQGSPGGNRYPPQGGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGGWGQGGSHSQWNKPSKPKTNMKHVAGAAAAGAVVGGLGGYMLGSAM
+SRPLIHFGNDYEDRYYRENM
+>>gi|83305348|sp|O18754.3|PRIO_F
+; fa_frame: f
+; fa_initn: 121
+; fa_init1: 121
+; fa_opt: 125
+; fa_z-score: 46.3
+; fa_bits: 13.2
+; fa_expect:     31
+; sw_score: 134
+; sw_ident: 0.537
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGG-WG-AGSHRQ---PSYP
+>gi|83305348|sp|O18754.3|PRIO_F ..
+; sq_len: 256
+; sq_type: p
+; al_start: 68
+; al_stop: 108
+; al_display_start: 38
+GSRYPGQGSPGGNRYPPQGGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGGWGQGGSHSQWNKPSKPKTNMKHMAGAAAAGAVVGGLGGYMLGSAM
+SRPLIHFGNDYEDRYYRENM
+>>gi|1709772|sp|P52113.1|PRIO_CA
+; fa_frame: f
+; fa_initn: 121
+; fa_init1: 121
+; fa_opt: 125
+; fa_z-score: 46.3
+; fa_bits: 13.2
+; fa_expect:     31
+; sw_score: 134
+; sw_ident: 0.537
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGG-WG-AGSHRQ---PSYP
+>gi|1709772|sp|P52113.1|PRIO_CA ..
+; sq_len: 256
+; sq_type: p
+; al_start: 68
+; al_stop: 108
+; al_display_start: 38
+GSRYPGQGSPGGNRYPPQGGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGGWGQGGSHSQWNKPSKPKTNMKHVAGAAAAGAVVGGLGGYMLGSAM
+SRPLIHFGNDYEDRYYRENM
+>>gi|1346797|sp|P47852.1|PRIO_OD
+; fa_frame: f
+; fa_initn: 121
+; fa_init1: 121
+; fa_opt: 125
+; fa_z-score: 46.3
+; fa_bits: 13.2
+; fa_expect:     31
+; sw_score: 131
+; sw_ident: 0.512
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGG-WG-AGSHRQ---PSYP
+>gi|1346797|sp|P47852.1|PRIO_OD ..
+; sq_len: 256
+; sq_type: p
+; al_start: 68
+; al_stop: 108
+; al_display_start: 38
+GSRYPGQGSPGGNRYPPQGGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGGWGQGGTHSQWNKPSKPKTNMKHVAGAAAAGAVVGGLGGYMLGSAM
+NRPLIHFGNDYEDRYYRENM
+>>gi|730393|sp|P40244.1|PRIO_MUS
+; fa_frame: f
+; fa_initn: 121
+; fa_init1: 121
+; fa_opt: 125
+; fa_z-score: 46.3
+; fa_bits: 13.2
+; fa_expect:     31
+; sw_score: 130
+; sw_ident: 0.524
+; sw_sim: 0.690
+; sw_overlap: 42
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGG-WG--AGSHRQ---PSYP
+>gi|730393|sp|P40244.1|PRIO_MUS ..
+; sq_len: 257
+; sq_type: p
+; al_start: 68
+; al_stop: 109
+; al_display_start: 38
+GSRYPGQGSPGGNRYPPQGGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGGWGQGGGSHGQWGKPSKPKTNMKHVAGAAAAGAVVGGLGGYMLGSA
+MSRPLIHFGNDYEDRYYREN
+>>gi|1709774|sp|P49927.1|PRIO_PI
+; fa_frame: f
+; fa_initn: 121
+; fa_init1: 121
+; fa_opt: 125
+; fa_z-score: 46.3
+; fa_bits: 13.2
+; fa_expect:     31
+; sw_score: 130
+; sw_ident: 0.524
+; sw_sim: 0.690
+; sw_overlap: 42
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGG-WG--AGSHRQ---PSYP
+>gi|1709774|sp|P49927.1|PRIO_PI ..
+; sq_len: 257
+; sq_type: p
+; al_start: 68
+; al_stop: 109
+; al_display_start: 38
+GSRYPGQGSPGGNRYPPQGGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGGWGQGGGSHGQWNKPSKPKTNMKHVAGAAAAGAVVGGLGGYMLGSA
+MSRPLIHFGSDYEDRYYREN
+>>gi|1709773|sp|P52114.1|PRIO_MU
+; fa_frame: f
+; fa_initn: 121
+; fa_init1: 121
+; fa_opt: 125
+; fa_z-score: 46.3
+; fa_bits: 13.2
+; fa_expect:     31
+; sw_score: 130
+; sw_ident: 0.524
+; sw_sim: 0.690
+; sw_overlap: 42
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGG-WG--AGSHRQ---PSYP
+>gi|1709773|sp|P52114.1|PRIO_MU ..
+; sq_len: 257
+; sq_type: p
+; al_start: 68
+; al_stop: 109
+; al_display_start: 38
+GSRYPGQGSPGGNRYPPQGGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGGWGQGGGSHGQWGKPSKPKTNMKHVAGAAAAGAVVGGLGGYMLGSA
+MSRPLIHFGNDYEDRYYREN
+>>gi|75043390|sp|Q6EH52.1|PRIO_A
+; fa_frame: f
+; fa_initn: 121
+; fa_init1: 121
+; fa_opt: 125
+; fa_z-score: 46.1
+; fa_bits: 13.2
+; fa_expect:     32
+; sw_score: 129
+; sw_ident: 0.512
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGG-WG-AGSHRQ---PSYP
+>gi|75043390|sp|Q6EH52.1|PRIO_A ..
+; sq_len: 264
+; sq_type: p
+; al_start: 76
+; al_stop: 116
+; al_display_start: 46
+SPGGNRYPPQGGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGGWGQGGTHGQWNKPSKPKTNMKHVAGAAAAGAVVGGLGGYMLGSAM
+SRPLIHFGSDYEDRYYRENM
+>>gi|62900673|sp|Q5UJG1.1|PRIO_A
+; fa_frame: f
+; fa_initn: 121
+; fa_init1: 121
+; fa_opt: 125
+; fa_z-score: 46.1
+; fa_bits: 13.2
+; fa_expect:     32
+; sw_score: 131
+; sw_ident: 0.512
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGG-WG-AGSHRQ---PSYP
+>gi|62900673|sp|Q5UJG1.1|PRIO_A ..
+; sq_len: 264
+; sq_type: p
+; al_start: 76
+; al_stop: 116
+; al_display_start: 46
+SPGGNRYPPQGGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGGWGQGGTHSQWNKPSKPKTNMKHVAGAAAAGAVVGGLGGYMLGSAM
+SRPLIHFGNDYEDRYYRENM
+>>gi|130910|sp|P10279.2|PRIO_BOV
+; fa_frame: f
+; fa_initn: 121
+; fa_init1: 121
+; fa_opt: 125
+; fa_z-score: 46.1
+; fa_bits: 13.2
+; fa_expect:     32
+; sw_score: 129
+; sw_ident: 0.512
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGG-WG-AGSHRQ---PSYP
+>gi|130910|sp|P10279.2|PRIO_BOV ..
+; sq_len: 264
+; sq_type: p
+; al_start: 76
+; al_stop: 116
+; al_display_start: 46
+SPGGNRYPPQGGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGGWGQGGTHGQWNKPSKPKTNMKHVAGAAAAGAVVGGLGGYMLGSAM
+SRPLIHFGSDYEDRYYRENM
+>>gi|62900678|sp|Q5UJI7.1|PRIO_B
+; fa_frame: f
+; fa_initn: 121
+; fa_init1: 121
+; fa_opt: 125
+; fa_z-score: 46.1
+; fa_bits: 13.2
+; fa_expect:     32
+; sw_score: 129
+; sw_ident: 0.512
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGG-WG-AGSHRQ---PSYP
+>gi|62900678|sp|Q5UJI7.1|PRIO_B ..
+; sq_len: 264
+; sq_type: p
+; al_start: 76
+; al_stop: 116
+; al_display_start: 46
+SPGGNRYPPQGGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGGWGQGGTHGQWNKPSKPKTNMKHVAGAAAAGAVVGGLGGYMLGSAM
+SRPLIHFGNDYEDRYYRENM
+>>gi|2507236|sp|P13852.2|PRIO_RA
+; fa_frame: f
+; fa_initn: 113
+; fa_init1: 113
+; fa_opt: 122
+; fa_z-score: 42.5
+; fa_bits: 12.5
+; fa_expect:     41
+; sw_score: 141
+; sw_ident: 0.512
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGGW--GAGSHRQ---PSYP
+>gi|2507236|sp|P13852.2|PRIO_RA ..
+; sq_len: 254
+; sq_type: p
+; al_start: 65
+; al_stop: 105
+; al_display_start: 35
+GSRYPGQGSPGGNRYPPQSGGTWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGWSQGGGTHNQWNKPSKPKTNLKHVAGAAAAGAVVGGLGGYMLGSAM
+SRPMLHFGNDWEDRYYRENM
+>>gi|730409|sp|P40243.1|PRIO2_TR
+; fa_frame: f
+; fa_initn: 113
+; fa_init1: 113
+; fa_opt: 122
+; fa_z-score: 42.5
+; fa_bits: 12.5
+; fa_expect:     41
+; sw_score: 127
+; sw_ident: 0.512
+; sw_sim: 0.683
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGG-WG-AGSHRQ---PSYP
+>gi|730409|sp|P40243.1|PRIO2_TR ..
+; sq_len: 256
+; sq_type: p
+; al_start: 68
+; al_stop: 108
+; al_display_start: 38
+GSRYPGQGSPGGNRYPPQEGGDWGQPHGGGWGQPHVGGWGQPHGGGWGQP
+HGGGGWGQGGTHGQWNKPSKPKTNMKHVAGAAAAGAVVGGLGGYMLGSAM
+SRPLIHFGSDYEDRYYRENM
+>>gi|62900675|sp|Q5UJG7.1|PRIO_B
+; fa_frame: f
+; fa_initn: 113
+; fa_init1: 113
+; fa_opt: 122
+; fa_z-score: 42.2
+; fa_bits: 12.5
+; fa_expect:     41
+; sw_score: 129
+; sw_ident: 0.512
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGG-WG-AGSHRQ---PSYP
+>gi|62900675|sp|Q5UJG7.1|PRIO_B ..
+; sq_len: 264
+; sq_type: p
+; al_start: 76
+; al_stop: 116
+; al_display_start: 46
+SPGGNRYPPQGGGSWGQPHGGGWGQPHGGSWGQPHGGGWGQPHGGGWGQP
+HGGGGWGQGGTHGQWNKPSKPKTNMKHVAGAAAAGAVVGGLGGYMLGSAM
+NRPLIHFGNDYEDRYYRENM
+>>gi|1709771|sp|P51446.1|PRIO_AT
+; fa_frame: f
+; fa_initn: 113
+; fa_init1: 113
+; fa_opt: 117
+; fa_z-score: 36.2
+; fa_bits: 11.3
+; fa_expect:     51
+; sw_score: 141
+; sw_ident: 0.512
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGGWG--AGSHRQ---PSYP
+>gi|1709771|sp|P51446.1|PRIO_AT ..
+; sq_len: 252
+; sq_type: p
+; al_start: 64
+; al_stop: 104
+; al_display_start: 34
+GGSRYPGQGSPGGNRYPPQGGGWGQPHGGGWGQPHGGGWGQPHGGGWGQP
+HGGGWGQAGGTHNQWNKPSKPKTNMKHMAGAAAAGAVVGGLGGYMLGSAM
+SRPLIHFGNDYEDRYYRENM
+>>gi|730387|sp|P40249.1|PRIO_CEB
+; fa_frame: f
+; fa_initn: 113
+; fa_init1: 113
+; fa_opt: 116
+; fa_z-score: 34.9
+; fa_bits: 11.1
+; fa_expect:     52
+; sw_score: 133
+; sw_ident: 0.488
+; sw_sim: 0.707
+; sw_overlap: 41
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYG---AGGWGQP
+HGGGWG--AGSHRQ---PSYP
+>gi|730387|sp|P40249.1|PRIO_CEB ..
+; sq_len: 252
+; sq_type: p
+; al_start: 64
+; al_stop: 104
+; al_display_start: 34
+GGSRYPGQGSPGGNLYPPQGGGWGQPHGGGWGQPHGGGWGQPHGGSWGQP
+HGGGWGQGGGTHNQWNKPSKPKTSMKHVAGAAAAGAVVGGLGGYMLGSAM
+SRPLIHFGNDYEDRYYRENM
+>>gi|2492906|sp|Q92125.1|ANXA7_X
+; fa_frame: f
+; fa_initn: 114
+; fa_init1: 110
+; fa_opt: 116
+; fa_z-score: 29.4
+; fa_bits: 11.1
+; fa_expect:     53
+; sw_score: 116
+; sw_ident: 0.618
+; sw_sim: 0.647
+; sw_overlap: 34
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 33
+; al_display_start: 1
+------------------------------FSQPSSQSYGAGGWGQPHGG
+GWGAGSHRQPS-YP
+>gi|2492906|sp|Q92125.1|ANXA7_X ..
+; sq_len: 512
+; sq_type: p
+; al_start: 148
+; al_stop: 181
+; al_display_start: 118
+GGYGAPNAGGFGVPPAGGYGSPGGAPGYGGFSQPSSQSYGAGGPGQMPGQ
+MPGQMPGQAPSGYPSGPAPAQPTPYAAAMTATQGTIKAAPNFDALSDAEK
+LRKAMKGFGTDEKPIDVVAN
+>>gi|1709776|sp|P51780.1|PRIO_TR
+; fa_frame: f
+; fa_initn:  74
+; fa_init1:  74
+; fa_opt:  99
+; fa_z-score: 12.9
+; fa_bits: 7.0
+; fa_expect:     53
+; sw_score: 99
+; sw_ident: 0.481
+; sw_sim: 0.778
+; sw_overlap: 27
+>Consensus_0 ..
+; sq_len: 33
+; sq_offset: 1
+; sq_type: p
+; al_start: 10
+; al_stop: 33
+; al_display_start: 1
+---------------------FSQPSSQSYGAGGWGQPHGGG-WGAGSHR
+Q--PSYP
+>gi|1709776|sp|P51780.1|PRIO_TR ..
+; sq_len: 259
+; sq_type: p
+; al_start: 84
+; al_stop: 110
+; al_display_start: 54
+RYPGWGHPQGGGTNWGQPHPGGSNWGQPHPGGSSWGQPHGGSNWGQGGYN
+KWKPDKPKTNLKHVAGAAAAGAVVGGLGGYMLGSAMSRPVIHFGNEYEDR
+YYRENQYRYPNQVMYRPIDQ
+>>><<<
+
+
+33 residues in 1 query   sequences
+13716 residues in 53 library sequences
+ Scomplib [34t25]
+ start: Wed Dec 12 13:05:55 2007 done: Wed Dec 12 13:05:55 2007
+ Total Scan time:  0.000 Total Display time:  0.050
+
+Function used was FASTA [version 3.4t25 Sept 2, 2005]

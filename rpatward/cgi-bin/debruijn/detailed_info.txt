@@ -1,0 +1,24 @@
+The forward max is 42 at xRNP -> RNPx 
+The backward max is 42 at xCRN <- xRNP
+The motifs in sequences are
+The forward max is 42 at xPxV -> PxVx 
+The backward max is 34 at GxPx <- xPxV
+The motifs in sequences are
+The forward max is 42 at xPxC -> PWCx 
+The backward max is 30 at xRPx <- xPxC
+The motifs in sequences are
+The forward max is 42 at xGxV -> GxVx 
+The backward max is 28 at LxGx <- xGxV
+The motifs in sequences are
+The forward max is 42 at xYxR -> YxRx 
+The backward max is 36 at xNYx <- xYxR
+The motifs in sequences are
+The forward max is 42 at xSxP -> SxPx 
+The backward max is 21 at xCSx <- xSxP
+The motifs in sequences are
+The forward max is 42 at xVxS -> VxSx 
+The backward max is 16 at VxVx <- xVxS
+The motifs in sequences are
+The forward max is 42 at xGxG -> GxGx 
+The backward max is 33 at SWGx <- xGxG
+The motifs in sequences are

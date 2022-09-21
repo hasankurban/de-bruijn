@@ -1,0 +1,267 @@
+#!/usr/bin/perl  
+
+# Program written by Rupali Patwardhan
+
+# This perl program tries to rank motifs based on their relative entropy. 
+# Uses allmotifs.txt, output.txt
+# Creates html output and also generates file pos_matrix.txt 
+# pos_matrix.txt contains the position specific freq matrix for each motif
+  
+#use strict;
+
+my (@sequence_data, @sequence, @alphabet, @allmotifs, @motif_reg, @motif_split, @reg_ex_array, @stack, @letters, %pos_matrix, %color_table,@motif_len, %final_hash);
+my ($number_of_sequences, $number_of_motifs);
+my ($temp, $temp2, $current_color); 
+my ($count, $i, $j, $k, $alpha, $pos, $number, $letter, $col, $n);
+my ($string, @motifs, $key,$index);
+
+my $file_path = "/var/www/html/rpatward/debruijn";
+
+$count = 0;
+
+my $protein_file = $ARGV[0];
+my $subs_matrix = $ARGV[1];
+
+#### Creating a PSSM
+
+@alphabet = qw(A R N D C Q E G H I L K M F P S T W Y V B Z X);
+
+@allmotifs = &open_file("test_rel.txt");
+chomp @allmotifs;
+
+open(PM, ">$file_path/pos_matrix.txt");
+
+$i=0;
+$j=0;
+$n=0;
+$number_of_entries{0}=0;
+
+while($j<=$#allmotifs){
+    if ($allmotifs[$j] ne ""){
+	my @motif_reg = split(" ", $allmotifs[$j]);
+        @motif_split = split("",$motif_reg[0]);
+	$motifs[$i][$n][0]=$motif_reg[0];
+	$motifs[$i][$n][1]=$motif_reg[1];
+
+	$n++;
+	for($k=0;$k<=$#motif_split;$k++){
+	    $pos_matrix{$i}{$k}{$motif_split[$k]} += $motif_reg[1];
+	    
+	}
+	$number_of_entries{$i} += $motif_reg[1];
+    }
+    
+    if ($allmotifs[$j] eq "" || $j == $#allmotifs){
+
+	$motif_len[$i] = $#motif_split;    
+
+#        print "The entries $i $number_of_entries{$i}\n";
+	$i++;
+	$n=0;
+	$number_of_entries{$i}=0;	
+    }
+    $j++;
+    
+}
+
+close PM ;
+
+
+#### done creating PSSM
+
+
+### Calculating Relative entropy to rank the motifs
+
+
+my %relative_entropy = ();
+
+foreach my $motif (keys (%pos_matrix)){
+    $rel_entropy{$motif}=0;
+    my $entropy_pos;
+    foreach my $position (keys (%{$pos_matrix{$motif}})){
+	$entropy_pos =0;
+	foreach my $residue (keys (%{$pos_matrix{$motif}{$position}})){
+	    my $p_ij = $pos_matrix{$motif}{$position}{$residue}/$number_of_entries{$motif};
+	    my $q_ij = 0.05;
+	    $entropy_pos += $p_ij*log($p_ij/$q_ij);
+	}
+	$rel_entropy{$motif} += $entropy_pos; 	
+    }
+}
+
+
+my $i = 0;
+
+open(OP, ">consensus_seqs.fasta");
+
+print "The motifs are:<br>\n";
+
+foreach $motif (sort{$rel_entropy{$b} <=> $rel_entropy{$a}} keys(%rel_entropy)){
+#    print "$motif $rel_entropy{$motif} $motifs[$motif][0][0]\n";
+    print "$motifs[$motif][0][0]<br>\n";
+    print OP ">consensus_$i\n$motifs[$motif][0][0]\n";
+    $i++;
+}
+
+close OP;
+
+## Process this consensus to find local alignment
+
+system("fasta34 -m 10 consensus_seqs.fasta $protein_file > temp_fasta.out");
+
+system("perl parse_fasta34.pl temp_fasta.out");
+
+system("perl consensus_to_multiple.pl alignment.out consensus_seqs.fasta $subs_matrix");
+
+system("cp final_output.out /var/www/html/rpatward/debruijn/tmp/final_output_gapped.out");
+
+system("rm alignment.out");
+
+print "<br><br><a href='http://biokdd.informatics.indiana.edu/rpatward/debruijn/tmp/final_output_gapped.out'>Output</a><br>";
+
+
+
+exit;
+    
+### creating final regex
+
+for($i=0;$i<$number_of_motifs;$i++){
+    foreach $alpha (keys %{$pos_matrix{$i}}){
+	if(exists $pos_matrix{$i}{$alpha}){
+	    foreach $pos (sort keys %{$pos_matrix{$i}{$alpha}}){
+	#	if($pos_matrix{$i}{$alpha}{$pos} > 1) {
+		    push(@{$reg_ex_array[$i][$pos]},$alpha);
+	#	}
+	    }
+	}
+    } 
+}
+
+
+### done creating final reg ex
+
+### Deciding which positions are X
+
+
+
+my @X_index;
+
+for($i=0;$i<$number_of_motifs;$i++){
+    for($j=0; $j<=$motif_len[$i];$j++){ 
+	if(!(exists($reg_ex_array[$i][$j])) || $#{$reg_ex_array[$i][$j]} > 4){
+	    print "X";
+	    push(@{$X_index[$i]},$j);
+
+	}
+	else{
+	    if($#{$reg_ex_array[$i][$j]} ==0){
+		print @{$reg_ex_array[$i][$j]};
+
+	    }			  
+	    else {
+		print "[@{$reg_ex_array[$i][$j]}]";
+
+	    }
+	}
+	
+    }
+    print "<br>";
+}
+
+
+### Processing the reg-ex to remove X's
+
+for($i=0;$i<$number_of_motifs;$i++){
+    for($j=0;$j<=$#{$motifs[$i]};$j++){
+	my @temp=split("",$motifs[$i][$j][0]);
+	foreach $index(@{$X_index[$i]}){
+	    $temp[$index]="X"; 
+
+	}
+	for($k=0;$k<=$#temp;$k++){
+	    $string .=$temp[$k];
+	}
+	$string =~ s/^X*//;
+	$string =~ s/X*$//;
+	$final_hash{$string} += $motifs[$i][$j][1];
+	$string="";
+    }
+
+}
+
+foreach $key (sort keys %final_hash){
+    print "$key  $final_hash{$key} <br>";
+}
+
+exit;
+
+=head
+
+
+print "<p>Here is a link to the output file ";
+print "<a href='http://biokdd.informatics.indiana.edu/rpatward/L519/writable/output.txt'> Output </a><br>";
+
+=cut
+
+########################
+
+sub open_file
+
+{ my $file_name = $_[0];  
+
+  if ($file_name)
+  {if(!open(FD,"$file_name")) {print "\nCouldn't open $file_name \n"; exit;}
+  }
+  else
+  {print "Sorry...Please specify the file name \n";exit;}
+    
+   my @file_data=<FD>;
+   close(FD);   
+
+   return(@file_data);
+
+}
+
+######################
+
+sub process_file_data
+  
+{ my ($i,$j,$temp);
+  my @strings=();
+  my @file_data = @_;
+  
+  $j=-1;
+  for($i=0;$i<=$#file_data;$i++)
+  {
+   $temp=$file_data[$i];
+   #Check for FASTA format
+   if (substr($temp,0,1) ne ">")
+   {
+    # Remove any newline character
+    chomp $temp;
+    $strings[$j]=$strings[$j].$temp;
+   }
+   else {$j++; $strings[$j]="";}
+  }  
+
+  for($i=0;$i<=$j;$i++)
+{
+
+  # Remove any spaces
+  $strings[$i] =~ s/\s+//g;
+
+  # convert the strings to upper case
+  $strings[$i] = uc $strings[$i];
+
+  # Error check  
+#  if($strings[$i] =~ /[^ARNDCQEGHILKMFPSTWVYX]/)
+#  { print "<font face=\"verdana\" size=3 color= #FF2266 >";
+#    print "Sorry ! Your input file ($i) does not contain a valid protein sequence!!!\n";
+#    print "</font>"; exit 2;
+#  }
+   
+}
+return @strings;
+}
+
+

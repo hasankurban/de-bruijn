@@ -1,0 +1,30 @@
+# fasta34 -m 9 -A -E 10000 -H -p consensus_seqs.fasta writable/file1.txt
+FASTA searches a protein or DNA sequence data bank
+ version 3.4t25 Sept 2, 2005
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query library consensus_seqs.fasta vs writable/file1.txt library
+searching writable/file1.txt library
+
+  1>>>Consensus_0  - 65 aa
+ vs  writable/file1.txt library
+
+  23870 residues in    84 sequences
+  Expectation_n fit: rho(ln(x))= 0.0000+/-0.0149; mu=    nan+/- 0.847
+ mean_var=150.6093+/-109.376, 0's: 0 Z-trim: 84  B-trim: 0 in 0/0
+ Lambda= 0.104508
+
+FASTA (3.47 Mar 2004) function [optimized, BL50 matrix (15:-5)] ktup: 2
+ join: 36, opt: 24, open/ext: -10/-2, width:  16
+ Scan time:  0.010
+!! No sequences with E() < 10000.000000
+
+
+65 residues in 1 query   sequences
+23870 residues in 84 library sequences
+ Scomplib [34t25]
+ start: Fri Jun 16 01:40:30 2006 done: Fri Jun 16 01:40:30 2006
+ Total Scan time:  0.010 Total Display time:  0.000
+
+Function used was FASTA [version 3.4t25 Sept 2, 2005]

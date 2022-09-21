@@ -1,0 +1,27 @@
+The forward max is 17 at xLNK -> LNKx 
+The backward max is 9 at ExLN <- xLNK
+The motifs in sequences are
+The forward max is 17 at xTxP -> TxPx 
+The backward max is 17 at xSTx <- xTxP
+The motifs in sequences are
+The forward max is 17 at xFKx -> FxxS 
+The backward max is 16 at xEFK <- xFKx
+The motifs in sequences are
+The forward max is 17 at xKxM -> KxMx 
+The backward max is 13 at LxKx <- xKxM
+The motifs in sequences are
+The forward max is 17 at xHxV -> HxVx 
+The backward max is 10 at GxHx <- xHxV
+The motifs in sequences are
+The forward max is 17 at xLHS -> LHSx 
+The backward max is 11 at TxLH <- xLHS
+The motifs in sequences are
+The forward max is 17 at xIxP -> IxPx 
+The backward max is 10 at xSIx <- xIxP
+The motifs in sequences are
+The forward max is 17 at xPxE -> PxEx 
+The backward max is 11 at IxPx <- xPxE
+The motifs in sequences are
+The forward max is 14 at xCxI -> CxIx 
+The backward max is 9 at xRCx <- xCxI
+The motifs in sequences are

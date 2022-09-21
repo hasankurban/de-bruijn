@@ -1,0 +1,5 @@
+June 16, 2006
+
+Added the part about handling no fasta hits .. copied from sim_batch_testing_4.pl from research to sim_batch_testing_3.pl
+
+Modified parse_fasta34.pl to include a check for similarity and identity and overlap length, and renamed it new_parse.pl 

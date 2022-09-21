@@ -1,0 +1,2279 @@
+# /usr/local/bin/fasta34 -m 10 -A -p -q -E 200 -H consensus_seqs.fasta /var/www/cgi-bin/rpatward/debruijn/gapped/writable/file1.txt
+FASTA searches a protein or DNA sequence data bank
+ version 3.4t25 Sept 2, 2005
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query library consensus_seqs.fasta vs /var/www/cgi-bin/rpatward/debruijn/gapped/writable/file1.txt library
+searching /var/www/cgi-bin/rpatward/debruijn/gapped/writable/file1.txt library
+
+  1>>>Consensus_0 - 22 aa
+ vs  /var/www/cgi-bin/rpatward/debruijn/gapped/writable/file1.txt library
+
+  26854 residues in     8 sequences
+ Altschul/Gish params: n0: 22 Lambda: 0.158 K: 0.019 H: 0.100
+
+FASTA (3.47 Mar 2004) function [optimized, BL50 matrix (15:-5)] ktup: 1
+ join: 42, opt: 30, open/ext: -10/-2, width:  16
+ Scan time:  0.000
+The best scores are:                                      opt bits E(8)
+gi|37222317|gb|AAQ89683.1| masticatory myosin heav (  29)  150  47.2 3.1e-11
+gi|37222319|gb|AAQ89684.1| masticatory myosin heav (  29)  150  47.2 3.1e-11
+gi|37222321|gb|AAQ89685.1| masticatory myosin heav (  29)  150  47.2 3.1e-11
+gi|37222323|gb|AAQ89686.1| masticatory myosin heav (  29)  149  47.0 3.7e-11
+gi|37222325|gb|AAQ89687.1| masticatory myosin heav (  29)  149  47.0 3.7e-11
+gi|37222327|gb|AAQ89688.1| masticatory myosin heav (  29)  149  47.0 3.7e-11
+gi|37222329|gb|AAQ89689.1| masticatory myosin heav (  29)  149  47.0 3.7e-11
+BK001410.1|_1 TPA_exp: Homo sapiens myosin heavy c (26651)   69  25.9   0.074
+
+>>>Consensus_0, 22 aa vs /var/www/cgi-bin/rpatward/debruijn/gapped/writable/file1.txt library
+; pg_name: /usr/local/bin/fasta34
+; pg_ver: 34t25
+; pg_argv: /usr/local/bin/fasta34 -m 10 -A -p -q -E 200 -H consensus_seqs.fasta /var/www/cgi-bin/rpatward/debruijn/gapped/writable/file1.txt
+; pg_name: FASTA
+; pg_ver: 3.47 Mar 2004
+; pg_matrix: BL50 (15:-5)
+; pg_open-ext: -10 -2
+; pg_ktup: 1
+; pg_optcut: 30
+; pg_cgap: 42
+; mp_extrap: 60000 1
+; mp_stats: Altschul/Gish params: n0: 22 Lambda: 0.158 K: 0.019 H: 0.100
+; mp_KS: -0.0000 (N=33) at  86
+>>gi|37222317|gb|AAQ89683.1| masticatory myosin heavy chain [Lagothrix lagotricha]
+; fa_frame: f
+; fa_initn: 150
+; fa_init1: 150
+; fa_opt: 150
+; fa_z-score: 250.3
+; fa_bits: 47.2
+; fa_expect: 3.1e-11
+; sw_score: 150
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 22
+>Consensus_0 ..
+; sq_len: 22
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 22
+; al_display_start: 1
+--LNKLMTTLHSTAPHFVRCIVPN
+>gi|37222317|gb|AAQ89683.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 3
+; al_stop: 24
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIVPNEFKQS
+>>gi|37222319|gb|AAQ89684.1| masticatory myosin heavy chain [Macaca nemestrina]
+; fa_frame: f
+; fa_initn: 150
+; fa_init1: 150
+; fa_opt: 150
+; fa_z-score: 250.3
+; fa_bits: 47.2
+; fa_expect: 3.1e-11
+; sw_score: 150
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 22
+>Consensus_0 ..
+; sq_len: 22
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 22
+; al_display_start: 1
+--LNKLMTTLHSTAPHFVRCIVPN
+>gi|37222319|gb|AAQ89684.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 3
+; al_stop: 24
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIVPNEFKQS
+>>gi|37222321|gb|AAQ89685.1| masticatory myosin heavy chain [Macaca mulatta]
+; fa_frame: f
+; fa_initn: 150
+; fa_init1: 150
+; fa_opt: 150
+; fa_z-score: 250.3
+; fa_bits: 47.2
+; fa_expect: 3.1e-11
+; sw_score: 150
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 22
+>Consensus_0 ..
+; sq_len: 22
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 22
+; al_display_start: 1
+--LNKLMTTLHSTAPHFVRCIVPN
+>gi|37222321|gb|AAQ89685.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 3
+; al_stop: 24
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIVPNEFKQS
+>>gi|37222323|gb|AAQ89686.1| masticatory myosin heavy chain [Pongo pygmaeus]
+; fa_frame: f
+; fa_initn: 149
+; fa_init1: 149
+; fa_opt: 149
+; fa_z-score: 249.1
+; fa_bits: 47.0
+; fa_expect: 3.7e-11
+; sw_score: 149
+; sw_ident: 0.955
+; sw_sim: 1.000
+; sw_overlap: 22
+>Consensus_0 ..
+; sq_len: 22
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 22
+; al_display_start: 1
+--LNKLMTTLHSTAPHFVRCIVPN
+>gi|37222323|gb|AAQ89686.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 3
+; al_stop: 24
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIIPNEFKQS
+>>gi|37222325|gb|AAQ89687.1| masticatory myosin heavy chain [Gorilla gorilla]
+; fa_frame: f
+; fa_initn: 149
+; fa_init1: 149
+; fa_opt: 149
+; fa_z-score: 249.1
+; fa_bits: 47.0
+; fa_expect: 3.7e-11
+; sw_score: 149
+; sw_ident: 0.955
+; sw_sim: 1.000
+; sw_overlap: 22
+>Consensus_0 ..
+; sq_len: 22
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 22
+; al_display_start: 1
+--LNKLMTTLHSTAPHFVRCIVPN
+>gi|37222325|gb|AAQ89687.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 3
+; al_stop: 24
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIIPNEFKQS
+>>gi|37222327|gb|AAQ89688.1| masticatory myosin heavy chain [Pan paniscus]
+; fa_frame: f
+; fa_initn: 149
+; fa_init1: 149
+; fa_opt: 149
+; fa_z-score: 249.1
+; fa_bits: 47.0
+; fa_expect: 3.7e-11
+; sw_score: 149
+; sw_ident: 0.955
+; sw_sim: 1.000
+; sw_overlap: 22
+>Consensus_0 ..
+; sq_len: 22
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 22
+; al_display_start: 1
+--LNKLMTTLHSTAPHFVRCIVPN
+>gi|37222327|gb|AAQ89688.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 3
+; al_stop: 24
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIIPNEFKQS
+>>gi|37222329|gb|AAQ89689.1| masticatory myosin heavy chain [Pan troglodytes]
+; fa_frame: f
+; fa_initn: 149
+; fa_init1: 149
+; fa_opt: 149
+; fa_z-score: 249.1
+; fa_bits: 47.0
+; fa_expect: 3.7e-11
+; sw_score: 149
+; sw_ident: 0.955
+; sw_sim: 1.000
+; sw_overlap: 22
+>Consensus_0 ..
+; sq_len: 22
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 22
+; al_display_start: 1
+--LNKLMTTLHSTAPHFVRCIVPN
+>gi|37222329|gb|AAQ89689.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 3
+; al_stop: 24
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIIPNEFKQS
+>>BK001410.1|_1 TPA_exp: Homo sapiens myosin heavy chain (MYH16) pseudogene, complete sequence
+; fa_frame: f
+; fa_initn:  69
+; fa_init1:  69
+; fa_opt:  69
+; fa_z-score: 82.0
+; fa_bits: 25.9
+; fa_expect:  0.074
+; sw_score: 69
+; sw_ident: 0.846
+; sw_sim: 0.923
+; sw_overlap: 13
+>Consensus_0 ..
+; sq_len: 22
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 13
+; al_display_start: 1
+------------------------------LNKLMTTLHSTAPHFVRCIV
+PN
+>BK001410.1|_1 ..
+; sq_len: 26651
+; sq_type: p
+; al_start: 11595
+; al_stop: 11607
+; al_display_start: 11565
+LTNTSPACGCPATSMQSFTHLFFVLQPQEQLNKLMTTLHSRTPFCPLYYP
+QVAIGYVVGSRLPAGSPEVLSCSFQIKSTFHHQGWGQNKALRETSTMGHP
+RIIFLLYKAEWCPARQKSNL
+  2>>>Consensus_1 - 19 aa
+ vs  /var/www/cgi-bin/rpatward/debruijn/gapped/writable/file1.txt library
+
+  26854 residues in     8 sequences
+ Altschul/Gish params: n0: 19 Lambda: 0.158 K: 0.019 H: 0.100
+
+FASTA (3.47 Mar 2004) function [optimized, BL50 matrix (15:-5)] ktup: 1
+ join: 42, opt: 30, open/ext: -10/-2, width:  16
+ Scan time:  0.010
+The best scores are:                                      opt bits E(8)
+gi|37222323|gb|AAQ89686.1| masticatory myosin heav (  29)  137  43.6 3.3e-10
+gi|37222325|gb|AAQ89687.1| masticatory myosin heav (  29)  137  43.6 3.3e-10
+gi|37222327|gb|AAQ89688.1| masticatory myosin heav (  29)  137  43.6 3.3e-10
+gi|37222329|gb|AAQ89689.1| masticatory myosin heav (  29)  137  43.6 3.3e-10
+gi|37222319|gb|AAQ89684.1| masticatory myosin heav (  29)  136  43.4 3.9e-10
+gi|37222321|gb|AAQ89685.1| masticatory myosin heav (  29)  136  43.4 3.9e-10
+gi|37222317|gb|AAQ89683.1| masticatory myosin heav (  29)  136  43.4 3.9e-10
+BK001410.1|_1 TPA_exp: Homo sapiens myosin heavy c (26651)   40  19.1     4.8
+
+>>>Consensus_1, 19 aa vs /var/www/cgi-bin/rpatward/debruijn/gapped/writable/file1.txt library
+; pg_name: /usr/local/bin/fasta34
+; pg_ver: 34t25
+; pg_argv: /usr/local/bin/fasta34 -m 10 -A -p -q -E 200 -H consensus_seqs.fasta /var/www/cgi-bin/rpatward/debruijn/gapped/writable/file1.txt
+; pg_name: FASTA
+; pg_ver: 3.47 Mar 2004
+; pg_matrix: BL50 (15:-5)
+; pg_open-ext: -10 -2
+; pg_ktup: 1
+; pg_optcut: 30
+; pg_cgap: 42
+; mp_extrap: 60000 1
+; mp_stats: Altschul/Gish params: n0: 19 Lambda: 0.158 K: 0.019 H: 0.100
+; mp_KS: -0.0000 (N=33) at  86
+>>gi|37222323|gb|AAQ89686.1| masticatory myosin heavy chain [Pongo pygmaeus]
+; fa_frame: f
+; fa_initn: 137
+; fa_init1: 137
+; fa_opt: 137
+; fa_z-score: 231.9
+; fa_bits: 43.6
+; fa_expect: 3.3e-10
+; sw_score: 137
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 19
+>Consensus_1 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+----------HSTAPHFVRCIIPNEFKQS
+>gi|37222323|gb|AAQ89686.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 11
+; al_stop: 29
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIIPNEFKQS
+>>gi|37222325|gb|AAQ89687.1| masticatory myosin heavy chain [Gorilla gorilla]
+; fa_frame: f
+; fa_initn: 137
+; fa_init1: 137
+; fa_opt: 137
+; fa_z-score: 231.9
+; fa_bits: 43.6
+; fa_expect: 3.3e-10
+; sw_score: 137
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 19
+>Consensus_1 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+----------HSTAPHFVRCIIPNEFKQS
+>gi|37222325|gb|AAQ89687.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 11
+; al_stop: 29
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIIPNEFKQS
+>>gi|37222327|gb|AAQ89688.1| masticatory myosin heavy chain [Pan paniscus]
+; fa_frame: f
+; fa_initn: 137
+; fa_init1: 137
+; fa_opt: 137
+; fa_z-score: 231.9
+; fa_bits: 43.6
+; fa_expect: 3.3e-10
+; sw_score: 137
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 19
+>Consensus_1 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+----------HSTAPHFVRCIIPNEFKQS
+>gi|37222327|gb|AAQ89688.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 11
+; al_stop: 29
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIIPNEFKQS
+>>gi|37222329|gb|AAQ89689.1| masticatory myosin heavy chain [Pan troglodytes]
+; fa_frame: f
+; fa_initn: 137
+; fa_init1: 137
+; fa_opt: 137
+; fa_z-score: 231.9
+; fa_bits: 43.6
+; fa_expect: 3.3e-10
+; sw_score: 137
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 19
+>Consensus_1 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+----------HSTAPHFVRCIIPNEFKQS
+>gi|37222329|gb|AAQ89689.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 11
+; al_stop: 29
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIIPNEFKQS
+>>gi|37222319|gb|AAQ89684.1| masticatory myosin heavy chain [Macaca nemestrina]
+; fa_frame: f
+; fa_initn: 136
+; fa_init1: 136
+; fa_opt: 136
+; fa_z-score: 230.6
+; fa_bits: 43.4
+; fa_expect: 3.9e-10
+; sw_score: 136
+; sw_ident: 0.947
+; sw_sim: 1.000
+; sw_overlap: 19
+>Consensus_1 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+----------HSTAPHFVRCIIPNEFKQS
+>gi|37222319|gb|AAQ89684.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 11
+; al_stop: 29
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIVPNEFKQS
+>>gi|37222321|gb|AAQ89685.1| masticatory myosin heavy chain [Macaca mulatta]
+; fa_frame: f
+; fa_initn: 136
+; fa_init1: 136
+; fa_opt: 136
+; fa_z-score: 230.6
+; fa_bits: 43.4
+; fa_expect: 3.9e-10
+; sw_score: 136
+; sw_ident: 0.947
+; sw_sim: 1.000
+; sw_overlap: 19
+>Consensus_1 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+----------HSTAPHFVRCIIPNEFKQS
+>gi|37222321|gb|AAQ89685.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 11
+; al_stop: 29
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIVPNEFKQS
+>>gi|37222317|gb|AAQ89683.1| masticatory myosin heavy chain [Lagothrix lagotricha]
+; fa_frame: f
+; fa_initn: 136
+; fa_init1: 136
+; fa_opt: 136
+; fa_z-score: 230.6
+; fa_bits: 43.4
+; fa_expect: 3.9e-10
+; sw_score: 136
+; sw_ident: 0.947
+; sw_sim: 1.000
+; sw_overlap: 19
+>Consensus_1 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+----------HSTAPHFVRCIIPNEFKQS
+>gi|37222317|gb|AAQ89683.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 11
+; al_stop: 29
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIVPNEFKQS
+>>BK001410.1|_1 TPA_exp: Homo sapiens myosin heavy chain (MYH16) pseudogene, complete sequence
+; fa_frame: f
+; fa_initn:  40
+; fa_init1:  40
+; fa_opt:  40
+; fa_z-score: 46.2
+; fa_bits: 19.1
+; fa_expect:    4.8
+; sw_score: 40
+; sw_ident: 0.375
+; sw_sim: 0.500
+; sw_overlap: 16
+>Consensus_1 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 16
+; al_display_start: 1
+------------------------------HSTAPHFVRCIIPNEFKQS
+>BK001410.1|_1 ..
+; sq_len: 26651
+; sq_type: p
+; al_start: 6419
+; al_stop: 6434
+; al_display_start: 6389
+RSHRILNFGLQVPRPRSKPGGIWGSADWLGHCRMPSFMFLITPSCFLFSS
+LQIVRISLCSRKCLFHLCLYTYNTCVLHIQLSLLRINCGTLFGTLQAVSG
+LWGGGYTCTDRVASLSPGPP
+  3>>>Consensus_2 - 19 aa
+ vs  /var/www/cgi-bin/rpatward/debruijn/gapped/writable/file1.txt library
+
+  26854 residues in     8 sequences
+ Altschul/Gish params: n0: 19 Lambda: 0.158 K: 0.019 H: 0.100
+
+FASTA (3.47 Mar 2004) function [optimized, BL50 matrix (15:-5)] ktup: 1
+ join: 42, opt: 30, open/ext: -10/-2, width:  16
+ Scan time:  0.010
+The best scores are:                                      opt bits E(8)
+gi|37222317|gb|AAQ89683.1| masticatory myosin heav (  29)   73  29.0 8.2e-06
+gi|37222319|gb|AAQ89684.1| masticatory myosin heav (  29)   73  29.0 8.2e-06
+gi|37222321|gb|AAQ89685.1| masticatory myosin heav (  29)   73  29.0 8.2e-06
+gi|37222323|gb|AAQ89686.1| masticatory myosin heav (  29)   73  29.0 8.2e-06
+gi|37222325|gb|AAQ89687.1| masticatory myosin heav (  29)   73  29.0 8.2e-06
+gi|37222327|gb|AAQ89688.1| masticatory myosin heav (  29)   73  29.0 8.2e-06
+gi|37222329|gb|AAQ89689.1| masticatory myosin heav (  29)   73  29.0 8.2e-06
+BK001410.1|_1 TPA_exp: Homo sapiens myosin heavy c (26651)  123  38.0 1.5e-05
+
+>>>Consensus_2, 19 aa vs /var/www/cgi-bin/rpatward/debruijn/gapped/writable/file1.txt library
+; pg_name: /usr/local/bin/fasta34
+; pg_ver: 34t25
+; pg_argv: /usr/local/bin/fasta34 -m 10 -A -p -q -E 200 -H consensus_seqs.fasta /var/www/cgi-bin/rpatward/debruijn/gapped/writable/file1.txt
+; pg_name: FASTA
+; pg_ver: 3.47 Mar 2004
+; pg_matrix: BL50 (15:-5)
+; pg_open-ext: -10 -2
+; pg_ktup: 1
+; pg_optcut: 30
+; pg_cgap: 42
+; mp_extrap: 60000 0
+; mp_stats: Altschul/Gish params: n0: 19 Lambda: 0.158 K: 0.019 H: 0.100
+; mp_KS: -0.0000 (N=33) at  86
+>>gi|37222317|gb|AAQ89683.1| masticatory myosin heavy chain [Lagothrix lagotricha]
+; fa_frame: f
+; fa_initn:  73
+; fa_init1:  73
+; fa_opt:  73
+; fa_z-score: 153.0
+; fa_bits: 29.0
+; fa_expect: 8.2e-06
+; sw_score: 73
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 12
+>Consensus_2 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 8
+; al_stop: 19
+; al_display_start: 1
+FFVLQPQEQLNKLMTTLHS
+>gi|37222317|gb|AAQ89683.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 1
+; al_stop: 12
+; al_display_start: 1
+-------EQLNKLMTTLHSTAPHFVRCIVPNEFKQS
+>>gi|37222319|gb|AAQ89684.1| masticatory myosin heavy chain [Macaca nemestrina]
+; fa_frame: f
+; fa_initn:  73
+; fa_init1:  73
+; fa_opt:  73
+; fa_z-score: 153.0
+; fa_bits: 29.0
+; fa_expect: 8.2e-06
+; sw_score: 73
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 12
+>Consensus_2 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 8
+; al_stop: 19
+; al_display_start: 1
+FFVLQPQEQLNKLMTTLHS
+>gi|37222319|gb|AAQ89684.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 1
+; al_stop: 12
+; al_display_start: 1
+-------EQLNKLMTTLHSTAPHFVRCIVPNEFKQS
+>>gi|37222321|gb|AAQ89685.1| masticatory myosin heavy chain [Macaca mulatta]
+; fa_frame: f
+; fa_initn:  73
+; fa_init1:  73
+; fa_opt:  73
+; fa_z-score: 153.0
+; fa_bits: 29.0
+; fa_expect: 8.2e-06
+; sw_score: 73
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 12
+>Consensus_2 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 8
+; al_stop: 19
+; al_display_start: 1
+FFVLQPQEQLNKLMTTLHS
+>gi|37222321|gb|AAQ89685.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 1
+; al_stop: 12
+; al_display_start: 1
+-------EQLNKLMTTLHSTAPHFVRCIVPNEFKQS
+>>gi|37222323|gb|AAQ89686.1| masticatory myosin heavy chain [Pongo pygmaeus]
+; fa_frame: f
+; fa_initn:  73
+; fa_init1:  73
+; fa_opt:  73
+; fa_z-score: 153.0
+; fa_bits: 29.0
+; fa_expect: 8.2e-06
+; sw_score: 73
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 12
+>Consensus_2 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 8
+; al_stop: 19
+; al_display_start: 1
+FFVLQPQEQLNKLMTTLHS
+>gi|37222323|gb|AAQ89686.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 1
+; al_stop: 12
+; al_display_start: 1
+-------EQLNKLMTTLHSTAPHFVRCIIPNEFKQS
+>>gi|37222325|gb|AAQ89687.1| masticatory myosin heavy chain [Gorilla gorilla]
+; fa_frame: f
+; fa_initn:  73
+; fa_init1:  73
+; fa_opt:  73
+; fa_z-score: 153.0
+; fa_bits: 29.0
+; fa_expect: 8.2e-06
+; sw_score: 73
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 12
+>Consensus_2 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 8
+; al_stop: 19
+; al_display_start: 1
+FFVLQPQEQLNKLMTTLHS
+>gi|37222325|gb|AAQ89687.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 1
+; al_stop: 12
+; al_display_start: 1
+-------EQLNKLMTTLHSTAPHFVRCIIPNEFKQS
+>>gi|37222327|gb|AAQ89688.1| masticatory myosin heavy chain [Pan paniscus]
+; fa_frame: f
+; fa_initn:  73
+; fa_init1:  73
+; fa_opt:  73
+; fa_z-score: 153.0
+; fa_bits: 29.0
+; fa_expect: 8.2e-06
+; sw_score: 73
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 12
+>Consensus_2 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 8
+; al_stop: 19
+; al_display_start: 1
+FFVLQPQEQLNKLMTTLHS
+>gi|37222327|gb|AAQ89688.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 1
+; al_stop: 12
+; al_display_start: 1
+-------EQLNKLMTTLHSTAPHFVRCIIPNEFKQS
+>>gi|37222329|gb|AAQ89689.1| masticatory myosin heavy chain [Pan troglodytes]
+; fa_frame: f
+; fa_initn:  73
+; fa_init1:  73
+; fa_opt:  73
+; fa_z-score: 153.0
+; fa_bits: 29.0
+; fa_expect: 8.2e-06
+; sw_score: 73
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 12
+>Consensus_2 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 8
+; al_stop: 19
+; al_display_start: 1
+FFVLQPQEQLNKLMTTLHS
+>gi|37222329|gb|AAQ89689.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 1
+; al_stop: 12
+; al_display_start: 1
+-------EQLNKLMTTLHSTAPHFVRCIIPNEFKQS
+>>BK001410.1|_1 TPA_exp: Homo sapiens myosin heavy chain (MYH16) pseudogene, complete sequence
+; fa_frame: f
+; fa_initn: 123
+; fa_init1: 123
+; fa_opt: 123
+; fa_z-score: 148.5
+; fa_bits: 38.0
+; fa_expect: 1.5e-05
+; sw_score: 123
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 19
+>Consensus_2 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+------------------------------FFVLQPQEQLNKLMTTLHS
+>BK001410.1|_1 ..
+; sq_len: 26651
+; sq_type: p
+; al_start: 11586
+; al_stop: 11604
+; al_display_start: 11556
+GVLIQFVNKLTNTSPACGCPATSMQSFTHLFFVLQPQEQLNKLMTTLHSR
+TPFCPLYYPQVAIGYVVGSRLPAGSPEVLSCSFQIKSTFHHQGWGQNKAL
+RETSTMGHPRIIFLLYKAEW
+  4>>>Consensus_3 - 19 aa
+ vs  /var/www/cgi-bin/rpatward/debruijn/gapped/writable/file1.txt library
+
+  26854 residues in     8 sequences
+ Altschul/Gish params: n0: 19 Lambda: 0.158 K: 0.019 H: 0.100
+
+FASTA (3.47 Mar 2004) function [optimized, BL50 matrix (15:-5)] ktup: 1
+ join: 42, opt: 30, open/ext: -10/-2, width:  16
+ Scan time:  0.010
+The best scores are:                                      opt bits E(8)
+gi|37222317|gb|AAQ89683.1| masticatory myosin heav (  29)  123  40.4   3e-09
+gi|37222319|gb|AAQ89684.1| masticatory myosin heav (  29)  123  40.4   3e-09
+gi|37222321|gb|AAQ89685.1| masticatory myosin heav (  29)  123  40.4   3e-09
+gi|37222323|gb|AAQ89686.1| masticatory myosin heav (  29)  123  40.4   3e-09
+gi|37222325|gb|AAQ89687.1| masticatory myosin heav (  29)  123  40.4   3e-09
+gi|37222327|gb|AAQ89688.1| masticatory myosin heav (  29)  123  40.4   3e-09
+gi|37222329|gb|AAQ89689.1| masticatory myosin heav (  29)  123  40.4   3e-09
+BK001410.1|_1 TPA_exp: Homo sapiens myosin heavy c (26651)   82  28.7  0.0095
+
+>>>Consensus_3, 19 aa vs /var/www/cgi-bin/rpatward/debruijn/gapped/writable/file1.txt library
+; pg_name: /usr/local/bin/fasta34
+; pg_ver: 34t25
+; pg_argv: /usr/local/bin/fasta34 -m 10 -A -p -q -E 200 -H consensus_seqs.fasta /var/www/cgi-bin/rpatward/debruijn/gapped/writable/file1.txt
+; pg_name: FASTA
+; pg_ver: 3.47 Mar 2004
+; pg_matrix: BL50 (15:-5)
+; pg_open-ext: -10 -2
+; pg_ktup: 1
+; pg_optcut: 30
+; pg_cgap: 42
+; mp_extrap: 60000 1
+; mp_stats: Altschul/Gish params: n0: 19 Lambda: 0.158 K: 0.019 H: 0.100
+; mp_KS: -0.0000 (N=33) at  86
+>>gi|37222317|gb|AAQ89683.1| masticatory myosin heavy chain [Lagothrix lagotricha]
+; fa_frame: f
+; fa_initn: 123
+; fa_init1: 123
+; fa_opt: 123
+; fa_z-score: 214.6
+; fa_bits: 40.4
+; fa_expect:  3e-09
+; sw_score: 123
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 19
+>Consensus_3 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVR
+>gi|37222317|gb|AAQ89683.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIVPNEFKQS
+>>gi|37222319|gb|AAQ89684.1| masticatory myosin heavy chain [Macaca nemestrina]
+; fa_frame: f
+; fa_initn: 123
+; fa_init1: 123
+; fa_opt: 123
+; fa_z-score: 214.6
+; fa_bits: 40.4
+; fa_expect:  3e-09
+; sw_score: 123
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 19
+>Consensus_3 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVR
+>gi|37222319|gb|AAQ89684.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIVPNEFKQS
+>>gi|37222321|gb|AAQ89685.1| masticatory myosin heavy chain [Macaca mulatta]
+; fa_frame: f
+; fa_initn: 123
+; fa_init1: 123
+; fa_opt: 123
+; fa_z-score: 214.6
+; fa_bits: 40.4
+; fa_expect:  3e-09
+; sw_score: 123
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 19
+>Consensus_3 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVR
+>gi|37222321|gb|AAQ89685.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIVPNEFKQS
+>>gi|37222323|gb|AAQ89686.1| masticatory myosin heavy chain [Pongo pygmaeus]
+; fa_frame: f
+; fa_initn: 123
+; fa_init1: 123
+; fa_opt: 123
+; fa_z-score: 214.6
+; fa_bits: 40.4
+; fa_expect:  3e-09
+; sw_score: 123
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 19
+>Consensus_3 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVR
+>gi|37222323|gb|AAQ89686.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIIPNEFKQS
+>>gi|37222325|gb|AAQ89687.1| masticatory myosin heavy chain [Gorilla gorilla]
+; fa_frame: f
+; fa_initn: 123
+; fa_init1: 123
+; fa_opt: 123
+; fa_z-score: 214.6
+; fa_bits: 40.4
+; fa_expect:  3e-09
+; sw_score: 123
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 19
+>Consensus_3 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVR
+>gi|37222325|gb|AAQ89687.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIIPNEFKQS
+>>gi|37222327|gb|AAQ89688.1| masticatory myosin heavy chain [Pan paniscus]
+; fa_frame: f
+; fa_initn: 123
+; fa_init1: 123
+; fa_opt: 123
+; fa_z-score: 214.6
+; fa_bits: 40.4
+; fa_expect:  3e-09
+; sw_score: 123
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 19
+>Consensus_3 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVR
+>gi|37222327|gb|AAQ89688.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIIPNEFKQS
+>>gi|37222329|gb|AAQ89689.1| masticatory myosin heavy chain [Pan troglodytes]
+; fa_frame: f
+; fa_initn: 123
+; fa_init1: 123
+; fa_opt: 123
+; fa_z-score: 214.6
+; fa_bits: 40.4
+; fa_expect:  3e-09
+; sw_score: 123
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 19
+>Consensus_3 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVR
+>gi|37222329|gb|AAQ89689.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIIPNEFKQS
+>>BK001410.1|_1 TPA_exp: Homo sapiens myosin heavy chain (MYH16) pseudogene, complete sequence
+; fa_frame: f
+; fa_initn:  82
+; fa_init1:  82
+; fa_opt:  82
+; fa_z-score: 98.0
+; fa_bits: 28.7
+; fa_expect: 0.0095
+; sw_score: 82
+; sw_ident: 0.867
+; sw_sim: 0.933
+; sw_overlap: 15
+>Consensus_3 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 15
+; al_display_start: 1
+------------------------------EQLNKLMTTLHSTAPHFVR
+>BK001410.1|_1 ..
+; sq_len: 26651
+; sq_type: p
+; al_start: 11593
+; al_stop: 11607
+; al_display_start: 11563
+NKLTNTSPACGCPATSMQSFTHLFFVLQPQEQLNKLMTTLHSRTPFCPLY
+YPQVAIGYVVGSRLPAGSPEVLSCSFQIKSTFHHQGWGQNKALRETSTMG
+HPRIIFLLYKAEWCPARQKS
+  5>>>Consensus_4 - 19 aa
+ vs  /var/www/cgi-bin/rpatward/debruijn/gapped/writable/file1.txt library
+
+  26854 residues in     8 sequences
+ Altschul/Gish params: n0: 19 Lambda: 0.158 K: 0.019 H: 0.100
+
+FASTA (3.47 Mar 2004) function [optimized, BL50 matrix (15:-5)] ktup: 1
+ join: 42, opt: 30, open/ext: -10/-2, width:  16
+ Scan time:  0.000
+The best scores are:                                      opt bits E(8)
+BK001410.1|_1 TPA_exp: Homo sapiens myosin heavy c (26651)  124  38.2 1.3e-05
+gi|37222319|gb|AAQ89684.1| masticatory myosin heav (  29)   15  15.8   0.078
+gi|37222321|gb|AAQ89685.1| masticatory myosin heav (  29)   15  15.8   0.078
+gi|37222323|gb|AAQ89686.1| masticatory myosin heav (  29)   15  15.8   0.078
+gi|37222325|gb|AAQ89687.1| masticatory myosin heav (  29)   15  15.8   0.078
+gi|37222327|gb|AAQ89688.1| masticatory myosin heav (  29)   15  15.8   0.078
+gi|37222329|gb|AAQ89689.1| masticatory myosin heav (  29)   15  15.8   0.078
+gi|37222317|gb|AAQ89683.1| masticatory myosin heav (  29)   15  15.8   0.078
+
+>>>Consensus_4, 19 aa vs /var/www/cgi-bin/rpatward/debruijn/gapped/writable/file1.txt library
+; pg_name: /usr/local/bin/fasta34
+; pg_ver: 34t25
+; pg_argv: /usr/local/bin/fasta34 -m 10 -A -p -q -E 200 -H consensus_seqs.fasta /var/www/cgi-bin/rpatward/debruijn/gapped/writable/file1.txt
+; pg_name: FASTA
+; pg_ver: 3.47 Mar 2004
+; pg_matrix: BL50 (15:-5)
+; pg_open-ext: -10 -2
+; pg_ktup: 1
+; pg_optcut: 30
+; pg_cgap: 42
+; mp_extrap: 60000 7
+; mp_stats: Altschul/Gish params: n0: 19 Lambda: 0.158 K: 0.019 H: 0.100
+; mp_KS: -0.0000 (N=33) at  86
+>>BK001410.1|_1 TPA_exp: Homo sapiens myosin heavy chain (MYH16) pseudogene, complete sequence
+; fa_frame: f
+; fa_initn: 124
+; fa_init1: 124
+; fa_opt: 124
+; fa_z-score: 149.7
+; fa_bits: 38.2
+; fa_expect: 1.3e-05
+; sw_score: 124
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 19
+>Consensus_4 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 19
+; al_display_start: 1
+------------------------------VIFLVETGFHHVGQAGLEL
+>BK001410.1|_1 ..
+; sq_len: 26651
+; sq_type: p
+; al_start: 364
+; al_stop: 382
+; al_display_start: 334
+PPPPGFKRFSCLSLPSSWDYRDAPPCMANFVIFLVETGFHHVGQAGLELL
+TSSDPPASASQSAGITRISHRTWHHRYYFLDRTLLPPSTLRASVSIVSFF
+VSMWTQCLAPTYKKYAVFVF
+>>gi|37222319|gb|AAQ89684.1| masticatory myosin heavy chain [Macaca nemestrina]
+; fa_frame: f
+; fa_initn:  15
+; fa_init1:  15
+; fa_opt:  15
+; fa_z-score: 81.6
+; fa_bits: 15.8
+; fa_expect:  0.078
+; sw_score: 15
+; sw_ident: 0.500
+; sw_sim: 0.667
+; sw_overlap: 6
+>Consensus_4 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 7
+; al_stop: 12
+; al_display_start: 1
+------VIFLVETGFHHVGQAGLEL
+>gi|37222319|gb|AAQ89684.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 13
+; al_stop: 18
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIVPNEFKQS
+>>gi|37222321|gb|AAQ89685.1| masticatory myosin heavy chain [Macaca mulatta]
+; fa_frame: f
+; fa_initn:  15
+; fa_init1:  15
+; fa_opt:  15
+; fa_z-score: 81.6
+; fa_bits: 15.8
+; fa_expect:  0.078
+; sw_score: 15
+; sw_ident: 0.500
+; sw_sim: 0.667
+; sw_overlap: 6
+>Consensus_4 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 7
+; al_stop: 12
+; al_display_start: 1
+------VIFLVETGFHHVGQAGLEL
+>gi|37222321|gb|AAQ89685.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 13
+; al_stop: 18
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIVPNEFKQS
+>>gi|37222323|gb|AAQ89686.1| masticatory myosin heavy chain [Pongo pygmaeus]
+; fa_frame: f
+; fa_initn:  15
+; fa_init1:  15
+; fa_opt:  15
+; fa_z-score: 81.6
+; fa_bits: 15.8
+; fa_expect:  0.078
+; sw_score: 15
+; sw_ident: 0.500
+; sw_sim: 0.667
+; sw_overlap: 6
+>Consensus_4 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 7
+; al_stop: 12
+; al_display_start: 1
+------VIFLVETGFHHVGQAGLEL
+>gi|37222323|gb|AAQ89686.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 13
+; al_stop: 18
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIIPNEFKQS
+>>gi|37222325|gb|AAQ89687.1| masticatory myosin heavy chain [Gorilla gorilla]
+; fa_frame: f
+; fa_initn:  15
+; fa_init1:  15
+; fa_opt:  15
+; fa_z-score: 81.6
+; fa_bits: 15.8
+; fa_expect:  0.078
+; sw_score: 15
+; sw_ident: 0.500
+; sw_sim: 0.667
+; sw_overlap: 6
+>Consensus_4 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 7
+; al_stop: 12
+; al_display_start: 1
+------VIFLVETGFHHVGQAGLEL
+>gi|37222325|gb|AAQ89687.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 13
+; al_stop: 18
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIIPNEFKQS
+>>gi|37222327|gb|AAQ89688.1| masticatory myosin heavy chain [Pan paniscus]
+; fa_frame: f
+; fa_initn:  15
+; fa_init1:  15
+; fa_opt:  15
+; fa_z-score: 81.6
+; fa_bits: 15.8
+; fa_expect:  0.078
+; sw_score: 15
+; sw_ident: 0.500
+; sw_sim: 0.667
+; sw_overlap: 6
+>Consensus_4 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 7
+; al_stop: 12
+; al_display_start: 1
+------VIFLVETGFHHVGQAGLEL
+>gi|37222327|gb|AAQ89688.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 13
+; al_stop: 18
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIIPNEFKQS
+>>gi|37222329|gb|AAQ89689.1| masticatory myosin heavy chain [Pan troglodytes]
+; fa_frame: f
+; fa_initn:  15
+; fa_init1:  15
+; fa_opt:  15
+; fa_z-score: 81.6
+; fa_bits: 15.8
+; fa_expect:  0.078
+; sw_score: 15
+; sw_ident: 0.500
+; sw_sim: 0.667
+; sw_overlap: 6
+>Consensus_4 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 7
+; al_stop: 12
+; al_display_start: 1
+------VIFLVETGFHHVGQAGLEL
+>gi|37222329|gb|AAQ89689.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 13
+; al_stop: 18
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIIPNEFKQS
+>>gi|37222317|gb|AAQ89683.1| masticatory myosin heavy chain [Lagothrix lagotricha]
+; fa_frame: f
+; fa_initn:  15
+; fa_init1:  15
+; fa_opt:  15
+; fa_z-score: 81.6
+; fa_bits: 15.8
+; fa_expect:  0.078
+; sw_score: 15
+; sw_ident: 0.500
+; sw_sim: 0.667
+; sw_overlap: 6
+>Consensus_4 ..
+; sq_len: 19
+; sq_offset: 1
+; sq_type: p
+; al_start: 7
+; al_stop: 12
+; al_display_start: 1
+------VIFLVETGFHHVGQAGLEL
+>gi|37222317|gb|AAQ89683.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 13
+; al_stop: 18
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIVPNEFKQS
+  6>>>Consensus_5 - 18 aa
+ vs  /var/www/cgi-bin/rpatward/debruijn/gapped/writable/file1.txt library
+
+  26854 residues in     8 sequences
+ Altschul/Gish params: n0: 18 Lambda: 0.158 K: 0.019 H: 0.100
+
+FASTA (3.47 Mar 2004) function [optimized, BL50 matrix (15:-5)] ktup: 1
+ join: 42, opt: 30, open/ext: -10/-2, width:  16
+ Scan time:  0.000
+The best scores are:                                      opt bits E(8)
+BK001410.1|_1 TPA_exp: Homo sapiens myosin heavy c (26651)  119  37.0 2.8e-05
+gi|37222319|gb|AAQ89684.1| masticatory myosin heav (  29)   17  16.0   0.063
+gi|37222321|gb|AAQ89685.1| masticatory myosin heav (  29)   17  16.0   0.063
+gi|37222323|gb|AAQ89686.1| masticatory myosin heav (  29)   17  16.0   0.063
+gi|37222325|gb|AAQ89687.1| masticatory myosin heav (  29)   17  16.0   0.063
+gi|37222327|gb|AAQ89688.1| masticatory myosin heav (  29)   17  16.0   0.063
+gi|37222329|gb|AAQ89689.1| masticatory myosin heav (  29)   17  16.0   0.063
+gi|37222317|gb|AAQ89683.1| masticatory myosin heav (  29)   17  16.0   0.063
+
+>>>Consensus_5, 18 aa vs /var/www/cgi-bin/rpatward/debruijn/gapped/writable/file1.txt library
+; pg_name: /usr/local/bin/fasta34
+; pg_ver: 34t25
+; pg_argv: /usr/local/bin/fasta34 -m 10 -A -p -q -E 200 -H consensus_seqs.fasta /var/www/cgi-bin/rpatward/debruijn/gapped/writable/file1.txt
+; pg_name: FASTA
+; pg_ver: 3.47 Mar 2004
+; pg_matrix: BL50 (15:-5)
+; pg_open-ext: -10 -2
+; pg_ktup: 1
+; pg_optcut: 30
+; pg_cgap: 42
+; mp_extrap: 60000 7
+; mp_stats: Altschul/Gish params: n0: 18 Lambda: 0.158 K: 0.019 H: 0.100
+; mp_KS: -0.0000 (N=33) at  86
+>>BK001410.1|_1 TPA_exp: Homo sapiens myosin heavy chain (MYH16) pseudogene, complete sequence
+; fa_frame: f
+; fa_initn: 119
+; fa_init1: 119
+; fa_opt: 119
+; fa_z-score: 143.6
+; fa_bits: 37.0
+; fa_expect: 2.8e-05
+; sw_score: 119
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 18
+>Consensus_5 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 18
+; al_display_start: 1
+------------------------------PVLARMVSISPRDPPISA
+>BK001410.1|_1 ..
+; sq_len: 26651
+; sq_type: p
+; al_start: 1910
+; al_stop: 1927
+; al_display_start: 1880
+PFSCLSLRSSWDYRRVPSRPANFLYFRWGFPVLARMVSISPRDPPISASQ
+CAGITGVSHRARPGTGIFKFSFLFLRQRLAPLPRLECRGTIRAHYSLDLP
+SSSNPPASVSQVAGTTGTHH
+>>gi|37222319|gb|AAQ89684.1| masticatory myosin heavy chain [Macaca nemestrina]
+; fa_frame: f
+; fa_initn:  17
+; fa_init1:  17
+; fa_opt:  17
+; fa_z-score: 83.3
+; fa_bits: 16.0
+; fa_expect:  0.063
+; sw_score: 17
+; sw_ident: 0.200
+; sw_sim: 0.700
+; sw_overlap: 10
+>Consensus_5 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 11
+; al_display_start: 1
+----PVLARMVSISPRDPPISA
+>gi|37222319|gb|AAQ89684.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 6
+; al_stop: 15
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIVPNEFKQS
+>>gi|37222321|gb|AAQ89685.1| masticatory myosin heavy chain [Macaca mulatta]
+; fa_frame: f
+; fa_initn:  17
+; fa_init1:  17
+; fa_opt:  17
+; fa_z-score: 83.3
+; fa_bits: 16.0
+; fa_expect:  0.063
+; sw_score: 17
+; sw_ident: 0.200
+; sw_sim: 0.700
+; sw_overlap: 10
+>Consensus_5 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 11
+; al_display_start: 1
+----PVLARMVSISPRDPPISA
+>gi|37222321|gb|AAQ89685.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 6
+; al_stop: 15
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIVPNEFKQS
+>>gi|37222323|gb|AAQ89686.1| masticatory myosin heavy chain [Pongo pygmaeus]
+; fa_frame: f
+; fa_initn:  17
+; fa_init1:  17
+; fa_opt:  17
+; fa_z-score: 83.3
+; fa_bits: 16.0
+; fa_expect:  0.063
+; sw_score: 17
+; sw_ident: 0.200
+; sw_sim: 0.700
+; sw_overlap: 10
+>Consensus_5 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 11
+; al_display_start: 1
+----PVLARMVSISPRDPPISA
+>gi|37222323|gb|AAQ89686.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 6
+; al_stop: 15
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIIPNEFKQS
+>>gi|37222325|gb|AAQ89687.1| masticatory myosin heavy chain [Gorilla gorilla]
+; fa_frame: f
+; fa_initn:  17
+; fa_init1:  17
+; fa_opt:  17
+; fa_z-score: 83.3
+; fa_bits: 16.0
+; fa_expect:  0.063
+; sw_score: 17
+; sw_ident: 0.200
+; sw_sim: 0.700
+; sw_overlap: 10
+>Consensus_5 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 11
+; al_display_start: 1
+----PVLARMVSISPRDPPISA
+>gi|37222325|gb|AAQ89687.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 6
+; al_stop: 15
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIIPNEFKQS
+>>gi|37222327|gb|AAQ89688.1| masticatory myosin heavy chain [Pan paniscus]
+; fa_frame: f
+; fa_initn:  17
+; fa_init1:  17
+; fa_opt:  17
+; fa_z-score: 83.3
+; fa_bits: 16.0
+; fa_expect:  0.063
+; sw_score: 17
+; sw_ident: 0.200
+; sw_sim: 0.700
+; sw_overlap: 10
+>Consensus_5 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 11
+; al_display_start: 1
+----PVLARMVSISPRDPPISA
+>gi|37222327|gb|AAQ89688.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 6
+; al_stop: 15
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIIPNEFKQS
+>>gi|37222329|gb|AAQ89689.1| masticatory myosin heavy chain [Pan troglodytes]
+; fa_frame: f
+; fa_initn:  17
+; fa_init1:  17
+; fa_opt:  17
+; fa_z-score: 83.3
+; fa_bits: 16.0
+; fa_expect:  0.063
+; sw_score: 17
+; sw_ident: 0.200
+; sw_sim: 0.700
+; sw_overlap: 10
+>Consensus_5 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 11
+; al_display_start: 1
+----PVLARMVSISPRDPPISA
+>gi|37222329|gb|AAQ89689.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 6
+; al_stop: 15
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIIPNEFKQS
+>>gi|37222317|gb|AAQ89683.1| masticatory myosin heavy chain [Lagothrix lagotricha]
+; fa_frame: f
+; fa_initn:  17
+; fa_init1:  17
+; fa_opt:  17
+; fa_z-score: 83.3
+; fa_bits: 16.0
+; fa_expect:  0.063
+; sw_score: 17
+; sw_ident: 0.200
+; sw_sim: 0.700
+; sw_overlap: 10
+>Consensus_5 ..
+; sq_len: 18
+; sq_offset: 1
+; sq_type: p
+; al_start: 2
+; al_stop: 11
+; al_display_start: 1
+----PVLARMVSISPRDPPISA
+>gi|37222317|gb|AAQ89683.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 6
+; al_stop: 15
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIVPNEFKQS
+  7>>>Consensus_6 - 17 aa
+ vs  /var/www/cgi-bin/rpatward/debruijn/gapped/writable/file1.txt library
+
+  26854 residues in     8 sequences
+ Altschul/Gish params: n0: 17 Lambda: 0.158 K: 0.019 H: 0.100
+
+FASTA (3.47 Mar 2004) function [optimized, BL50 matrix (15:-5)] ktup: 1
+ join: 42, opt: 30, open/ext: -10/-2, width:  16
+ Scan time:  0.000
+The best scores are:                                      opt bits E(8)
+BK001410.1|_1 TPA_exp: Homo sapiens myosin heavy c (26651)  103  33.3 0.00035
+gi|37222319|gb|AAQ89684.1| masticatory myosin heav (  29)   21  16.7   0.036
+gi|37222321|gb|AAQ89685.1| masticatory myosin heav (  29)   21  16.7   0.036
+gi|37222323|gb|AAQ89686.1| masticatory myosin heav (  29)   21  16.7   0.036
+gi|37222325|gb|AAQ89687.1| masticatory myosin heav (  29)   21  16.7   0.036
+gi|37222327|gb|AAQ89688.1| masticatory myosin heav (  29)   21  16.7   0.036
+gi|37222329|gb|AAQ89689.1| masticatory myosin heav (  29)   21  16.7   0.036
+gi|37222317|gb|AAQ89683.1| masticatory myosin heav (  29)   21  16.7   0.036
+
+>>>Consensus_6, 17 aa vs /var/www/cgi-bin/rpatward/debruijn/gapped/writable/file1.txt library
+; pg_name: /usr/local/bin/fasta34
+; pg_ver: 34t25
+; pg_argv: /usr/local/bin/fasta34 -m 10 -A -p -q -E 200 -H consensus_seqs.fasta /var/www/cgi-bin/rpatward/debruijn/gapped/writable/file1.txt
+; pg_name: FASTA
+; pg_ver: 3.47 Mar 2004
+; pg_matrix: BL50 (15:-5)
+; pg_open-ext: -10 -2
+; pg_ktup: 1
+; pg_optcut: 30
+; pg_cgap: 42
+; mp_extrap: 60000 7
+; mp_stats: Altschul/Gish params: n0: 17 Lambda: 0.158 K: 0.019 H: 0.100
+; mp_KS: -0.0000 (N=33) at  86
+>>BK001410.1|_1 TPA_exp: Homo sapiens myosin heavy chain (MYH16) pseudogene, complete sequence
+; fa_frame: f
+; fa_initn: 103
+; fa_init1: 103
+; fa_opt: 103
+; fa_z-score: 123.9
+; fa_bits: 33.3
+; fa_expect: 0.00035
+; sw_score: 103
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 17
+>Consensus_6 ..
+; sq_len: 17
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 17
+; al_display_start: 1
+------------------------------QGRTSTNKHMAKSSASS
+>BK001410.1|_1 ..
+; sq_len: 26651
+; sq_type: p
+; al_start: 200
+; al_stop: 216
+; al_display_start: 170
+LCHCIPAWATEDHVSKINKINGKRLKQTFLQGRTSTNKHMAKSSASSVIR
+KMQIKITVRCHFTSTSMTMTFFSNQHVYATTYIFRSTISHFFFLFITFIL
+GSEVYVQVSYVGKLRVTGVW
+>>gi|37222319|gb|AAQ89684.1| masticatory myosin heavy chain [Macaca nemestrina]
+; fa_frame: f
+; fa_initn:  21
+; fa_init1:  21
+; fa_opt:  21
+; fa_z-score: 87.5
+; fa_bits: 16.7
+; fa_expect:  0.036
+; sw_score: 21
+; sw_ident: 0.375
+; sw_sim: 0.750
+; sw_overlap: 8
+>Consensus_6 ..
+; sq_len: 17
+; sq_offset: 1
+; sq_type: p
+; al_start: 5
+; al_stop: 12
+; al_display_start: 1
+-------QGRTSTNKHMAKSSASS
+>gi|37222319|gb|AAQ89684.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 12
+; al_stop: 19
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIVPNEFKQS
+>>gi|37222321|gb|AAQ89685.1| masticatory myosin heavy chain [Macaca mulatta]
+; fa_frame: f
+; fa_initn:  21
+; fa_init1:  21
+; fa_opt:  21
+; fa_z-score: 87.5
+; fa_bits: 16.7
+; fa_expect:  0.036
+; sw_score: 21
+; sw_ident: 0.375
+; sw_sim: 0.750
+; sw_overlap: 8
+>Consensus_6 ..
+; sq_len: 17
+; sq_offset: 1
+; sq_type: p
+; al_start: 5
+; al_stop: 12
+; al_display_start: 1
+-------QGRTSTNKHMAKSSASS
+>gi|37222321|gb|AAQ89685.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 12
+; al_stop: 19
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIVPNEFKQS
+>>gi|37222323|gb|AAQ89686.1| masticatory myosin heavy chain [Pongo pygmaeus]
+; fa_frame: f
+; fa_initn:  21
+; fa_init1:  21
+; fa_opt:  21
+; fa_z-score: 87.5
+; fa_bits: 16.7
+; fa_expect:  0.036
+; sw_score: 21
+; sw_ident: 0.375
+; sw_sim: 0.750
+; sw_overlap: 8
+>Consensus_6 ..
+; sq_len: 17
+; sq_offset: 1
+; sq_type: p
+; al_start: 5
+; al_stop: 12
+; al_display_start: 1
+-------QGRTSTNKHMAKSSASS
+>gi|37222323|gb|AAQ89686.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 12
+; al_stop: 19
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIIPNEFKQS
+>>gi|37222325|gb|AAQ89687.1| masticatory myosin heavy chain [Gorilla gorilla]
+; fa_frame: f
+; fa_initn:  21
+; fa_init1:  21
+; fa_opt:  21
+; fa_z-score: 87.5
+; fa_bits: 16.7
+; fa_expect:  0.036
+; sw_score: 21
+; sw_ident: 0.375
+; sw_sim: 0.750
+; sw_overlap: 8
+>Consensus_6 ..
+; sq_len: 17
+; sq_offset: 1
+; sq_type: p
+; al_start: 5
+; al_stop: 12
+; al_display_start: 1
+-------QGRTSTNKHMAKSSASS
+>gi|37222325|gb|AAQ89687.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 12
+; al_stop: 19
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIIPNEFKQS
+>>gi|37222327|gb|AAQ89688.1| masticatory myosin heavy chain [Pan paniscus]
+; fa_frame: f
+; fa_initn:  21
+; fa_init1:  21
+; fa_opt:  21
+; fa_z-score: 87.5
+; fa_bits: 16.7
+; fa_expect:  0.036
+; sw_score: 21
+; sw_ident: 0.375
+; sw_sim: 0.750
+; sw_overlap: 8
+>Consensus_6 ..
+; sq_len: 17
+; sq_offset: 1
+; sq_type: p
+; al_start: 5
+; al_stop: 12
+; al_display_start: 1
+-------QGRTSTNKHMAKSSASS
+>gi|37222327|gb|AAQ89688.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 12
+; al_stop: 19
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIIPNEFKQS
+>>gi|37222329|gb|AAQ89689.1| masticatory myosin heavy chain [Pan troglodytes]
+; fa_frame: f
+; fa_initn:  21
+; fa_init1:  21
+; fa_opt:  21
+; fa_z-score: 87.5
+; fa_bits: 16.7
+; fa_expect:  0.036
+; sw_score: 21
+; sw_ident: 0.375
+; sw_sim: 0.750
+; sw_overlap: 8
+>Consensus_6 ..
+; sq_len: 17
+; sq_offset: 1
+; sq_type: p
+; al_start: 5
+; al_stop: 12
+; al_display_start: 1
+-------QGRTSTNKHMAKSSASS
+>gi|37222329|gb|AAQ89689.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 12
+; al_stop: 19
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIIPNEFKQS
+>>gi|37222317|gb|AAQ89683.1| masticatory myosin heavy chain [Lagothrix lagotricha]
+; fa_frame: f
+; fa_initn:  21
+; fa_init1:  21
+; fa_opt:  21
+; fa_z-score: 87.5
+; fa_bits: 16.7
+; fa_expect:  0.036
+; sw_score: 21
+; sw_ident: 0.375
+; sw_sim: 0.750
+; sw_overlap: 8
+>Consensus_6 ..
+; sq_len: 17
+; sq_offset: 1
+; sq_type: p
+; al_start: 5
+; al_stop: 12
+; al_display_start: 1
+-------QGRTSTNKHMAKSSASS
+>gi|37222317|gb|AAQ89683.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 12
+; al_stop: 19
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIVPNEFKQS
+  8>>>Consensus_7 - 16 aa
+ vs  /var/www/cgi-bin/rpatward/debruijn/gapped/writable/file1.txt library
+
+  26854 residues in     8 sequences
+ Altschul/Gish params: n0: 16 Lambda: 0.158 K: 0.019 H: 0.100
+
+FASTA (3.47 Mar 2004) function [optimized, BL50 matrix (15:-5)] ktup: 1
+ join: 42, opt: 30, open/ext: -10/-2, width:  16
+ Scan time:  0.010
+The best scores are:                                      opt bits E(8)
+BK001410.1|_1 TPA_exp: Homo sapiens myosin heavy c (26651)  122  37.5 1.7e-05
+gi|37222319|gb|AAQ89684.1| masticatory myosin heav (  29)   23  17.0   0.029
+gi|37222321|gb|AAQ89685.1| masticatory myosin heav (  29)   23  17.0   0.029
+gi|37222323|gb|AAQ89686.1| masticatory myosin heav (  29)   23  17.0   0.029
+gi|37222325|gb|AAQ89687.1| masticatory myosin heav (  29)   23  17.0   0.029
+gi|37222327|gb|AAQ89688.1| masticatory myosin heav (  29)   23  17.0   0.029
+gi|37222329|gb|AAQ89689.1| masticatory myosin heav (  29)   23  17.0   0.029
+gi|37222317|gb|AAQ89683.1| masticatory myosin heav (  29)   23  17.0   0.029
+
+>>>Consensus_7, 16 aa vs /var/www/cgi-bin/rpatward/debruijn/gapped/writable/file1.txt library
+; pg_name: /usr/local/bin/fasta34
+; pg_ver: 34t25
+; pg_argv: /usr/local/bin/fasta34 -m 10 -A -p -q -E 200 -H consensus_seqs.fasta /var/www/cgi-bin/rpatward/debruijn/gapped/writable/file1.txt
+; pg_name: FASTA
+; pg_ver: 3.47 Mar 2004
+; pg_matrix: BL50 (15:-5)
+; pg_open-ext: -10 -2
+; pg_ktup: 1
+; pg_optcut: 30
+; pg_cgap: 42
+; mp_extrap: 60000 7
+; mp_stats: Altschul/Gish params: n0: 16 Lambda: 0.158 K: 0.019 H: 0.100
+; mp_KS: -0.0000 (N=33) at  86
+>>BK001410.1|_1 TPA_exp: Homo sapiens myosin heavy chain (MYH16) pseudogene, complete sequence
+; fa_frame: f
+; fa_initn: 122
+; fa_init1: 122
+; fa_opt: 122
+; fa_z-score: 147.3
+; fa_bits: 37.5
+; fa_expect: 1.7e-05
+; sw_score: 122
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 16
+>Consensus_7 ..
+; sq_len: 16
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 16
+; al_display_start: 1
+------------------------------LQPPPPGFKRFSCLSL
+>BK001410.1|_1 ..
+; sq_len: 26651
+; sq_type: p
+; al_start: 332
+; al_stop: 347
+; al_display_start: 302
+VPHRYFFFFFFEMASPSVAQAEVQWHHIRSLQPPPPGFKRFSCLSLPSSW
+DYRDAPPCMANFVIFLVETGFHHVGQAGLELLTSSDPPASASQSAGITRI
+SHRTWHHRYYFLDRTLLPPS
+>>gi|37222319|gb|AAQ89684.1| masticatory myosin heavy chain [Macaca nemestrina]
+; fa_frame: f
+; fa_initn:  23
+; fa_init1:  23
+; fa_opt:  23
+; fa_z-score: 89.3
+; fa_bits: 17.0
+; fa_expect:  0.029
+; sw_score: 24
+; sw_ident: 0.357
+; sw_sim: 0.500
+; sw_overlap: 14
+>Consensus_7 ..
+; sq_len: 16
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 14
+; al_display_start: 1
+---------LQPPPPGFKRFSCLSL
+>gi|37222319|gb|AAQ89684.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 10
+; al_stop: 21
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVR--CIVPNEFKQS
+>>gi|37222321|gb|AAQ89685.1| masticatory myosin heavy chain [Macaca mulatta]
+; fa_frame: f
+; fa_initn:  23
+; fa_init1:  23
+; fa_opt:  23
+; fa_z-score: 89.3
+; fa_bits: 17.0
+; fa_expect:  0.029
+; sw_score: 24
+; sw_ident: 0.357
+; sw_sim: 0.500
+; sw_overlap: 14
+>Consensus_7 ..
+; sq_len: 16
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 14
+; al_display_start: 1
+---------LQPPPPGFKRFSCLSL
+>gi|37222321|gb|AAQ89685.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 10
+; al_stop: 21
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVR--CIVPNEFKQS
+>>gi|37222323|gb|AAQ89686.1| masticatory myosin heavy chain [Pongo pygmaeus]
+; fa_frame: f
+; fa_initn:  23
+; fa_init1:  23
+; fa_opt:  23
+; fa_z-score: 89.3
+; fa_bits: 17.0
+; fa_expect:  0.029
+; sw_score: 24
+; sw_ident: 0.357
+; sw_sim: 0.500
+; sw_overlap: 14
+>Consensus_7 ..
+; sq_len: 16
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 14
+; al_display_start: 1
+---------LQPPPPGFKRFSCLSL
+>gi|37222323|gb|AAQ89686.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 10
+; al_stop: 21
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVR--CIIPNEFKQS
+>>gi|37222325|gb|AAQ89687.1| masticatory myosin heavy chain [Gorilla gorilla]
+; fa_frame: f
+; fa_initn:  23
+; fa_init1:  23
+; fa_opt:  23
+; fa_z-score: 89.3
+; fa_bits: 17.0
+; fa_expect:  0.029
+; sw_score: 24
+; sw_ident: 0.357
+; sw_sim: 0.500
+; sw_overlap: 14
+>Consensus_7 ..
+; sq_len: 16
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 14
+; al_display_start: 1
+---------LQPPPPGFKRFSCLSL
+>gi|37222325|gb|AAQ89687.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 10
+; al_stop: 21
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVR--CIIPNEFKQS
+>>gi|37222327|gb|AAQ89688.1| masticatory myosin heavy chain [Pan paniscus]
+; fa_frame: f
+; fa_initn:  23
+; fa_init1:  23
+; fa_opt:  23
+; fa_z-score: 89.3
+; fa_bits: 17.0
+; fa_expect:  0.029
+; sw_score: 24
+; sw_ident: 0.357
+; sw_sim: 0.500
+; sw_overlap: 14
+>Consensus_7 ..
+; sq_len: 16
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 14
+; al_display_start: 1
+---------LQPPPPGFKRFSCLSL
+>gi|37222327|gb|AAQ89688.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 10
+; al_stop: 21
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVR--CIIPNEFKQS
+>>gi|37222329|gb|AAQ89689.1| masticatory myosin heavy chain [Pan troglodytes]
+; fa_frame: f
+; fa_initn:  23
+; fa_init1:  23
+; fa_opt:  23
+; fa_z-score: 89.3
+; fa_bits: 17.0
+; fa_expect:  0.029
+; sw_score: 24
+; sw_ident: 0.357
+; sw_sim: 0.500
+; sw_overlap: 14
+>Consensus_7 ..
+; sq_len: 16
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 14
+; al_display_start: 1
+---------LQPPPPGFKRFSCLSL
+>gi|37222329|gb|AAQ89689.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 10
+; al_stop: 21
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVR--CIIPNEFKQS
+>>gi|37222317|gb|AAQ89683.1| masticatory myosin heavy chain [Lagothrix lagotricha]
+; fa_frame: f
+; fa_initn:  23
+; fa_init1:  23
+; fa_opt:  23
+; fa_z-score: 89.3
+; fa_bits: 17.0
+; fa_expect:  0.029
+; sw_score: 24
+; sw_ident: 0.357
+; sw_sim: 0.500
+; sw_overlap: 14
+>Consensus_7 ..
+; sq_len: 16
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 14
+; al_display_start: 1
+---------LQPPPPGFKRFSCLSL
+>gi|37222317|gb|AAQ89683.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 10
+; al_stop: 21
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVR--CIVPNEFKQS
+  9>>>Consensus_8 - 17 aa
+ vs  /var/www/cgi-bin/rpatward/debruijn/gapped/writable/file1.txt library
+
+  26854 residues in     8 sequences
+ Altschul/Gish params: n0: 17 Lambda: 0.158 K: 0.019 H: 0.100
+
+FASTA (3.47 Mar 2004) function [optimized, BL50 matrix (15:-5)] ktup: 1
+ join: 42, opt: 30, open/ext: -10/-2, width:  16
+ Scan time:  0.000
+The best scores are:                                      opt bits E(8)
+BK001410.1|_1 TPA_exp: Homo sapiens myosin heavy c (26651)  122  37.6 1.7e-05
+gi|37222325|gb|AAQ89687.1| masticatory myosin heav (  29)   19  16.3    0.05
+gi|37222327|gb|AAQ89688.1| masticatory myosin heav (  29)   19  16.3    0.05
+gi|37222323|gb|AAQ89686.1| masticatory myosin heav (  29)   19  16.3    0.05
+gi|37222329|gb|AAQ89689.1| masticatory myosin heav (  29)   19  16.3    0.05
+gi|37222319|gb|AAQ89684.1| masticatory myosin heav (  29)   18  16.0   0.059
+gi|37222321|gb|AAQ89685.1| masticatory myosin heav (  29)   18  16.0   0.059
+gi|37222317|gb|AAQ89683.1| masticatory myosin heav (  29)   18  16.0   0.059
+
+>>>Consensus_8, 17 aa vs /var/www/cgi-bin/rpatward/debruijn/gapped/writable/file1.txt library
+; pg_name: /usr/local/bin/fasta34
+; pg_ver: 34t25
+; pg_argv: /usr/local/bin/fasta34 -m 10 -A -p -q -E 200 -H consensus_seqs.fasta /var/www/cgi-bin/rpatward/debruijn/gapped/writable/file1.txt
+; pg_name: FASTA
+; pg_ver: 3.47 Mar 2004
+; pg_matrix: BL50 (15:-5)
+; pg_open-ext: -10 -2
+; pg_ktup: 1
+; pg_optcut: 30
+; pg_cgap: 42
+; mp_extrap: 60000 7
+; mp_stats: Altschul/Gish params: n0: 17 Lambda: 0.158 K: 0.019 H: 0.100
+; mp_KS: -0.0000 (N=33) at  86
+>>BK001410.1|_1 TPA_exp: Homo sapiens myosin heavy chain (MYH16) pseudogene, complete sequence
+; fa_frame: f
+; fa_initn: 122
+; fa_init1: 122
+; fa_opt: 122
+; fa_z-score: 147.3
+; fa_bits: 37.6
+; fa_expect: 1.7e-05
+; sw_score: 122
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 17
+>Consensus_8 ..
+; sq_len: 17
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 17
+; al_display_start: 1
+------------------------------GGRRMSMPPEGPRSAQS
+>BK001410.1|_1 ..
+; sq_len: 26651
+; sq_type: p
+; al_start: 1234
+; al_stop: 1250
+; al_display_start: 1204
+LKENSLPSCSISAHSLHRWVEVISFPTRVMGGRRMSMPPEGPRSAQSGPG
+RRGQLSSWTPEGFSSFLRFCPRPVRQVKGMARLGQSPSLFQCGLREPRGC
+WGRWERGGLAVEENWWEESR
+>>gi|37222325|gb|AAQ89687.1| masticatory myosin heavy chain [Gorilla gorilla]
+; fa_frame: f
+; fa_initn:  19
+; fa_init1:  19
+; fa_opt:  19
+; fa_z-score: 85.1
+; fa_bits: 16.3
+; fa_expect:   0.05
+; sw_score: 19
+; sw_ident: 0.364
+; sw_sim: 0.545
+; sw_overlap: 11
+>Consensus_8 ..
+; sq_len: 17
+; sq_offset: 1
+; sq_type: p
+; al_start: 4
+; al_stop: 14
+; al_display_start: 1
+---------------GGRRMSMPPEGPRSAQS
+>gi|37222325|gb|AAQ89687.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 19
+; al_stop: 29
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIIPNEFKQS
+>>gi|37222327|gb|AAQ89688.1| masticatory myosin heavy chain [Pan paniscus]
+; fa_frame: f
+; fa_initn:  19
+; fa_init1:  19
+; fa_opt:  19
+; fa_z-score: 85.1
+; fa_bits: 16.3
+; fa_expect:   0.05
+; sw_score: 19
+; sw_ident: 0.364
+; sw_sim: 0.545
+; sw_overlap: 11
+>Consensus_8 ..
+; sq_len: 17
+; sq_offset: 1
+; sq_type: p
+; al_start: 4
+; al_stop: 14
+; al_display_start: 1
+---------------GGRRMSMPPEGPRSAQS
+>gi|37222327|gb|AAQ89688.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 19
+; al_stop: 29
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIIPNEFKQS
+>>gi|37222323|gb|AAQ89686.1| masticatory myosin heavy chain [Pongo pygmaeus]
+; fa_frame: f
+; fa_initn:  19
+; fa_init1:  19
+; fa_opt:  19
+; fa_z-score: 85.1
+; fa_bits: 16.3
+; fa_expect:   0.05
+; sw_score: 19
+; sw_ident: 0.364
+; sw_sim: 0.545
+; sw_overlap: 11
+>Consensus_8 ..
+; sq_len: 17
+; sq_offset: 1
+; sq_type: p
+; al_start: 4
+; al_stop: 14
+; al_display_start: 1
+---------------GGRRMSMPPEGPRSAQS
+>gi|37222323|gb|AAQ89686.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 19
+; al_stop: 29
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIIPNEFKQS
+>>gi|37222329|gb|AAQ89689.1| masticatory myosin heavy chain [Pan troglodytes]
+; fa_frame: f
+; fa_initn:  19
+; fa_init1:  19
+; fa_opt:  19
+; fa_z-score: 85.1
+; fa_bits: 16.3
+; fa_expect:   0.05
+; sw_score: 19
+; sw_ident: 0.364
+; sw_sim: 0.545
+; sw_overlap: 11
+>Consensus_8 ..
+; sq_len: 17
+; sq_offset: 1
+; sq_type: p
+; al_start: 4
+; al_stop: 14
+; al_display_start: 1
+---------------GGRRMSMPPEGPRSAQS
+>gi|37222329|gb|AAQ89689.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 19
+; al_stop: 29
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIIPNEFKQS
+>>gi|37222319|gb|AAQ89684.1| masticatory myosin heavy chain [Macaca nemestrina]
+; fa_frame: f
+; fa_initn:  18
+; fa_init1:  18
+; fa_opt:  18
+; fa_z-score: 83.8
+; fa_bits: 16.0
+; fa_expect:  0.059
+; sw_score: 18
+; sw_ident: 0.364
+; sw_sim: 0.545
+; sw_overlap: 11
+>Consensus_8 ..
+; sq_len: 17
+; sq_offset: 1
+; sq_type: p
+; al_start: 4
+; al_stop: 14
+; al_display_start: 1
+---------------GGRRMSMPPEGPRSAQS
+>gi|37222319|gb|AAQ89684.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 19
+; al_stop: 29
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIVPNEFKQS
+>>gi|37222321|gb|AAQ89685.1| masticatory myosin heavy chain [Macaca mulatta]
+; fa_frame: f
+; fa_initn:  18
+; fa_init1:  18
+; fa_opt:  18
+; fa_z-score: 83.8
+; fa_bits: 16.0
+; fa_expect:  0.059
+; sw_score: 18
+; sw_ident: 0.364
+; sw_sim: 0.545
+; sw_overlap: 11
+>Consensus_8 ..
+; sq_len: 17
+; sq_offset: 1
+; sq_type: p
+; al_start: 4
+; al_stop: 14
+; al_display_start: 1
+---------------GGRRMSMPPEGPRSAQS
+>gi|37222321|gb|AAQ89685.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 19
+; al_stop: 29
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIVPNEFKQS
+>>gi|37222317|gb|AAQ89683.1| masticatory myosin heavy chain [Lagothrix lagotricha]
+; fa_frame: f
+; fa_initn:  18
+; fa_init1:  18
+; fa_opt:  18
+; fa_z-score: 83.8
+; fa_bits: 16.0
+; fa_expect:  0.059
+; sw_score: 18
+; sw_ident: 0.364
+; sw_sim: 0.545
+; sw_overlap: 11
+>Consensus_8 ..
+; sq_len: 17
+; sq_offset: 1
+; sq_type: p
+; al_start: 4
+; al_stop: 14
+; al_display_start: 1
+---------------GGRRMSMPPEGPRSAQS
+>gi|37222317|gb|AAQ89683.1| ..
+; sq_len: 29
+; sq_type: p
+; al_start: 19
+; al_stop: 29
+; al_display_start: 1
+EQLNKLMTTLHSTAPHFVRCIVPNEFKQS
+>>><<<
+
+
+166 residues in 9 query   sequences
+26854 residues in 8 library sequences
+ Scomplib [34t25]
+ start: Mon Nov 20 13:03:54 2006 done: Mon Nov 20 13:03:55 2006
+ Total Scan time:  0.040 Total Display time:  0.310
+
+Function used was FASTA [version 3.4t25 Sept 2, 2005]

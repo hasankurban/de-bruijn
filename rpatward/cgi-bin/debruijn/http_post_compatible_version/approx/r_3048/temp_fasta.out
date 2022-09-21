@@ -1,0 +1,104 @@
+# /usr/local/bin/fasta34 -m 10 -A -H -q -p -E 200 /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_3048/temp_consensus.fasta /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_3048/file1.txt
+FASTA searches a protein or DNA sequence data bank
+ version 3.4t25 Sept 2, 2005
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query library /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_3048/temp_consensus.fasta vs /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_3048/file1.txt library
+searching /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_3048/file1.txt library
+
+  1>>>Consensus_4  - 31 aa
+ vs  /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_vers library
+
+    933 residues in     2 sequences
+ Altschul/Gish params: n0: 31 Lambda: 0.158 K: 0.019 H: 0.100
+
+FASTA (3.47 Mar 2004) function [optimized, BL50 matrix (15:-5)] ktup: 1
+ join: 42, opt: 30, open/ext: -10/-2, width:  16
+ Scan time:  0.000
+The best scores are:                                      opt bits E(2)
+gi|3724330|dbj|BAA33771.1|                         ( 459)  216  60.1 2.3e-14
+gi|74583821|sp|Q12226.1|AYT1_Y                     ( 474)  148  44.6 1.1e-09
+
+>>>Consensus_4, 31 aa vs /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_3048/file1.txt library
+; pg_name: /usr/local/bin/fasta34
+; pg_ver: 34t25
+; pg_argv: /usr/local/bin/fasta34 -m 10 -A -H -q -p -E 200 /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_3048/temp_consensus.fasta /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_3048/file1.txt
+; pg_name: FASTA
+; pg_ver: 3.47 Mar 2004
+; pg_matrix: BL50 (15:-5)
+; pg_open-ext: -10 -2
+; pg_ktup: 1
+; pg_optcut: 30
+; pg_cgap: 42
+; mp_extrap: 60000 0
+; mp_stats: Altschul/Gish params: n0: 31 Lambda: 0.158 K: 0.019 H: 0.100
+; mp_KS: -0.0000 (N=33) at  86
+>>gi|3724330|dbj|BAA33771.1|
+; fa_frame: f
+; fa_initn: 216
+; fa_init1: 216
+; fa_opt: 216
+; fa_z-score: 295.7
+; fa_bits: 60.1
+; fa_expect: 2.3e-14
+; sw_score: 216
+; sw_ident: 0.968
+; sw_sim: 1.000
+; sw_overlap: 31
+>Consensus_4 ..
+; sq_len: 31
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 31
+; al_display_start: 1
+------------------------------GLGKPKSVRRPRFDPFESLV
+YLMPKKPDGEF
+>gi|3724330|dbj|BAA33771.1| ..
+; sq_len: 459
+; sq_type: p
+; al_start: 401
+; al_stop: 431
+; al_display_start: 371
+ISLTADADPSSGIMLSSWAKVGCWEYDFGFGLGKPESVRRPRFDPFESLV
+YLMPKKPDGEFTASISLRDEDMERLKADEEWTKYAQYIG
+>>gi|74583821|sp|Q12226.1|AYT1_Y
+; fa_frame: f
+; fa_initn: 148
+; fa_init1: 148
+; fa_opt: 148
+; fa_z-score: 211.7
+; fa_bits: 44.6
+; fa_expect: 1.1e-09
+; sw_score: 148
+; sw_ident: 0.700
+; sw_sim: 0.867
+; sw_overlap: 30
+>Consensus_4 ..
+; sq_len: 31
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 30
+; al_display_start: 1
+------------------------------GLGKPKSVRRPRFDPFESLV
+YLMPKKPDGEF
+>gi|74583821|sp|Q12226.1|AYT1_Y ..
+; sq_len: 474
+; sq_type: p
+; al_start: 416
+; al_stop: 445
+; al_display_start: 386
+VSIPQPIDTLSGIMVSSWAKVSLYDVDFNLGLGKPKSVRRPRFISLESLI
+YFMPRSSRGEMVVALCLRDKDWECLNADKEWTNYATHIG
+>>><<<
+
+
+31 residues in 1 query   sequences
+933 residues in 2 library sequences
+ Scomplib [34t25]
+ start: Fri Dec 14 15:01:48 2007 done: Fri Dec 14 15:01:48 2007
+ Total Scan time:  0.000 Total Display time:  0.000
+
+Function used was FASTA [version 3.4t25 Sept 2, 2005]

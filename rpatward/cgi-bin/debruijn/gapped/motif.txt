@@ -1,0 +1,1 @@
+/var/www/cgi-bin/rpatward/debruijn/gapped/writable/file1.txt

@@ -1,0 +1,399 @@
+# /usr/local/bin/fasta34 -m 10 -A -H -q -p -E 200 /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_3244/temp_consensus.fasta /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_3244/file1.txt
+FASTA searches a protein or DNA sequence data bank
+ version 3.4t25 Sept 2, 2005
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query library /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_3244/temp_consensus.fasta vs /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_3244/file1.txt library
+searching /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_3244/file1.txt library
+
+  1>>>Consensus_0  - 124 aa
+ vs  /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_vers library
+
+   3449 residues in    11 sequences
+ MLE_cen statistics: Lambda= 0.0033;  K=3.707e-05 (cen=0)
+
+FASTA (3.47 Mar 2004) function [optimized, BL50 matrix (15:-5)] ktup: 2
+ join: 36, opt: 24, open/ext: -10/-2, width:  16
+ Scan time:  0.000
+The best scores are:                                      opt bits E(11)
+saj_SaurJH9_0640_staphylococca                     ( 124)  766  18.4    0.48
+sao_SAOUHSC_00620_staphylococc                     ( 124)  766  18.4    0.48
+saa_SAUSA300_0605_sarA__staphy                     ( 124)  766  18.4    0.48
+sab_SAB0569c_sarA__staphylococ                     ( 124)  766  18.4    0.48
+sha_SH2281_sarA__staphylococca                     ( 124)  676  18.0    0.64
+efa_EF2207_DNA-binding_protein                     ( 283)   29  14.9     7.6
+dps_DP2115_hypothetical_protei                     ( 330)   44  14.9       8
+hsa_1548_CYP2A6__CYP2A3__cytoc                     ( 494)  102  15.2     8.8
+pmg_P9301_00841_ABC_transporte                     ( 500)   60  15.0     9.3
+osa_4329726_Os02g0570700__A_                       ( 518)   58  15.0     9.5
+gka_GK2455_peptidoglycan_biosy                     ( 704)   42  14.9      10
+
+>>>Consensus_0, 124 aa vs /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_3244/file1.txt library
+; pg_name: /usr/local/bin/fasta34
+; pg_ver: 34t25
+; pg_argv: /usr/local/bin/fasta34 -m 10 -A -H -q -p -E 200 /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_3244/temp_consensus.fasta /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_3244/file1.txt
+; pg_name: FASTA
+; pg_ver: 3.47 Mar 2004
+; pg_matrix: BL50 (15:-5)
+; pg_open-ext: -10 -2
+; pg_ktup: 2
+; pg_optcut: 24
+; pg_cgap: 36
+; mp_extrap: 60000 11
+; mp_stats: MLE_cen statistics: Lambda= 0.0033;  K=3.707e-05 (cen=0)
+; mp_KS: -0.0000 (N=33) at  86
+>>saj_SaurJH9_0640_staphylococca
+; fa_frame: f
+; fa_initn: 766
+; fa_init1: 766
+; fa_opt: 766
+; fa_z-score: 69.8
+; fa_bits: 18.4
+; fa_expect:   0.48
+; sw_score: 766
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 124
+>Consensus_0 ..
+; sq_len: 124
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 124
+; al_display_start: 1
+MAITKINDCFELLSMVTYADKLKSLIKKEFSISFEEFAVLTYISENKEKE
+YYLKDIINHLNYKQPQVVKAVKILSQEDYFDKKRNEHDERTVLILVNAQQ
+RKKIESLLSRVNKRITEANNEIEL
+>saj_SaurJH9_0640_staphylococca ..
+; sq_len: 124
+; sq_type: p
+; al_start: 1
+; al_stop: 124
+; al_display_start: 1
+MAITKINDCFELLSMVTYADKLKSLIKKEFSISFEEFAVLTYISENKEKE
+YYLKDIINHLNYKQPQVVKAVKILSQEDYFDKKRNEHDERTVLILVNAQQ
+RKKIESLLSRVNKRITEANNEIEL
+>>sao_SAOUHSC_00620_staphylococc
+; fa_frame: f
+; fa_initn: 766
+; fa_init1: 766
+; fa_opt: 766
+; fa_z-score: 69.8
+; fa_bits: 18.4
+; fa_expect:   0.48
+; sw_score: 766
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 124
+>Consensus_0 ..
+; sq_len: 124
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 124
+; al_display_start: 1
+MAITKINDCFELLSMVTYADKLKSLIKKEFSISFEEFAVLTYISENKEKE
+YYLKDIINHLNYKQPQVVKAVKILSQEDYFDKKRNEHDERTVLILVNAQQ
+RKKIESLLSRVNKRITEANNEIEL
+>sao_SAOUHSC_00620_staphylococc ..
+; sq_len: 124
+; sq_type: p
+; al_start: 1
+; al_stop: 124
+; al_display_start: 1
+MAITKINDCFELLSMVTYADKLKSLIKKEFSISFEEFAVLTYISENKEKE
+YYLKDIINHLNYKQPQVVKAVKILSQEDYFDKKRNEHDERTVLILVNAQQ
+RKKIESLLSRVNKRITEANNEIEL
+>>saa_SAUSA300_0605_sarA__staphy
+; fa_frame: f
+; fa_initn: 766
+; fa_init1: 766
+; fa_opt: 766
+; fa_z-score: 69.8
+; fa_bits: 18.4
+; fa_expect:   0.48
+; sw_score: 766
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 124
+>Consensus_0 ..
+; sq_len: 124
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 124
+; al_display_start: 1
+MAITKINDCFELLSMVTYADKLKSLIKKEFSISFEEFAVLTYISENKEKE
+YYLKDIINHLNYKQPQVVKAVKILSQEDYFDKKRNEHDERTVLILVNAQQ
+RKKIESLLSRVNKRITEANNEIEL
+>saa_SAUSA300_0605_sarA__staphy ..
+; sq_len: 124
+; sq_type: p
+; al_start: 1
+; al_stop: 124
+; al_display_start: 1
+MAITKINDCFELLSMVTYADKLKSLIKKEFSISFEEFAVLTYISENKEKE
+YYLKDIINHLNYKQPQVVKAVKILSQEDYFDKKRNEHDERTVLILVNAQQ
+RKKIESLLSRVNKRITEANNEIEL
+>>sab_SAB0569c_sarA__staphylococ
+; fa_frame: f
+; fa_initn: 766
+; fa_init1: 766
+; fa_opt: 766
+; fa_z-score: 69.8
+; fa_bits: 18.4
+; fa_expect:   0.48
+; sw_score: 766
+; sw_ident: 1.000
+; sw_sim: 1.000
+; sw_overlap: 124
+>Consensus_0 ..
+; sq_len: 124
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 124
+; al_display_start: 1
+MAITKINDCFELLSMVTYADKLKSLIKKEFSISFEEFAVLTYISENKEKE
+YYLKDIINHLNYKQPQVVKAVKILSQEDYFDKKRNEHDERTVLILVNAQQ
+RKKIESLLSRVNKRITEANNEIEL
+>sab_SAB0569c_sarA__staphylococ ..
+; sq_len: 124
+; sq_type: p
+; al_start: 1
+; al_stop: 124
+; al_display_start: 1
+MAITKINDCFELLSMVTYADKLKSLIKKEFSISFEEFAVLTYISENKEKE
+YYLKDIINHLNYKQPQVVKAVKILSQEDYFDKKRNEHDERTVLILVNAQQ
+RKKIESLLSRVNKRITEANNEIEL
+>>sha_SH2281_sarA__staphylococca
+; fa_frame: f
+; fa_initn: 676
+; fa_init1: 676
+; fa_opt: 676
+; fa_z-score: 67.5
+; fa_bits: 18.0
+; fa_expect:   0.64
+; sw_score: 676
+; sw_ident: 0.855
+; sw_sim: 0.952
+; sw_overlap: 124
+>Consensus_0 ..
+; sq_len: 124
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 124
+; al_display_start: 1
+MAITKINDCFELLSMVTYADKLKSLIKKEFSISFEEFAVLTYISENKEKE
+YYLKDIINHLNYKQPQVVKAVKILSQEDYFDKKRNEHDERTVLILVNAQQ
+RKKIESLLSRVNKRITEANNEIEL
+>sha_SH2281_sarA__staphylococca ..
+; sq_len: 124
+; sq_type: p
+; al_start: 1
+; al_stop: 124
+; al_display_start: 1
+MAISKINDCFELLAMITYADKLKNIIKKEFSISFEEFAVLTYISQSKEDE
+YYLKDIINHLNYKQPQVVKAVKNLSQEDYFDKKRNEHDERTVLILVNSTQ
+RKKIDSLLNKVNTRIEEANKETEL
+>>efa_EF2207_DNA-binding_protein
+; fa_frame: f
+; fa_initn:  29
+; fa_init1:  29
+; fa_opt:  29
+; fa_z-score: 44.2
+; fa_bits: 14.9
+; fa_expect:    7.6
+; sw_score: 47
+; sw_ident: 0.222
+; sw_sim: 0.580
+; sw_overlap: 81
+>Consensus_0 ..
+; sq_len: 124
+; sq_offset: 1
+; sq_type: p
+; al_start: 30
+; al_stop: 107
+; al_display_start: 1
+-MAITKINDCFELLSMVTYADKLKSLIKKEFSISFEEFAVLTYISENKEK
+EYYLKDIINHLN--YKQPQVVKAVKILSQEDYFDKKRNEHDERTVLIL-V
+NAQQRKKIESLLSRVNKRITEANNEIEL
+>efa_EF2207_DNA-binding_protein ..
+; sq_len: 283
+; sq_type: p
+; al_start: 115
+; al_stop: 193
+; al_display_start: 85
+MLQIQTNVTKELQAEWQFNLTKMFPDTVDCFSPSNNMYILVEEQSKNTFQ
+QEEIQGIFLTLDTDFDCTSAVFVGNFYSSEDIL--RRCFHEEQRIFSEEL
+NSSSRTTVFSLTDVALHYFTKEAMSQNVLVEYYRRLLNKDTDIQPIISAL
+WKNQGNISSTAKDLFMHRNTLHYRLEKFFE
+>>dps_DP2115_hypothetical_protei
+; fa_frame: f
+; fa_initn:  32
+; fa_init1:  32
+; fa_opt:  44
+; fa_z-score: 43.4
+; fa_bits: 14.9
+; fa_expect:      8
+; sw_score: 44
+; sw_ident: 0.234
+; sw_sim: 0.638
+; sw_overlap: 47
+>Consensus_0 ..
+; sq_len: 124
+; sq_offset: 1
+; sq_type: p
+; al_start: 18
+; al_stop: 63
+; al_display_start: 1
+-------------MAITKINDCFELLSMVTYADKLKSLIKK-EFSISFEE
+FAVLTYISENKEKEYYLKDIINHLNYKQPQVVKAVKILSQEDYFDKKRNE
+HDERTVLILVNAQQRKKIES
+>dps_DP2115_hypothetical_protei ..
+; sq_len: 330
+; sq_type: p
+; al_start: 241
+; al_stop: 286
+; al_display_start: 211
+EIIMLNLYTNWVYDGYDPDNEILISQKAERYISRLRKIDPDVEIWVAVAA
+FAGMPYFKKPSRQKLE-KDILDSLKLKNISGIGFFGLGWIADEDDHEENW
+YLFKEGRDLWQVIKTEIRSN
+>>hsa_1548_CYP2A6__CYP2A3__cytoc
+; fa_frame: f
+; fa_initn:  33
+; fa_init1:  33
+; fa_opt: 102
+; fa_z-score: 41.8
+; fa_bits: 15.2
+; fa_expect:    8.8
+; sw_score: 102
+; sw_ident: 0.246
+; sw_sim: 0.614
+; sw_overlap: 114
+>Consensus_0 ..
+; sq_len: 124
+; sq_offset: 1
+; sq_type: p
+; al_start: 12
+; al_stop: 124
+; al_display_start: 1
+-------------------MAITKINDCFELLSMVTYADKLKSLIKKEFS
+ISFEEFAVLTYISENKEKEYYL-KDIINHLNYKQPQVVKAVKILSQEDYF
+DKKRNEHDERTVLILVNAQQRKKIESLLSRVNKRITEANNEIEL
+>hsa_1548_CYP2A6__CYP2A3__cytoc ..
+; sq_len: 494
+; sq_type: p
+; al_start: 181
+; al_stop: 288
+; al_display_start: 151
+EEAGFLIDALRGTGGANIDPTFFLSRTVSNVISSIVFGDRFDYKDKEFLS
+LLRMMLGIFQFTSTSTGQLYEMFSSVMKHLPGPQQQAFQLLQGL--EDFI
+AKKV-EHNQRT---LDPNSPRDFIDSFLIRMQEEEKNPNTEFYLKNLVMT
+TLNLFIGGTETVSTTLRYGFLLLMKHPEVE
+>>pmg_P9301_00841_ABC_transporte
+; fa_frame: f
+; fa_initn:  41
+; fa_init1:  41
+; fa_opt:  60
+; fa_z-score: 40.6
+; fa_bits: 15.0
+; fa_expect:    9.3
+; sw_score: 60
+; sw_ident: 0.190
+; sw_sim: 0.583
+; sw_overlap: 84
+>Consensus_0 ..
+; sq_len: 124
+; sq_offset: 1
+; sq_type: p
+; al_start: 39
+; al_stop: 122
+; al_display_start: 9
+CFELLSMVTYADKLKSLIKKEFSISFEEFAVLTYISENKEKEYYLKDIIN
+HLNYKQPQVVKAVKILSQEDYFDKKRNEHDERTVLILVNAQQRKKIESLL
+SRVNKRITEANNEIEL
+>pmg_P9301_00841_ABC_transporte ..
+; sq_len: 500
+; sq_type: p
+; al_start: 56
+; al_stop: 131
+; al_display_start: 26
+LVKDVVNETYKYGFVTDIETEKIEKGLNEDIIKLISQKKEEPRFL-----
+-LDFRL-KAFKKWQKMKEPDWAALGYEKIDYQDIIYYSAPKQKEKISSL-
+DEVDPKLLETFDKLGIPLTEQKKLTNVAVDAVFDSVSIATTFREELAEHG
+VIFCSISEAVKNHADLIEKYLGTVVPASDN
+>>osa_4329726_Os02g0570700__A_
+; fa_frame: f
+; fa_initn:  55
+; fa_init1:  55
+; fa_opt:  58
+; fa_z-score: 40.2
+; fa_bits: 15.0
+; fa_expect:    9.5
+; sw_score: 58
+; sw_ident: 0.333
+; sw_sim: 0.857
+; sw_overlap: 21
+>Consensus_0 ..
+; sq_len: 124
+; sq_offset: 1
+; sq_type: p
+; al_start: 57
+; al_stop: 77
+; al_display_start: 27
+KKEFSISFEEFAVLTYISENKEKEYYLKDIINHLNYKQPQVVKAVKILSQ
+EDYFDKKRNEHDERTVLILVNAQQRKKIESLLSRVNKRITEANNEIEL
+>osa_4329726_Os02g0570700__A_ ..
+; sq_len: 518
+; sq_type: p
+; al_start: 46
+; al_stop: 66
+; al_display_start: 16
+FVLLSKLVSSAMKPRLNLPPGPWTLPLIGSLHHLVMKSPQIHRSLRALSE
+KHGPIMQLWMGEVPAVIVSSPAVAEEVLKHQDLRFADRHLTATIEEVSFG
+GRDVTFAPYSERWRHLRKIC
+>>gka_GK2455_peptidoglycan_biosy
+; fa_frame: f
+; fa_initn:  37
+; fa_init1:  37
+; fa_opt:  42
+; fa_z-score: 37.4
+; fa_bits: 14.9
+; fa_expect:     10
+; sw_score: 54
+; sw_ident: 0.177
+; sw_sim: 0.677
+; sw_overlap: 62
+>Consensus_0 ..
+; sq_len: 124
+; sq_offset: 1
+; sq_type: p
+; al_start: 50
+; al_stop: 110
+; al_display_start: 20
+DKLKSLIKKEFSISFEEFAVLTYISENKEKEYYLKDIINHLNYKQPQVV-
+KAVKILSQEDYFDKKRNEHDERTVLILVNAQQRKKIESLLSRVNKRITEA
+NNEIEL
+>gka_GK2455_peptidoglycan_biosy ..
+; sq_len: 704
+; sq_type: p
+; al_start: 275
+; al_stop: 332
+; al_display_start: 245
+EEDEGVPRERLDYFLARDYSRNDRVGKSYLEMQYEEVLHGKKAKVKNVVD
+KSGNVISVEQVYPGERG----KDLVLTIDAELQQKVEQIIQQEILATKRK
+GRSPLLDRAFVVMMNPKTGEVLAMAGKLLQDGKFVDFAIGNITSAYAMGS
+AVKGATVLTGFQTGVLHPNTYIKDEPLYIK
+>>><<<
+
+
+124 residues in 1 query   sequences
+3449 residues in 11 library sequences
+ Scomplib [34t25]
+ start: Thu Dec 13 01:41:20 2007 done: Thu Dec 13 01:41:20 2007
+ Total Scan time:  0.000 Total Display time:  0.040
+
+Function used was FASTA [version 3.4t25 Sept 2, 2005]

@@ -1,0 +1,344 @@
+# /usr/local/bin/fasta34 -m 10 -A -H -q -p -E 200 /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_7066/temp_consensus.fasta /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_7066/file1.txt
+FASTA searches a protein or DNA sequence data bank
+ version 3.4t25 Sept 2, 2005
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query library /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_7066/temp_consensus.fasta vs /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_7066/file1.txt library
+searching /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_7066/file1.txt library
+
+  1>>>Consensus_1  - 27 aa
+ vs  /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_vers library
+
+   1046 residues in    10 sequences
+ MLE_cen statistics: Lambda= 0.0731;  K=0.06953 (cen=0)
+
+FASTA (3.47 Mar 2004) function [optimized, BL50 matrix (15:-5)] ktup: 1
+ join: 42, opt: 30, open/ext: -10/-2, width:  16
+ Scan time:  0.000
+The best scores are:                                      opt bits E(10)
+RK23_ODOSI (P49559) Chloroplast 50S ribosomal prot ( 102)  111  15.5    0.56
+RK23_ASTLO (P34771) Chloroplast 50S ribosomal prot (  98)  109  15.3    0.62
+RK23_GUITH (O46896) Chloroplast 50S ribosomal prot (  95)   93  13.6     1.8
+RK23_EUGGR (P19167) Chloroplast 50S ribosomal prot ( 100)   90  13.3     2.3
+RK23_MARPO (P06390) Chloroplast 50S ribosomal prot (  91)   82  12.5     3.5
+RK23_MAIZE (P09387) Chloroplast 50S ribosomal prot (  93)   68  11.0       7
+RK23_NEPOL (Q9TL17) Chloroplast 50S ribosomal prot (  92)   67  10.9     7.3
+RK23_ARATH (P27108) Chloroplast 50S ribosomal prot (  93)   62  10.4     8.5
+R25B_SCHPO (O74391) 60S ribosomal protein L25-B.   ( 141)   66  10.8     8.8
+R25A_SCHPO (Q10330) 60S ribosomal protein L25-A.   ( 141)   64  10.6     9.2
+
+>>>Consensus_1, 27 aa vs /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_7066/file1.txt library
+; pg_name: /usr/local/bin/fasta34
+; pg_ver: 34t25
+; pg_argv: /usr/local/bin/fasta34 -m 10 -A -H -q -p -E 200 /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_7066/temp_consensus.fasta /var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx/r_7066/file1.txt
+; pg_name: FASTA
+; pg_ver: 3.47 Mar 2004
+; pg_matrix: BL50 (15:-5)
+; pg_open-ext: -10 -2
+; pg_ktup: 1
+; pg_optcut: 30
+; pg_cgap: 42
+; mp_extrap: 60000 10
+; mp_stats: MLE_cen statistics: Lambda= 0.0731;  K=0.06953 (cen=0)
+; mp_KS: -0.0000 (N=33) at  86
+>>RK23_ODOSI (P49559) Chloroplast 50S ribosomal protein L23.
+; fa_frame: f
+; fa_initn: 111
+; fa_init1: 111
+; fa_opt: 111
+; fa_z-score: 67.8
+; fa_bits: 15.5
+; fa_expect:   0.56
+; sw_score: 111
+; sw_ident: 0.905
+; sw_sim: 1.000
+; sw_overlap: 21
+>Consensus_1 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 21
+; al_display_start: 1
+------------------------------KITIKAAIEYLFNVKVISVN
+SYVKSSK
+>RK23_ODOSI ..
+; sq_len: 102
+; sq_type: p
+; al_start: 43
+; al_stop: 63
+; al_display_start: 13
+NIIKYPIITDKATRLLENNQYSFIVNPYSDKITIKAAIEYLFNVKVIKVN
+TCHLPKKKKRVGKYLGWKSHYKKAIVTLSQGDRINLFAEN
+>>RK23_ASTLO (P34771) Chloroplast 50S ribosomal protein L23.
+; fa_frame: f
+; fa_initn: 109
+; fa_init1: 109
+; fa_opt: 109
+; fa_z-score: 66.9
+; fa_bits: 15.3
+; fa_expect:   0.62
+; sw_score: 109
+; sw_ident: 0.519
+; sw_sim: 0.852
+; sw_overlap: 27
+>Consensus_1 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 27
+; al_display_start: 1
+------------------------------KITIKAAIEYLFNVKVISVN
+SYVKSSK
+>RK23_ASTLO ..
+; sq_len: 98
+; sq_type: p
+; al_start: 40
+; al_stop: 66
+; al_display_start: 10
+PFLKYQVFTDKTNDLLKYNIYVFDVDKKLNKLQIKNIIEYIFNIKIYSIN
+TYIKNNKYCCFNKIKGLKTNYKRAFIRLKSVNIIPYFSC
+>>RK23_GUITH (O46896) Chloroplast 50S ribosomal protein L23.
+; fa_frame: f
+; fa_initn:  93
+; fa_init1:  93
+; fa_opt:  93
+; fa_z-score: 58.1
+; fa_bits: 13.6
+; fa_expect:    1.8
+; sw_score: 93
+; sw_ident: 0.714
+; sw_sim: 0.857
+; sw_overlap: 21
+>Consensus_1 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 21
+; al_display_start: 1
+------------------------------KITIKAAIEYLFNVKVISVN
+SYVKSSK
+>RK23_GUITH ..
+; sq_len: 95
+; sq_type: p
+; al_start: 36
+; al_stop: 56
+; al_display_start: 6
+DLVKYPLITDKATRLLELNQYTFLTSRVATKTDIKNAIEFLFNVKVISIN
+TCLLPLKRKRLGKFVGSKPRYKKAVVTLEKNNTINLFSEN
+>>RK23_EUGGR (P19167) Chloroplast 50S ribosomal protein L23.
+; fa_frame: f
+; fa_initn:  90
+; fa_init1:  90
+; fa_opt:  90
+; fa_z-score: 55.9
+; fa_bits: 13.3
+; fa_expect:    2.3
+; sw_score: 90
+; sw_ident: 0.630
+; sw_sim: 0.741
+; sw_overlap: 27
+>Consensus_1 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 27
+; al_display_start: 1
+------------------------------KITIKAAIEYLFNVKVISVN
+SYVKSSK
+>RK23_EUGGR ..
+; sq_len: 100
+; sq_type: p
+; al_start: 41
+; al_stop: 67
+; al_display_start: 11
+DQFKYGILTDKTNKLLKNNVYTFDVDIQMSKRQFKDLIETAFSVKITSVN
+SYVKSSKYYRSNNFEGMKKYYKRMFIKLNDLETIPFFSCL
+>>RK23_MARPO (P06390) Chloroplast 50S ribosomal protein L23.
+; fa_frame: f
+; fa_initn:  82
+; fa_init1:  82
+; fa_opt:  82
+; fa_z-score: 52.1
+; fa_bits: 12.5
+; fa_expect:    3.5
+; sw_score: 82
+; sw_ident: 0.682
+; sw_sim: 0.773
+; sw_overlap: 22
+>Consensus_1 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 22
+; al_display_start: 1
+------------------------------KITIKAAIEYLFNVKVISVN
+SYVKSSK
+>RK23_MARPO ..
+; sq_len: 91
+; sq_type: p
+; al_start: 32
+; al_stop: 53
+; al_display_start: 2
+NQVKYPVLTEKTIRLLEKNQYSFDVNIDSNKTQIKKWIELFFNVKVISVN
+SHRLPKKKKKIGTTTGYTVRYKRMIIKLQSGYSIPLFSNK
+>>RK23_MAIZE (P09387) Chloroplast 50S ribosomal protein L23.
+; fa_frame: f
+; fa_initn:  68
+; fa_init1:  68
+; fa_opt:  68
+; fa_z-score: 44.0
+; fa_bits: 11.0
+; fa_expect:      7
+; sw_score: 68
+; sw_ident: 0.500
+; sw_sim: 0.773
+; sw_overlap: 22
+>Consensus_1 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 22
+; al_display_start: 1
+------------------------------KITIKAAIEYLFNVKVISVN
+SYVKSSK
+>RK23_MAIZE ..
+; sq_len: 93
+; sq_type: p
+; al_start: 32
+; al_stop: 53
+; al_display_start: 2
+DGIKYAVFTEKSLRLLGKNQYTFNVESGFTKTEIKHWVELFFGVKVVAVN
+SHRLPGKGRRMGPILGHTMHYRRMIITLQPGYSIPLLDRETN
+>>RK23_NEPOL (Q9TL17) Chloroplast 50S ribosomal protein L23.
+; fa_frame: f
+; fa_initn:  67
+; fa_init1:  67
+; fa_opt:  67
+; fa_z-score: 43.5
+; fa_bits: 10.9
+; fa_expect:    7.3
+; sw_score: 67
+; sw_ident: 0.545
+; sw_sim: 0.773
+; sw_overlap: 22
+>Consensus_1 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 22
+; al_display_start: 1
+------------------------------KITIKAAIEYLFNVKVISVN
+SYVKSSK
+>RK23_NEPOL ..
+; sq_len: 92
+; sq_type: p
+; al_start: 34
+; al_stop: 55
+; al_display_start: 4
+DLVKRPVITEKATRILEKNQYTFDVELSLTKPKIKALIEKAFKVEVVSVN
+THRPPRRKRRLGTTQGYLPRYKRAIITLKRGFMIPLTPF
+>>RK23_ARATH (P27108) Chloroplast 50S ribosomal protein L23.
+; fa_frame: f
+; fa_initn:  62
+; fa_init1:  62
+; fa_opt:  62
+; fa_z-score: 40.6
+; fa_bits: 10.4
+; fa_expect:    8.5
+; sw_score: 62
+; sw_ident: 0.455
+; sw_sim: 0.773
+; sw_overlap: 22
+>Consensus_1 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 22
+; al_display_start: 1
+------------------------------KITIKAAIEYLFNVKVISVN
+SYVKSSK
+>RK23_ARATH ..
+; sq_len: 93
+; sq_type: p
+; al_start: 32
+; al_stop: 53
+; al_display_start: 2
+DGIKYAVFTDKSIRLLGKNQYTFNVESGSTRTEIKHWVELFFGVKVIAMN
+SHRLPGKVKRMGPILGHTMHYRRMIITLQPGYSIPPLRKKRT
+>>R25B_SCHPO (O74391) 60S ribosomal protein L25-B.
+; fa_frame: f
+; fa_initn:  66
+; fa_init1:  66
+; fa_opt:  66
+; fa_z-score: 39.6
+; fa_bits: 10.8
+; fa_expect:    8.8
+; sw_score: 66
+; sw_ident: 0.333
+; sw_sim: 0.833
+; sw_overlap: 24
+>Consensus_1 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 24
+; al_display_start: 1
+------------------------------KITIKAAIEYLFNVKVISVN
+SYVKSSK
+>R25B_SCHPO ..
+; sq_len: 141
+; sq_type: p
+; al_start: 91
+; al_stop: 114
+; al_display_start: 61
+IIVNPINSESAMKKIEDDNTLVFHVHLKANKFTIKNAVKKLYSVDAVKIN
+TLIRPNGTKKAFVKLSADADALDVANRIGFL
+>>R25A_SCHPO (Q10330) 60S ribosomal protein L25-A.
+; fa_frame: f
+; fa_initn:  64
+; fa_init1:  64
+; fa_opt:  64
+; fa_z-score: 38.5
+; fa_bits: 10.6
+; fa_expect:    9.2
+; sw_score: 64
+; sw_ident: 0.333
+; sw_sim: 0.833
+; sw_overlap: 24
+>Consensus_1 ..
+; sq_len: 27
+; sq_offset: 1
+; sq_type: p
+; al_start: 1
+; al_stop: 24
+; al_display_start: 1
+------------------------------KITIKAAIEYLFNVKVISVN
+SYVKSSK
+>R25A_SCHPO ..
+; sq_len: 141
+; sq_type: p
+; al_start: 91
+; al_stop: 114
+; al_display_start: 61
+IIVNPINSESAMKKIEDDNTLVFHVHLKANKFTIKEAVRKLYSVEPVKIN
+TLIRPNGTKKAFVKLSADADALDVANRIGFL
+>>><<<
+
+
+27 residues in 1 query   sequences
+1046 residues in 10 library sequences
+ Scomplib [34t25]
+ start: Sun Nov 18 19:43:50 2007 done: Sun Nov 18 19:43:50 2007
+ Total Scan time:  0.000 Total Display time:  0.010
+
+Function used was FASTA [version 3.4t25 Sept 2, 2005]

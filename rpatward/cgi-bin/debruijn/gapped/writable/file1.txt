@@ -1,0 +1,3382 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb"  lang="en-gb">
+<head>
+  <title>MartView</title>
+  <style type="text/css" media="all">
+    @import url(/css/ensembl.css);
+    @import url(/css/content.css);
+    @import url(/css/martview.css);
+  </style>
+  <style type="text/css" media="print">
+    @import url(/css/printer-styles.css);
+  </style>
+  <style type="text/css" media="screen">
+    @import url(/css/screen-styles.css);
+  </style>
+  <script type="text/javascript" src="/js/core.js"></script>
+  <script type="text/javascript" src="/js/new_drag_imagemap.js"></script>
+  <script type="text/javascript" src="/js/help.js"></script>
+  <script type="text/javascript" src="/js/new_support.js"></script>
+<link rel="alternate" type="application/rss+xml" title="Ensembl website news feed" href="/common/rss.xml" /></head>
+<body onload="initialiseSeqType();" id="ensembl-webpage">
+<div id="masthead">
+  <h1><a href="/"><img src="/img/e-bang.gif" style="width: 46px; height: 40px; vertical-align:bottom; border:0px; padding-bottom:2px" alt="" title="Home" /></a><a href="/" class="home serif">Ensembl</a> <a href="/BioMart/" class="section">BioMart</a> <span class="viewname serif">MartView</span></h1>
+</div>
+<div id="search">
+  <form action="/perl/searchview" method="get" style="font-size: 0.9em"><div>
+    <input type="hidden" name="species" value="all" />
+    Search all Ensembl:
+    <select name="idx" style="font-size: 0.9em">
+      <option value="All">Anything</option>
+      <option value="Domain">Domain</option> 
+      <option value="Family">Family</option> 
+      <option value="Gene">Gene</option> 
+      <option value="GenomicAlignment">GenomicAlignment</option> 
+      <option value="Marker">Marker</option> 
+      <option value="OligoProbe">OligoProbe</option> 
+      <option value="QTL">QTL</option> 
+      <option value="SNP">SNP</option> 
+      <option value="Sequence">Sequence</option>
+    </select>
+    <input name="q" size="20" value="" />
+    <input type="submit" value="Go" class="red-button" /></div>
+    </form>
+</div>
+<div id="release-t">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+<div id="release"><div>
+  Ensembl release 41 - <a href="/Multi/newsview?rel=41" title="What's New">Oct 2006</a>
+</div></div>
+<div id="help"><strong><a href="javascript:void(window.open('/Multi/helpview?kw=martview;se=1','helpview','width=700,height=550,resizable,scrollbars'))" class="red-button">Help</a></strong></div>
+<div id="related"><div id="related-box">
+  <h2>Use Ensembl to...</h2>
+  <ul>
+     <li class="bullet"><a href="/Multi/blastview">Run a BLAST search</a></li>
+     <li class="bullet"><a href="/default/searchview">Search Ensembl database</a></li>
+     <li class="bullet" style="list-style: url(/img/biomarticon.gif)"><a href="/Multi/martview">Data mining [BioMart]</a></li>
+     <li class="bullet"><a href="/info/data/index.html#import">Display your own data</a></li>
+     <li class="bullet"><a href="/default/exportview">Export data</a></li>
+     <li class="bullet"><a href="/info/data/download.html">Download data</a></li>
+  </ul>
+  <h2>Other Links</h2>
+  <ul>
+    <li class="bullet dropdown"><a href="/info/">Help &amp; Documentation</a>
+    <ul>
+      <li class="m"><a href="/info/">Table of Contents</a></li>
+      <li class="m"><a href="/info/helpdesk">Helpdesk</a></li>
+      <li class="m"><a href="/info/about/">About Ensembl</a></li>
+      <li class="m"><a href="/info/data/">Ensembl Data</a></li>
+      <li class="m"><a href="/info/software/">Ensembl Software</a></li>
+    </ul>
+</li>
+     <li class="bullet"><a title="Latest changes in Ensembl" href="/Multi/newsview?rel=41">What&#39;s New</a></li>
+     <li class="bullet"><a href="/">Home</a></li>
+     <li class="bullet"><a href="/sitemap.html">Sitemap</a></li>
+    <li class="bullet dropdown" style="list-style: url(/img/ensemblicon.gif)"><a title="Link to archived version of this page" href="javascript:archive(&#39;Aug2006&#39;)">View previous release of page in Archive!</a>
+    <ul>
+      <li class="m"><a href="javascript:archive(&#39;Aug2006&#39;)">Release 40: Aug 2006</a></li>
+      <li class="m"><a href="javascript:archive(&#39;Jun2006&#39;)">Release 39: Jun 2006</a></li>
+      <li class="m"><a href="javascript:archive(&#39;Apr2006&#39;)">Release 38: Apr 2006</a></li>
+      <li class="m"><a href="javascript:archive(&#39;Feb2006&#39;)">Release 37: Feb 2006</a></li>
+      <li class="m"><a href="javascript:archive(&#39;Dec2005&#39;)">Release 36: Dec 2005</a></li>
+      <li class="m"><a href="javascript:archive(&#39;Nov2005&#39;)">Release 35: Nov 2005</a></li>
+      <li class="m"><a href="javascript:archive(&#39;Oct2005&#39;)">Release 34: Oct 2005</a></li>
+      <li class="m"><a href="javascript:archive(&#39;Sep2005&#39;)">Release 33: Sep 2005</a></li>
+      <li class="m"><a href="javascript:archive(&#39;Jul2005&#39;)">Release 32: Jul 2005</a></li>
+      <li class="m"><a href="javascript:archive(&#39;May2005&#39;)">Release 31: May 2005</a></li>
+      <li class="m"><a href="javascript:archive(&#39;Apr2005&#39;)">Release 30: Apr 2005</a></li>
+      <li class="m"><a href="javascript:archive(&#39;Mar2005&#39;)">Release 29: Mar 2005</a></li>
+      <li class="m"><a href="javascript:archive(&#39;Feb2005&#39;)">Release 28: Feb 2005</a></li>
+      <li class="m"><a href="javascript:archive(&#39;Dec2004&#39;)">Release 27: Dec 2004</a></li>
+      <li class="m"><a href="javascript:archive(&#39;Nov2004&#39;)">Release 26: Nov 2004</a></li>
+      <li class="m"><a href="javascript:archive(&#39;Oct2004&#39;)">Release 25: Oct 2004</a></li>
+    </ul>
+</li>
+     <li class="bullet" style="list-style: url(/img/ensemblicon.gif)"><a href="http://Oct2006.archive.ensembl.org/Multi/martview/OSzODFoBF9.mart" target="Oct2006.archive.ensembl.org">Stable Archive! link for this page</a></li>
+  </ul>
+<h2 style="padding:4px; margin-top: 2em">
+<a href="http://www.sanger.ac.uk/"><img style="padding-left:15px" src="/img/wtsi_rev.png" width="98" height="30" alt="The Wellcome Trust Sanger Institute" title="The Wellcome Trust Sanger Institute" /></a><a href="http://www.ebi.ac.uk/"><img style="padding-left:15px" src="/img/ebi.gif" width="45" height="30" alt="The European Bioinformatics Institute" title="The European Bioinformatics Institute" /></a></h2>
+<a href="http://www.ensembl.org/Oryzias_latipes/"><img style="padding:15px 0px 0px 15px" src="/img/mini-ads/medaka1.png" alt="Medaka 1 now in Ensembl" title="Medaka 1 now in Ensembl" /></a>
+</div></div>
+<div id="page"><div id="i1"><div id="i2"><div class="sptop">&nbsp;</div>
+<P>
+
+
+
+<FORM action='/Multi/martview/OSzODFoBF9.mart' 
+      name='settings' method='post' target='_self' 
+      enctype='multipart/form-data'>
+<TABLE align="center" width=700 cellspacing=0 cellpadding=0 border=1>
+ <TR>
+  <TD valign='top' height="1" class="status_panel_head">
+<!-- Top HTML -->
+
+<TABLE cellspacing=0 cellpadding=0 border=0>
+ <TR>
+    <TD height=1 width=20 class="status_entry" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=5 width=1 class="status_entry" colspan=11
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=20 class="status_entry" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=20 class="status_entry" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD width=90 height=20  class="status_entry" colspan=1
+    align="center"><INPUT type='image' 
+                        name='_new_new' 
+                        src='/gfx/EnsMart/new-on.gif' 
+                        border=0  ></TD>
+    <TD width=20 height=20  class="status_entry" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' width=10 height=20></TD>
+    <TD width=90 height=20  class="status_entry" colspan=1
+    align="center"><INPUT type='image' 
+                        name='stage_start' 
+                        src='/gfx/EnsMart/START-on.gif' 
+                        border=0  ></TD>
+    <TD width=20 height=20 class="status_entry" colspan=1
+    align="center"><IMG src='/gfx/EnsMart/arrow-on.gif' width=20 height=20></TD>
+    <TD width=90 height=20  class="status_entry" colspan=1
+    align="center"><INPUT type='image' 
+                        name='stage_filter' 
+                        src='/gfx/EnsMart/FILTER-on.gif' 
+                        border=0  ></TD>
+    <TD width=20 height=20 class="status_entry" colspan=1
+    align="center"><IMG src='/gfx/EnsMart/arrow-on.gif' width=20 height=20></TD>
+    <TD width=90 height=20  class="status_entry" colspan=1
+    align="center"><INPUT type='image' 
+                        name='stage_output' 
+                        src='/gfx/EnsMart/OUTPUT-sel.gif' 
+                        border=0  ></TD>
+    <TD width=20 height=20 class="status_entry" colspan=1
+    align="center"><IMG src='/gfx/EnsMart/blank.gif' width=20 height=20></TD>
+    <TD width=90 height=20  class="status_entry" colspan=1
+    align="center"><INPUT type='image' 
+                        name='_export_1' 
+                        src='/gfx/EnsMart/export-on.gif' 
+                        border=0  ></TD>
+    <TD width=20 height=20  class="status_entry" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' width=10 height=20></TD>
+    <TD width=90 height=20  class="status_entry" colspan=1
+    align="center">&nbsp;</TD>
+    <TD height=1 width=20 class="status_entry" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=20 class="status_entry" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=5 width=1 class="status_entry" colspan=11
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=20 class="status_entry" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+ </TR> 
+</TABLE> 
+  </TD>
+  <TD width=200 class="status_panel_head" valign='top' rowspan=2>
+<!-- Status HTML -->
+
+<TABLE cellspacing=0 cellpadding=0 border=0>
+ <TR>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+    <TD height=5 width=1 class="status_entry" colspan=5
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+    <TD class='status_panel_head' colspan=5 nowrap align='center' valign='bottom'
+    ><IMG src="/gfx/EnsMart/blank.gif" border=0 height='35'width ='1'><IMG src="/gfx/EnsMart/blank.gif" height=1 width=10><A HREF="http://www.biomart.org" ><IMG src="/gfx/EnsMart/biomart-logo.gif" border=0 ></A></TD>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+    <TD class='status_panel_head' colspan=5 nowrap align='center' valign='bottom'
+    ><IMG src="/gfx/EnsMart/blank.gif" border=0 height='10'width ='75'><IMG src="/gfx/EnsMart/blank.gif" height=1 width=10><IMG src="/gfx/EnsMart/blank.gif" border=0 height='10'width ='75'></TD>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+    <TD class='status_panel_head' colspan=5 nowrap align='center' valign='bottom'
+    ><INPUT type='image' 
+                        name='stage_output' 
+                        src='/gfx/EnsMart/refresh-on.gif' 
+                        border=0  ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=10><A HREF="http://www.ensembl.org/default/helpview" ><IMG src="/gfx/EnsMart/helpdesk-on.gif" border=0  height='20'></A></TD>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+    <TD height=5 width=1 class="status_entry" colspan=5
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+    <TD class='status_panel_head' colspan=5 nowrap align='center' valign='bottom'
+    >Summary</TD>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+    <TD height=5 width=1 class="status_entry" colspan=5
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+    <TD height=5 width=1 class="status_entry" colspan=5
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+    <TD class='status_entry' colspan=1 width=12 height=12 valign='middle'
+    ><IMG src='/gfx/EnsMart/bullet1.gif' height=12 width=12></TD>
+    <TD height=1 width=5 class="status_entry" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class='status_block_head' colspan=3
+    >start</TD>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+    <TD height=5 width=1 class="status_entry" colspan=5
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+    <TD height=1 width=5 class="status_entry" colspan=2
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class='status_entry' colspan=1 width=7 height=7 valign='middle'
+    ><IMG src='/gfx/EnsMart/bullet2.gif' height=7 width=7></TD>
+    <TD height=1 width=5 class="status_entry" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class='status_entry' colspan=1
+    >Dataset: Mus musculus genes (NCBIM36)</TD>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+    <TD height=5 width=1 class="status_entry" colspan=5
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+    <TD height=12 width=12 colspan=1
+    ><IMG src='/gfx/EnsMart/info.gif' height=12 width=12></TD>
+    <TD height=1 width=5 class="status_entry" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD colspan=3 class='status_entry'
+    ><I><SMALL>27964 Entries Total</SMALL></I></TD>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+    <TD height=5 width=1 class="status_entry" colspan=5
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+    <TD height=5 width=1 class="status_entry" colspan=5
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+    <TD height=5 width=1 class="status_entry" colspan=5
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+    <TD class='status_entry' colspan=1 width=12 height=12 valign='middle'
+    ><IMG src='/gfx/EnsMart/bullet1.gif' height=12 width=12></TD>
+    <TD height=1 width=5 class="status_entry" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class='status_block_head' colspan=3
+    >filter</TD>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+    <TD height=5 width=1 class="status_entry" colspan=5
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+    <TD height=1 width=5 class="status_entry" colspan=2
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class='status_entry' colspan=1 width=7 height=7 valign='middle'
+    ><IMG src='/gfx/EnsMart/bullet2.gif' height=7 width=7></TD>
+    <TD height=1 width=5 class="status_entry" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class='status_entry' colspan=1
+    >Unigene ID(s): Uploaded</TD>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+    <TD height=5 width=1 class="status_entry" colspan=5
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+    <TD height=12 width=12 colspan=1
+    ><IMG src='/gfx/EnsMart/info.gif' height=12 width=12></TD>
+    <TD height=1 width=5 class="status_entry" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD colspan=3 class='status_entry'
+    ><I><SMALL>5 Entries pass Filters</SMALL></I></TD>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+    <TD height=5 width=1 class="status_entry" colspan=5
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+    <TD height=5 width=1 class="status_entry" colspan=5
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+    <TD height=5 width=1 class="status_entry" colspan=5
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+    <TD class='status_entry' colspan=1 width=12 height=12 valign='middle'
+    ><IMG src='/gfx/EnsMart/bullet1.gif' height=12 width=12></TD>
+    <TD height=1 width=5 class="status_entry" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class='status_block_head' colspan=3
+    >output</TD>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+    <TD height=5 width=1 class="status_entry" colspan=5
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+    <TD height=1 width=5 class="status_entry" colspan=2
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class='status_entry' colspan=1 width=7 height=7 valign='middle'
+    ><IMG src='/gfx/EnsMart/bullet2.gif' height=7 width=7></TD>
+    <TD height=1 width=5 class="status_entry" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class='status_entry' colspan=1
+    >Sequences</TD>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+    <TD height=5 width=1 class="status_entry" colspan=5
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+    <TD height=12 width=12 colspan=1
+    ><IMG src='/gfx/EnsMart/info.gif' height=12 width=12></TD>
+    <TD height=1 width=5 class="status_entry" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD colspan=3 class='status_entry'
+    ><I><SMALL>5 Results in Output</SMALL></I></TD>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+    <TD height=5 width=1 class="status_entry" colspan=5
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+    <TD height=5 width=1 class="status_entry" colspan=5
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+    <TD class='status_entry' colspan=1
+    ></TD>
+    <TD height=1 width=5 class="status_entry" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class='status_entry' colspan=1
+    ></TD>
+    <TD height=1 width=5 class="status_entry" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class='status_entry' colspan=1
+    >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+    <TD height=5 width=1 class="status_entry" colspan=5
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="status_entry" colspan=1
+    ><IMG src="/gfx/EnsMart/blank.gif" height=1 width=5></TD>
+ </TR> 
+</TABLE> 
+  </TD>
+ </TR>
+ <TR>
+  <!-- Main panel -->
+  <TD width=500 height="100%" align='center' valign='top' class="panel_head">
+<!-- Main HTML -->
+
+<TABLE cellspacing=0 cellpadding=0 border=0>
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=10 width=1 class="main_panel_bg" colspan=15
+    ><IMG src='/gfx/EnsMart/blank.gif' height=7 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD class='panel_big_head' colspan=7>&nbsp;</TD>
+    <TD class='panel_head' align='right' colspan=8><INPUT type='image' 
+                        name='stage_filter' 
+                        src='/gfx/EnsMart/back-on.gif' 
+                        border=0  ><INPUT type='image' 
+                        name='_export_1' 
+                        src='/gfx/EnsMart/export-on.gif' 
+                        border=0  ></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=10 width=1 class="main_panel_bg" colspan=15
+    ><IMG src='/gfx/EnsMart/blank.gif' height=7 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=10 width=1 class="main_panel_bg" colspan=15
+    ><IMG src='/gfx/EnsMart/blank.gif' height=7 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=15
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=5 width=1 class="main_panel_fg" colspan=11
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD class='mart_block_head' colspan=11>
+		   Select the <B>Attribute Page</B></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=5 width=1 class="main_panel_fg" colspan=11
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=11
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=5 width=1 class="main_panel_fg" colspan=7
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="alt_main_panel_fg" colspan=7>
+	<SELECT name='outtype' ONCHANGE='javascript:document.settings.submit()'> 
+          <OPTION value='feature_page' > Features </OPTION> 
+          <OPTION value='structure' > Structures </OPTION> 
+          <OPTION value='snp' > SNPs </OPTION> 
+          <OPTION value='homologs' > Homologs </OPTION> 
+          <OPTION value='sequences' SELECTED> Sequences </OPTION> 
+        </SELECT> </TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class='entry_warning' colspan=7></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=5 width=1 class="main_panel_fg" colspan=11
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=15
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=10 width=1 class="main_panel_bg" colspan=15
+    ><IMG src='/gfx/EnsMart/blank.gif' height=7 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=15
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=5 width=1 class="main_panel_fg" colspan=11
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD class='mart_block_head' colspan=11>SEQUENCES:</TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=5 width=1 class="main_panel_fg" colspan=11
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD class='mart_block_head' colspan=11>Type of Sequence to Export (all in 5'-3' direction): </TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=5 width=1 class="main_panel_fg" colspan=11
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=11
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=5 width=1 class="main_panel_fg" colspan=7
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=7><IMG src="/gfx/EnsMart/gene_schematic.gif" name="seq_scope_img" border="0"></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='radio'
+               name='collection_seq_scope_type'
+	       value='transcript_exon_intron'
+                ONCLICK='javascript:changeImage(this.value)' > </TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Unspliced (Transcript)</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='radio'
+               name='collection_seq_scope_type'
+	       value='gene_exon_intron'
+                ONCLICK='javascript:changeImage(this.value)' > </TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Unspliced (Gene)</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='radio'
+               name='collection_seq_scope_type'
+	       value='transcript_flank'
+                ONCLICK='javascript:changeImage(this.value)' > </TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Flank (Transcript)</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='radio'
+               name='collection_seq_scope_type'
+	       value='gene_flank'
+                ONCLICK='javascript:changeImage(this.value)' > </TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Flank (Gene)</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='radio'
+               name='collection_seq_scope_type'
+	       value='coding_transcript_flank'
+                ONCLICK='javascript:changeImage(this.value)' > </TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Flank-coding region (Transcript)</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='radio'
+               name='collection_seq_scope_type'
+	       value='coding_gene_flank'
+                ONCLICK='javascript:changeImage(this.value)' > </TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Flank-coding region (Gene)</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='radio'
+               name='collection_seq_scope_type'
+	       value='transcript_exon'
+                ONCLICK='javascript:changeImage(this.value)' > </TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Exon sequences (Transcript)</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='radio'
+               name='collection_seq_scope_type'
+	       value='gene_exon'
+                ONCLICK='javascript:changeImage(this.value)' > </TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Exon sequences (Gene)</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='radio'
+               name='collection_seq_scope_type'
+	       value='cdna'
+                ONCLICK='javascript:changeImage(this.value)' > </TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>cDNA sequences</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='radio'
+               name='collection_seq_scope_type'
+	       value='5utr'
+                ONCLICK='javascript:changeImage(this.value)' > </TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>5' UTR</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='radio'
+               name='collection_seq_scope_type'
+	       value='3utr'
+                ONCLICK='javascript:changeImage(this.value)' > </TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>3' UTR</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='radio'
+               name='collection_seq_scope_type'
+	       value='coding'
+                ONCLICK='javascript:changeImage(this.value)' > </TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Coding sequence</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='radio'
+               name='collection_seq_scope_type'
+	       value='peptide'
+               CHECKED ONCLICK='javascript:changeImage(this.value)' > </TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Peptide</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>&nbsp</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>&nbsp</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class='entry_warning' colspan=7></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=5 width=1 class="main_panel_fg" colspan=11
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=11
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=5 width=1 class="main_panel_fg" colspan=7
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='checkbox'
+               name='collection_upstream'
+	       value='1'
+                 > <INPUT type='hidden', 
+		          name='_DEF_collection_upstream', 
+                          value='0'  ></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Upstream flank</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=3>
+        <INPUT type='text'
+               name='upstream_flank'
+               value='100'  ></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class='entry_warning' colspan=7></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=5 width=1 class="main_panel_fg" colspan=11
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=11
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=5 width=1 class="main_panel_fg" colspan=7
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='checkbox'
+               name='collection_downstream'
+	       value='1'
+                 > <INPUT type='hidden', 
+		          name='_DEF_collection_downstream', 
+                          value='0'  ></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Downstream flank</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=3>
+        <INPUT type='text'
+               name='downstream_flank'
+               value='100'  ></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class='entry_warning' colspan=7></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=5 width=1 class="main_panel_fg" colspan=11
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=15
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=10 width=1 class="main_panel_bg" colspan=15
+    ><IMG src='/gfx/EnsMart/blank.gif' height=7 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=15
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=5 width=1 class="main_panel_fg" colspan=11
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD class='mart_block_head' colspan=11>Header Information</TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=5 width=1 class="main_panel_fg" colspan=11
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=11
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=5 width=1 class="main_panel_fg" colspan=7
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class='main_panel_fg_bold' colspan=7>Gene Attributes</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='checkbox'
+               name='collection_gene'
+	       value='str_chrom_name'
+               CHECKED  > <INPUT type='hidden', 
+		          name='_DEF_collection_gene', 
+                          value='0'  ></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Chromosome</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='checkbox'
+               name='collection_gene'
+	       value='gene_stable_id'
+               CHECKED  > <INPUT type='hidden', 
+		          name='_DEF_collection_gene', 
+                          value='0'  ></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Ensembl Gene ID</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='checkbox'
+               name='collection_gene'
+	       value='gene_stable_id_v'
+                 > <INPUT type='hidden', 
+		          name='_DEF_collection_gene', 
+                          value='0'  ></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Ensembl Gene ID (versioned)</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='checkbox'
+               name='collection_gene'
+	       value='external_gene_id'
+                 > <INPUT type='hidden', 
+		          name='_DEF_collection_gene', 
+                          value='0'  ></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>External Gene ID</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='checkbox'
+               name='collection_gene'
+	       value='external_db_name'
+                 > <INPUT type='hidden', 
+		          name='_DEF_collection_gene', 
+                          value='0'  ></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>External Gene DB</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='checkbox'
+               name='collection_gene'
+	       value='family'
+                 > <INPUT type='hidden', 
+		          name='_DEF_collection_gene', 
+                          value='0'  ></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Gene Family</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='checkbox'
+               name='collection_gene'
+	       value='description'
+                 > <INPUT type='hidden', 
+		          name='_DEF_collection_gene', 
+                          value='0'  ></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Description</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>&nbsp</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>&nbsp</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class='entry_warning' colspan=7></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=5 width=1 class="main_panel_fg" colspan=11
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=11
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=5 width=1 class="main_panel_fg" colspan=7
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class='main_panel_fg_bold' colspan=7>Transcript Attributes</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='checkbox'
+               name='collection_transcript'
+	       value='transcript_stable_id'
+                 > <INPUT type='hidden', 
+		          name='_DEF_collection_transcript', 
+                          value='0'  ></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Ensembl Transcript ID</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='checkbox'
+               name='collection_transcript'
+	       value='transcript_stable_id_v'
+                 > <INPUT type='hidden', 
+		          name='_DEF_collection_transcript', 
+                          value='0'  ></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Ensembl Transcript ID (versioned)</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='checkbox'
+               name='collection_transcript'
+	       value='translation_id'
+                 > <INPUT type='hidden', 
+		          name='_DEF_collection_transcript', 
+                          value='0'  ></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Peptide ID</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='checkbox'
+               name='collection_transcript'
+	       value='translation_stable_id'
+                 > <INPUT type='hidden', 
+		          name='_DEF_collection_transcript', 
+                          value='0'  ></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Ensembl Peptide ID</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='checkbox'
+               name='collection_transcript'
+	       value='translation_stable_id_v'
+                 > <INPUT type='hidden', 
+		          name='_DEF_collection_transcript', 
+                          value='0'  ></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Ensembl Peptide ID (versioned)</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='checkbox'
+               name='collection_transcript'
+	       value='biotype'
+               CHECKED  > <INPUT type='hidden', 
+		          name='_DEF_collection_transcript', 
+                          value='0'  ></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Biotype</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='checkbox'
+               name='collection_transcript'
+	       value='transcript_chrom_start'
+                 > <INPUT type='hidden', 
+		          name='_DEF_collection_transcript', 
+                          value='0'  ></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Start Position (bp)</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='checkbox'
+               name='collection_transcript'
+	       value='transcript_chrom_end'
+                 > <INPUT type='hidden', 
+		          name='_DEF_collection_transcript', 
+                          value='0'  ></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>End Position (bp)</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='checkbox'
+               name='collection_transcript'
+	       value='transcript_chrom_strand'
+                 > <INPUT type='hidden', 
+		          name='_DEF_collection_transcript', 
+                          value='0'  ></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Strand</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='checkbox'
+               name='collection_transcript'
+	       value='cdna_length'
+                 > <INPUT type='hidden', 
+		          name='_DEF_collection_transcript', 
+                          value='0'  ></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Ensembl Peptide length</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='checkbox'
+               name='collection_transcript'
+	       value='cds_length'
+                 > <INPUT type='hidden', 
+		          name='_DEF_collection_transcript', 
+                          value='0'  ></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Ensembl CDS length</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='checkbox'
+               name='collection_transcript'
+	       value='5utr_start'
+                 > <INPUT type='hidden', 
+		          name='_DEF_collection_transcript', 
+                          value='0'  ></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>5 UTR Start (Chr bp)</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='checkbox'
+               name='collection_transcript'
+	       value='5utr_end'
+                 > <INPUT type='hidden', 
+		          name='_DEF_collection_transcript', 
+                          value='0'  ></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>5 UTR End (Chr bp)</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='checkbox'
+               name='collection_transcript'
+	       value='3utr_start'
+                 > <INPUT type='hidden', 
+		          name='_DEF_collection_transcript', 
+                          value='0'  ></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>3 UTR Start (Chr bp)</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='checkbox'
+               name='collection_transcript'
+	       value='3utr_end'
+                 > <INPUT type='hidden', 
+		          name='_DEF_collection_transcript', 
+                          value='0'  ></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>3 UTR End (Chr bp)</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>&nbsp</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>&nbsp</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class='entry_warning' colspan=7></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=5 width=1 class="main_panel_fg" colspan=11
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=11
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=5 width=1 class="main_panel_fg" colspan=7
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class='main_panel_fg_bold' colspan=7>Exon Attributes</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='checkbox'
+               name='collection_exon'
+	       value='exon_stable_id'
+                 > <INPUT type='hidden', 
+		          name='_DEF_collection_exon', 
+                          value='0'  ></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Ensembl Exon ID</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='checkbox'
+               name='collection_exon'
+	       value='exon_stable_id_v'
+                 > <INPUT type='hidden', 
+		          name='_DEF_collection_exon', 
+                          value='0'  ></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Ensembl Exon ID (versioned)</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='checkbox'
+               name='collection_exon'
+	       value='type'
+                 > <INPUT type='hidden', 
+		          name='_DEF_collection_exon', 
+                          value='0'  ></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Sequence Type</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='checkbox'
+               name='collection_exon'
+	       value='exon_chrom_start'
+                 > <INPUT type='hidden', 
+		          name='_DEF_collection_exon', 
+                          value='0'  ></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Exon Start (Chr bp)</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='checkbox'
+               name='collection_exon'
+	       value='exon_chrom_end'
+                 > <INPUT type='hidden', 
+		          name='_DEF_collection_exon', 
+                          value='0'  ></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Exon End (Chr bp)</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='checkbox'
+               name='collection_exon'
+	       value='exon_chrom_strand'
+                 > <INPUT type='hidden', 
+		          name='_DEF_collection_exon', 
+                          value='0'  ></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Exon Strand</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='checkbox'
+               name='collection_exon'
+	       value='rank'
+                 > <INPUT type='hidden', 
+		          name='_DEF_collection_exon', 
+                          value='0'  ></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Exon Rank in Transcript</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='checkbox'
+               name='collection_exon'
+	       value='exon_cdna_start'
+                 > <INPUT type='hidden', 
+		          name='_DEF_collection_exon', 
+                          value='0'  ></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Ensembl CDNA Start (Chr bp)</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='checkbox'
+               name='collection_exon'
+	       value='exon_cdna_end'
+                 > <INPUT type='hidden', 
+		          name='_DEF_collection_exon', 
+                          value='0'  ></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Ensembl CDNA End (Chr bp)</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='checkbox'
+               name='collection_exon'
+	       value='exon_cds_start'
+                 > <INPUT type='hidden', 
+		          name='_DEF_collection_exon', 
+                          value='0'  ></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Ensembl CDS Start (Chr bp)</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='checkbox'
+               name='collection_exon'
+	       value='exon_cds_end'
+                 > <INPUT type='hidden', 
+		          name='_DEF_collection_exon', 
+                          value='0'  ></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Ensembl CDS End (Chr bp)</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='checkbox'
+               name='collection_exon'
+	       value='exon_coding_start'
+                 > <INPUT type='hidden', 
+		          name='_DEF_collection_exon', 
+                          value='0'  ></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Coding Start (Chr bp)</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='checkbox'
+               name='collection_exon'
+	       value='exon_coding_end'
+                 > <INPUT type='hidden', 
+		          name='_DEF_collection_exon', 
+                          value='0'  ></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Coding End (Chr bp)</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>&nbsp</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>&nbsp</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class='entry_warning' colspan=7></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=5 width=1 class="main_panel_fg" colspan=11
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=15
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=10 width=1 class="main_panel_bg" colspan=15
+    ><IMG src='/gfx/EnsMart/blank.gif' height=7 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=15
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=5 width=1 class="main_panel_fg" colspan=11
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD class='mart_block_head' colspan=11>Select the output format:</TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=5 width=1 class="main_panel_fg" colspan=11
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=11
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=5 width=1 class="main_panel_fg" colspan=7
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='radio'
+               name='outformat'
+	       value='fasta'
+               CHECKED  > </TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>Text, Fasta</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>&nbsp</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>&nbsp</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class='entry_warning' colspan=7></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=5 width=1 class="main_panel_fg" colspan=11
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=15
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=10 width=1 class="main_panel_bg" colspan=15
+    ><IMG src='/gfx/EnsMart/blank.gif' height=7 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=15
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=5 width=1 class="main_panel_fg" colspan=11
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD class='mart_block_head' colspan=11>File compression:</TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=5 width=1 class="main_panel_fg" colspan=11
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=11
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=5 width=1 class="main_panel_fg" colspan=7
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='radio'
+               name='outcompress'
+	       value='none'
+               CHECKED  > </TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>None</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='1%' valign="top" colspan=1>
+        <INPUT type='radio'
+               name='outcompress'
+	       value='gz'
+                 > </TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=1>gzip (.gz)</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class='entry_warning' colspan=7></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=5 width=1 class="main_panel_fg" colspan=11
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=15
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=10 width=1 class="main_panel_bg" colspan=15
+    ><IMG src='/gfx/EnsMart/blank.gif' height=7 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=15
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=5 width=1 class="main_panel_fg" colspan=11
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD class='mart_block_head' colspan=11>Enter a name for this 
+							       result set:</TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=5 width=1 class="main_panel_fg" colspan=11
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=11
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=5 width=1 class="main_panel_fg" colspan=7
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=3>Name:</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=3>
+        <INPUT type='text'
+               name='outtarget'
+               value=''  ></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class="main_panel_fg" width='50%' valign="top" colspan=7>Enter a value to open results in new window 
+                           (REQUIRES POP-UP UNBLOCKING), or to provide a name for file 
+                            download.</TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class='entry_warning' colspan=7></TD>
+    <TD height=1 width=5 class="main_panel_fg"  colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=5 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=5 width=1 class="main_panel_fg" colspan=11
+    ><IMG src='/gfx/EnsMart/blank.gif' height=5 width=1></TD>
+    <TD height=1 width=10 class="main_panel_fg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=1
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=1 class="main_panel_border" colspan=15
+	      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=10 width=1 class="main_panel_bg" colspan=15
+    ><IMG src='/gfx/EnsMart/blank.gif' height=7 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD class='panel_big_head' colspan=7>&nbsp;</TD>
+    <TD class='panel_head' align='right' colspan=8><INPUT type='image' 
+                        name='stage_filter' 
+                        src='/gfx/EnsMart/back-on.gif' 
+                        border=0  ><INPUT type='image' 
+                        name='_export_1' 
+                        src='/gfx/EnsMart/export-on.gif' 
+                        border=0  ></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=10 width=1 class="main_panel_bg" colspan=15
+    ><IMG src='/gfx/EnsMart/blank.gif' height=7 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD class='panel_text' colspan=15> For a bookmarkable version of this page, click <a href="martview?collection_seq_scope_type_this=mmusculus_genomic_sequence.transcript_exon_intron&mmusculus_gene_ensembl_syn_status_last=Only&outtype=sequences&mmusculus_gene_ensembl_snptype_filters=Only&hsapiens_gene_ensembl_in_encode_region=Only&mmusculus_gene_ensembl_with_signal_domain_last=Only&mmusculus_gene_ensembl_evidence_code_cell_component=non_iea&mmusculus_gene_ensembl_protein_fam_id_bools_filter=with_profile&hsapiens_gene_ensembl_syn_status=Only&seq_scope=tscr&hsapiens_gene_ensembl_snptype_filters=Only&mmusculus_gene_ensembl_snptype_filters_last=Only&mmusculus_gene_ensembl_evidence_code_biol_process_last=non_iea&hsapiens_gene_ensembl_end=10000000&mmusculus_gene_ensembl_end_last=10000000&mmusculus_gene_ensembl_evidence_code_last=non_iea&mmusculus_gene_ensembl_with_snp_frequency=Only&mmusculus_gene_ensembl_homolog_filters=Only&outcompress=none&collection_gene=str_chrom_name&collection_gene=gene_stable_id&collection_gene=str_chrom_name&collection_gene=gene_stable_id&hsapiens_gene_ensembl_end_last=10000000&mmusculus_gene_ensembl_syn_status_filter=with_frameshift_coding_snp&mmusculus_gene_ensembl_source_last=ensembl&mmusculus_gene_ensembl_band_end_last=A1&mmusculus_gene_ensembl_biotype=miRNA&mmusculus_gene_ensembl_with_3utr=Only&mmusculus_gene_ensembl_homolog_filters_filter=with_mmusculus_paralog&mmusculus_gene_ensembl_status=NOVEL&downstream_flank=100&mmusculus_gene_ensembl_with_3utr_last=Only&hsapiens_gene_ensembl_with_transmembrane_domain=Only&mmusculus_gene_ensembl_biotype_last=miRNA&mmusculus_gene_ensembl_id_list_limit_filters_list=Mm.140897%2CMm.22225%2CMm.28047%2CMm.30849%2CMm.29812%2CMm.28553%2CMm.148748&stage_prev=output&mmusculus_gene_ensembl_with_transmembrane_domain=Only&mmusculus_gene_ensembl_id_list_limit_filters=unigene&collection_transcript=biotype&collection_transcript=biotype&mmusculus_gene_ensembl_id_list_limit_filters_last=unigene&hsapiens_gene_ensembl_with_3utr=Only&mmusculus_gene_ensembl_chromosome_name=1&mmusculus_gene_ensembl_chromosome_name_last=1&mmusculus_gene_ensembl_syn_status=Only&mmusculus_gene_ensembl_with_snp_frequency_last=Only&mmusculus_gene_ensembl_with_5utr_last=Only&mmusculus_gene_ensembl_status_last=NOVEL&collection_prot_domain_this=prosite&hsapiens_gene_ensembl_with_snp_frequency=Only&mmusculus_gene_ensembl_id_list_filters_filter=with_unigene&schema=default&default_link=---&mmusculus_gene_ensembl_source=ensembl&dataset_last=mmusculus_gene_ensembl&outformat=fasta&mmusculus_gene_ensembl_with_transmembrane_domain_last=Only&mmusculus_gene_ensembl_with_5utr=Only&collection_ensembl_attributes=ensembl_gene_id&mmusculus_gene_ensembl_protein_fam_id_bools_last=Only&hsapiens_gene_ensembl_with_signal_domain=Only&mmusculus_gene_ensembl_band_end=A1&status_count_filter=5&stage=output&mmusculus_gene_ensembl_band_start_last=A1&mmusculus_gene_ensembl_evidence_code=non_iea&mmusculus_gene_ensembl_band_start=A1&database=Ensembl41__default&default_link_last=---&collection_seq_scope_type=peptide&mmusculus_gene_ensembl_with_validated_snp=Only&mmusculus_gene_ensembl_snptype_filters_filter=with_coding_snp&mmusculus_gene_ensembl_start_last=1&upstream_flank=100&stage_initialised=start&stage_initialised=filter&stage_initialised=output&mmusculus_gene_ensembl_homolog_filters_last=Only&mmusculus_gene_ensembl_protein_fam_id_bools=Only&mmusculus_gene_ensembl_id_list_filters_last=Only&hsapiens_gene_ensembl_protein_fam_id_bools=Only&mmusculus_gene_ensembl_start=1&schema_last=default&mmusculus_gene_ensembl_with_validated_snp_last=Only&mmusculus_gene_ensembl_end=10000000&hsapiens_gene_ensembl_with_validated_snp=Only&hsapiens_gene_ensembl_snp_id_filters=Only&hsapiens_gene_ensembl_with_5utr=Only&hsapiens_gene_ensembl_start=1&mmusculus_gene_ensembl_with_signal_domain=Only&collection_ensembl_attributes_structure=gene_stable_id&collection_ensembl_attributes_structure=biotype&mmusculus_gene_ensembl_collection_id_list_limit=1&dataset=mmusculus_gene_ensembl&mmusculus_gene_ensembl_evidence_code_cell_component_last=non_iea&hsapiens_gene_ensembl_homolog_filters=Only&status_count_start=27964&hsapiens_gene_ensembl_start_last=1&status_count_output=5&database_last=Ensembl41__default&hsapiens_gene_ensembl_id_list_filters=Only&mmusculus_gene_ensembl_id_list_filters=Only&mmusculus_gene_ensembl_evidence_code_biol_process=non_iea"><b>[here]</b></a> </TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=10 width=1 class="main_panel_bg" colspan=15
+    ><IMG src='/gfx/EnsMart/blank.gif' height=7 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=4
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=1 width=5 class="main_panel_bg" colspan=1
+      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class='panel_text' colspan=1>&nbsp;</TD>
+    <TD height=1 width=5 class="main_panel_bg" colspan=1
+      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class='panel_text' colspan=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+    <TD height=1 width=5 class="main_panel_bg" colspan=1
+      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class='panel_text' colspan=1>&nbsp;</TD>
+    <TD height=1 width=5 class="main_panel_bg" colspan=1
+      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD class='panel_text' colspan=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+    <TD height=1 width=5 class="main_panel_bg" colspan=1
+      ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=5></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=4
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+ <TR>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+    <TD height=10 width=1 class="main_panel_bg" colspan=15
+    ><IMG src='/gfx/EnsMart/blank.gif' height=7 width=1></TD>
+    <TD height=1 width=10 class="main_panel_bg" colspan=1
+    ><IMG src='/gfx/EnsMart/blank.gif' height=1 width=10></TD>
+ </TR> 
+</TABLE> 
+  </TD>
+  <!-- Main panel end -->
+  </TD>
+ </TR>
+</TABLE>
+
+<!-- State form -->
+
+</FORM>
+
+<!-- Arbitrary HTML to include at the end of the page -->
+<SCRIPT LANGUAGE="JavaScript"></SCRIPT>
+    <SCRIPT LANGUAGE="JavaScript" SRC="/js/ua.js"></SCRIPT>
+    <SCRIPT LANGUAGE="JavaScript" SRC="/js/xbDOM.js"></SCRIPT>
+    <SCRIPT LANGUAGE="JavaScript" SRC="/js/xbStyle.js"></SCRIPT>
+    <SCRIPT language="JavaScript">
+
+    var srcPrefix = "/gfx/EnsMart/gene_schematic_"; 
+
+    var seqConversion = new Array( "transcript_exon_intron","gene_exon_intron","transcript_flank","gene_flank","coding_transcript_flank","coding_gene_flank","transcript_exon","gene_exon","cdna","5utr","3utr","coding","peptide" );
+
+    //----------------------------------------------------------------------
+    // Initialises the seqType/seqScope forms
+    //
+    function initialiseSeqType(){
+        var seqType;
+    
+        var seqTypeElement  = document.settings.collection_seq_scope_type;
+        for( var i=0; i<seqTypeElement.length; i++ ){
+            if( seqTypeElement[i].defaultChecked ){
+                seqType = seqTypeElement[i].value;
+            }
+        }   
+        changeImage( seqType );
+    }
+
+    //----------------------------------------------------------------------
+    // Changes the gene_schematic image when the seq type is changed
+    //
+    function changeImage( seqType ){
+
+        var seqTypeElement = document.settings.collection_seq_scope_type;
+        var seqImage;
+        for( var i=0; i<seqTypeElement.length; i++ ){
+            if( seqTypeElement[i].value == seqType ){
+                seqImage = seqConversion[i];
+            }
+        }   
+        var srcSufix  = ".gif";
+        var newSrc = "http://" + location.host + srcPrefix + seqImage + srcSufix;
+        //alert(newSrc);
+        document.seq_scope_img.src = newSrc;
+    }         
+
+    </SCRIPT>
+
+
+
+
+<hr /><div id="popups"></div>
+<div class="sp">&nbsp;</div></div></div></div>
+   <div id="copy"><div id="a1"><div id="a2">
+    <p class="center">
+    &copy; 2006 <a href="http://www.sanger.ac.uk/" class="nowrap">WTSI</a> /
+    <a href="http://www.ebi.ac.uk/" style="white-space:nowrap">EBI</a>.
+    Ensembl is available to <a href="/info/data/download.html">download for public use</a> - please see the <a href="/info/about/code_licence.html">code licence</a> for details.
+    </p>
+    </div></div></div>
+    
+</body>
+</html>

@@ -1,0 +1,125 @@
+#!/usr/bin/perl
+
+#####
+# http_post_compatible_version 
+# creates xml output
+# This is the main program that is called from the html form, and in turn calls all other programs
+# It first saves the uploaded files
+
+
+use CGI qw(:standard);
+
+
+print "Content-type: text/xml\n\n";
+
+my $program_path = "/var/www/cgi-bin/rpatward/debruijn/http_post_compatible_version/approx";
+my $matrix_path = "/var/www/cgi-bin/rpatward/debruijn/";
+
+my $random = int(rand()*10000);
+my $rpath = "r_".$random;
+my $dir_path = $program_path."/$rpath";
+
+mkdir $dir_path, 0777 || die "<error>Server busy</error>";
+
+chmod 0777, $dir_path;
+
+my $uploaded_files_path = $dir_path;
+
+my $motif_program = "backup.pl"; 
+my $graph_program = "Read_nodes.pl";
+
+print "<?xml version='1.0' encoding='UTF-8'?>";
+
+
+=head
+## The Internal DTD
+
+
+print "<!DOCTYPE motifs [";
+print "<!ELEMENT motifs (motif+)>";
+print "<!ELEMENT motif (protein+)>";
+print "<!ELEMENT protein (id,region,index)>";
+print "<!ELEMENT id (#CDATA)>";
+print "<!ELEMENT region (#CDATA)>";
+print "<!ELEMENT index (#CDATA)>";
+print "<!ATTLIST motif consensus CDATA #REQUIRED>";
+print "]>";
+
+=cut
+
+
+#print header,start_html(-title =>'Results',-bgcolor =>'#DDDD99');
+
+
+
+&main();
+
+#print end_html;
+exit;
+
+
+#### Subroutines 
+
+# the results are printed if there has been parameters submitted
+
+sub main {
+    my $file1 = param('file1');
+    my $matrix = param('matrices');
+    my $sim_constant = param('sim_constant');
+    my $scale_threshold = param('scale_threshold');	
+    my $scale_max_threshold = param('scale_max_threshold');
+    
+    open(CNT, ">>counter");
+    print CNT "1\t$ENV{REMOTE_ADDR}\n";
+    close CNT;
+
+    if (!$file1) {
+#	print "The protein family file not uploaded correctly.";
+	print "<error>Input file not found</error>";
+	return;
+    }
+    
+    ## Read the input files and write the data to file1.txt and file2.txt
+       
+    my @file1data = &open_file($file1);
+    &save_file(@file1data, "file1.txt");
+    system("chmod 755 $uploaded_file_path/file1.txt");
+
+    system("perl $program_path/$motif_program -fam $dir_path/file1.txt -sub $matrix_path/$matrix.txt -sim_constant $sim_constant -th $scale_threshold -mth $scale_max_threshold -dir $dir_path");
+  
+}
+
+
+# simply opens a file and returns an array of the data
+  sub open_file {
+     my $file = shift;
+     my @data = ();
+
+     my $line = "";
+
+     while(<$file>) {
+        $line = $_;
+        chomp($line);
+	push(@data, $line);
+     }
+
+     return @data;
+  }
+
+# saves the file to a writable directory 
+  sub save_file {
+      my $name = pop;
+      my @saved = @_;
+
+      open(OUT, ">$dir_path/$name");
+     
+      foreach my $row(@saved) {
+	 chomp($row);
+	 print OUT "$row\n";
+         
+      }
+
+      close OUT;
+  }
+
+
